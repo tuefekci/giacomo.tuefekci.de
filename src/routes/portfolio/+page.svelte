@@ -5,6 +5,30 @@
 
     let activeFilter = "__featured__";
 
+    import { onMount } from 'svelte';
+
+    onMount(() => {
+        const orig = {};
+
+        const setAll = () => {
+            orig.activeFilter = activeFilter;
+            activeFilter = "__all__";
+        };
+        const restore = () => {
+            if (orig.activeFilter !== undefined) {
+                activeFilter = orig.activeFilter;
+            }
+        };
+
+        window.addEventListener('beforeprint', setAll);
+        window.addEventListener('afterprint', restore);
+
+        return () => {
+            window.removeEventListener('beforeprint', setAll);
+            window.removeEventListener('afterprint', restore);
+        };
+    });
+
     $: categories = [...new Set(resume.projects.map(p => p.category).filter(Boolean))];
     $: categoryCounts = resume.projects.reduce((acc, p) => {
         if (p.category) acc[p.category] = (acc[p.category] || 0) + 1;
@@ -51,7 +75,7 @@
                 <div class="flex grow h-1 mt-5 ml-3 gradient-background-line"></div>
             </div>
 
-            <div class="flex gap-2 flex-wrap pb-2">
+            <div class="flex gap-2 flex-wrap pb-2 print:hidden">
                 <button
                     class="text-[12px] px-4 py-2 rounded transition-all duration-200 {activeFilter === '__featured__' ? 'bg-[#FA5252] text-white' : 'bg-[#F3F6F6] dark:bg-[#1D1D1D] text-[#A6A6A6] hover:text-[#FA5252] dark:hover:text-white'}"
                     on:click={() => activeFilter = "__featured__"}
@@ -106,7 +130,7 @@
                                     {/if}
 
                                     {#if project.url}
-                                        <div class="mt-1">
+                                        <div class="mt-1 print:hidden">
                                             <a
                                                 href="{project.url}"
                                                 target="_blank"

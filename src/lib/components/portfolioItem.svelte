@@ -64,7 +64,7 @@
     {/if}
 
     {#if project.url}
-        <div class="pt-2">
+        <div class="pt-2 print:hidden">
             <a
                 href="{project.url}"
                 target="_blank"
