@@ -12,11 +12,30 @@
 	//<MenuItem path="blog">Blog</MenuItem>
 </script>
 
+<svelte:head>
+	<script type="application/ld+json">
+		{JSON.stringify({
+			"@context": "https://schema.org",
+			"@type": "Person",
+			"name": resume.basics.name,
+			"jobTitle": resume.basics.label,
+			"email": resume.basics.email,
+			"url": resume.basics.url,
+			"image": resume.basics.image,
+			"address": { "@type": "PostalAddress", "addressLocality": resume.basics.location.city, "addressCountry": resume.basics.location.countryCode },
+			"birthDate": resume.basics.birth.date,
+			"knowsLanguage": resume.languages.map(l => ({ "@type": "Language", "name": l.language })),
+			"knowsAbout": [...new Set(resume.skills.flatMap(s => s.keywords || []))],
+			"description": resume.basics.summary
+		})}
+	</script>
+</svelte:head>
+
 
 
 <div class="min-h-screen dark:text-white w-full h-full gradient-background print:bg-transparent print:text-black">
 
-	<div class="fixed top-0 left-0 right-0 z-50 lg:hidden bg-white dark:bg-[#111111] shadow-md border-b border-[#E3E3E3] dark:border-[#3D3A3A]">
+	<div class="fixed top-0 left-0 right-0 z-50 lg:hidden bg-white dark:bg-[#111111] shadow-md border-b border-[#E3E3E3] dark:border-[#3D3A3A] print:hidden">
 		<div class="flex items-start gap-3 px-5 pt-4 pb-2.5 max-[375px]:px-4 max-[375px]:pt-3 max-[375px]:pb-2">
 			<img src="{resume.basics.image}"
 				alt="avatar"
@@ -73,7 +92,7 @@
 						style="color: transparent;"
 					/>
 
-					<div class="pt-[100px] pb-8 print:pt-0">
+					<div class="pt-[100px] pb-2 print:pt-0">
 
 						<h1 class="mt-6 mb-1 text-4xl font-semibold dark:text-white">
 							{resume.basics.name}
@@ -127,6 +146,14 @@
 
 						</div>
 					</div>
+
+					<div class="pt-4 pb-8 hidden lg:block">
+						<button on:click={() => window.print()}
+							class="w-full py-2.5 px-4 rounded-lg bg-[#FA5252] text-white text-sm font-medium hover:bg-[#e04848] transition-colors cursor-pointer">
+							↓ Download PDF
+						</button>
+					</div>
+
 				</div>
 			</div>
 

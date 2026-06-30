@@ -16,6 +16,10 @@ h6 {
 
 html {}
 
+html {
+    scroll-behavior: smooth;
+}
+
 .gradient-background {
 	background: linear-gradient(122deg, #0d1225, #3e2533, #fa5252, #ff6565);
 	background-size: 180% 180%;
