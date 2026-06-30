@@ -25,13 +25,13 @@ const config = {
   extensions: ['.svelte', '.md'],
   preprocess: [vitePreprocess(), mdsvex(mdsvexOptions)],
   kit: {
-    adapter: adapter({ strict: false }),
+    adapter: adapter({ pages: "docs", assets: "docs", strict: false }),
     prerender: {
       handleHttpError: 'ignore',
     },
   }
 };
 
-config.paths = { base: process.argv.includes('dev') ? '' : process.env.BASE_PATH }
+config.paths = { base: process.argv.includes('dev') ? '' : (process.env.BASE_PATH || '') }
 
 export default config;
