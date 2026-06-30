@@ -14,7 +14,7 @@
 </script>
 
 
-<div class="py-4 pl-5 pr-3 space-y-2 rounded-lg dark:border-[#212425] border-2  print:break-inside-avoid print:border-none print:p-0 print:pb-5" style="background: transparent;">
+<div class="p-4 space-y-2 rounded bg-[#F8F9FA] dark:bg-[#1A1A1A] border border-l-[3px] border-[#E3E3E3] dark:border-[#3D3A3A] border-l-[#FA5252] print:border-none print:bg-transparent print:p-0 print:pb-5 print:break-inside-avoid">
 
 
 	<div class="flex justify-between">

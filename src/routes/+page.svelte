@@ -46,19 +46,17 @@
       <div class="flex grow h-1 mt-5 ml-3 gradient-background-line"></div>
   </div>
 
-	<div class="pt-6 grid gap-8 grid-cols-1 md:grid-cols-2 xl:grid-cols-2">
+	<div class="pt-6 grid gap-x-3 gap-y-3 grid-cols-1 md:grid-cols-2 xl:grid-cols-2">
 
     {#each resume.skills as skill }
 
-      <div class="dark:bg-transparent border border-white/10 rounded-md">
-        <div class="space-y-2 p-4 break-all">
+      <div class="p-4 space-y-2 rounded bg-[#F8F9FA] dark:bg-[#1A1A1A] border border-l-[3px] border-[#E3E3E3] dark:border-[#3D3A3A] border-l-[#FA5252] break-all">
           <h3 class="dark:text-white text-xl font-semibold">
             {skill.name}
           </h3>
-          <p class=" leading-8 line-clamp-4 dark:text-white/60">
+          <p class="text-sm leading-relaxed line-clamp-4 dark:text-white/60">
             {skill.summary}
           </p>
-        </div>
       </div>
 
     {/each}
