@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: Roboto Slab, serif;
+	font-weight: 700
+}
+
+html {}
+
+.gradient-background {
+	background: linear-gradient(122deg, #0d1225, #3e2533, #fa5252, #ff6565);
+	background-size: 180% 180%;
+	animation: gradient-animation 30s ease infinite;
+}
+
+.gradient-background-fast {
+	background: linear-gradient(-35deg, #0d1225, #3e2533, #fa5252, #ff6565);
+	background-size: 180% 180%;
+	animation: gradient-animation 5s ease infinite;
+}
+
+.gradient-background-line {
+	background: linear-gradient(-35deg, transparent, #0d1225, #3e2533, #fa5252, #ff6565);
+	background-size: 180% 180%;
+}
+
+@keyframes gradient-animation {
+	0% {
+		background-position: 0% 50%;
+	}
+
+	50% {
+		background-position: 100% 50%;
+	}
+
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@media print {
+	.container {
+		max-width: 100%;
+		width: 100%;
+	}
+
+	.gradient-background,
+	.gradient-background-fast {
+		background: none;
+		animation: none;
+
+	}
+
+	@page {
+		margin: 7%;
+		size: A4;
+
+		@top-center {
+			font-family: sans-serif;
+			font-weight: bold;
+			font-size: 2em;
+			content: counter(page);
+		}
+	}
+}

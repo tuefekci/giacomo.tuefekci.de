@@ -1,0 +1,743 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+	"basics": {
+		"name": "Giacomo Tüfekçi",
+
+		"label": "Full-Stack Developer",
+		"image": "https://avatars.githubusercontent.com/u/2657626?v=4",
+		"email": "giacomo@tuefekci.de",
+		"phone": "",
+		"url": "https://giacomo.tuefekci.de",
+		"summary": "Meet Giacomo Tüfekçi, a passionate Full-Stack Developer from Ludwigshafen am Rhein, Germany. With a diverse skill set, Giacomo has delved into web development, software, and even game design. He excels in various programming languages, web frameworks, and project management. Giacomo is a multilingual talent, fluent in German and proficient in English. Beyond tech, he loves reading web novels, gardening, and exploring the world of technology, electronics, anime, and gaming. His creative approach and broad expertise make him a versatile professional ready for exciting challenges.",
+		
+		"birth": {
+			"date": "1991",
+			"city": "Bremen",
+			"countryCode": "DE"
+		},
+		"location": {
+			"address": "Sedanstr. 26",
+			"city": "Ludwigshafen am Rhein",
+			"region": "Rheinland-Pfalz",
+			"postalCode": "67063",
+			"countryCode": "DE"
+		},
+		"profiles": [ 
+			{
+				"network": "GitHub",
+				"username": "tuefekci",
+				"url": "https://github.com/tuefekci"
+			}
+		]
+	},
+  "work": [
+    {
+      "name": "Tüfekci Software Development & Consulting",
+      "location": "Bremen",
+      "position": "Full Stack Software Developer",
+      "startDate": "2020-01-01",
+      "highlights": [
+		"Development of an Download Manager as a Prototype in PHP and than in Svelte",
+		"Development of an Web Application for the Management of a Cleaning Company",
+		"Development of an Web Application for the Management of an QR Code based Redirection System",
+		"Development of Apps, Plugins, Wrappers and Apis for Deta.space",
+		"Development of an Web Application which enables playing retro games in the Browser based on WASM Compiled Emulators.",
+		"Development of an Android Application to read Web & Light Novels from different Providers in an unified UI.",
+		"Development of an API & Crawler to build an index of Web & Light Novels from different Providers.",
+		"Some Prototype ML/AI Applications which can generate Content, Images, Translate etc. which is used in different Projects."
+	  ]
+    },
+    {
+      "name": "",
+      "location": "",
+      "position": "Cloud Development / Software Developer",
+      "startDate": "2018-03-01",
+      "endDate": "2019-10-31",
+      "highlights": [
+        "Development of an Network Bridge between Web/Cloud to VisualBasic Application",
+        "Development of an Application/API to automate Facebook Events",
+        "Development of an APP for the Android and iOS Platform for Room Booking"
+      ]
+    },
+    {
+      "name": "RR Software GmbH",
+      "location": "Hasselfelde",
+      "position": "Projektleiter / Productowner",
+      "startDate": "2017-09-01",
+      "endDate": "2018-02-28",
+	  "summary": "I submitted my resignation as the project was terminated based on my recommendation. The progress made did not align with the expectations as documented by the management. Although an alternative employment opportunity was offered, I declined.",
+      "highlights": [
+        "Planned and ReDesigned a Cloud/Web based Management System"
+      ]
+    },
+    {
+      "name": "planetmutlu gmbh & co. kg",
+      "location": "Bremen",
+      "position": "Lead Web / Software Developer",
+      "startDate": "2015-07-01",
+      "endDate": "2017-08-31",
+      "summary": "Responsibilities included developing Web2Print, booking (pmkino) and E-Commerce solutions, as well as planning and implementing websites using WordPress. Promoted to Lead Web Developer / Software Developer after one year.",
+      "highlights": [
+        "Managed a 5-person development team",
+        "Planned, Developed and Managed a booking, website and web2print system for cinemas (pmkino) using PhalconPHP, Wordpress, MongoDB, Python, NodeJS and ReactJS",
+        "Developed a Web2Print solution using PhalconPHP, Wordpress, MongoDB, Python, NodeJS and ReactJS",
+        "Developed a Wordpress Plugin and Theme environment for Messe Bremen Events, which was used in 10+ Websites."
+      ]
+    },
+	{ 
+		"name": "Tüfekci Software Development & Consulting",
+		"location": "Bremen",
+		"position": "Freelance Full Stack Web Developer",
+		"startDate": "2014-06-01",
+		"endDate": "2015-06-31"
+	},
+    {
+		"name": "Humburg Media Group",
+		"location": "Bremen",
+		"position": "Lead IT Manager",
+		"startDate": "2013-08-01",
+		"endDate": "2014-05-31",
+		"summary": "started as a Software Developer, I developed Web2Print, database, and E-Commerce solutions while also leading the planning and implementation of websites. Within one year, I was promoted to IT Manager",
+		"highlights": [
+			"Managed a 4-person development team"
+		]
+    },
+    {
+		"name": "image advertising gmbh & co. kg",
+		"location": "Bremen",
+		"description": "Training as media designer",
+		"position": "Apprenticeship Media Designer",
+		"startDate": "2010-08-01",
+		"endDate": "2013-08-31",
+		"summary": "Implemented layouts and developed applications and websites using CakePHP, Joomla, and other related technologies."
+    },
+	{
+		"name": "SaveFM",
+		"location": "Bremen",
+		"position": "CTO & Co Founder",
+		"startDate": "2010-01-01",
+		"endDate": "2010-12-31",
+		"summary": "Designed and developed a desktop and mobile application using Node-Webkit and Phonegap that automatically records web radio streams and shares them via the cloud. Project terminated due to legal cost issues."
+	},
+    {
+		"name": "Maritim Hotel Bremen",
+		"location": "Bremen",
+		"summary": "The profession demanded creativity and I quite liked it, but unfortunately, I had to quit due to allergic reactions.",
+		"position": "Apprenticeship Cook",
+		"startDate": "2009",
+		"endDate": "2010-06-31"
+    },
+    {
+		"name": "Maritim Hotel Bremen",
+		"location": "Bremen",
+		"summary": "",
+		"position": "Parttime Line Cook / Service Staff",
+		"startDate": "2008",
+		"endDate": "2009-09-31"
+    },
+	{
+		"name": "Tüfekci Software Development & Consulting",
+		"location": "Bremen",
+		"position": "Freelance Web Developer",
+		"startDate": "2008-01-01",
+		"endDate": "2010-08-31"
+	},
+	{
+		"name": "ASG Supermarket",
+		"location": "Bremen",
+		"summary": "",
+		"position": "Parttime Cashier and Stocker",
+		"startDate": "2007",
+		"endDate": "2009"
+	},
+	{
+		"name": "GP",
+		"location": "Bremen",
+		"summary": "",
+		"position": "Parttime Cashier and Stocker",
+		"startDate": "2007",
+		"endDate": "2008"
+	}
+  ],
+  "education": [
+		{
+			"institution": "Wilhelm Wagenfeld-Schule",
+			"location": "Bremen",
+			"area": "Media Designer",
+			"studyType": "journeyman's certificate, specialized in Design and Technology",
+			"startDate": "2010-10-01",
+			"endDate": "2013-06-01",
+			"score": "",
+			"courses": []
+		},
+		{
+			"institution": "SZ Rübekamp",
+			"location": "Bremen",
+			"area": "Apprenticeship Cook",
+			"studyType": "journeyman's certificate, early dropout due to allergic reactions.",
+			"startDate": "2009",
+			"endDate": "2010",
+			"score": "",
+			"courses": []
+		},
+		{
+			"institution": "FOS Delmestrasse",
+			"location": "Bremen",
+			"area": "Social Pedagogy",
+			"studyType": "vocational baccalaureate (completed practical part)",
+			"startDate": "2008",
+			"endDate": "2009",
+			"score": "",
+			"courses": []
+		},
+		{
+			"institution": "SZ Drebberstraße",
+			"location": "Bremen",
+			"area": "Highschool",
+			"studyType": "secondary school (certificate Real school)",
+			"startDate": "2002",
+			"endDate": "2008",
+			"score": "",
+			"courses": []
+		}
+	],
+	"skills":[
+		{
+		   "name":"Management",
+		   "level":"Proficient",
+		   "summary": "I have experience in management and consulting, with skills in technical project management, project planning, and tools like Git, Jira, and Microsoft Office. I'm your go-to person for organized and efficient project execution.",
+		   "keywords":[
+			  "Technical Project Management",
+			  "Project Planning",
+			  "Project Calculation",
+			  "Offer Calculation",
+			  "Infrastructure Calculation",
+			  "Git",
+			  "Gitlab",
+			  "Github",
+			  "Bitbucket",
+			  "Jira",
+			  "Confluence",
+			  "Trello",
+			  "Slack",
+			  "Discord",
+			  "Microsoft Teams",
+			  "Google Workspace",
+			  "Office 365",
+			  "Microsoft Office",
+			  "Libre Office",
+			  "Open Office"
+		   ]
+		},
+		{
+		   "name":"Web Development",
+		   "level":"Master",
+		   "summary": "I'm a web development maestro, mastering HTML, CSS, JavaScript, and various frameworks like React, Svelte, and more. I'm also fluent in PHP, with expertise in CakePHP, Laravel, and other content management systems like WordPress and Drupal. Plus, I'm no stranger to databases, from SQL to MongoDB.",
+		   "keywords":[
+				"HTML",
+				"CSS",
+				"Sass",
+				"Less",
+				"Bootstrap",
+				"Purecss",
+				"Javascript",
+				"Chai",
+				"TestCafe",
+				"React",
+				"Svelte",
+				"Preact",
+				"Solid",
+				"Vite",
+				"jQuery",
+				"WebRTC",
+				"WebSockets",
+				"WebGL",
+				"Canvas",
+				"PHP5",
+				"PHP7",
+				"PHP8",
+				"AMPHP",
+				"ReactPHP",
+				"PHPUnit",
+				"Workerman",
+				"CakePHP",
+				"PhalconPHP",
+				"Laravel",
+				"Slim",
+				"Wordpress",
+				"Joomla",
+				"Drupal",
+				"Magento",
+				"Shopware",
+				"Typo3",
+				"Contao",
+				"OOP",
+				"NodeJS",
+				"MySQL",
+				"SQL",
+				"NoSQL",
+				"MongoDB"
+		   ]
+		},
+		{
+		   "name":"Software Development",
+		   "level":"Advanced",
+		   "summary": "I'm like a software Swiss Army knife, with advanced skills in unit testing, frontend testing, various programming languages (C#, Python, and more), and familiarity with different platforms and databases like MySQL, SQL, NoSQL, and MongoDB.",
+		   "keywords":[
+				"Unit Testing",
+				"Frontend Testing",
+				"Documentation",
+				"Browser Automation",
+				"FaaS",
+				"Workers",
+				"Selenium",
+				"PhantomJS",
+				"Puppeteer",
+				"Electron",
+				"NodeWebkit",
+				"Phonegap",
+				"Cordova",
+				"React Native",
+				"Android",
+				"iOS",
+				"Windows Phone",
+				"Windows Universal",
+				"Adobe Script",
+				"C#",
+				"C++",
+				"Visual Basic",
+				"Python",
+				"GO",
+				"Lua",
+				"Haxe",
+				"Dart",
+				"NodeJS",
+				"MySQL",
+				"SQL",
+				"NoSQL",
+				"MongoDB",
+				"Redis",
+				"IPFS",
+				"P2P"
+		   ]
+		},
+		{
+		   "name":"Game Dev / Design",
+		   "summary": "I'm a skilled game developer and designer, with proficiency in Unity3D, Unreal Engine, Blender, and various other game development tools and technologies, including WebGL and Canvas for web-based games. Let's turn your gaming ideas into reality!",
+		   "level":"Intermediate",
+		   "keywords":[
+				"Unity3D",
+				"Unreal",
+				"Blender",
+				"MelonJS",
+				"Haxe",
+				"three.js",
+				"WebGL / Canvas"
+		   ]
+		},
+		{
+		   "name":"Design / Creative",
+		   "summary": "I have a skilled hand in design and creativity, proficient in various Adobe tools like Photoshop, Illustrator, InDesign, and more. I can turn your visions into visually stunning realities.",
+		   "level":"Skilled",
+		   "keywords":[
+				"Adobe Script",
+				"Adobe Automation",
+				"Fireworks",
+				"Photoshop",
+				"Illustrator",
+				"InDesign",
+				"Avocode",
+				"Flash",
+				"Premiere",
+				"Blender",
+				"Sketch",
+				"Gimp",
+				"KiCad"
+		   ]
+		},
+		{
+		   "name":"SysAdmin / DevOps",
+		   "summary": "I'm a skilled SysAdmin/DevOps expert, well-versed in Unix, Linux, Windows, and various server technologies such as Apache and Nginx. I'm also experienced in cloud platforms like AWS and Azure, and proficient in containerization with Docker and Vagrant for efficient infrastructure management.",
+		   "level":"Proficient",
+		   "keywords":[
+			  "Unix",
+			  "Linux",
+			  "Mac OS",
+			  "Mac OS X Server",
+			  "Windows",
+			  "Windows Server",
+			  "Windows Home Server",
+			  "Apache",
+			  "Nginx",
+			  "Rancher",
+			  "AWS",
+			  "Azure",
+			  "Docker",
+			  "Podman",
+			  "Swarm",
+			  "Vagrant",
+			  "OpenFaaS",
+			  "CapRover",
+			  "Asterisk"
+		   ]
+		}
+	],
+	"languages": [
+		{
+		  "language": "German",
+		  "fluency": "Native"
+		},
+		{
+		  "language": "English",
+		  "fluency": "Professional"
+		}
+  ],
+	"interests": [
+		{
+			"name": "Reading",
+			"summary": "I'm absolutely hooked on classical, web, and light novels. They're my go-to for endless enjoyment and inspiration, keeping my love for literature alive and thriving.",
+			"keywords": [
+				"Terry Pratchet",
+				"J.R.R. Tolkien",
+				"H.G. Wells",
+				"George Orwell",
+				"Philip K. Dick",
+				"John Scalzi",
+				"Carlo Zen",
+				"Robert A. Heinlein",
+				"Joe Haldeman",
+				"J.L. Bourne",
+				"Klaus Seibel",
+				"Z. A. Recht",
+				"V.M. Zito",
+				"Max Brooks",
+				"Kugane Maruyama"
+			]
+		},
+		{
+			"name": "Gardening & Plants",
+			"summary": "I seem to prefer plants that serve a practical or edible purpose, though I'm not entirely sure why."
+		},
+		{
+			"name": "AI & Machine Learning",
+			"summary": "I thoroughly enjoy experimenting with technologies like Stable Diffusion, DALL·E, ChatGPT, LLM, and more. I've created some exciting and intriguing prototypes. Unfortunately, I'm still in the process of acquiring the skills needed to train my own."
+		},
+		{
+			"name": "Technology & Electronics",
+			"summary": "I have a fondness for working with electronics, particularly Arduinos and ESPs. I'm always eager to dive into projects. Regrettably, my hands lack the steady precision needed to become a soldering expert, and a career as a surgeon is probably not in the cards for me either."
+		},
+		{
+			"name": "Anime",
+			"summary": "I've been a big anime fan since beeing a child, especially during my days of odd jobs with irregular schedules. It was a great way to unwind. However, it seems I'm showing my age, as I now find myself mostly revisiting old favorites or series I read the manga or novel years ago."
+		},
+		{
+			"name": "Manga",
+			"summary": "I was once deeply immersed in manga, but over time, I discovered that some of the series I loved had their origins in light novels. This revelation sparked a significant shift in my preference towards consuming novels."
+		},
+		{
+			"name": "Gaming",
+			"summary": "I don't game as much as I used to, but when I do, I find myself gravitating towards what some might call \"old man game´s\" like Factorio, Satisfactory, simulators, and tycoon games. Interestingly, tycoon games were my favorite genre when I first started gaming.",
+			"keywords": [
+				"Factorio",
+				"Satisfactory",
+				"Capitalism Lab",
+				"Rimworld",
+				"Frostpunk",
+				"Surviving Mars",
+				"Farming Simulator",
+				"Cities: Skylines",
+				"Tropico",
+				"Prison Architect",
+				"Planet Coaster",
+				"Transport Fever",
+				"Big Pharma",
+				"Software Inc.",
+				"OpenTTD",
+				"Command & Conquer",
+				"Warcraft 3",
+				"Hitman"
+			]
+		}
+	],
+	"projects": [
+		{
+			"date": "2013",
+			"name": "Ludwig von Kapff GmbH - Label System",
+			"url": "https://web.archive.org/web/20130702010029/http://wbs-winsen.de/",
+			"entity": "image advertising H. G. GmbH & Co. KG",
+			"description": "Development of a Web2Print tool for Product Labels based on CakePHP, Jquery and Illustrator (Adobe Scripting API)",
+		},
+		{
+			"date": "2013",
+			"name": "ASP Automotive GmbH - Genuss-Portal (Web2Print Software)",
+			"entity": "image advertising H. G. GmbH & Co. KG",
+			"description": "Development of a Web2Print tool for ASP Automotive GmbH based on CakePHP, Jquery and Illustrator (Adobe Scripting API)",
+		},
+		{
+			"date": "2013",
+			"name": "WBS Lebendige Schule - Wolfgang-Borchert-Schule",
+			"url": "https://web.archive.org/web/20130702010029/http://wbs-winsen.de/",
+			"entity": "image advertising H. G. GmbH & Co. KG",
+			"description": "Redesign, SEO, Management and Development of Website and Hosting Infrastructure",
+		},
+		{
+			"date": "2013",
+			"name": "image advertising H. G. GmbH & Co. KG",
+			"url": "https://web.archive.org/web/20130605055419/http://image-advertising.de/",
+			"entity": "image advertising H. G. GmbH & Co. KG",
+			"description": "Redesign, SEO, Management and Development of Website and Hosting Infrastructure",
+		},
+		{
+			"date": "2013",
+			"name": "MP Multipack",
+			"url": "https://web.archive.org/web/20131029105310/http://www.mp-multipack.de/",
+			"entity": "image advertising H. G. GmbH & Co. KG",
+			"description": "SEO, Management and Development of Website and Hosting Infrastructure.",
+		},
+		{
+			"date": "2012",
+			"name": "FLEXGUARD ",
+			"url": "https://web.archive.org/web/20130605055419/http://www.flexguard.de/",
+			"entity": "image advertising H. G. GmbH & Co. KG",
+			"description": "SEO, Management and Development of Website and Hosting Infrastructure.",
+		},
+		{
+			"date": "2012",
+			"name": "Blue Facility Management",
+			"image": "https://web.archive.org/web/20120504031818im_/http://image-advertising.de/images/referenzen/blue-fm.png",
+			"entity": "image advertising H. G. GmbH & Co. KG",
+			"description": "Management and Development of Website and Hosting Infrastructure.",
+		},
+		{
+			"date": "2012",
+			"name": "LudumDare 24 Theme Evolution",
+			"entity": "Private",
+			"description": "Development of a game (Hobby)",
+			"highlights": [
+				"Implementation of a game using web technologies such as HTML5, Canvas, and JS",
+				"Desktop app playability through Node-Webkit"
+			]
+		},
+		{
+			"date": "2012",
+			"name": "Blue Plaza - iOS App",
+			"image": "https://web.archive.org/web/20141031154310/http://www.image-advertising.de/images/referenzen/blue-plaza2.png",
+			"entity": "image advertising H. G. GmbH & Co. KG",
+			"description": "iOS App Development for Blue Plaza based on Phonegap with custom Plugin for PDF Generation on Device.",
+		},
+		{
+			"date": "2012",
+			"name": "MP Multipack AG - Webshop",
+			"image": "https://web.archive.org/web/20120504031937im_/http://image-advertising.de/images/referenzen/multipack.png",
+			"url": "https://web.archive.org/web/20120502220312/http://www.multipack.ch/index.php?lang=de",
+			"entity": "image advertising H. G. GmbH & Co. KG",
+			"description": "SEO, Management and Development of Website and Hosting Infrastructure",
+			"highlights": [
+				"Development of Custom Flash based Web Catalog",
+				"Management and Development of multiple Newsletters"
+			]
+		},
+		{
+			"date": "2012",
+			"name": "Nordcap Web2Print tool",
+			"image": "https://web.archive.org/web/20120504031529im_/http://image-advertising.de/images/referenzen/nordcap.png",
+			"entity": "image advertising H. G. GmbH & Co. KG",
+			"description": "Development of a Web2Print tool for Nordcap based on Connexus and Illustrator (Adobe Scripting API)",
+		},
+		{
+			"date": "2012",
+			"name": "WerderSports",
+			"url": "https://web.archive.org/web/20120408164349/http://www.werdersports.de/",
+			"image": "https://web.archive.org/web/20120421100358im_/http://image-advertising.de/images/referenzen/werder.png",
+			"entity": "image advertising H. G. GmbH & Co. KG",
+			"description": "SEO, Management and Development of Website and Hosting Infrastructure",
+		},
+		{
+			"date": "2012",
+			"name": "image advertising H. G. GmbH & Co. KG",
+			"url": "https://web.archive.org/web/20120421100358/http://image-advertising.de:80/",
+			"entity": "image advertising H. G. GmbH & Co. KG",
+			"description": "Redesign, SEO, Management and Development of Website and Hosting Infrastructure",
+		},
+		{
+			"date": "2011",
+			"name": "Robert Pack – Fotodesign",
+			"url": "https://web.archive.org/web/20120414023103/http://www.packdasfoto.com/",
+			"image": "https://web.archive.org/web/20120421100358im_/http://image-advertising.de/images/referenzen/robert-pack.png",
+			"entity": "image advertising H. G. GmbH & Co. KG",
+			"description": "Management and Development of Website and Hosting Infrastructure based on custom mini Framework/Content Management System",
+		},
+		{
+			"date": "2011",
+			"name": "ambari GmbH & Co. KG",
+			"url": "https://web.archive.org/web/20120505054232/http://www.ambari.de/",
+			"entity": "image advertising H. G. GmbH & Co. KG",
+			"description": "Redesign, SEO, Management and Development of Website, Shop and Hosting Infrastructure",
+		},
+		{
+			"date": "2011",
+			"name": "AvanCarte, Bremen - Verlags-, Handels- und Serviceunternehmen für Glückwunschkarten",
+			"url": "https://shop.avancarte.de/",
+			"entity": "image advertising H. G. GmbH & Co. KG",
+			"description": "Development of Custom B2B Shop based on CakePHP."
+		},
+		{
+			"date": "2011",
+			"name": "HCH Accessoires Group, Hamburg",
+			"url": "https://web.archive.org/web/20120501181747/http://hch.de/",
+			"entity": "image advertising H. G. GmbH & Co. KG",
+			"description": "Management and Development of Website and Hosting Infrastructure",
+			"highlights": [
+				"Implementation of website using Joomla",
+				"Development of Custom Template for HCH Accessoires Group",
+				"Development of Webshop using Virtuemart",
+				"Development of custom Payment Plugins for Virtuemart"
+			]
+		},
+		{
+			"date": "2011",
+			"name": "AvanCarte, Bremen - Verlags-, Handels- und Serviceunternehmen für Glückwunschkarten",
+			"entity": "image advertising H. G. GmbH & Co. KG",
+			"description": "Continued Development of Backend to Manage Product Media for Syncronisation with Sales Staff.",
+			"highlights": [
+				"Development of custom Solutions to Syncronise and Duplicate SD Cards for PDAs",
+				"Development of Backend for Management of Product Media",
+			]
+		},
+		{
+			"date": "2011",
+			"name": "Druckhaus Humburg, Druckerei, Bremen",
+			"url": "https://web.archive.org/web/20120402093425/http://www.humburg.de/",
+			"entity": "image advertising H. G. GmbH & Co. KG",
+			"description": "Management and Development of Website and Hosting Infrastructure",
+		},
+		{
+			"date": "2011",
+			"name": "»an Bord« Verlags-GmbH & Co. KG",
+			"url": "https://web.archive.org/web/20120402093425/http://www.humburg.de/anbord/",
+			"entity": "image advertising H. G. GmbH & Co. KG",
+			"description": "Management and Development of Website and Hosting Infrastructure",
+		},
+		{
+			"date": "2011",
+			"name": "HWT Hansen GmbH",
+			"url": "https://web.archive.org/web/20110704132205/https://www.heizungsfirma.de/",
+			"entity": "image advertising H. G. GmbH & Co. KG",
+			"description": "Management and Development of Website and Hosting Infrastructure",
+		},
+		{
+			"date": "2010",
+			"name": "SchokoFoto",
+			"url": "https://web.archive.org/web/20111025092633/http://www.schokofoto.de/",
+			"entity": "image advertising H. G. GmbH & Co. KG",
+			"description": "Management and Development of Website and Hosting Infrastructure",
+		},
+		{
+			"date": "2010",
+			"name": "Exori",
+			"url": "https://web.archive.org/web/20100324112857/http://www.exori.de/",
+			"entity": "image advertising H. G. GmbH & Co. KG",
+			"description": "Management and Development of Website and Hosting Infrastructure",
+		},
+		{
+			"date": "2010",
+			"name": "SaveFM",
+			"entity": "Tüfekci Software Development & Consulting",
+			"description": "Development of a desktop and mobile app",
+			"highlights": [
+				"Development based on Node-Webkit and Phonegap",
+				"Creation of an app for automated recording and playback of radios",
+				"GUI design"
+			]
+		},
+		{
+			"date": "2010",
+			"name": "Virtual Currency Stuff Bitcoin",
+			"entity": "Private",
+			"description": "Development of Flash Applications and different PHP Plugins for a variety of Virtual Currency Systems now mostly using Bitcoin",
+			"highlights": [
+				"Mostly developed with Flash and ActionScript 2.0",
+				"Some with php Backends"
+			]
+		},
+		{
+			"date": "2009",
+			"name": "Hostnetzwerk",
+			"entity": "Tüfekci Software Development & Consulting",
+			"description": "Development of management software for web hosting provider based on ISH Software Package",
+			"highlights": [
+				"Development based on PHP, MySQL, HTML, CSS and Ajax",
+				"Creation of frontend, backend, and invoicing with PDF",
+				"Development of Custom Template for Hostnetzwerk"
+			]
+		},
+		{
+			"date": "2009",
+			"name": "Battlehost",
+			"entity": "Tüfekci Software Development & Consulting",
+			"description": "Development of management software for web hosting provider based on ISH Software Package",
+			"highlights": [
+				"Development based on PHP, MySQL, HTML, CSS and Ajax",
+				"Creation of frontend, backend, and invoicing with PDF",
+				"Development of Custom Template for Battlehost"
+			]
+		},
+		{
+			"date": "2009",
+			"name": "ISH Webhosting",
+			"entity": "Tüfekci Software Development & Consulting",
+			"description": "Development of management software for web hosting providers",
+			"highlights": [
+				"Development based on PHP, MySQL, HTML, CSS and Ajax",
+				"Creation of frontend, backend, and invoicing with PDF"
+			]
+		},
+		{
+			"date": "2008",
+			"name": "Alkohol.in",
+			"entity": "Tüfekci Software Development & Consulting",
+			"description": "Development of a graphics renderer",
+			"highlights": [
+				"Creation of a graphics render script based on PHP",
+				"Simulation of the message context with IOS UI elements"
+			]
+		},
+		{
+			"date": "2007",
+			"name": "Virtual Currency Stuff",
+			"entity": "Private",
+			"description": "Development of Flash Applications and different PHP Plugins for a variety of Virtual Currency Systems",
+			"highlights": [
+				"Mostly developed with Flash and ActionScript 2.0",
+				"Some with php Backends"
+			]
+		},
+		{
+			"date": "2006",
+			"name": "Flash Games and Website",
+			"entity": "Private",
+			"description": "Development of multiple different Flash Games and Websites",
+			"highlights": [
+				"Mostly developed with Flash and ActionScript 2.0",
+				"Some with php Backends"
+			]
+		},
+		{
+			"date": "2005",
+			"name": "Clan Websites",
+			"entity": "Private",
+			"description": "Development of multiple different Templates, Designs etc. for Clan (Videogame) Websites",
+			"highlights": [
+				"Mostly design elements in FireworksMX",
+				"Html layouts mostly as tables",
+				"Some PHPKit and ClanSphere Templates",
+				"Some Templating for PHPbb and vBulletin"
+			]
+		}
+	],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00"
+  }
+}
