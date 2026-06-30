@@ -48,7 +48,7 @@
 	<meta property="og:img" content="{resume.basics.image}" />
 </svelte:head>
 
-  <div class="pt-12 print:pt-0">
+  <div class="pt-12 pb-6 lg:pb-0 print:pt-0">
 
     <div class="lg:grid grid-cols-12 md:gap-10  items-center print:p-0">
       <div class="col-span-12 space-y-2.5">
@@ -125,7 +125,7 @@
     
   </div>
   
-  <div class="pt-12 print:pt-0 print:pb-0 print:break-inside-avoid">
+  <div class="pt-12 pb-6 lg:pb-0 print:pt-0 print:pb-0 print:break-inside-avoid">
   
     <div class="flex">
         <h2 class="text-4xl">Knowledge</h2>

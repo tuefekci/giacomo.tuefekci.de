@@ -15,6 +15,42 @@
 
 
 <div class="min-h-screen dark:text-white w-full h-full gradient-background print:bg-transparent print:text-black">
+
+	<div class="fixed top-0 left-0 right-0 z-50 lg:hidden bg-white dark:bg-[#111111] shadow-md border-b border-[#E3E3E3] dark:border-[#3D3A3A]">
+		<div class="flex items-start gap-3 px-4 pt-3 pb-2">
+			<img src="{resume.basics.image}"
+				alt="avatar"
+				class="w-12 h-12 rounded-lg object-cover flex-shrink-0"
+			/>
+			<div class="min-w-0 flex-1">
+				<div class="flex items-baseline gap-1.5 flex-wrap">
+					<span class="font-semibold text-sm dark:text-white truncate">{resume.basics.name}</span>
+					<span class="text-[11px] text-[#7B7B7B] truncate">· {resume.basics.label}</span>
+				</div>
+				<div class="w-full flex justify-between flex-wrap gap-x-1 text-[10px] text-[#7B7B7B] mt-0.5 leading-tight">
+					<span>{resume.basics.location.city}</span>
+					<span class="truncate">{resume.basics.email}</span>
+					<span>Born {resume.basics.birth.date}, {resume.basics.birth.city}</span>
+					{#each resume.languages as lang, i}
+						<span>{i > 0 ? "· " : ""}{lang.language} ({lang.fluency})</span>
+					{/each}
+				</div>
+			</div>
+		</div>
+		<div class="flex border-t border-[#E3E3E3] dark:border-[#3D3A3A]">
+			{#each [{p:"", label:"About"},{p:"cv", label:"Resume"},{p:"portfolio", label:"Works"}] as item}
+				{@const active = $page.url.pathname.replace(/\/$/, '') === (base + '/' + item.p).replace(/\/$/, '')}
+				<a href="{base}/{item.p}"
+					class="flex-1 text-center pt-3 pb-4 text-xs font-medium transition-colors relative {active ? 'text-[#FA5252]' : 'text-[#7B7B7B] hover:text-[#FA5252] dark:hover:text-[#FA5252]'}"
+				>
+					{item.label}
+					{#if active}
+						<div class="absolute bottom-0 left-3 right-3 h-0.5 rounded-full gradient-background-fast"></div>
+					{/if}
+				</a>
+			{/each}
+		</div>
+	</div>
 	<div
 		class="container w-full bg-[#F3F6F6] print:bg-transparent dark:bg-black lg:bg-transparent lg:dark:bg-transparent justify-between mx-auto py-5 lg:px-0 lg:pt-[60px] print:pt-0 print:py-0 print:p-0"
 	>
@@ -24,7 +60,7 @@
 		>
 			<div class="col-span-12 lg:col-span-4 ">
 				<div
-					class="w-full mb-6 print:mb-0 lg:mb-0 mx-auto bg-white text-center dark:bg-[#111111] px-6 lg:rounded-[20px] mt-[0px] lg:mt-0 lg:sticky top-44 print:relative print:top-0 print:h-screen lg:max-h-screen {$page.url.pathname !== "/"? "hidden print:block md:block" : ""}"
+					class="w-full mb-6 print:mb-0 lg:mb-0 mx-auto bg-white text-center dark:bg-[#111111] px-6 lg:rounded-[20px] mt-[0px] lg:mt-0 lg:sticky top-44 print:relative print:top-0 print:h-screen lg:max-h-screen hidden lg:block"
 					
 				>
 					<img
@@ -96,8 +132,8 @@
 
 			<div class="col-span-12 lg:col-span-8">
 
-				<div class="bg-white dark:bg-[#111111] md:rounded-[20px] mt-[180px] md:mt-[220px] lg:mt-0 print:p-0 print:m-0">
-					<header class="print:hidden sm:hidden lg:block md:hidden bg-[#F8F9FA] dark:bg-[#1A1A1A] rounded-t-[20px] border-b border-[#E3E3E3] dark:border-[#3D3A3A]">
+				<div class="bg-white dark:bg-[#111111] md:rounded-[20px] pt-[120px] lg:pt-0 mt-0 lg:mt-0 print:p-0 print:m-0">
+					<header class="print:hidden hidden lg:block bg-[#F8F9FA] dark:bg-[#1A1A1A] rounded-t-[20px] border-b border-[#E3E3E3] dark:border-[#3D3A3A]">
 						<nav class="flex items-center gap-1 px-6 pt-3 pb-3">
 							<MenuItem path="" icon="about">About</MenuItem>
 							<MenuItem path="cv" icon="resume">Resume</MenuItem>
@@ -105,7 +141,7 @@
 						</nav>
 					</header>
 		
-				<div class="min-h-full mb-6 lg:mb-0 lg:px-12 pb-12 mx-auto relative px-6 print:p-0 print:m-0 print:pt-[0px]">
+				<div class="min-h-full mb-0 lg:mb-6 lg:px-12 pb-0 lg:pb-12 mx-auto relative px-6 print:p-0 print:m-0 print:pt-[0px]">
 					<PageTransition url={data.url}>
 						<slot />
 					</PageTransition>
