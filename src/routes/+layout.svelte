@@ -70,7 +70,7 @@
 							</div>
 							<div class="flex py-2.5 border-b border-[#E3E3E3] dark:border-[#3D3A3A]">
 								<div class="text-left ml-2.5">
-									<p class="text-xs text-[#44566C] dark:text-[#A6A6A6]">Age,  Birth / Nationality</p>
+									<p class="text-xs text-[#44566C] dark:text-[#A6A6A6]">Birth / Nationality</p>
 									<a class="dark:text-white break-all hover:text-[#FA5252] duration-300 transition" target="_blank" href="https://www.google.de/maps/place/{resume.basics.birth.city}/">{resume.basics.birth.date}, {resume.basics.birth.city} / {resume.basics.birth.countryCode}</a>
 								</div>
 

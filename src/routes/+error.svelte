@@ -14,7 +14,7 @@
 	  <div class="col-span-12 space-y-2.5">
 		<div class="">
 		  <p class="text-gray-lite dark:text-white/60 leading-7">
-			Lost in Cyberspace! The page you're looking for seems to have taken a coffee break, and we can't blame it; we all need one from time to time.
+			Lost in Cyberspace! The page you're looking for seems to have taken a tea break, and we can't blame it; we all need one from time to time.
 		  </p>
   
 		</div>

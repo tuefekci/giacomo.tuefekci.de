@@ -562,7 +562,8 @@
         "Technology: deta-micros",
         "Technology: deta-space",
         "Technology: php"
-      ]
+      ],
+      "category": "Libraries & Developer Tools"
     },
     {
       "name": "Deta-PHP-Engine",
@@ -574,7 +575,9 @@
         "Technology: deta",
         "Technology: deta-micros",
         "Technology: deta-space"
-      ]
+      ],
+      "category": "Libraries & Developer Tools",
+      "featured": true
     },
     {
       "name": "Deta-PHP-Sandbox",
@@ -585,7 +588,8 @@
       "highlights": [
         "Technology: deta",
         "Technology: deta-space"
-      ]
+      ],
+      "category": "Libraries & Developer Tools"
     },
     {
       "name": "deta-queue",
@@ -598,35 +602,40 @@
         "Technology: deta-base",
         "Technology: deta-micros",
         "Technology: deta-space"
-      ]
+      ],
+      "category": "Libraries & Developer Tools"
     },
     {
       "name": "deta-s3-server",
       "date": "2023",
       "entity": "Tufekci Software Development & Consulting",
       "description": "S3 Server for Deta.Space (Deta Drive) written in NodeJS based on jamhall/s3rver. A simple S3-compatible server that uses Deta Drive as a backend. Not a full S3 implementation — provides basic S3 API compatibility for storing and retrieving files via Deta Drive.\n\nAvailable on Deta Space Discovery: https://deta.space/discovery/@tuefekci/s3server",
-      "url": "https://github.com/tuefekci/deta-s3-server"
+      "url": "https://github.com/tuefekci/deta-s3-server",
+      "category": "Libraries & Developer Tools"
     },
     {
       "name": "flatfilecache",
       "date": "2022",
       "entity": "Tufekci Software Development & Consulting",
       "description": "Node.js flat file cache library written in TypeScript. Provides a simple file-based caching mechanism using the local filesystem, suitable for scenarios where a full database or Redis cache is not needed.",
-      "url": "https://github.com/tuefekci/flatfilecache"
+      "url": "https://github.com/tuefekci/flatfilecache",
+      "category": "Libraries & Developer Tools"
     },
     {
       "name": "novelsource-proxy",
       "date": "2022",
       "entity": "Tufekci Software Development & Consulting",
       "description": "Proxy server for novel sources, complementing novelsourcePHP. Provides a proxy layer for web novel scraping operations, handling routing and requests between the scraping client and target novel sites.",
-      "url": "https://github.com/tuefekci/novelsource-proxy"
+      "url": "https://github.com/tuefekci/novelsource-proxy",
+      "category": "Libraries & Developer Tools"
     },
     {
       "name": "novelsourcePHP",
       "date": "2022",
       "entity": "Tufekci Software Development & Consulting",
       "description": "A collection of webnovel/novel sources offering varying amounts of scraping capability. Primarily built for meta data aggregation (tags and genres for recommendation) rather than content scraping.\n\nAvailable as a Composer package: `tuefekci/novelsource`. Supports novel source adapters with search and last-checked tracking. Inspired by mensch272/novelsave_sources (Python) but built for PHP use cases.",
-      "url": "https://github.com/tuefekci/novelsourcePHP"
+      "url": "https://github.com/tuefekci/novelsourcePHP",
+      "category": "Libraries & Developer Tools"
     },
     {
       "name": "blkhole",
@@ -641,49 +650,59 @@
         "Technology: magnet",
         "Technology: php",
         "Technology: torrent"
-      ]
+      ],
+      "category": "DevOps & Infrastructure",
+      "featured": true
     },
     {
       "name": "docker-radarr-xu4",
       "date": "2021",
       "entity": "Tufekci Software Development & Consulting",
       "description": "Docker configuration to run Radarr on an ODROID-XU4 single-board computer. Provides a containerized setup for the Radarr movie management tool optimized for ARM-based hardware.",
-      "url": "https://github.com/tuefekci/docker-radarr-xu4"
+      "url": "https://github.com/tuefekci/docker-radarr-xu4",
+      "category": "DevOps & Infrastructure"
     },
     {
       "name": "docker-sonarr-xu4",
       "date": "2021",
       "entity": "Tufekci Software Development & Consulting",
       "description": "Docker configuration to run Sonarr on an ODROID-XU4 single-board computer. Includes a workaround to force the mono process onto one set of cores (big cores 4,5,6,7 and small cores 0,1,2,3) to resolve performance issues on the big.LITTLE ARM architecture.",
-      "url": "https://github.com/tuefekci/docker-sonarr-xu4"
+      "url": "https://github.com/tuefekci/docker-sonarr-xu4",
+      "category": "DevOps & Infrastructure"
     },
     {
       "name": "helpers",
       "date": "2021",
       "entity": "Tufekci Software Development & Consulting",
       "description": "Personal PHP helper library following PSR-4 autoloading and PSR-2 coding standards. Includes unit testing with PHPUnit 6, comprehensive guide and tutorial, and easy integration with any framework or plain PHP.\n\nRequirements: PHP >= 7.0, Composer. Uses a standard project structure with build/, src/, tests/ directories, Travis CI configuration, and code sniffing tools (PHPCS, PHPCBF).",
-      "url": "https://github.com/tuefekci/helpers"
+      "url": "https://github.com/tuefekci/helpers",
+      "category": "Libraries & Developer Tools"
     },
     {
       "name": "microphp",
       "date": "2021",
       "entity": "Tufekci Software Development & Consulting",
       "description": "A small subset of PHP implemented in Rust using a recursive-descent parser based on binding power (similar to PHP's own precedence model). The interpreter is a bytecode virtual machine where AST is compiled into bytecode operations and constants.\n\nSupported features:\n- Strings (surrounded by double-quotes)\n- Binary and boolean operations\n- If/else statements\n- While statements with break\n- User-defined functions\n- Internal/native functions\n\nBoth engines share similar opcodes, making feature implementation simpler as structure and flow can be replicated.",
-      "url": "https://github.com/tuefekci/microphp"
+      "url": "https://github.com/tuefekci/microphp",
+      "category": "Libraries & Developer Tools",
+      "featured": true
     },
     {
       "name": "overcli",
       "date": "2021",
       "entity": "Tufekci Software Development & Consulting",
       "description": "OverCLI is a PHP CLI / TUI Helper / Framework Library with a Render Loop, similar to how Game Engines handle application rendering. A collection of useful functions and classes for building CLI and TUI applications.\n\nFeatures:\n- Render Loop for continuous rendering with events\n- Exception renderer for static error display\n- Demo applications including a PIN IDENTIFICATION PROGRAM inspired by T2 Movie Prop\n- Fully dependent on the Runtime, framerate is stable with fine memory usage\n\nRequirements: PHP 7.2+ and Composer.",
-      "url": "https://github.com/tuefekci/overcli"
+      "url": "https://github.com/tuefekci/overcli",
+      "category": "Libraries & Developer Tools",
+      "featured": true
     },
     {
       "name": "php-benchmark",
       "date": "2021",
       "entity": "Tufekci Software Development & Consulting",
       "description": "Benchmarking PHP7, PHP8, and PHP7-parallel performance on an i7-4790k with 16GB DDR3. Tests include math operations, string manipulation, loops, and if/else conditions with 1,000,000 iterations across 16 workers.\n\nResults (2021-10-04):\n- PHP 7.4.24: Total 79.612s (serial)\n- PHP 7.4.24-parallel: Total 9.361s (16 workers)\n- PHP 8.0.11: Total 69.053s (serial)\n\nConclusion: PHP8 performs better than PHP7 especially in string manipulation, while parallel processing on PHP7 delivers the fastest results for suitable workloads.",
-      "url": "https://github.com/tuefekci/php-benchmark"
+      "url": "https://github.com/tuefekci/php-benchmark",
+      "category": "Libraries & Developer Tools"
     },
     {
       "name": "Android Web / Light Novel Reader",
@@ -701,7 +720,8 @@
         "Technology: REST API",
         "Technology: WebView",
         "Technology: SQLite"
-      ]
+      ],
+      "category": "Mobile & Desktop Apps"
     },
     {
       "name": "Download Manager (PHP → Svelte)",
@@ -720,7 +740,8 @@
         "Technology: TypeScript",
         "Technology: JavaScript",
         "Technology: REST API"
-      ]
+      ],
+      "category": "Libraries & Developer Tools"
     },
     {
       "name": "QR Code Redirect System",
@@ -737,7 +758,8 @@
         "Technology: QR-Code",
         "Technology: REST API",
         "Technology: Docker"
-      ]
+      ],
+      "category": "DevOps & Infrastructure"
     },
     {
       "name": "ReactNative App und API (WebNovels)",
@@ -750,7 +772,8 @@
         "Technology: API",
         "Technology: WebNovel",
         "Technology: Crawler"
-      ]
+      ],
+      "category": "Mobile & Desktop Apps"
     },
     {
       "name": "Retro Game Browser Emulator (WASM)",
@@ -767,7 +790,9 @@
         "Technology: C/C++",
         "Technology: HTML5",
         "Technology: Canvas"
-      ]
+      ],
+      "category": "Game & Creative",
+      "featured": true
     },
     {
       "name": "ReactNative CRM Task/Todo App",
@@ -779,7 +804,8 @@
         "Technology: CRM",
         "Technology: Mobile App",
         "Technology: Tasks"
-      ]
+      ],
+      "category": "Mobile & Desktop Apps"
     },
     {
       "name": "Reinigungsfirma CRM",
@@ -793,14 +819,16 @@
         "Technology: Mobile App",
         "Technology: Desktop",
         "Technology: Webview"
-      ]
+      ],
+      "category": "Mobile & Desktop Apps"
     },
     {
       "name": "phpkg",
       "date": "2019",
       "entity": "Tufekci Software Development & Consulting",
       "description": "Package your PHP project into an executable for Linux, Mac and Windows. Provides source code protection by compiling PHP projects into standalone executables. Includes benchmark comparisons between the packaged (phpkg) version and native PHP 8.1.3 on an i5-8259U CPU.\n\nBenchmark results showed minimal performance difference between phpkg and native PHP execution (64.334s vs 67.316s total for math, string, loop, and if/else tests), indicating the packaging adds negligible overhead.",
-      "url": "https://github.com/tuefekci/phpkg"
+      "url": "https://github.com/tuefekci/phpkg",
+      "category": "Libraries & Developer Tools"
     },
     {
       "name": "Facebook Events Automation API",
@@ -819,7 +847,8 @@
         "Technology: Cron",
         "Technology: REST API",
         "Technology: JSON"
-      ]
+      ],
+      "category": "Libraries & Developer Tools"
     },
     {
       "name": "Room Booking App (Android/iOS)",
@@ -838,7 +867,8 @@
         "Technology: REST API",
         "Technology: MySQL",
         "Technology: Push Notifications"
-      ]
+      ],
+      "category": "Mobile & Desktop Apps"
     },
     {
       "name": "STOREFIT Website",
@@ -852,7 +882,8 @@
         "Technology: Webentwicklung"
       ],
       "image": "storefit-website-1.jpg",
-      "customer": "STOREFIT"
+      "customer": "STOREFIT",
+      "category": "Web Development"
     },
     {
       "name": "Union Rösterei Website",
@@ -876,7 +907,8 @@
         "Technology: PHP"
       ],
       "image": "102_union-roesterei_website_home-1.jpg",
-      "customer": "Union Rösterei"
+      "customer": "Union Rösterei",
+      "category": "Web Development"
     },
     {
       "name": "VB2Web Bridge und API",
@@ -891,7 +923,8 @@
         "Technology: VB",
         "Technology: API",
         "Technology: CRM"
-      ]
+      ],
+      "category": "Libraries & Developer Tools"
     },
     {
       "name": "BHV Bremen",
@@ -914,7 +947,8 @@
         "Technology: Datenbank"
       ],
       "image": "102_bhv_website_home.jpg",
-      "customer": "BHV Bremen"
+      "customer": "BHV Bremen",
+      "category": "Web Development"
     },
     {
       "name": "Bibliotheksportal",
@@ -939,14 +973,16 @@
         "Technology: Responsive"
       ],
       "image": "102_bibliotheksportal_6.jpg",
-      "customer": "Deutscher Bibliotheksverband e.V."
+      "customer": "Deutscher Bibliotheksverband e.V.",
+      "category": "Web Development"
     },
     {
       "name": "Docker-PHP7-Phalcon",
       "date": "2017",
       "entity": "Tufekci Software Development & Consulting",
       "description": "Docker + PHP7 + Phalcon development container. Provides a complete development environment combining PHP 7 with the Phalcon PHP framework (compiled as a C-extension), designed for rapid web application development.",
-      "url": "https://github.com/tuefekci/Docker-PHP7-Phalcon"
+      "url": "https://github.com/tuefekci/Docker-PHP7-Phalcon",
+      "category": "DevOps & Infrastructure"
     },
     {
       "name": "Forum Film & Kino Kongress 2017",
@@ -965,7 +1001,9 @@
         "Technology: JavaScript",
         "Technology: Gulp"
       ],
-      "customer": "Forum Film & Kino"
+      "customer": "Forum Film & Kino",
+      "category": "DevOps & Infrastructure",
+      "featured": true
     },
     {
       "name": "Forum Film Kino 2018",
@@ -993,7 +1031,9 @@
         "Technology: Responsive"
       ],
       "image": "Forum-FIlm3.jpg",
-      "customer": "Forum Film Mediengesellschaft mbH"
+      "customer": "Forum Film Mediengesellschaft mbH",
+      "category": "Web Development",
+      "featured": true
     },
     {
       "name": "Geschmackslabor Website",
@@ -1012,7 +1052,8 @@
         "Technology: CMS"
       ],
       "image": "102_geschmackslabor_website_home.jpg",
-      "customer": "Geschmackslabor"
+      "customer": "Geschmackslabor",
+      "category": "Web Development"
     },
     {
       "name": "Hanselife",
@@ -1029,7 +1070,8 @@
         "Technology: CMS"
       ],
       "image": "https://planetmutlu.com/wp-content/uploads/2017/11/102_hanselife_website_start.jpg",
-      "customer": "Messe Bremen"
+      "customer": "Messe Bremen",
+      "category": "Web Development"
     },
     {
       "name": "Kaffeevollautomaten Landingpage",
@@ -1049,7 +1091,8 @@
         "Technology: Programmierung"
       ],
       "image": "102_kaffeeplan_maschinenfinder-1.jpg",
-      "customer": "Kaffeeplan"
+      "customer": "Kaffeeplan",
+      "category": "Web Development"
     },
     {
       "name": "MARS Connector",
@@ -1066,7 +1109,8 @@
         "Technology: VM",
         "Technology: Datenbank"
       ],
-      "customer": "PMKino"
+      "customer": "PMKino",
+      "category": "DevOps & Infrastructure"
     },
     {
       "name": "Mars-EDV Online Booking Client",
@@ -1085,7 +1129,8 @@
         "Technology: PMKino API",
         "Technology: REST"
       ],
-      "customer": "Mars-EDV / PMKino"
+      "customer": "Mars-EDV / PMKino",
+      "category": "Web Development"
     },
     {
       "name": "PM Product Database API",
@@ -1105,7 +1150,8 @@
         "Technology: MySQL",
         "Technology: Objekt-Meta-Datenbank"
       ],
-      "customer": "Croll und Denecke"
+      "customer": "Croll und Denecke",
+      "category": "Libraries & Developer Tools"
     },
     {
       "name": "PMKino Reseller Booking (Alias)",
@@ -1120,7 +1166,8 @@
         "Technology: Slim Framework",
         "Technology: PMKino API"
       ],
-      "customer": "Mars-EDV / PMKino"
+      "customer": "Mars-EDV / PMKino",
+      "category": "Web Development"
     },
     {
       "name": "PMKino Web Suite",
@@ -1141,7 +1188,9 @@
         "Technology: REST API",
         "Technology: JSON"
       ],
-      "customer": "PMKino / Mars-EDV"
+      "customer": "PMKino / Mars-EDV",
+      "category": "Web Development",
+      "featured": true
     },
     {
       "name": "Terra Sola",
@@ -1157,7 +1206,8 @@
         "Technology: Website"
       ],
       "image": "102_terra_sola_website_02.jpg",
-      "customer": "Terra Sola"
+      "customer": "Terra Sola",
+      "category": "Web Development"
     },
     {
       "name": "Ökofix Berlin exklusiv",
@@ -1173,7 +1223,8 @@
         "Website-Erstellung"
       ],
       "image": "oekofix.jpg",
-      "customer": "Stadtwerke Nürtingen"
+      "customer": "Stadtwerke Nürtingen",
+      "category": "Web Development"
     },
     {
       "name": "Aykut Großhandel Website",
@@ -1193,7 +1244,8 @@
         "Technology: Web"
       ],
       "image": "Aykut-Website-1.jpg",
-      "customer": "Aykut Großhandel"
+      "customer": "Aykut Großhandel",
+      "category": "Web Development"
     },
     {
       "name": "Beckröge Website",
@@ -1217,7 +1269,9 @@
         "Technology: E-Commerce"
       ],
       "image": "Beckroege_946.jpg",
-      "customer": "Beckröge"
+      "customer": "Beckröge",
+      "category": "E-Commerce & Web2Print",
+      "featured": true
     },
     {
       "name": "Creamlovers Website",
@@ -1234,14 +1288,16 @@
         "Technology: Website"
       ],
       "image": "102_creamlovers_uebersicht.jpg",
-      "customer": "Creamlovers"
+      "customer": "Creamlovers",
+      "category": "Web Development"
     },
     {
       "name": "Docker-PHP7-Container",
       "date": "2016",
       "entity": "Tufekci Software Development & Consulting",
       "description": "Docker development container for PHP7, designed for WordPress development. Provides a ready-to-use PHP7 environment with necessary extensions for running and testing WordPress sites locally.",
-      "url": "https://github.com/tuefekci/Docker-PHP7-Container"
+      "url": "https://github.com/tuefekci/Docker-PHP7-Container",
+      "category": "DevOps & Infrastructure"
     },
     {
       "name": "Draussen",
@@ -1260,7 +1316,8 @@
         "Technology: Website"
       ],
       "image": "102_mockup_draussen_1.jpg",
-      "customer": "Messe Bremen"
+      "customer": "Messe Bremen",
+      "category": "Web Development"
     },
     {
       "name": "Gewoba Web2Print CMS",
@@ -1279,7 +1336,9 @@
         "Technology: PDF-Generierung",
         "Technology: Datenbank"
       ],
-      "customer": "GEWOBA"
+      "customer": "GEWOBA",
+      "category": "E-Commerce & Web2Print",
+      "featured": true
     },
     {
       "name": "Green Tech Invest",
@@ -1295,7 +1354,8 @@
         "Technology: Web"
       ],
       "image": "öüg.jpg",
-      "customer": "Green Tech Invest AG"
+      "customer": "Green Tech Invest AG",
+      "category": "Web Development"
     },
     {
       "name": "Jazzahead!",
@@ -1316,7 +1376,9 @@
         "Technology: PHP"
       ],
       "image": "Bildschirmfoto-2018-06-25-um-14.26.54.png",
-      "customer": "Messe Bremen"
+      "customer": "Messe Bremen",
+      "category": "Web Development",
+      "featured": true
     },
     {
       "name": "NT-Meter Energiemonitor",
@@ -1337,7 +1399,8 @@
         "Technology: REST API",
         "Technology: SQLite"
       ],
-      "customer": "NT-Meter"
+      "customer": "NT-Meter",
+      "category": "Web Development"
     },
     {
       "name": "PM WP PageAdmin",
@@ -1354,7 +1417,8 @@
         "Technology: Webpack",
         "Technology: JavaScript",
         "Technology: phpFastCache"
-      ]
+      ],
+      "category": "Libraries & Developer Tools"
     },
     {
       "name": "Passion Sports Convention",
@@ -1372,7 +1436,8 @@
         "Technology: Web"
       ],
       "image": "102_mockups_passion.jpg",
-      "customer": "Messe Bremen"
+      "customer": "Messe Bremen",
+      "category": "Web Development"
     },
     {
       "name": "PlanetMutlu CLI Tool",
@@ -1388,7 +1453,8 @@
         "Technology: Node.js",
         "Technology: Electron",
         "Technology: Gulp"
-      ]
+      ],
+      "category": "Mobile & Desktop Apps"
     },
     {
       "name": "Beckröge Webseite & B2B Bestellsystem",
@@ -1401,7 +1467,9 @@
         "Technology: ReactJS",
         "Technology: B2B",
         "Technology: Gastronomie"
-      ]
+      ],
+      "category": "E-Commerce & Web2Print",
+      "featured": true
     },
     {
       "name": "Bibliotheksportal (Deutscher Bibliotheksverband)",
@@ -1414,13 +1482,14 @@
         "Technology: ReactJS",
         "Technology: Portal",
         "Technology: Bibliothek"
-      ]
+      ],
+      "category": "Web Development"
     },
     {
-      "name": "Bremen Classic Motorshow App",
+      "name": "Bremen Classic Motorshow",
       "date": "2015",
       "entity": "planetmutlu gmbh & co. kg",
-      "description": "Die Bremen Classic Motorshow App ist der offizielle Messeführer für smarte Phones. Die App hält schnell und einfach alle Informationen rund um die Veranstaltung bereit. Zusätzlich enthält die App News sowie Informationen zu aktuellen Sonderschauen, Tickets und Ausstellern.",
+      "description": "Die Bremen Classic Motorshow Webseite ist der offizielle Messeführer. Die Webseite hält schnell und einfach alle Informationen rund um die Veranstaltung bereit. Zusätzlich enthält die Webseite News sowie Informationen zu aktuellen Sonderschauen, Tickets und Ausstellern.",
       "url": "https://www.classicmotorshow.de",
       "highlights": [
         "Planung",
@@ -1435,7 +1504,9 @@
         "Technology: Programmierung"
       ],
       "image": "102_bcm_app_start.jpg",
-      "customer": "Messe Bremen"
+      "customer": "Messe Bremen",
+      "category": "Mobile & Desktop Apps",
+      "featured": true
     },
     {
       "name": "Croll & Denecke Website",
@@ -1454,7 +1525,9 @@
         "Technology: E-Commerce"
       ],
       "image": "croll-web.png",
-      "customer": "Croll & Denecke"
+      "customer": "Croll & Denecke",
+      "category": "E-Commerce & Web2Print",
+      "featured": true
     },
     {
       "name": "Gewoba Database-Publishing (Redaktions-System)",
@@ -1467,7 +1540,8 @@
         "Technology: Redaktion",
         "Technology: Magazin",
         "Technology: Database-Publishing"
-      ]
+      ],
+      "category": "E-Commerce & Web2Print"
     },
     {
       "name": "Kaffeeplan Website",
@@ -1486,7 +1560,8 @@
         "Technology: CMS"
       ],
       "image": "102_kaffeeplan_website_home.jpg",
-      "customer": "Kaffeeplan"
+      "customer": "Kaffeeplan",
+      "category": "Web Development"
     },
     {
       "name": "Kinotickets.online",
@@ -1500,7 +1575,9 @@
         "Technology: Tickets",
         "Technology: MarsEDV",
         "Technology: API"
-      ]
+      ],
+      "category": "Web Development",
+      "featured": true
     },
     {
       "name": "Messe Webseiten (WordPress Plugin-Sammlung)",
@@ -1513,7 +1590,8 @@
         "Technology: Themes",
         "Technology: Messe",
         "Technology: Events"
-      ]
+      ],
+      "category": "Web Development"
     },
     {
       "name": "Ori Formreaktor Website",
@@ -1530,7 +1608,8 @@
         "Technology: Website"
       ],
       "image": "102_ori_1.jpg",
-      "customer": "FORMREAKTOR"
+      "customer": "FORMREAKTOR",
+      "category": "Web Development"
     },
     {
       "name": "PMKino Web2Print und Webseiten",
@@ -1544,7 +1623,8 @@
         "Technology: ReactJS",
         "Technology: Web2Print",
         "Technology: Kino"
-      ]
+      ],
+      "category": "E-Commerce & Web2Print"
     },
     {
       "name": "Reiselust",
@@ -1560,7 +1640,8 @@
         "Technology: CMS"
       ],
       "image": "https://planetmutlu.com/wp-content/uploads/2015/10/102_mockup_reiselust_1.jpg",
-      "customer": "Messe Bremen"
+      "customer": "Messe Bremen",
+      "category": "Web Development"
     },
     {
       "name": "Website & Shop verias24.de",
@@ -1575,7 +1656,8 @@
         "Technology: Shop",
         "Technology: Insurance",
         "Technology: ERP"
-      ]
+      ],
+      "category": "E-Commerce & Web2Print"
     },
     {
       "name": "Messe Bremen Website",
@@ -1599,7 +1681,9 @@
         "Technology: JavaScript",
         "Technology: Responsive"
       ],
-      "customer": "Messe Bremen"
+      "customer": "Messe Bremen",
+      "category": "Web Development",
+      "featured": true
     },
     {
       "name": "Web Exhibition Theme",
@@ -1616,7 +1700,8 @@
         "Technology: CSS3",
         "Technology: JavaScript",
         "Technology: Bootstrap"
-      ]
+      ],
+      "category": "Web Development"
     },
     {
       "name": "Website lr28-bremen.de",
@@ -1629,7 +1714,8 @@
         "Technology: WordPress",
         "Technology: Multilingual",
         "Technology: Real Estate"
-      ]
+      ],
+      "category": "Web Development"
     },
     {
       "name": "ASP Automotive – Genuss-Portal Web2Print",
@@ -1641,7 +1727,8 @@
         "Online-Personalisierung"
       ],
       "image": "asp_home.png",
-      "customer": "ASP Automotive GmbH"
+      "customer": "ASP Automotive GmbH",
+      "category": "E-Commerce & Web2Print"
     },
     {
       "name": "BTC Trading Dashboard",
@@ -1661,7 +1748,8 @@
         "Technology: HTML5",
         "Technology: CSS3",
         "Technology: REST"
-      ]
+      ],
+      "category": "Web Development"
     },
     {
       "name": "Game Server Modding & Administration",
@@ -1678,7 +1766,8 @@
         "Technology: Game Server",
         "Technology: Linux",
         "Technology: Scripting"
-      ]
+      ],
+      "category": "Web Development"
     },
     {
       "name": "Ludwig von Kapff Etiketten-System",
@@ -1698,7 +1787,8 @@
         "Technology: PDF-Generierung",
         "Technology: JavaScript"
       ],
-      "customer": "Ludwig von Kapff"
+      "customer": "Ludwig von Kapff",
+      "category": "E-Commerce & Web2Print"
     },
     {
       "name": "MedienPrintPartner eG – Website",
@@ -1711,7 +1801,8 @@
         "Gestaltung"
       ],
       "image": "mpp.png",
-      "customer": "MedienPrintPartner eG"
+      "customer": "MedienPrintPartner eG",
+      "category": "E-Commerce & Web2Print"
     },
     {
       "name": "SaveFM",
@@ -1738,7 +1829,9 @@
         "Technology: PHP",
         "Technology: HTML5",
         "Technology: CSS3"
-      ]
+      ],
+      "category": "Mobile & Desktop Apps",
+      "featured": true
     },
     {
       "name": "Wolfgang-Borchert-Schule – Website Relaunch",
@@ -1751,7 +1844,8 @@
         "Technische Erweiterung"
       ],
       "image": "wbs_winsen.png",
-      "customer": "Schulverein Wolfgang-Borchert-Schule e.V."
+      "customer": "Schulverein Wolfgang-Borchert-Schule e.V.",
+      "category": "Web Development"
     },
     {
       "name": "Atelier Brokat – Abschlussprüfung",
@@ -1772,7 +1866,8 @@
         "Technology: JavaScript",
         "Technology: jQuery"
       ],
-      "customer": "Atelier Brokat"
+      "customer": "Atelier Brokat",
+      "category": "Web Development"
     },
     {
       "name": "Avancarte Shop",
@@ -1792,7 +1887,8 @@
         "Technology: HTML5",
         "Technology: CSS3"
       ],
-      "customer": "Avancarte"
+      "customer": "Avancarte",
+      "category": "E-Commerce & Web2Print"
     },
     {
       "name": "Bremer Feinkost – Delikatessenkatalog 2012",
@@ -1806,14 +1902,17 @@
         "Produktfotografie"
       ],
       "image": "bfc.png",
-      "customer": "Bremer Feinkost GmbH & Co. KG"
+      "customer": "Bremer Feinkost GmbH & Co. KG",
+      "category": "Game & Creative"
     },
     {
       "name": "DigitalOcean-PHP-Class",
       "date": "2012",
       "entity": "Tufekci Software Development & Consulting",
       "description": "PHP wrapper for the DigitalOcean API. All methods are supported. Documentation for the DigitalOcean API can be found at digitalocean.com/api. Automatically generated phpDoc lives at remmelt.github.com/DigitalOcean-PHP-Class.\n\n### Example Usage\n```php\nrequire_once('DigitalOcean.class.php');\n$ocean = new \\DigitalOceanApi\\DigitalOcean('client_id_here','api_key_here');\n$droplets = get_object_vars($ocean->getDroplets());\n$i=0;\n$x=0;\nforeach ($droplets as $drops) {\n\tif (!is_array($drops)) {\n\t\techo $i . '. Status: ' . $drops . '<br />';\n\t} else {\n\t\techo $i . '. Name: ' . $drops[$x]->name . '<br />';\n\t\techo $i . '. IP: ' . $drops[$x]->ip_address . '<br />';\n\t\t$x++;\n\t}\n\t$i++;\n}\n```\n\nThe above will result in something like:\n```\n0. Status: OK\n1. Name: your-droplet-name\n1. IP: your-droplet-ip\n```",
-      "url": "https://github.com/tuefekci/DigitalOcean-PHP-Class"
+      "url": "https://github.com/tuefekci/DigitalOcean-PHP-Class",
+      "category": "Libraries & Developer Tools",
+      "featured": true
     },
     {
       "name": "Flexguard – Website & Online Shop",
@@ -1826,7 +1925,8 @@
         "Webshopprogrammierung"
       ],
       "image": "flexguard-home.png",
-      "customer": "Flexguard AG"
+      "customer": "Flexguard AG",
+      "category": "E-Commerce & Web2Print"
     },
     {
       "name": "Image Rendering Experiment",
@@ -1838,7 +1938,8 @@
         "Bildverarbeitung",
         "Technology: PHP",
         "Technology: PHPImageWorkshop"
-      ]
+      ],
+      "category": "Web Development"
     },
     {
       "name": "Ludum Dare 24 – Evolution",
@@ -1855,7 +1956,8 @@
         "Technology: Canvas",
         "Technology: JavaScript",
         "Technology: CSS"
-      ]
+      ],
+      "category": "Game & Creative"
     },
     {
       "name": "PHP.js Build-Tool",
@@ -1867,7 +1969,8 @@
         "Tool-Entwicklung",
         "Technology: PHP",
         "Technology: JavaScript"
-      ]
+      ],
+      "category": "Libraries & Developer Tools"
     },
     {
       "name": "Weather by Kumoni.de",
@@ -1886,7 +1989,8 @@
         "Technology: jQuery",
         "Technology: Responsive Design",
         "Technology: Photoshop"
-      ]
+      ],
+      "category": "Web Development"
     },
     {
       "name": "WerderSports – Corporate Design 2012",
@@ -1903,7 +2007,8 @@
         "Produktion Druckprodukte"
       ],
       "image": "werder.png",
-      "customer": "WerderSports und Fitness GmbH"
+      "customer": "WerderSports und Fitness GmbH",
+      "category": "Game & Creative"
     },
     {
       "name": "Ambari – WebShop Relaunch",
@@ -1918,7 +2023,9 @@
         "Suchmaschinenoptimierung"
       ],
       "image": "ambari.png",
-      "customer": "Ambari GmbH & Co. KG"
+      "customer": "Ambari GmbH & Co. KG",
+      "category": "E-Commerce & Web2Print",
+      "featured": true
     },
     {
       "name": "AvanCarte Produktverwaltung Backend",
@@ -1938,7 +2045,8 @@
         "Technology: PDA-Schnittstelle",
         "Technology: Datenbank"
       ],
-      "customer": "Avancarte"
+      "customer": "Avancarte",
+      "category": "Web Development"
     },
     {
       "name": "Blue Plaza – Internetbasierte Datenbank für Blue FM",
@@ -1952,7 +2060,8 @@
         "Datenbankprogrammierung"
       ],
       "image": "blue-plaza2.png",
-      "customer": "Blue Facility Management GmbH"
+      "customer": "Blue Facility Management GmbH",
+      "category": "Web Development"
     },
     {
       "name": "Druckhaus Humburg Website",
@@ -1973,7 +2082,8 @@
         "Technology: JavaScript",
         "Technology: CMS"
       ],
-      "customer": "Druckhaus Humburg"
+      "customer": "Druckhaus Humburg",
+      "category": "E-Commerce & Web2Print"
     },
     {
       "name": "HCH HandelsContor Hamburg – Webshop & Portal",
@@ -1991,7 +2101,9 @@
         "Suchmaschinenoptimierung"
       ],
       "image": "hch.png",
-      "customer": "HCH HandelsContor Hamburg GmbH"
+      "customer": "HCH HandelsContor Hamburg GmbH",
+      "category": "E-Commerce & Web2Print",
+      "featured": true
     },
     {
       "name": "HWT Hansen / heizungsfirma.de",
@@ -2012,7 +2124,8 @@
         "Technology: CSS",
         "Technology: JavaScript"
       ],
-      "customer": "HWT Hansen"
+      "customer": "HWT Hansen",
+      "category": "Web Development"
     },
     {
       "name": "MP Multipack AG – Webshop & medienneutrale Datenbank",
@@ -2029,7 +2142,9 @@
         "Suchmaschinenoptimierung"
       ],
       "image": "multipack.png",
-      "customer": "MP Multipack AG"
+      "customer": "MP Multipack AG",
+      "category": "E-Commerce & Web2Print",
+      "featured": true
     },
     {
       "name": "MVD – Das Print-Partner-Netzwerk",
@@ -2044,7 +2159,8 @@
         "Kundenservice"
       ],
       "image": "mvd_neu.png",
-      "customer": "MVD Medienverbund Deutschland"
+      "customer": "MVD Medienverbund Deutschland",
+      "category": "E-Commerce & Web2Print"
     },
     {
       "name": "NordCap – Web2Print Tool",
@@ -2059,7 +2175,9 @@
         "Datenbankprogrammierung"
       ],
       "image": "nordcap.png",
-      "customer": "NordCap AG"
+      "customer": "NordCap AG",
+      "category": "E-Commerce & Web2Print",
+      "featured": true
     },
     {
       "name": "Robert Pack Fotodesign Website",
@@ -2079,7 +2197,8 @@
         "Technology: JavaScript",
         "Technology: Eigenes CMS"
       ],
-      "customer": "Robert Pack Fotodesign"
+      "customer": "Robert Pack Fotodesign",
+      "category": "Web Development"
     },
     {
       "name": "Tuefekci Portfolio (frühe Version)",
@@ -2096,7 +2215,8 @@
         "Technology: HTML5",
         "Technology: CSS3",
         "Technology: JavaScript"
-      ]
+      ],
+      "category": "Web Development"
     },
     {
       "name": "Tuefekci.eu – Animierte Portfolio-Website",
@@ -2116,7 +2236,8 @@
         "Technology: jQuery",
         "Technology: Spritely",
         "Technology: Facebook OG"
-      ]
+      ],
+      "category": "Web Development"
     },
     {
       "name": "an Bord Verlag Website",
@@ -2138,7 +2259,8 @@
         "Technology: CSS",
         "Technology: JavaScript"
       ],
-      "customer": "an Bord Verlag"
+      "customer": "an Bord Verlag",
+      "category": "Game & Creative"
     },
     {
       "name": "ASP Automotive GmbH \"Genuss-Portal\" Web2Print",
@@ -2151,7 +2273,8 @@
         "Technology: Web2Print",
         "Technology: AdobeScript",
         "Technology: InDesign"
-      ]
+      ],
+      "category": "E-Commerce & Web2Print"
     },
     {
       "name": "AvanCarte Produkt Datenbank & Webshop",
@@ -2164,7 +2287,8 @@
         "Technology: B2B",
         "Technology: Webshop",
         "Technology: Database"
-      ]
+      ],
+      "category": "E-Commerce & Web2Print"
     },
     {
       "name": "Decoramic Wertgutschein-Portal & POS",
@@ -2177,7 +2301,8 @@
         "Technology: E-Commerce",
         "Technology: Product Designer",
         "Technology: POS"
-      ]
+      ],
+      "category": "E-Commerce & Web2Print"
     },
     {
       "name": "Exori Website",
@@ -2197,7 +2322,8 @@
         "Technology: CSS",
         "Technology: JavaScript"
       ],
-      "customer": "Exori"
+      "customer": "Exori",
+      "category": "Web Development"
     },
     {
       "name": "IA System Web2Print/CRM",
@@ -2210,7 +2336,8 @@
         "Technology: Web2Print",
         "Technology: CRM",
         "Technology: Visitenkarten"
-      ]
+      ],
+      "category": "E-Commerce & Web2Print"
     },
     {
       "name": "Ludwig von Kapff Database-Publishing",
@@ -2222,7 +2349,8 @@
         "Technology: Connexus",
         "Technology: IA System",
         "Technology: Database-Publishing"
-      ]
+      ],
+      "category": "E-Commerce & Web2Print"
     },
     {
       "name": "SchokoFoto",
@@ -2244,7 +2372,8 @@
         "Technology: PDF",
         "Technology: JavaScript"
       ],
-      "customer": "SchokoFoto"
+      "customer": "SchokoFoto",
+      "category": "Game & Creative"
     },
     {
       "name": "Battlehost – Hosting Management",
@@ -2260,7 +2389,8 @@
         "Technology: MySQL",
         "Technology: Linux",
         "Technology: Hosting-Management"
-      ]
+      ],
+      "category": "DevOps & Infrastructure"
     },
     {
       "name": "ISH Webhosting Plattform",
@@ -2278,7 +2408,8 @@
         "Technology: Apache",
         "Technology: DNS",
         "Technology: E-Mail"
-      ]
+      ],
+      "category": "DevOps & Infrastructure"
     },
     {
       "name": "Alkohol.in – Graphics Renderer & iOS UI Sim",
@@ -2296,7 +2427,8 @@
         "Technology: HTML",
         "Technology: CSS",
         "Technology: JavaScript"
-      ]
+      ],
+      "category": "Web Development"
     },
     {
       "name": "LudumDare48 Game (Hobby)",
@@ -2309,7 +2441,8 @@
         "Technology: JavaScript",
         "Technology: Game Development",
         "Technology: Node-Webkit"
-      ]
+      ],
+      "category": "Game & Creative"
     },
     {
       "name": "SaveFM Desktop & Mobile App",
@@ -2322,7 +2455,9 @@
         "Technology: Mobile App",
         "Technology: Desktop App",
         "Technology: Radio"
-      ]
+      ],
+      "category": "Mobile & Desktop Apps",
+      "featured": true
     },
     {
       "name": "Alkohol.in Grafik Renderer",
@@ -2336,7 +2471,8 @@
         "Technology: iOS",
         "Technology: UI",
         "Technology: Fun Portal"
-      ]
+      ],
+      "category": "Web Development"
     },
     {
       "name": "Verwaltungssoftware für Webhoster (Hostnetzwerk)",
@@ -2350,7 +2486,8 @@
         "Technology: Hosting",
         "Technology: Backend",
         "Technology: Rechnungsstellung"
-      ]
+      ],
+      "category": "DevOps & Infrastructure"
     },
     {
       "name": "Virtual Currency / Bitcoin Tooling",
@@ -2367,7 +2504,8 @@
         "Technology: PHP",
         "Technology: MySQL",
         "Technology: API"
-      ]
+      ],
+      "category": "Libraries & Developer Tools"
     },
     {
       "name": "Flash Games & Websites",
@@ -2384,7 +2522,8 @@
         "Technology: ActionScript 2.0",
         "Technology: PHP",
         "Technology: MySQL"
-      ]
+      ],
+      "category": "Game & Creative"
     },
     {
       "name": "Clan Websites",
@@ -2402,7 +2541,8 @@
         "Technology: Fireworks MX",
         "Technology: phpBB",
         "Technology: Photoshop"
-      ]
+      ],
+      "category": "Web Development"
     }
   ],
   "meta": {
