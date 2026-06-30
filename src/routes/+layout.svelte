@@ -4,6 +4,7 @@
 	import { page } from '$app/stores';  
 	import { base } from '$app/paths';
 	const resume = data.props.resume;
+	const age = new Date().getFullYear() - parseInt(resume.basics.birth.date);
 
 	import MenuItem from '$lib/components/menuItem.svelte';
 	import PageTransition from './transition.svelte'
@@ -77,9 +78,9 @@
 		<div
 			class="grid grid-cols-12 md:gap-5 xl:gap-10 lg:p-5 xl:p-0 justify-between lg:mt-[120px] lg:mb-[120px] print:hidden"
 		>
-			<div class="col-span-12 lg:col-span-4 lg:self-start">
+			<div class="col-span-12 lg:col-span-4">
 				<div
-					class="w-full mb-6 print:mb-0 lg:mb-0 mx-auto bg-white text-center dark:bg-[#111111] px-6 lg:rounded-[20px] mt-[0px] lg:mt-0 lg:sticky top-44 print:relative print:top-0 print:h-screen hidden lg:block"
+					class="w-full mb-6 print:mb-0 lg:mb-0 mx-auto bg-white text-center dark:bg-[#111111] px-6 lg:rounded-[20px] mt-[0px] lg:mt-0 lg:sticky top-44 print:relative print:top-0 print:h-screen lg:max-h-screen hidden lg:block"
 					
 				>
 				<img
@@ -126,8 +127,8 @@
 							</div>
 							<div class="flex py-2.5 border-b border-[#E3E3E3] dark:border-[#3D3A3A]">
 								<div class="text-left ml-2.5">
-									<p class="text-xs text-[#44566C] dark:text-[#A6A6A6]">Birth / Nationality</p>
-									<a class="dark:text-white break-all hover:text-[#FA5252] duration-300 transition" target="_blank" href="https://www.google.de/maps/place/{resume.basics.birth.city}/">{resume.basics.birth.date}, {resume.basics.birth.city} / {resume.basics.birth.countryCode}</a>
+									<p class="text-xs text-[#44566C] dark:text-[#A6A6A6]">Age / Nationality</p>
+									<p class="dark:text-white">{age} / {resume.basics.birth.countryCode}</p>
 								</div>
 
 							</div>
