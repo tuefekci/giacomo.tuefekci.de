@@ -17,23 +17,23 @@
 <div class="min-h-screen dark:text-white w-full h-full gradient-background print:bg-transparent print:text-black">
 
 	<div class="fixed top-0 left-0 right-0 z-50 lg:hidden bg-white dark:bg-[#111111] shadow-md border-b border-[#E3E3E3] dark:border-[#3D3A3A]">
-		<div class="flex items-start gap-3 px-4 pt-3 pb-2">
+		<div class="flex items-start gap-3 px-5 pt-4 pb-2.5">
 			<img src="{resume.basics.image}"
 				alt="avatar"
-				class="w-12 h-12 rounded-lg object-cover flex-shrink-0"
+				class="w-14 h-14 rounded-lg object-cover flex-shrink-0"
 			/>
 			<div class="min-w-0 flex-1">
 				<div class="flex items-baseline gap-1.5 flex-wrap">
-					<span class="font-semibold text-sm dark:text-white truncate">{resume.basics.name}</span>
-					<span class="text-[11px] text-[#7B7B7B] truncate">· {resume.basics.label}</span>
+					<span class="font-semibold text-base dark:text-white truncate">{resume.basics.name}</span>
+					<span class="text-sm text-[#7B7B7B] truncate">· {resume.basics.label}</span>
 				</div>
-				<div class="w-full flex justify-between flex-wrap gap-x-1 text-[10px] text-[#7B7B7B] mt-0.5 leading-tight">
-					<span>{resume.basics.location.city}</span>
-					<span class="truncate">{resume.basics.email}</span>
+				<div class="w-full flex justify-between text-[10px] text-[#7B7B7B] mt-0.5 leading-tight">
 					<span>Born {resume.basics.birth.date}, {resume.basics.birth.city}</span>
-					{#each resume.languages as lang, i}
-						<span>{i > 0 ? "· " : ""}{lang.language} ({lang.fluency})</span>
-					{/each}
+					<span>{#each resume.languages as lang, i}{i > 0 ? " · " : ""}{lang.language} ({lang.fluency}){/each}</span>
+				</div>
+				<div class="w-full flex justify-between text-[10px] text-[#7B7B7B] leading-tight">
+					<span>{resume.basics.email}</span>
+					<span>Based in {resume.basics.location.city}</span>
 				</div>
 			</div>
 		</div>
@@ -41,7 +41,7 @@
 			{#each [{p:"", label:"About"},{p:"cv", label:"Resume"},{p:"portfolio", label:"Works"}] as item}
 				{@const active = $page.url.pathname.replace(/\/$/, '') === (base + '/' + item.p).replace(/\/$/, '')}
 				<a href="{base}/{item.p}"
-					class="flex-1 text-center pt-3 pb-4 text-xs font-medium transition-colors relative {active ? 'text-[#FA5252]' : 'text-[#7B7B7B] hover:text-[#FA5252] dark:hover:text-[#FA5252]'}"
+					class="flex-1 text-center pt-3.5 pb-5 text-sm font-medium transition-colors relative {active ? 'text-[#FA5252]' : 'text-[#7B7B7B] hover:text-[#FA5252] dark:hover:text-[#FA5252]'}"
 				>
 					{item.label}
 					{#if active}
@@ -132,7 +132,7 @@
 
 			<div class="col-span-12 lg:col-span-8">
 
-				<div class="bg-white dark:bg-[#111111] md:rounded-[20px] pt-[120px] lg:pt-0 mt-0 lg:mt-0 print:p-0 print:m-0">
+				<div class="bg-white dark:bg-[#111111] md:rounded-[20px] pt-[140px] lg:pt-0 mt-0 lg:mt-0 print:p-0 print:m-0">
 					<header class="print:hidden hidden lg:block bg-[#F8F9FA] dark:bg-[#1A1A1A] rounded-t-[20px] border-b border-[#E3E3E3] dark:border-[#3D3A3A]">
 						<nav class="flex items-center gap-1 px-6 pt-3 pb-3">
 							<MenuItem path="" icon="about">About</MenuItem>
