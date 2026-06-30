@@ -37,7 +37,6 @@ const ld = {
         "@type": "Language",
         "name": l.language
     })),
-    "knowsAbout": resume.skills.flatMap(s => s.keywords || []),
     "hasOccupation": resume.work.map(w => ({
         "@type": "Occupation",
         "name": w.position,

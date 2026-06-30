@@ -77,9 +77,9 @@
 		<div
 			class="grid grid-cols-12 md:gap-5 xl:gap-10 lg:p-5 xl:p-0 justify-between lg:mt-[120px] lg:mb-[120px] print:hidden"
 		>
-			<div class="col-span-12 lg:col-span-4 ">
+			<div class="col-span-12 lg:col-span-4 lg:self-start">
 				<div
-					class="w-full mb-6 print:mb-0 lg:mb-0 mx-auto bg-white text-center dark:bg-[#111111] px-6 lg:rounded-[20px] mt-[0px] lg:mt-0 lg:sticky top-44 print:relative print:top-0 print:h-screen lg:max-h-screen hidden lg:block"
+					class="w-full mb-6 print:mb-0 lg:mb-0 mx-auto bg-white text-center dark:bg-[#111111] px-6 lg:rounded-[20px] mt-[0px] lg:mt-0 lg:sticky top-44 print:relative print:top-0 print:h-screen hidden lg:block"
 					
 				>
 				<img
@@ -147,11 +147,16 @@
 						</div>
 					</div>
 
-					<div class="pt-4 pb-8 hidden lg:block">
+					<div class="pt-4 pb-4 hidden lg:block">
 						<button on:click={() => window.print()}
 							class="w-full py-2.5 px-4 rounded-lg bg-[#FA5252] text-white text-sm font-medium hover:bg-[#e04848] transition-colors cursor-pointer">
 							↓ Download PDF
 						</button>
+
+						<a href="{base}/exports"
+							class="mt-2 block w-full py-2 px-4 rounded-lg text-center text-sm font-medium text-[#7B7B7B] dark:text-[#7B7B7B] hover:text-[#FA5252] dark:hover:text-[#FA5252] transition-colors">
+							Download Export Formats
+						</a>
 					</div>
 
 				</div>

@@ -1,0 +1,21 @@
+{
+  "resume": {
+    "url": "https://giacomo.tuefekci.de/cv",
+    "api": "https://giacomo.tuefekci.de/api/resume",
+    "formats": {
+      "JSON Resume": "https://giacomo.tuefekci.de/resume.json",
+      "Schema.org JSON-LD": "https://giacomo.tuefekci.de/resume.schema.json",
+      "Schema Resume": "https://giacomo.tuefekci.de/resume.schema-resume.json",
+      "ResumeJSON": "https://giacomo.tuefekci.de/resume.resume.json",
+      "Open Talent Protocol": "https://giacomo.tuefekci.de/resume.otp.json",
+      "OpenResume": "https://giacomo.tuefekci.de/resume.openresume.json",
+      "OCF": "https://giacomo.tuefekci.de/resume.ocf.json",
+      "Universal Resume": "https://giacomo.tuefekci.de/resume.universal.json",
+      "FreeCV": "https://giacomo.tuefekci.de/resume.cv.json",
+      "Barba-CV": "https://giacomo.tuefekci.de/resume.barba-cv.json",
+      "Applicant Profile Protocol": "https://giacomo.tuefekci.de/resume.app.json",
+      "HR-XML": "https://giacomo.tuefekci.de/resume.hr-xml.xml",
+      "Europass": "https://giacomo.tuefekci.de/resume.europass.xml"
+    }
+  }
+}

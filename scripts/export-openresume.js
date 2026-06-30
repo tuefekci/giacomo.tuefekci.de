@@ -10,8 +10,6 @@ const dstDocs = resolve(dir, 'docs', 'resume.openresume.json');
 const r = JSON.parse(readFileSync(src, 'utf8'));
 const b = r.basics;
 
-const nameParts = b.name.split(' ');
-
 const openResume = {
     version: '0.0.1',
     format: 'orf',

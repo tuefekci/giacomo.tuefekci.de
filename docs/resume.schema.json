@@ -31,6 +31,216 @@
       "name": "English"
     }
   ],
+  "hasOccupation": [
+    {
+      "@type": "Occupation",
+      "name": "Full Stack Software Developer",
+      "startDate": "2020-01-01",
+      "employer": {
+        "@type": "Organization",
+        "name": "Tüfekci Software Development & Consulting",
+        "location": {
+          "@type": "Place",
+          "address": "Bremen"
+        }
+      }
+    },
+    {
+      "@type": "Occupation",
+      "name": "Cloud Development / Software Developer",
+      "startDate": "2018-03-01",
+      "endDate": "2019-10-31",
+      "employer": {
+        "@type": "Organization",
+        "name": ""
+      }
+    },
+    {
+      "@type": "Occupation",
+      "name": "Productowner",
+      "description": "I submitted my resignation as the project was terminated based on my recommendation. The progress made did not align with the expectations as documented by the management. Although an alternative employment opportunity was offered, I declined.",
+      "startDate": "2017-09-01",
+      "endDate": "2018-02-28",
+      "employer": {
+        "@type": "Organization",
+        "name": "RR Software GmbH",
+        "location": {
+          "@type": "Place",
+          "address": "Hasselfelde"
+        }
+      }
+    },
+    {
+      "@type": "Occupation",
+      "name": "Lead Web / Software Developer",
+      "description": "Responsibilities included developing Web2Print, booking (pmkino) and E-Commerce solutions, as well as planning and implementing websites using WordPress. Promoted to Lead Web Developer / Software Developer after one year.",
+      "startDate": "2015-07-01",
+      "endDate": "2017-08-31",
+      "employer": {
+        "@type": "Organization",
+        "name": "planetmutlu gmbh & co. kg",
+        "location": {
+          "@type": "Place",
+          "address": "Bremen"
+        }
+      }
+    },
+    {
+      "@type": "Occupation",
+      "name": "Freelance Full Stack Web Developer",
+      "startDate": "2014-06-01",
+      "endDate": "2015-06-31",
+      "employer": {
+        "@type": "Organization",
+        "name": "Tüfekci Software Development & Consulting",
+        "location": {
+          "@type": "Place",
+          "address": "Bremen"
+        }
+      }
+    },
+    {
+      "@type": "Occupation",
+      "name": "Lead IT Manager",
+      "description": "Transfered from Subsidiary image advertising gmbh & co. kg, started as a Software Developer, I developed Web2Print, database, and E-Commerce solutions while also leading the planning and implementation of websites. Within one year, I was promoted to IT Manager",
+      "startDate": "2013-08-01",
+      "endDate": "2014-05-31",
+      "employer": {
+        "@type": "Organization",
+        "name": "Humburg Media Group (Druckhaus Humburg)",
+        "location": {
+          "@type": "Place",
+          "address": "Bremen"
+        }
+      }
+    },
+    {
+      "@type": "Occupation",
+      "name": "Apprenticeship Media Designer",
+      "description": "Implemented layouts and developed applications and websites using CakePHP, Joomla, and other related technologies.",
+      "startDate": "2010-08-01",
+      "endDate": "2013-08-31",
+      "employer": {
+        "@type": "Organization",
+        "name": "image advertising gmbh & co. kg",
+        "location": {
+          "@type": "Place",
+          "address": "Bremen"
+        }
+      }
+    },
+    {
+      "@type": "Occupation",
+      "name": "CTO & Co Founder",
+      "description": "Designed and developed a desktop and mobile application using Node-Webkit and Phonegap that automatically records web radio streams and shares them via the cloud. Project terminated due to legal cost issues.",
+      "startDate": "2010-01-01",
+      "endDate": "2010-12-31",
+      "employer": {
+        "@type": "Organization",
+        "name": "SaveFM",
+        "location": {
+          "@type": "Place",
+          "address": "Bremen"
+        }
+      }
+    },
+    {
+      "@type": "Occupation",
+      "name": "Apprenticeship Cook",
+      "description": "The profession demanded creativity and I quite liked it, but unfortunately, I had to quit due to allergic reactions.",
+      "startDate": "2009",
+      "endDate": "2010-06-31",
+      "employer": {
+        "@type": "Organization",
+        "name": "Maritim Hotel Bremen",
+        "location": {
+          "@type": "Place",
+          "address": "Bremen"
+        }
+      }
+    },
+    {
+      "@type": "Occupation",
+      "name": "Parttime Line Cook / Service Staff",
+      "description": "",
+      "startDate": "2008",
+      "endDate": "2009-09-31",
+      "employer": {
+        "@type": "Organization",
+        "name": "Maritim Hotel Bremen",
+        "location": {
+          "@type": "Place",
+          "address": "Bremen"
+        }
+      }
+    },
+    {
+      "@type": "Occupation",
+      "name": "Freelance Web Developer",
+      "startDate": "2008-01-01",
+      "endDate": "2010-08-31",
+      "employer": {
+        "@type": "Organization",
+        "name": "Tüfekci Software Development & Consulting",
+        "location": {
+          "@type": "Place",
+          "address": "Bremen"
+        }
+      }
+    },
+    {
+      "@type": "Occupation",
+      "name": "Parttime Cashier and Stocker",
+      "description": "",
+      "startDate": "2007",
+      "endDate": "2009",
+      "employer": {
+        "@type": "Organization",
+        "name": "ASG Supermarket",
+        "location": {
+          "@type": "Place",
+          "address": "Bremen"
+        }
+      }
+    },
+    {
+      "@type": "Occupation",
+      "name": "Parttime Cashier and Stocker",
+      "description": "",
+      "startDate": "2007",
+      "endDate": "2008",
+      "employer": {
+        "@type": "Organization",
+        "name": "GP (Getränke Partner)",
+        "location": {
+          "@type": "Place",
+          "address": "Bremen"
+        }
+      }
+    }
+  ],
+  "alumniOf": [
+    {
+      "@type": "EducationalOrganization",
+      "name": "Wilhelm Wagenfeld-Schule",
+      "description": "journeyman's certificate, specialized in Design and Technology in Media Designer"
+    },
+    {
+      "@type": "EducationalOrganization",
+      "name": "SZ Rübekamp",
+      "description": "journeyman's certificate, early dropout due to allergic reactions. in Apprenticeship Cook"
+    },
+    {
+      "@type": "EducationalOrganization",
+      "name": "FOS Delmestrasse",
+      "description": "vocational baccalaureate (completed practical part) in Social Pedagogy"
+    },
+    {
+      "@type": "EducationalOrganization",
+      "name": "SZ Drebberstraße",
+      "description": "secondary school (certificate Real school) in Highschool"
+    }
+  ],
   "knowsAbout": [
     "AJAX",
     "AMPHP",
@@ -246,216 +456,6 @@
     "magnet",
     "phpFastCache",
     "torrent"
-  ],
-  "hasOccupation": [
-    {
-      "@type": "Occupation",
-      "name": "Full Stack Software Developer",
-      "startDate": "2020-01-01",
-      "employer": {
-        "@type": "Organization",
-        "name": "Tüfekci Software Development & Consulting",
-        "location": {
-          "@type": "Place",
-          "address": "Bremen"
-        }
-      }
-    },
-    {
-      "@type": "Occupation",
-      "name": "Cloud Development / Software Developer",
-      "startDate": "2018-03-01",
-      "endDate": "2019-10-31",
-      "employer": {
-        "@type": "Organization",
-        "name": ""
-      }
-    },
-    {
-      "@type": "Occupation",
-      "name": "Productowner",
-      "description": "I submitted my resignation as the project was terminated based on my recommendation. The progress made did not align with the expectations as documented by the management. Although an alternative employment opportunity was offered, I declined.",
-      "startDate": "2017-09-01",
-      "endDate": "2018-02-28",
-      "employer": {
-        "@type": "Organization",
-        "name": "RR Software GmbH",
-        "location": {
-          "@type": "Place",
-          "address": "Hasselfelde"
-        }
-      }
-    },
-    {
-      "@type": "Occupation",
-      "name": "Lead Web / Software Developer",
-      "description": "Responsibilities included developing Web2Print, booking (pmkino) and E-Commerce solutions, as well as planning and implementing websites using WordPress. Promoted to Lead Web Developer / Software Developer after one year.",
-      "startDate": "2015-07-01",
-      "endDate": "2017-08-31",
-      "employer": {
-        "@type": "Organization",
-        "name": "planetmutlu gmbh & co. kg",
-        "location": {
-          "@type": "Place",
-          "address": "Bremen"
-        }
-      }
-    },
-    {
-      "@type": "Occupation",
-      "name": "Freelance Full Stack Web Developer",
-      "startDate": "2014-06-01",
-      "endDate": "2015-06-31",
-      "employer": {
-        "@type": "Organization",
-        "name": "Tüfekci Software Development & Consulting",
-        "location": {
-          "@type": "Place",
-          "address": "Bremen"
-        }
-      }
-    },
-    {
-      "@type": "Occupation",
-      "name": "Lead IT Manager",
-      "description": "Transfered from Subsidiary image advertising gmbh & co. kg, started as a Software Developer, I developed Web2Print, database, and E-Commerce solutions while also leading the planning and implementation of websites. Within one year, I was promoted to IT Manager",
-      "startDate": "2013-08-01",
-      "endDate": "2014-05-31",
-      "employer": {
-        "@type": "Organization",
-        "name": "Humburg Media Group (Druckhaus Humburg)",
-        "location": {
-          "@type": "Place",
-          "address": "Bremen"
-        }
-      }
-    },
-    {
-      "@type": "Occupation",
-      "name": "Apprenticeship Media Designer",
-      "description": "Implemented layouts and developed applications and websites using CakePHP, Joomla, and other related technologies.",
-      "startDate": "2010-08-01",
-      "endDate": "2013-08-31",
-      "employer": {
-        "@type": "Organization",
-        "name": "image advertising gmbh & co. kg",
-        "location": {
-          "@type": "Place",
-          "address": "Bremen"
-        }
-      }
-    },
-    {
-      "@type": "Occupation",
-      "name": "CTO & Co Founder",
-      "description": "Designed and developed a desktop and mobile application using Node-Webkit and Phonegap that automatically records web radio streams and shares them via the cloud. Project terminated due to legal cost issues.",
-      "startDate": "2010-01-01",
-      "endDate": "2010-12-31",
-      "employer": {
-        "@type": "Organization",
-        "name": "SaveFM",
-        "location": {
-          "@type": "Place",
-          "address": "Bremen"
-        }
-      }
-    },
-    {
-      "@type": "Occupation",
-      "name": "Apprenticeship Cook",
-      "description": "The profession demanded creativity and I quite liked it, but unfortunately, I had to quit due to allergic reactions.",
-      "startDate": "2009",
-      "endDate": "2010-06-31",
-      "employer": {
-        "@type": "Organization",
-        "name": "Maritim Hotel Bremen",
-        "location": {
-          "@type": "Place",
-          "address": "Bremen"
-        }
-      }
-    },
-    {
-      "@type": "Occupation",
-      "name": "Parttime Line Cook / Service Staff",
-      "description": "",
-      "startDate": "2008",
-      "endDate": "2009-09-31",
-      "employer": {
-        "@type": "Organization",
-        "name": "Maritim Hotel Bremen",
-        "location": {
-          "@type": "Place",
-          "address": "Bremen"
-        }
-      }
-    },
-    {
-      "@type": "Occupation",
-      "name": "Freelance Web Developer",
-      "startDate": "2008-01-01",
-      "endDate": "2010-08-31",
-      "employer": {
-        "@type": "Organization",
-        "name": "Tüfekci Software Development & Consulting",
-        "location": {
-          "@type": "Place",
-          "address": "Bremen"
-        }
-      }
-    },
-    {
-      "@type": "Occupation",
-      "name": "Parttime Cashier and Stocker",
-      "description": "",
-      "startDate": "2007",
-      "endDate": "2009",
-      "employer": {
-        "@type": "Organization",
-        "name": "ASG Supermarket",
-        "location": {
-          "@type": "Place",
-          "address": "Bremen"
-        }
-      }
-    },
-    {
-      "@type": "Occupation",
-      "name": "Parttime Cashier and Stocker",
-      "description": "",
-      "startDate": "2007",
-      "endDate": "2008",
-      "employer": {
-        "@type": "Organization",
-        "name": "GP (Getränke Partner)",
-        "location": {
-          "@type": "Place",
-          "address": "Bremen"
-        }
-      }
-    }
-  ],
-  "alumniOf": [
-    {
-      "@type": "EducationalOrganization",
-      "name": "Wilhelm Wagenfeld-Schule",
-      "description": "journeyman's certificate, specialized in Design and Technology in Media Designer"
-    },
-    {
-      "@type": "EducationalOrganization",
-      "name": "SZ Rübekamp",
-      "description": "journeyman's certificate, early dropout due to allergic reactions. in Apprenticeship Cook"
-    },
-    {
-      "@type": "EducationalOrganization",
-      "name": "FOS Delmestrasse",
-      "description": "vocational baccalaureate (completed practical part) in Social Pedagogy"
-    },
-    {
-      "@type": "EducationalOrganization",
-      "name": "SZ Drebberstraße",
-      "description": "secondary school (certificate Real school) in Highschool"
-    }
   ],
   "worksFor": [
     {

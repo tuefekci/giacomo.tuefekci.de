@@ -10,7 +10,6 @@ const dstDocs = resolve(dir, 'docs', 'resume.universal.json');
 const resume = JSON.parse(readFileSync(src, 'utf8'));
 const b = resume.basics;
 
-const nameParts = (b.name || '').split(' ');
 const linkedinProfile = (b.profiles || []).find(p => p.network === 'LinkedIn');
 
 const skillLevelMap = {
