@@ -103,21 +103,30 @@
 							{resume.basics.label}
 						</h2>
 						
-						<div class="p-7 print:p-3 rounded-2xl mt-2 print:mt-0 bg-[#F3F6F6] dark:bg-[#1D1D1D]">
+						<div class="p-5 print:p-3 rounded-2xl mt-2 print:mt-0 bg-[#F3F6F6] dark:bg-[#1D1D1D]">
 
-							<div class="flex py-2.5 border-b border-[#E3E3E3] dark:border-[#3D3A3A]">
+							{#if resume.basics.availability?.status === 'open'}
+								<div class="flex justify-center py-2.5 -mx-5 -mt-5 mb-0 rounded-t-2xl border-b border-[#E3E3E3] dark:border-[#3D3A3A] text-xs font-medium text-green-700 bg-green-100 dark:text-green-300 dark:bg-green-900/50">
+									<span class="flex items-center gap-1">
+										<span class="w-1.5 h-1.5 rounded-full bg-green-500 inline-block animate-breathe" />
+										Open for {resume.basics.availability.workType.join(", ")}
+									</span>
+								</div>
+							{/if}
+
+							<div class="flex py-2 border-b border-[#E3E3E3] dark:border-[#3D3A3A]">
 								<div class="text-left ml-2.5">
 									<p class="text-xs text-[#44566C] dark:text-[#A6A6A6]">Location</p>
-									<a class="dark:text-white break-all hover:text-[#FA5252] duration-300 transition" target="_blank" href="https://www.google.de/maps/place/{resume.basics.location.city}/">
+									<a class="text-xs dark:text-white break-all hover:text-[#FA5252] duration-300 transition" target="_blank" href="https://www.google.de/maps/place/{resume.basics.location.city}/">
 										{resume.basics.location.city}, 
 										{resume.basics.location.countryCode}
 									</a>
 								</div>
 							</div>
-							<div class="flex py-2.5 border-b border-[#E3E3E3] dark:border-[#3D3A3A]">
+							<div class="flex py-2 border-b border-[#E3E3E3] dark:border-[#3D3A3A]">
 								<div class="text-left ml-2.5">
 									<p class="text-xs text-[#44566C] dark:text-[#A6A6A6]">Email</p>
-									<p class="dark:text-white break-all">
+									<p class="text-xs dark:text-white break-all">
 										<a
 											class="hover:text-[#FA5252] duration-300 transition"
 											href="mailto:{resume.basics.email}">{resume.basics.email}</a
@@ -125,18 +134,28 @@
 									</p>
 								</div>
 							</div>
-							<div class="flex py-2.5 border-b border-[#E3E3E3] dark:border-[#3D3A3A]">
+							<div class="flex py-2 border-b border-[#E3E3E3] dark:border-[#3D3A3A]">
+								<div class="text-left ml-2.5">
+									<p class="text-xs text-[#44566C] dark:text-[#A6A6A6]">GitHub</p>
+									<p class="text-xs dark:text-white break-all">
+										<a class="hover:text-[#FA5252] duration-300 transition" target="_blank" href="{resume.basics.profiles[0].url}">
+											@{resume.basics.profiles[0].username}
+										</a>
+									</p>
+								</div>
+							</div>
+							<div class="flex py-2 border-b border-[#E3E3E3] dark:border-[#3D3A3A]">
 								<div class="text-left ml-2.5">
 									<p class="text-xs text-[#44566C] dark:text-[#A6A6A6]">Age / Nationality</p>
-									<p class="dark:text-white">{age} / {resume.basics.birth.countryCode}</p>
+									<p class="text-xs dark:text-white">{age} / {resume.basics.birth.countryCode}</p>
 								</div>
 
 							</div>
 
-							<div class="flex py-2.5 border-b border-[#E3E3E3] dark:border-[#3D3A3A]">
+							<div class="flex py-2 border-b border-[#E3E3E3] dark:border-[#3D3A3A]">
 								<div class="text-left ml-2.5">
 									<p class="text-xs text-[#44566C] dark:text-[#A6A6A6]">Languages</p>
-									<div class="flex gap-x-2 gap-y-2 flex-wrap">
+									<div class="flex gap-x-2 gap-y-1 text-xs flex-wrap">
 										{#each resume.languages as language }
 											<div>{language.language} ({language.fluency})</div>
 										{/each}

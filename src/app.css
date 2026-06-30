@@ -23,6 +23,7 @@ html {
 .gradient-background {
 	background: linear-gradient(122deg, #0d1225, #3e2533, #fa5252, #ff6565);
 	background-size: 180% 180%;
+	background-attachment: fixed;
 	animation: gradient-animation 30s ease infinite;
 }
 
@@ -49,6 +50,15 @@ html {
 	100% {
 		background-position: 0% 50%;
 	}
+}
+
+@keyframes breathe {
+	0%, 100% { opacity: 0.4; transform: scale(0.9); }
+	50% { opacity: 1; transform: scale(1.1); }
+}
+
+.animate-breathe {
+	animation: breathe 3s ease-in-out infinite;
 }
 
 @media print {

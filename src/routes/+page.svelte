@@ -4,6 +4,13 @@
 	export let data;
 
 	const resume = data.props.resume;
+
+	const stats = {
+		experience: new Date().getFullYear() - 2008,
+		projects: resume.projects?.length ?? 0,
+		industries: resume.basics.industries?.length ?? 0,
+		skills: resume.skills?.reduce((sum, s) => sum + (s.keywords?.length ?? 0), 0) ?? 0
+	};
 </script>
 
 <!-- SEO -->
@@ -31,12 +38,49 @@
         <p class="text-gray-lite dark:text-white/60 leading-7">
           {resume.basics.summary}
         </p>
-
-      </div>
-    </div>
-  </div>
-  
 </div>
+</div>
+
+</div>
+
+</div>
+
+<div class="pt-12">
+	<div class="grid gap-4 grid-cols-2 md:grid-cols-4">
+		<div class="p-4 rounded bg-[#F8F9FA] dark:bg-[#1A1A1A] border border-[#E3E3E3] dark:border-[#3D3A3A] text-center">
+			<p class="text-2xl font-bold text-[#FA5252]">{stats.experience}+</p>
+			<p class="text-xs text-[#44566C] dark:text-[#A6A6A6] mt-1">Years of Experience</p>
+		</div>
+		<div class="p-4 rounded bg-[#F8F9FA] dark:bg-[#1A1A1A] border border-[#E3E3E3] dark:border-[#3D3A3A] text-center">
+			<p class="text-2xl font-bold text-[#FA5252]">{stats.projects}</p>
+			<p class="text-xs text-[#44566C] dark:text-[#A6A6A6] mt-1">Projects Delivered</p>
+		</div>
+		<div class="p-4 rounded bg-[#F8F9FA] dark:bg-[#1A1A1A] border border-[#E3E3E3] dark:border-[#3D3A3A] text-center">
+			<p class="text-2xl font-bold text-[#FA5252]">{stats.industries}</p>
+			<p class="text-xs text-[#44566C] dark:text-[#A6A6A6] mt-1">Industries Served</p>
+		</div>
+		<div class="p-4 rounded bg-[#F8F9FA] dark:bg-[#1A1A1A] border border-[#E3E3E3] dark:border-[#3D3A3A] text-center">
+			<p class="text-2xl font-bold text-[#FA5252]">{stats.skills}</p>
+			<p class="text-xs text-[#44566C] dark:text-[#A6A6A6] mt-1">Skills &amp; Tools</p>
+		</div>
+	</div>
+</div>
+
+{#if resume.basics.industries?.length}
+<div class="pt-12">
+	<div class="flex">
+		<h2 class="text-4xl">Industries</h2>
+		<div class="flex grow h-1 mt-5 ml-3 gradient-background-line"></div>
+	</div>
+	<div class="pt-6 flex gap-x-2 gap-y-2 flex-wrap">
+		{#each resume.basics.industries as industry}
+			<div class="bg-[#F3F6F6] dark:bg-[#1D1D1D] text-[#A6A6A6] text-[12px] px-3 py-1.5 rounded">
+				{industry}
+			</div>
+		{/each}
+	</div>
+</div>
+{/if}
 
 
 <div class="pt-12">
