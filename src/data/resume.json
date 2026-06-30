@@ -7,11 +7,11 @@
     "email": "giacomo@tuefekci.de",
     "phone": "",
     "url": "https://giacomo.tuefekci.de",
-    "summary": "Meet Giacomo Tüfekçi, a passionate Full-Stack Developer from Ludwigshafen am Rhein, Germany. With a diverse skill set, Giacomo has delved into web development, software, and even game design. He excels in various programming languages, web frameworks, and project management. Giacomo is a multilingual talent, fluent in German and proficient in English. Beyond tech, he loves reading web novels, gardening, and exploring the world of technology, electronics, anime, and gaming. His creative approach and broad expertise make him a versatile professional ready for exciting challenges.",
+    "summary": "I'm a Full-Stack Developer based in Ludwigshafen am Rhein, Germany, with a background in web development, software engineering, and game design. I enjoy building end-to-end solutions and working seamlessly across various programming languages and web frameworks. Beyond just writing code, I value strong project management to ensure ideas actually make it to production efficiently and on time. When I’m not at my keyboard, I’m usually tinkering with electronics, keeping up with new tech, or tending to my garden. I also enjoy winding down with gaming, anime, and web novels. I speak fluent German and English, and I always aim to bring a practical, creative approach to the software I build.",
     "birth": {
       "date": "1991",
       "city": "Bremen",
-      "countryCode": "DE"
+      "countryCode": "Germany"
     },
     "location": {
       "address": "Sedanstr. 26",
@@ -90,7 +90,7 @@
       "endDate": "2015-06-31"
     },
     {
-      "name": "Humburg Media Group (Durckhaus Humburg)",
+      "name": "Humburg Media Group (Druckhaus Humburg)",
       "location": "Bremen",
       "position": "Lead IT Manager",
       "startDate": "2013-08-01",
@@ -509,11 +509,11 @@
     },
     {
       "name": "AI & Machine Learning",
-      "summary": "I thoroughly enjoy experimenting with technologies like Stable Diffusion, DALL·E, ChatGPT, LLM, and more. I've created some exciting and intriguing prototypes. Unfortunately, I'm still in the process of acquiring the skills needed to train my own."
+      "summary": "I thrive on building with AI, focusing heavily on local-first architecture and integrating open-source models directly into desktop applications. From experimenting with foundational LLMs to deploying lightweight models natively via ONNX for real-time classification, I’m all about breaking free from SaaS walled gardens. I might not be training massive clusters from scratch, but I'm masterfully orchestrating them right on the edge."
     },
     {
       "name": "Technology & Electronics",
-      "summary": "I have a fondness for working with electronics, particularly Arduinos and ESPs. I'm always eager to dive into projects. Regrettably, my hands lack the steady precision needed to become a soldering expert, and a career as a surgeon is probably not in the cards for me either."
+      "summary": "I love tinkering with electronics and writing low-level code for Arduinos and ESP microcontrollers. It's the physical hardware where my grand ideas usually meet reality. That said, my hands lack the steady precision required to be a soldering expert, meaning a career as a neurosurgeon is definitely off the table, and my desktop prototype wiring occasionally looks like a pirate's rigging."
     },
     {
       "name": "Anime",
@@ -843,7 +843,7 @@
     {
       "name": "STOREFIT Website",
       "date": "2018",
-      "entity": "STOREFIT",
+      "entity": "planetmutlu gmbh & co. kg",
       "description": "Entwicklung der Website für STOREFIT. Moderner Webauftritt mit Informationen zu Fitness- und Gesundheitsdienstleistungen.",
       "highlights": [
         "Webentwicklung",
@@ -851,12 +851,13 @@
         "Technology: CMS",
         "Technology: Webentwicklung"
       ],
-      "image": "storefit-website-1.jpg"
+      "image": "storefit-website-1.jpg",
+      "customer": "STOREFIT"
     },
     {
       "name": "Union Rösterei Website",
       "date": "2018",
-      "entity": "Union Rösterei",
+      "entity": "planetmutlu gmbh & co. kg",
       "description": "Der Shop der Union Rösterei mit Feuer und Flamme handgecoded bei planetmutlu.",
       "url": "https://unionroesterei.de",
       "highlights": [
@@ -874,7 +875,8 @@
         "Technology: E-Commerce",
         "Technology: PHP"
       ],
-      "image": "102_union-roesterei_website_home-1.jpg"
+      "image": "102_union-roesterei_website_home-1.jpg",
+      "customer": "Union Rösterei"
     },
     {
       "name": "VB2Web Bridge und API",
@@ -894,7 +896,7 @@
     {
       "name": "BHV Bremen",
       "date": "2017",
-      "entity": "BHV Bremen",
+      "entity": "planetmutlu gmbh & co. kg",
       "description": "Ein kompletter Relaunch der BHV Bremen Website mit mehr als 250 Mitgliedern!",
       "url": "https://bhv-bremen.de",
       "highlights": [
@@ -911,12 +913,13 @@
         "Technology: PHP",
         "Technology: Datenbank"
       ],
-      "image": "102_bhv_website_home.jpg"
+      "image": "102_bhv_website_home.jpg",
+      "customer": "BHV Bremen"
     },
     {
       "name": "Bibliotheksportal",
       "date": "2017",
-      "entity": "Deutscher Bibliotheksverband e.V.",
+      "entity": "planetmutlu gmbh & co. kg",
       "description": "Das Bibliotheksportal des Kompetenznetzwerks für Bibliotheken informiert über Angebote und Leistungen von Bibliotheken und unterstützt deren Arbeit durch aktuelle Fachinformation.",
       "url": "https://bibliotheksportal.de",
       "highlights": [
@@ -935,7 +938,8 @@
         "Technology: Elementor",
         "Technology: Responsive"
       ],
-      "image": "102_bibliotheksportal_6.jpg"
+      "image": "102_bibliotheksportal_6.jpg",
+      "customer": "Deutscher Bibliotheksverband e.V."
     },
     {
       "name": "Docker-PHP7-Phalcon",
@@ -947,7 +951,7 @@
     {
       "name": "Forum Film & Kino Kongress 2017",
       "date": "2017",
-      "entity": "Forum Film & Kino",
+      "entity": "planetmutlu gmbh & co. kg",
       "description": "Dashboard und Web-Präsenz für den Forum Film & Kino Kongress 2017. Das Projekt wurde mit einer modernen Docker-basierten Entwicklungsumgebung umgesetzt, bestehend aus PHP-Backend und Node.js-Frontend mit Gulp-Build-System.",
       "highlights": [
         "Planung",
@@ -960,12 +964,13 @@
         "Technology: Docker",
         "Technology: JavaScript",
         "Technology: Gulp"
-      ]
+      ],
+      "customer": "Forum Film & Kino"
     },
     {
       "name": "Forum Film Kino 2018",
       "date": "2018",
-      "entity": "Forum Film Mediengesellschaft mbH",
+      "entity": "planetmutlu gmbh & co. kg",
       "description": "Umsetzung eines Registrierungsportals für Kongressteilnehmer inklusive einer umfangreichen Backend-Lösung zur Verwaltung der eingegangenen Anmeldungen durch das Forum Film-Team.",
       "highlights": [
         "Planung",
@@ -987,12 +992,13 @@
         "Technology: CRM",
         "Technology: Responsive"
       ],
-      "image": "Forum-FIlm3.jpg"
+      "image": "Forum-FIlm3.jpg",
+      "customer": "Forum Film Mediengesellschaft mbH"
     },
     {
       "name": "Geschmackslabor Website",
       "date": "2017",
-      "entity": "Geschmackslabor",
+      "entity": "planetmutlu gmbh & co. kg",
       "description": "Websitegestaltung mit unverwechselbarer Handschrift.",
       "url": "https://geschmackslabor.com",
       "highlights": [
@@ -1005,12 +1011,13 @@
         "Technology: Website",
         "Technology: CMS"
       ],
-      "image": "102_geschmackslabor_website_home.jpg"
+      "image": "102_geschmackslabor_website_home.jpg",
+      "customer": "Geschmackslabor"
     },
     {
       "name": "Hanselife",
       "date": "2017",
-      "entity": "Messe Bremen",
+      "entity": "planetmutlu gmbh & co. kg",
       "description": "## Hanselife\n\nDie Einkaufs- und Erlebnismesse. Viel entdecken kann man nicht nur auf der Messe selbst, sondern auch auf ihrer Website.",
       "url": "https://www.hanselife.de",
       "highlights": [
@@ -1021,12 +1028,13 @@
         "Betreuung der Website",
         "Technology: CMS"
       ],
-      "image": "https://planetmutlu.com/wp-content/uploads/2017/11/102_hanselife_website_start.jpg"
+      "image": "https://planetmutlu.com/wp-content/uploads/2017/11/102_hanselife_website_start.jpg",
+      "customer": "Messe Bremen"
     },
     {
       "name": "Kaffeevollautomaten Landingpage",
       "date": "2017",
-      "entity": "Kaffeeplan",
+      "entity": "planetmutlu gmbh & co. kg",
       "description": "Um den perfekten Kaffeevollautomaten zu finden, hat planetmutlu für Kaffeeplan eine entsprechende Website entwickelt.",
       "url": "http://kaffeemaschinen.kaffeeplan.de",
       "highlights": [
@@ -1040,12 +1048,13 @@
         "Technology: Web",
         "Technology: Programmierung"
       ],
-      "image": "102_kaffeeplan_maschinenfinder-1.jpg"
+      "image": "102_kaffeeplan_maschinenfinder-1.jpg",
+      "customer": "Kaffeeplan"
     },
     {
       "name": "MARS Connector",
       "date": "2017",
-      "entity": "PlanetMutlu / PMKino",
+      "entity": "planetmutlu gmbh & co. kg",
       "description": "Virtuelle Connector-Appliance zur Anbindung des MARS-Kino-Reservierungssystems. Der Connector stellte eine gesicherte SSH-Tunnel-Verbindung zwischen der PMKino-Webplattform und dem lokalen MARS-System im Kino her und ermöglichte so die sichere Übertragung von Buchungs- und Vorstellungsdaten.",
       "highlights": [
         "Entwicklung",
@@ -1056,12 +1065,13 @@
         "Technology: Netzwerk",
         "Technology: VM",
         "Technology: Datenbank"
-      ]
+      ],
+      "customer": "PMKino"
     },
     {
       "name": "Mars-EDV Online Booking Client",
       "date": "2017",
-      "entity": "Mars-EDV / PMKino",
+      "entity": "planetmutlu gmbh & co. kg",
       "description": "Online Booking Client für das Mars-EDV Reservierungssystem auf Basis der PMKino API. Das Slim PHP basierte System ermöglichte Kinobetreibern und Resellern die Integration von Online-Buchungsfunktionen in ihre Websites. Das Projekt umfasste sowohl die Client-Anwendung als auch die Reseller-Schnittstelle.",
       "highlights": [
         "Planung",
@@ -1074,12 +1084,13 @@
         "Technology: JavaScript",
         "Technology: PMKino API",
         "Technology: REST"
-      ]
+      ],
+      "customer": "Mars-EDV / PMKino"
     },
     {
       "name": "PM Product Database API",
       "date": "2017",
-      "entity": "PlanetMutlu / Croll und Denecke",
+      "entity": "planetmutlu gmbh & co. kg",
       "description": "Objekt- und Metadaten-Management-API auf Basis des Slim Frameworks. Dieses System diente als Product-Backend für den Croll und Denecke Onlineshop und ermöglichte die flexible Verwaltung von Produktdaten mit beliebigen Metadaten-Strukturen.",
       "highlights": [
         "Planung",
@@ -1093,12 +1104,13 @@
         "Technology: JSON",
         "Technology: MySQL",
         "Technology: Objekt-Meta-Datenbank"
-      ]
+      ],
+      "customer": "Croll und Denecke"
     },
     {
       "name": "PMKino Reseller Booking (Alias)",
       "date": "2017",
-      "entity": "Mars-EDV / PMKino",
+      "entity": "planetmutlu gmbh & co. kg",
       "description": "Reseller-Komponente des Online-Buchungssystems für die PMKino-Plattform. Dieses Projekt ist eng mit dem Online-Booking-Client verbunden und stellte die Reseller-Schnittstelle für die Kino-Ticket-Buchung bereit.",
       "highlights": [
         "Programmierung",
@@ -1107,12 +1119,13 @@
         "Technology: PHP",
         "Technology: Slim Framework",
         "Technology: PMKino API"
-      ]
+      ],
+      "customer": "Mars-EDV / PMKino"
     },
     {
       "name": "PMKino Web Suite",
       "date": "2017",
-      "entity": "PMKino / Mars-EDV",
+      "entity": "planetmutlu gmbh & co. kg",
       "description": "Die PMKino Web Suite ist eine WordPress Multisite-Plattform für Kinobetreiber. Sie umfasste mehrere Microsites für verschiedene Kinos sowie ein Python-basiertes Backend (pmkino-server) zur Bereitstellung von API-Endpunkten für die Kino-Datenverwaltung. Das System ermöglichte die zentrale Verwaltung von Filmprogrammen, Vorstellungen und Buchungsdaten über eine einheitliche Schnittstelle.",
       "highlights": [
         "Planung",
@@ -1127,12 +1140,13 @@
         "Technology: Python",
         "Technology: REST API",
         "Technology: JSON"
-      ]
+      ],
+      "customer": "PMKino / Mars-EDV"
     },
     {
       "name": "Terra Sola",
       "date": "2017",
-      "entity": "Terra Sola",
+      "entity": "planetmutlu gmbh & co. kg",
       "description": "Terra Sola Website.",
       "url": "http://terra-sola.ch/de/",
       "highlights": [
@@ -1142,13 +1156,14 @@
         "Technology: Web",
         "Technology: Website"
       ],
-      "image": "102_terra_sola_website_02.jpg"
+      "image": "102_terra_sola_website_02.jpg",
+      "customer": "Terra Sola"
     },
     {
-      "name": "�kofix Berlin exklusiv",
+      "name": "Ökofix Berlin exklusiv",
       "date": "2017",
-      "entity": "Stadtwerke N�rtingen",
-      "description": "Aufbau einer Bestellseite f�r den gr�nen Stromtarif der Stadtwerke N�rtingen.",
+      "entity": "planetmutlu gmbh & co. kg",
+      "description": "Stadtwerke Nürtingen",
       "url": "http://berlin.oekofix.de",
       "highlights": [
         "Planung",
@@ -1157,12 +1172,13 @@
         "Programmierung eines umfangreichen Echtzeit-Tarifrechners",
         "Website-Erstellung"
       ],
-      "image": "oekofix.jpg"
+      "image": "oekofix.jpg",
+      "customer": "Stadtwerke Nürtingen"
     },
     {
       "name": "Aykut Großhandel Website",
       "date": "2016",
-      "entity": "Aykut Großhandel",
+      "entity": "planetmutlu gmbh & co. kg",
       "description": "Website für Aykut Großhandel, später Gusto Großhandel.",
       "url": "http://gustogrosshandel.de",
       "highlights": [
@@ -1176,12 +1192,13 @@
         "Technology: CMS",
         "Technology: Web"
       ],
-      "image": "Aykut-Website-1.jpg"
+      "image": "Aykut-Website-1.jpg",
+      "customer": "Aykut Großhandel"
     },
     {
       "name": "Beckröge Website",
       "date": "2016",
-      "entity": "Beckröge",
+      "entity": "planetmutlu gmbh & co. kg",
       "description": "Website-Relaunch für Getränkefachgroßhandel Beckröge.",
       "url": "https://www.beckroege.de/hb/",
       "highlights": [
@@ -1199,12 +1216,13 @@
         "Technology: App",
         "Technology: E-Commerce"
       ],
-      "image": "Beckroege_946.jpg"
+      "image": "Beckroege_946.jpg",
+      "customer": "Beckröge"
     },
     {
       "name": "Creamlovers Website",
       "date": "2016",
-      "entity": "Creamlovers",
+      "entity": "planetmutlu gmbh & co. kg",
       "description": "Gestaltung der Website im Rahmen der Entwicklung und Umsetzung des kompletten Corporate Designs von Creamlovers.",
       "url": "https://creamlovers.de",
       "highlights": [
@@ -1215,7 +1233,8 @@
         "Technology: Web",
         "Technology: Website"
       ],
-      "image": "102_creamlovers_uebersicht.jpg"
+      "image": "102_creamlovers_uebersicht.jpg",
+      "customer": "Creamlovers"
     },
     {
       "name": "Docker-PHP7-Container",
@@ -1227,7 +1246,7 @@
     {
       "name": "Draussen",
       "date": "2016",
-      "entity": "Messe Bremen",
+      "entity": "planetmutlu gmbh & co. kg",
       "description": "Die Website der Draussen (ehemals \"Rad & Outdoor\"), der Messe für Rad- & Freizeitsport in Bremen, wird entsprechend des neuen Corporate Designs von Planetmutlu in einen modernen Webauftritt verwandelt.",
       "url": "https://rufus-bremen.de",
       "highlights": [
@@ -1240,12 +1259,13 @@
         "Technology: Web",
         "Technology: Website"
       ],
-      "image": "102_mockup_draussen_1.jpg"
+      "image": "102_mockup_draussen_1.jpg",
+      "customer": "Messe Bremen"
     },
     {
       "name": "Gewoba Web2Print CMS",
       "date": "2016",
-      "entity": "GEWOBA",
+      "entity": "planetmutlu gmbh & co. kg",
       "description": "Content-Management-System für die Web-to-Print-Lösung der GEWOBA. Das WordPress-basierte CMS ermöglichte die Verwaltung und automatische Generierung von Druckerzeugnissen aus Web-Inhalten heraus.",
       "highlights": [
         "Planung",
@@ -1258,12 +1278,13 @@
         "Technology: Web2Print",
         "Technology: PDF-Generierung",
         "Technology: Datenbank"
-      ]
+      ],
+      "customer": "GEWOBA"
     },
     {
       "name": "Green Tech Invest",
       "date": "2016",
-      "entity": "Green Tech Invest AG",
+      "entity": "planetmutlu gmbh & co. kg",
       "description": "Umsetzung einer Website für Green Tech Invest.",
       "url": "http://www.greentechinvest.ch",
       "highlights": [
@@ -1273,12 +1294,13 @@
         "Technology: Programmierung",
         "Technology: Web"
       ],
-      "image": "öüg.jpg"
+      "image": "öüg.jpg",
+      "customer": "Green Tech Invest AG"
     },
     {
       "name": "Jazzahead!",
       "date": "2016",
-      "entity": "Messe Bremen",
+      "entity": "planetmutlu gmbh & co. kg",
       "description": "Die Seiten für die Jazz-Messe sowie das Festival werden mit umfangreichen Funktionen und Neuerungen für Besucher, Aussteller und das Team der Jazzahead! ausgestattet.",
       "url": "https://jazzahead.de",
       "highlights": [
@@ -1293,12 +1315,13 @@
         "Technology: Datenbank",
         "Technology: PHP"
       ],
-      "image": "Bildschirmfoto-2018-06-25-um-14.26.54.png"
+      "image": "Bildschirmfoto-2018-06-25-um-14.26.54.png",
+      "customer": "Messe Bremen"
     },
     {
       "name": "NT-Meter Energiemonitor",
       "date": "2016",
-      "entity": "NT-Meter / Eigenprojekt",
+      "entity": "planetmutlu gmbh & co. kg",
       "description": "Web-Frontend für den NT-Meter Energiemonitor, betrieben auf einem Raspberry Pi. Die Slim PHP Anwendung visualisierte Echtzeit-Energiedaten mit Flot Charts und stellte eine REST-API zur Datenabfrage bereit. Das System umfasste eine SQLite-Datenbank zur Speicherung der Messwerte und wurde als energieeffiziente Embedded-Lösung konzipiert.",
       "highlights": [
         "Planung",
@@ -1313,12 +1336,13 @@
         "Technology: JavaScript",
         "Technology: REST API",
         "Technology: SQLite"
-      ]
+      ],
+      "customer": "NT-Meter"
     },
     {
       "name": "PM WP PageAdmin",
       "date": "2016",
-      "entity": "PlanetMutlu",
+      "entity": "planetmutlu gmbh & co. kg",
       "description": "WordPress-Plugin mit einer React-basierten Admin-Oberfläche zur erweiterten Seitenverwaltung. Das Plugin nutzte Webpack für das Frontend-Build-System und phpFastCache für optimierte Performance. Es ermöglichte eine benutzerfreundliche Verwaltung von WordPress-Seiten jenseits des Standard-Editors.",
       "highlights": [
         "Entwicklung",
@@ -1335,7 +1359,7 @@
     {
       "name": "Passion Sports Convention",
       "date": "2016",
-      "entity": "Messe Bremen",
+      "entity": "planetmutlu gmbh & co. kg",
       "description": "Komplett-Relaunch der Website der Bremer Fun- und Extremsportmesse Passion Sports Convention.",
       "highlights": [
         "Planung",
@@ -1347,12 +1371,13 @@
         "Technology: CMS",
         "Technology: Web"
       ],
-      "image": "102_mockups_passion.jpg"
+      "image": "102_mockups_passion.jpg",
+      "customer": "Messe Bremen"
     },
     {
       "name": "PlanetMutlu CLI Tool",
       "date": "2016",
-      "entity": "PlanetMutlu",
+      "entity": "planetmutlu gmbh & co. kg",
       "description": "Internes CLI-Tool zur Automatisierung von Build-, Watch- und Sync-Prozessen bei PlanetMutlu. Das Tool ermöglichte die effiziente Verwaltung und Bereitstellung von WordPress-Projekten und war als PHP-Console-Anwendung mit einer Electron-GUI umgesetzt.",
       "highlights": [
         "Entwicklung",
@@ -1394,7 +1419,7 @@
     {
       "name": "Bremen Classic Motorshow App",
       "date": "2015",
-      "entity": "Messe Bremen",
+      "entity": "planetmutlu gmbh & co. kg",
       "description": "Die Bremen Classic Motorshow App ist der offizielle Messeführer für smarte Phones. Die App hält schnell und einfach alle Informationen rund um die Veranstaltung bereit. Zusätzlich enthält die App News sowie Informationen zu aktuellen Sonderschauen, Tickets und Ausstellern.",
       "url": "https://www.classicmotorshow.de",
       "highlights": [
@@ -1409,12 +1434,13 @@
         "Technology: Android",
         "Technology: Programmierung"
       ],
-      "image": "102_bcm_app_start.jpg"
+      "image": "102_bcm_app_start.jpg",
+      "customer": "Messe Bremen"
     },
     {
       "name": "Croll & Denecke Website",
       "date": "2015",
-      "entity": "Croll & Denecke",
+      "entity": "planetmutlu gmbh & co. kg",
       "description": "Website-Relaunch für Croll & Denecke. Europas führender Naturschwammproduzent erhält eine ansehnliche Website mit Onlineshop für B2B-Kunden.",
       "url": "https://crolldenecke.com",
       "highlights": [
@@ -1427,7 +1453,8 @@
         "Technology: WooCommerce",
         "Technology: E-Commerce"
       ],
-      "image": "croll-web.png"
+      "image": "croll-web.png",
+      "customer": "Croll & Denecke"
     },
     {
       "name": "Gewoba Database-Publishing (Redaktions-System)",
@@ -1445,7 +1472,7 @@
     {
       "name": "Kaffeeplan Website",
       "date": "2015",
-      "entity": "Kaffeeplan",
+      "entity": "planetmutlu gmbh & co. kg",
       "description": "Ein kompletter Relaunch der Website.",
       "url": "https://www.kaffeeplan.de",
       "highlights": [
@@ -1458,7 +1485,8 @@
         "Technology: Website",
         "Technology: CMS"
       ],
-      "image": "102_kaffeeplan_website_home.jpg"
+      "image": "102_kaffeeplan_website_home.jpg",
+      "customer": "Kaffeeplan"
     },
     {
       "name": "Kinotickets.online",
@@ -1490,7 +1518,7 @@
     {
       "name": "Ori Formreaktor Website",
       "date": "2015",
-      "entity": "FORMREAKTOR",
+      "entity": "planetmutlu gmbh & co. kg",
       "description": "Der Salon unseres langjährigen Kunden Ori erhält ein neues Corporate Design. Umgesetzt wurde ebenfalls eine neue Website.",
       "url": "http://form-reaktor.com",
       "highlights": [
@@ -1501,7 +1529,8 @@
         "Technology: Web",
         "Technology: Website"
       ],
-      "image": "102_ori_1.jpg"
+      "image": "102_ori_1.jpg",
+      "customer": "FORMREAKTOR"
     },
     {
       "name": "PMKino Web2Print und Webseiten",
@@ -1520,7 +1549,7 @@
     {
       "name": "Reiselust",
       "date": "2015",
-      "entity": "Messe Bremen",
+      "entity": "planetmutlu gmbh & co. kg",
       "description": "## Reiselust\n\nWebsiterelaunch für die Reiselust, Bremens Urlaubsmesse.",
       "url": "https://www.reiselust-bremen.de",
       "highlights": [
@@ -1530,12 +1559,13 @@
         "Betreuung",
         "Technology: CMS"
       ],
-      "image": "https://planetmutlu.com/wp-content/uploads/2015/10/102_mockup_reiselust_1.jpg"
+      "image": "https://planetmutlu.com/wp-content/uploads/2015/10/102_mockup_reiselust_1.jpg",
+      "customer": "Messe Bremen"
     },
     {
       "name": "Website & Shop verias24.de",
       "date": "2015",
-      "entity": "image advertising H. G. GmbH & Co. KG",
+      "entity": "Image Advertising H. G. GmbH & Co. KG",
       "description": "Die hauseigene Werbeagentur image advertising der Humburg Media Group durfte 2015/2016 die komplexe Planung der Website & Shop übernehmen.\n\nDas Projekt umfasste die gesamtheitliche Planung des Datenbankmodells, alle Layouts, Versicherung-Berechnungsregeln, Shopseiten, Backendmasken bis hin zu Schnittstellen an das hauseigene ERP-System.\n\nZiel war es hierbei dem Endkunden eine speziell auf mobile Nutzung ausgelegte Website anzubieten, da die angebotenen Versicherungen situativ und somit oft unterwegs abgeschlossen werden sollten.\n\nGelöst wurde die Website basierend auf dem CMS WordPress und dem dazu passenden Shopsystem WooCommerce. Der hohe Anteil der Eigenprogrammierung passte sich in diese Welten professionell ein. Alle individuellen Berechnungen und Darstellungen konnten so dem hohen Anspruch der ias Internationale Assekuranz-Sonderrisiken GmbH & Co. KG gerecht werden.\n\nInternationale Anforderungen an die verschiedenen Versicherungssteuersätze und der Anspruch einer Mehrsprachigkeit des gesamten Systems wurden bereits in der Planungsphase mit berücksichtigt und im System mit aufgesetzt.\n\nverias ist die online-Produktlinie der ias-Gruppe. Sie bietet den Schritt zur Absicherung verschiedenster Risiken des alltäglichen Lebens.",
       "url": "https://www.verias24.de",
       "highlights": [
@@ -1550,7 +1580,7 @@
     {
       "name": "Messe Bremen Website",
       "date": "2014",
-      "entity": "Messe Bremen / Messe & Ausstellungsgesellschaft",
+      "entity": "planetmutlu gmbh & co. kg",
       "description": "Entwicklung und Betreuung der Messe Bremen Website auf Basis von WordPress Multisite. Das Projekt umfasste die Umsetzung verschiedener Messeseiten mit einem einheitlichen Theme-System, das für unterschiedliche Messen und Veranstaltungen skalierbar war.",
       "url": "https://www.messe-bremen.de",
       "highlights": [
@@ -1568,12 +1598,13 @@
         "Technology: CSS3",
         "Technology: JavaScript",
         "Technology: Responsive"
-      ]
+      ],
+      "customer": "Messe Bremen"
     },
     {
       "name": "Web Exhibition Theme",
       "date": "2014",
-      "entity": "PlanetMutlu",
+      "entity": "planetmutlu gmbh & co. kg",
       "description": "WordPress-Theme speziell für Messe- und Ausstellungsprojekte bei PlanetMutlu. Das Theme wurde in zwei Hauptversionen entwickelt (v1: 2014, v2: 2016) und bildete die Grundlage für verschiedene Messe-Websites. Es war auf responsive Darstellung und flexible Inhaltsstrukturen ausgelegt.",
       "highlights": [
         "Entwicklung",
@@ -1590,7 +1621,7 @@
     {
       "name": "Website lr28-bremen.de",
       "date": "2014",
-      "entity": "image advertising H. G. GmbH & Co. KG",
+      "entity": "Image Advertising H. G. GmbH & Co. KG",
       "description": "Die hauseigene Werbeagentur image advertising der Humburg Media Group durfte 2014 die Website realisieren.\n\nNeben Bildwelten und Icons wurde die mehrsprachige Website (DE/ENG) auf dem CMS WordPress mit einem eigens entwickeltem Template aufgesetzt. Automatisierte Funktionen zur Studio-Anzeige frei / belegt wurden nach Kundenwunsch als Anzeige auf der Startseite mit integriert.\n\nIm Backend wurde das System individuell auf die Bedürfnisse zur Vermietung von Wohnräumen angepasst. Somit bietet sich zur Pflege und Darstellung eine darauf ausgerichtete, benutzerfreundliche Maske.\n\nMit Sitz in Bremen richtet sich das LR28 an Studenten, die den Komfort eines Studentenwohnheims nicht missen wollen, aber auch ein modernes Ambiente zu schätzen wissen. Mit insgesamt 14 Studios ist das LR28 klein genug, um den persönlichen Kontakt zwischen den Studierenden zu ermöglichen, aber auch groß genug, damit jeder den Freiraum hat, den er benötigt.",
       "url": "http://lr28-bremen.de/de/",
       "highlights": [
@@ -1603,13 +1634,14 @@
     {
       "name": "ASP Automotive – Genuss-Portal Web2Print",
       "date": "2013",
-      "entity": "ASP Automotive GmbH",
+      "entity": "Image Advertising H. G. GmbH & Co. KG",
       "description": "Image advertising hat für ASP Automotive GmbH das \"Genuss-Portal\" entwickelt, ein einzigartiges und umfangreiches Web2Print-Tool, das die Online-Personalisierung und -gestaltung von Weintaschen und Flaschenetiketten ermöglicht.",
       "highlights": [
         "Web2Print",
         "Online-Personalisierung"
       ],
-      "image": "asp_home.png"
+      "image": "asp_home.png",
+      "customer": "ASP Automotive GmbH"
     },
     {
       "name": "BTC Trading Dashboard",
@@ -1634,7 +1666,7 @@
     {
       "name": "Game Server Modding & Administration",
       "date": "2013",
-      "entity": "Spieleentwicklung / Administration",
+      "entity": "Tufekci Software Development & Consulting",
       "description": "Entwicklung und Administration von Game-Servern mit benutzerdefinierten Missionen, KI-Spawning-Systemen, dynamischen Events und Server-Cleaning-Routinen. Die Arbeit umfasste das Erstellen eigener Missions-Scripts (Major/Minor Missions), KI-Gegner-Management mit verschiedenen Schwierigkeitsstufen und Ausrüstungsprofilen sowie Server-Optimierung durch Performance-Monitoring und automatische Bereinigung. Beispielhaft umgesetzt für die DayZ-Plattform mit SQF-Scripting.",
       "highlights": [
         "Server-Administration",
@@ -1651,7 +1683,7 @@
     {
       "name": "Ludwig von Kapff Etiketten-System",
       "date": "2013",
-      "entity": "Ludwig von Kapff",
+      "entity": "Image Advertising H. G. GmbH & Co. KG",
       "description": "Entwicklung eines Web-to-Print-Etikettensystems für Ludwig von Kapff. Das CakePHP-basierte System ermöglichte die individuelle Konfiguration und Bestellung von Weinetiketten mit automatischer PDF-Generierung und Druckdaten-Aufbereitung.",
       "highlights": [
         "Planung",
@@ -1665,24 +1697,26 @@
         "Technology: Web2Print",
         "Technology: PDF-Generierung",
         "Technology: JavaScript"
-      ]
+      ],
+      "customer": "Ludwig von Kapff"
     },
     {
       "name": "MedienPrintPartner eG – Website",
       "date": "2013",
-      "entity": "MedienPrintPartner eG",
+      "entity": "Image Advertising H. G. GmbH & Co. KG",
       "description": "Die neue Website der MedienPrintPartner eG, der ersten Druck- und Mediengenossenschaft in Deutschland, wurde von image advertising gestaltet und umgesetzt. Die Website ging am 27. September 2013 online.",
       "url": "https://www.medienprintpartner.de",
       "highlights": [
         "Webdesign",
         "Gestaltung"
       ],
-      "image": "mpp.png"
+      "image": "mpp.png",
+      "customer": "MedienPrintPartner eG"
     },
     {
       "name": "SaveFM",
       "date": "2013",
-      "entity": "SaveFM",
+      "entity": "Tufekci Software Development & Consulting",
       "description": "SaveFM war eine Plattform zum Aufnehmen und Verwalten von Internet-Radiostreams. Das Projekt bestand aus mehreren Komponenten: einer CakePHP-basierten API und Webanwendung mit Dashboard, Aufnahmeverwaltung, Serversteuerung (über DigitalOcean API), Benutzerverwaltung und Freundesliste; einer Ember.js-Single-Page-Application als Admin-Frontend mit Bootstrap-UI; sowie einer öffentlichen Website. Die Plattform ermöglichte das geplante Aufnehmen von Radiosendern, die Verwaltung der Aufnahmen und die Bereitstellung über eine Weboberfläche.",
       "highlights": [
         "Planung",
@@ -1709,19 +1743,20 @@
     {
       "name": "Wolfgang-Borchert-Schule – Website Relaunch",
       "date": "2013",
-      "entity": "Schulverein Wolfgang-Borchert-Schule e.V.",
+      "entity": "Image Advertising H. G. GmbH & Co. KG",
       "description": "Die Webseite der Wolfgang-Borchert-Schule in Winsen wurde von image advertising an aktuelle Anforderungen angepasst und sowohl technisch als auch inhaltlich stark erweitert. Besonders der News-Bereich wurde umfangreich ausgebaut und bietet Schülern, Eltern und Lehrern nun mehr Informationen.",
       "highlights": [
         "Webdesign",
         "Content-Management",
         "Technische Erweiterung"
       ],
-      "image": "wbs_winsen.png"
+      "image": "wbs_winsen.png",
+      "customer": "Schulverein Wolfgang-Borchert-Schule e.V."
     },
     {
       "name": "Atelier Brokat – Abschlussprüfung",
       "date": "2012",
-      "entity": "Abschlussprüfung",
+      "entity": "Tufekci Software Development & Consulting",
       "description": "Website für das Modeatelier \"Atelier Brokat\" – erstellt im Rahmen der Abschlussprüfung. Die Seite präsentierte Damen- und Herrenkollektionen, Bühnenroben, Modetrends und Veranstaltungen. Realisiert mit dem Limonade PHP-Microframework, eigener Routenstruktur und individuell gestalteten Templates mit CSS-Animationen.",
       "highlights": [
         "Planung",
@@ -1736,12 +1771,13 @@
         "Technology: CSS3",
         "Technology: JavaScript",
         "Technology: jQuery"
-      ]
+      ],
+      "customer": "Atelier Brokat"
     },
     {
       "name": "Avancarte Shop",
       "date": "2012",
-      "entity": "Avancarte",
+      "entity": "Image Advertising H. G. GmbH & Co. KG",
       "description": "E-Commerce-Produktkatalog für Avancarte. Die CakePHP-Anwendung verwaltete ein umfangreiches Sortiment mit Artikeln, Rubriken, Modellen und Ausführungen über eine relationale Datenbankstruktur. Die Produktdaten waren über Kategorien und Modelle hierarchisch organisiert und für den Export in verschiedene Ausgabeformate vorgesehen.",
       "highlights": [
         "Planung",
@@ -1755,12 +1791,13 @@
         "Technology: JavaScript",
         "Technology: HTML5",
         "Technology: CSS3"
-      ]
+      ],
+      "customer": "Avancarte"
     },
     {
       "name": "Bremer Feinkost – Delikatessenkatalog 2012",
       "date": "2012",
-      "entity": "Bremer Feinkost GmbH & Co. KG",
+      "entity": "Image Advertising H. G. GmbH & Co. KG",
       "description": "Image advertising betreut die Bremer Feinkost seit vielen Jahren und realisierte auch 2012 den neuen Delikatessenkatalog, der das gesamte Produktspektrum zeigt. Der Katalog umfasst rund 80 prall gefüllte Seiten.\n\nIm Zuge der Erstellung wurde auch die neue Produktlinie Spice Market von image advertising gestaltet und gebrandet.",
       "highlights": [
         "Konzeption",
@@ -1768,7 +1805,8 @@
         "Produktbranding",
         "Produktfotografie"
       ],
-      "image": "bfc.png"
+      "image": "bfc.png",
+      "customer": "Bremer Feinkost GmbH & Co. KG"
     },
     {
       "name": "DigitalOcean-PHP-Class",
@@ -1780,14 +1818,15 @@
     {
       "name": "Flexguard – Website & Online Shop",
       "date": "2012",
-      "entity": "Flexguard AG",
+      "entity": "Image Advertising H. G. GmbH & Co. KG",
       "description": "image advertising entwickelte für Flexguard die Website und den dazugehörigen Online Shop. Flexguard bietet ein revolutionäres Hundeleinen-Dämpfersystem, das den Spaziergang mit dem Hund auf eine entspannte Art erleben lässt.",
       "url": "https://www.flexguard.de",
       "highlights": [
         "Webdesign",
         "Webshopprogrammierung"
       ],
-      "image": "flexguard-home.png"
+      "image": "flexguard-home.png",
+      "customer": "Flexguard AG"
     },
     {
       "name": "Image Rendering Experiment",
@@ -1821,7 +1860,7 @@
     {
       "name": "PHP.js Build-Tool",
       "date": "2012",
-      "entity": "Open Source / Tool",
+      "entity": "Tufekci Software Development & Consulting",
       "description": "Build-Tool für die PHP.js-Bibliothek – ein PHP-Script, das aus über 30 Funktionskategorien (Arrays, Strings, Mathe, DateTime, JSON, Dateisystem, Netzwerk, XML etc.) einzelne JavaScript-Implementierungen von PHP-Funktionen zu einer einzigen Bibliothek kompilierte. Der Output umfasste tausende Zeilen portierten PHP-Codes in JavaScript, darunter Funktionen wie array(), explode(), str_replace(), md5(), json_encode() uvm.",
       "highlights": [
         "Programmierung",
@@ -1852,7 +1891,7 @@
     {
       "name": "WerderSports – Corporate Design 2012",
       "date": "2012",
-      "entity": "WerderSports und Fitness GmbH",
+      "entity": "Image Advertising H. G. GmbH & Co. KG",
       "description": "Im Herbst 2012 eröffnete mit WerderSports im Schuppen 1 in der Überseestadt das größte Sport Center Bremens. image advertising erhielt den Zuschlag der Ausschreibung zur Gestaltung und Umsetzung der Corporate Identity.\n\nKontinuierlich wurde das Marketingkonzept und das Design zur Präsentation von WerderSports erarbeitet, einschließlich Logoentwicklung, Webdesign und Druckprodukte.",
       "url": "https://www.werdersports.de",
       "highlights": [
@@ -1863,12 +1902,13 @@
         "Webprogrammierung",
         "Produktion Druckprodukte"
       ],
-      "image": "werder.png"
+      "image": "werder.png",
+      "customer": "WerderSports und Fitness GmbH"
     },
     {
       "name": "Ambari – WebShop Relaunch",
       "date": "2011",
-      "entity": "Ambari GmbH & Co. KG",
+      "entity": "Image Advertising H. G. GmbH & Co. KG",
       "description": "Ambari ist der Spezialist für Wein, Spirituosen, Weinaccessoires, Feinkost und Lebensart.\n\nIm Zuge des Relaunchs hat image advertising diverse Optimierungen des Webshops durchgeführt. Nutzerfreundlichere Gestaltung und Suchmaschinenoptimierungen standen im Fokus. Mit großem Erfolg werden die neuen Angebote und Präsente des Webshops vom Kunden angenommen.",
       "url": "https://www.ambari.de",
       "highlights": [
@@ -1877,12 +1917,13 @@
         "Datenbankprogrammierung",
         "Suchmaschinenoptimierung"
       ],
-      "image": "ambari.png"
+      "image": "ambari.png",
+      "customer": "Ambari GmbH & Co. KG"
     },
     {
       "name": "AvanCarte Produktverwaltung Backend",
       "date": "2011",
-      "entity": "AvanCarte",
+      "entity": "Image Advertising H. G. GmbH & Co. KG",
       "description": "Backend-System zur Produktmedien-Verwaltung für AvanCarte. Das System ermöglichte die Verwaltung von Produktbildern und -daten sowie die Synchronisation mit PDAs für den Außendienst.",
       "highlights": [
         "Planung",
@@ -1896,12 +1937,13 @@
         "Technology: JavaScript",
         "Technology: PDA-Schnittstelle",
         "Technology: Datenbank"
-      ]
+      ],
+      "customer": "Avancarte"
     },
     {
       "name": "Blue Plaza – Internetbasierte Datenbank für Blue FM",
       "date": "2011",
-      "entity": "Blue Facility Management GmbH",
+      "entity": "Image Advertising H. G. GmbH & Co. KG",
       "description": "Als Leadagentur für den Gebäudemanagement-Spezialisten Blue FM konzipierte, gestaltete und entwickelte image advertising die multifunktionelle internetbasierte Datenbank \"Blue Plaza\".\n\nBlue Plaza ist Koordinationstool von Supportleistungen und Kommunikationstool in einem. Als internetbasierte Datenbank bietet das Tool volle Flexibilität, Verfügbarkeit und schnellen Austausch zwischen Dienstleistern und Kunden.",
       "highlights": [
         "Konzeption",
@@ -1909,12 +1951,13 @@
         "Webtemplateprogrammierung",
         "Datenbankprogrammierung"
       ],
-      "image": "blue-plaza2.png"
+      "image": "blue-plaza2.png",
+      "customer": "Blue Facility Management GmbH"
     },
     {
       "name": "Druckhaus Humburg Website",
       "date": "2011",
-      "entity": "Druckhaus Humburg",
+      "entity": "Image Advertising H. G. GmbH & Co. KG",
       "description": "Umsetzung der Website für Druckhaus Humburg. Das Projekt umfasste die Konzeption, Gestaltung und Programmierung des Firmenauftritts mit integriertem CMS für die Pflege der Inhalte.",
       "url": "https://www.humburg.de",
       "highlights": [
@@ -1929,12 +1972,13 @@
         "Technology: CSS",
         "Technology: JavaScript",
         "Technology: CMS"
-      ]
+      ],
+      "customer": "Druckhaus Humburg"
     },
     {
       "name": "HCH HandelsContor Hamburg – Webshop & Portal",
       "date": "2011",
-      "entity": "HCH HandelsContor Hamburg GmbH",
+      "entity": "Image Advertising H. G. GmbH & Co. KG",
       "description": "Im Zuge der visuellen Neupositionierung von HCH hat image advertising ein modernes und ästhetisches Gesicht für den HCH Online-Auftritt entwickelt. Die Website vereint Produktpräsentationen mit Webshopanbindung für Endkunden sowie ein Portal für Geschäftskunden.\n\nDer HCH Webshop ging Anfang Dezember 2011 online. Der Relaunch umfasste neben visueller Überarbeitung auch viele Usability-Optimierungen.",
       "url": "https://www.hch.de",
       "highlights": [
@@ -1946,12 +1990,13 @@
         "CMS Joomla Einbindung",
         "Suchmaschinenoptimierung"
       ],
-      "image": "hch.png"
+      "image": "hch.png",
+      "customer": "HCH HandelsContor Hamburg GmbH"
     },
     {
       "name": "HWT Hansen / heizungsfirma.de",
       "date": "2011",
-      "entity": "HWT Hansen",
+      "entity": "Image Advertising H. G. GmbH & Co. KG",
       "description": "Website für den Heizungsfachbetrieb HWT Hansen. Das Projekt umfasste die Entwicklung eines individuellen CMS für die Branchen-Website mit Darstellung der Dienstleistungen und Kontaktmöglichkeiten.",
       "url": "https://heizungsfirma.de",
       "highlights": [
@@ -1966,12 +2011,13 @@
         "Technology: HTML",
         "Technology: CSS",
         "Technology: JavaScript"
-      ]
+      ],
+      "customer": "HWT Hansen"
     },
     {
       "name": "MP Multipack AG – Webshop & medienneutrale Datenbank",
       "date": "2011",
-      "entity": "MP Multipack AG",
+      "entity": "Image Advertising H. G. GmbH & Co. KG",
       "description": "Als Leadagentur der MP Multipack AG betreut image advertising die Entwicklung von Produktkatalogen, die regelmäßige Erstellung des Firmennewsletters und die Realisierung und Pflege des Online-Shops.\n\nIm Zuge der Neuausrichtung und Aktualisierung der Webshops konzipierte, gestaltete und entwickelte image advertising eine medienneutrale Datenbank, die neben einer automatischen Befüllung der Produktkataloge auch die Befüllung der Webshops garantiert.\n\nDer Schweizer Verpackungsspezialist MP Multipack AG erhielt dank image advertising ein neues Gesicht im Web. Das neue Webportal ist in 2 Sprachen verfügbar und enthält eine Ländersteuerung. Die attraktive Darstellung der Produkte, welche auch interaktiv entdeckt werden können, sowie die Entwicklung des Online-Shops waren das Herzstück des Relaunchs.",
       "url": "https://www.multipack.ch",
       "highlights": [
@@ -1982,12 +2028,13 @@
         "CMS Joomla Einbindung",
         "Suchmaschinenoptimierung"
       ],
-      "image": "multipack.png"
+      "image": "multipack.png",
+      "customer": "MP Multipack AG"
     },
     {
       "name": "MVD – Das Print-Partner-Netzwerk",
       "date": "2011",
-      "entity": "MVD Medienverbund Deutschland",
+      "entity": "Image Advertising H. G. GmbH & Co. KG",
       "description": "Excellence-in-Print W2P ist eine Web-to-Print Software-Lösung mit patentierter Technologie, welche optional für viele Geschäftsbereiche ist. Mit ihr lassen sich online bequem und einfach individuelle Druckerzeugnisse in internationaler Benutzerführung herstellen.\n\nimage advertising unterstützte MVD bei Shopsystemen und Kundenbetreuung.",
       "url": "https://www.mvd-online.net",
       "highlights": [
@@ -1996,12 +2043,13 @@
         "Kundenpflege",
         "Kundenservice"
       ],
-      "image": "mvd_neu.png"
+      "image": "mvd_neu.png",
+      "customer": "MVD Medienverbund Deutschland"
     },
     {
       "name": "NordCap – Web2Print Tool",
       "date": "2011",
-      "entity": "NordCap AG",
+      "entity": "Image Advertising H. G. GmbH & Co. KG",
       "description": "Im Rahmen des Agenturvertrages mit NordCap entwickelte image advertising ein innovatives und einzigartiges Web2Print Tool, das die Erstellung und Bestellung von individuellen Flyern auf der Basis vielfältiger Grundtemplates ermöglicht.\n\nIm Vordergrund stand die Entwicklung einer intuitiven Benutzeroberfläche, die es Kunden erlaubt, aus Designvorlagen auszuwählen oder individuelle Flyer zu gestalten.",
       "highlights": [
         "Konzeption",
@@ -2010,12 +2058,13 @@
         "Programmierung",
         "Datenbankprogrammierung"
       ],
-      "image": "nordcap.png"
+      "image": "nordcap.png",
+      "customer": "NordCap AG"
     },
     {
       "name": "Robert Pack Fotodesign Website",
       "date": "2011",
-      "entity": "Robert Pack Fotodesign",
+      "entity": "Image Advertising H. G. GmbH & Co. KG",
       "description": "Entwicklung einer Fotografen-Website mit individuellem CMS. Das System umfasste eine Bildergalerie-Verwaltung und ermöglichte dem Kunden die eigenständige Pflege von Fotoalben und Portfolio-Inhalten.",
       "highlights": [
         "Planung",
@@ -2029,7 +2078,8 @@
         "Technology: CSS",
         "Technology: JavaScript",
         "Technology: Eigenes CMS"
-      ]
+      ],
+      "customer": "Robert Pack Fotodesign"
     },
     {
       "name": "Tuefekci Portfolio (frühe Version)",
@@ -2071,7 +2121,7 @@
     {
       "name": "an Bord Verlag Website",
       "date": "2011",
-      "entity": "an Bord Verlag",
+      "entity": "Image Advertising H. G. GmbH & Co. KG",
       "description": "Entwicklung und langjährige Betreuung der Verlagswebsite für an Bord. Der an Bord Verlag produziert Bordmagazine für Fähren und Kreuzfahrtschiffe. Die Website wurde über mehrere Jahre hinweg betreut und weiterentwickelt.",
       "url": "https://www.anbord.de",
       "highlights": [
@@ -2087,7 +2137,8 @@
         "Technology: HTML",
         "Technology: CSS",
         "Technology: JavaScript"
-      ]
+      ],
+      "customer": "an Bord Verlag"
     },
     {
       "name": "ASP Automotive GmbH \"Genuss-Portal\" Web2Print",
@@ -2131,7 +2182,7 @@
     {
       "name": "Exori Website",
       "date": "2010",
-      "entity": "Exori",
+      "entity": "Image Advertising H. G. GmbH & Co. KG",
       "description": "Entwicklung der Firmenwebsite für Exori. Das Projekt umfasste die Umsetzung eines individuellen Content-Management-Systems mit an die Unternehmensanforderungen angepasster Seitenstruktur.",
       "url": "https://exori.de",
       "highlights": [
@@ -2145,7 +2196,8 @@
         "Technology: HTML",
         "Technology: CSS",
         "Technology: JavaScript"
-      ]
+      ],
+      "customer": "Exori"
     },
     {
       "name": "IA System Web2Print/CRM",
@@ -2175,7 +2227,7 @@
     {
       "name": "SchokoFoto",
       "date": "2010",
-      "entity": "SchokoFoto",
+      "entity": "Image Advertising H. G. GmbH & Co. KG",
       "description": "Webshop für personalisierte Schokoladen-Fotoprodukte. Kunden konnten eigene Fotos hochladen und auf Schokoladenverpackungen drucken lassen. Das System umfasste Bildverarbeitung und automatische PDF-Druckdatengenerierung.",
       "url": "https://schokofoto.de",
       "highlights": [
@@ -2191,7 +2243,8 @@
         "Technology: Bildverarbeitung",
         "Technology: PDF",
         "Technology: JavaScript"
-      ]
+      ],
+      "customer": "SchokoFoto"
     },
     {
       "name": "Battlehost – Hosting Management",

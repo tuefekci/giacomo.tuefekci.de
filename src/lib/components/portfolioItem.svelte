@@ -33,8 +33,11 @@
     </div>
 
     {#if project.entity}
-        <div class="flex justify-between">
+        <div>
             <span class="text-base font-semibold dark:text-[#A6A6A6]">{project.entity}</span>
+            {#if project.customer}
+                <div class="text-sm dark:text-[#A6A6A6]/70">for {project.customer}</div>
+            {/if}
         </div>
     {/if}
 

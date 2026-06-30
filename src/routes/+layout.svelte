@@ -70,7 +70,7 @@
 							</div>
 							<div class="flex py-2.5 border-b border-[#E3E3E3] dark:border-[#3D3A3A]">
 								<div class="text-left ml-2.5">
-									<p class="text-xs text-[#44566C] dark:text-[#A6A6A6]">Birth & Nationality</p>
+									<p class="text-xs text-[#44566C] dark:text-[#A6A6A6]">Age,  Birth / Nationality</p>
 									<a class="dark:text-white break-all hover:text-[#FA5252] duration-300 transition" target="_blank" href="https://www.google.de/maps/place/{resume.basics.birth.city}/">{resume.basics.birth.date}, {resume.basics.birth.city} / {resume.basics.birth.countryCode}</a>
 								</div>
 
@@ -108,22 +108,22 @@
 
 			<div class="col-span-12 lg:col-span-8">
 
-				<header class="lg:w-[50%] h-[144px] p-[30px] -mt-[10rem] ml-auto mb-[1rem] lg:rounded-[16px] bg-white dark:bg-[#111111] print:p-0 print:hidden sm:hidden lg:block md:hidden ">
-					<nav class="">
-						<div class="flex">
-							<MenuItem path="">About</MenuItem>
-							<MenuItem path="cv">Resume</MenuItem>
-							<MenuItem path="portfolio">Works</MenuItem>
-						</div>
-					</nav>
-				</header>
+				<div class="bg-white dark:bg-[#111111] md:rounded-[20px] mt-[180px] md:mt-[220px] lg:mt-0 print:p-0 print:m-0">
+					<header class="print:hidden sm:hidden lg:block md:hidden bg-[#F8F9FA] dark:bg-[#1A1A1A] rounded-t-[20px] border-b border-[#E3E3E3] dark:border-[#3D3A3A]">
+						<nav class="flex items-center gap-1 px-6 pt-3 pb-3">
+							<MenuItem path="" icon="about">About</MenuItem>
+							<MenuItem path="cv" icon="resume">Resume</MenuItem>
+							<MenuItem path="portfolio" icon="works">Works</MenuItem>
+						</nav>
+					</header>
 		
-				<div class="min-h-full mb-6 lg:mb-0 lg:px-12 pb-12 mx-auto relative bg-white dark:bg-[#111111] px-6 md:rounded-[20px] mt-[180px] md:mt-[220px] lg:mt-0 lg:max-h-full print:p-0 print:m-0 print:pt-[0px]">
+				<div class="min-h-full mb-6 lg:mb-0 lg:px-12 pb-12 mx-auto relative px-6 print:p-0 print:m-0 print:pt-[0px]">
 					<PageTransition url={data.url}>
 						<slot />
 					</PageTransition>
 				</div>
 			</div>
+		</div>
 		</div>
 	</div>
 </div>
