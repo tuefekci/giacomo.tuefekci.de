@@ -550,6 +550,70 @@
   ],
   "projects": [
     {
+      "name": "Client Projects (NDA)",
+      "date": "2026",
+      "entity": "Tufekci Software Development & Consulting",
+      "description": "Ongoing full-stack development, API design, cloud infrastructure, and software consulting for various clients. Details protected by non-disclosure agreements."
+    },
+    {
+      "name": "LLM Applications & AI Integration",
+      "date": "2026",
+      "entity": "Tufekci Software Development & Consulting",
+      "description": "Development of applications and workflows leveraging large language models including local LLM deployment (ollama, llama.cpp), Open WebUI, RAG pipelines, prompt engineering, and API wrappers for multiple AI providers.",
+      "featured": true,
+      "category": "AI & Machine Learning"
+    },
+    {
+      "name": "Client Projects (NDA)",
+      "date": "2025",
+      "entity": "Tufekci Software Development & Consulting",
+      "description": "Ongoing full-stack development, API design, cloud infrastructure, and software consulting for various clients. Details protected by non-disclosure agreements."
+    },
+    {
+      "name": "AI Image Generation Pipeline",
+      "date": "2025",
+      "entity": "Tufekci Software Development & Consulting",
+      "description": "Design and implementation of AI image generation pipelines using Stable Diffusion (ComfyUI, Automatic1111), custom LoRA training, batch generation and upscaling automation, and integration into existing workflows.",
+      "featured": true,
+      "category": "AI & Machine Learning"
+    },
+    {
+      "name": "Client Projects (NDA)",
+      "date": "2024",
+      "entity": "Tufekci Software Development & Consulting",
+      "description": "Ongoing full-stack development, API design, cloud infrastructure, and software consulting for various clients. Details protected by non-disclosure agreements."
+    },
+    {
+      "name": "Client Projects (NDA)",
+      "date": "2023",
+      "entity": "Tufekci Software Development & Consulting",
+      "description": "Full-stack development and software consulting for various clients. Details protected by non-disclosure agreements."
+    },
+    {
+      "name": "Client Projects (NDA)",
+      "date": "2022",
+      "entity": "Tufekci Software Development & Consulting",
+      "description": "Full-stack development and software consulting for various clients. Details protected by non-disclosure agreements."
+    },
+    {
+      "name": "Client Projects (NDA)",
+      "date": "2021",
+      "entity": "Tufekci Software Development & Consulting",
+      "description": "Full-stack development and software consulting for various clients. Details protected by non-disclosure agreements."
+    },
+    {
+      "name": "Client Projects (NDA)",
+      "date": "2020",
+      "entity": "Tufekci Software Development & Consulting",
+      "description": "Full-stack development and software consulting for various clients. Details protected by non-disclosure agreements."
+    },
+    {
+      "name": "Client Projects (NDA)",
+      "date": "2019",
+      "entity": "Tufekci Software Development & Consulting",
+      "description": "Full-stack development and software consulting for various clients. Details protected by non-disclosure agreements."
+    },
+    {
       "name": "Deta-PHP",
       "date": "2023",
       "entity": "Tufekci Software Development & Consulting",
@@ -677,15 +741,6 @@
       "description": "Personal PHP helper library following PSR-4 autoloading and PSR-2 coding standards. Includes unit testing with PHPUnit 6, comprehensive guide and tutorial, and easy integration with any framework or plain PHP.\n\nRequirements: PHP >= 7.0, Composer. Uses a standard project structure with build/, src/, tests/ directories, Travis CI configuration, and code sniffing tools (PHPCS, PHPCBF).",
       "url": "https://github.com/tuefekci/helpers",
       "category": "Libraries & Developer Tools"
-    },
-    {
-      "name": "microphp",
-      "date": "2021",
-      "entity": "Tufekci Software Development & Consulting",
-      "description": "A small subset of PHP implemented in Rust using a recursive-descent parser based on binding power (similar to PHP's own precedence model). The interpreter is a bytecode virtual machine where AST is compiled into bytecode operations and constants.\n\nSupported features:\n- Strings (surrounded by double-quotes)\n- Binary and boolean operations\n- If/else statements\n- While statements with break\n- User-defined functions\n- Internal/native functions\n\nBoth engines share similar opcodes, making feature implementation simpler as structure and flow can be replicated.",
-      "url": "https://github.com/tuefekci/microphp",
-      "category": "Libraries & Developer Tools",
-      "featured": true
     },
     {
       "name": "overcli",
@@ -869,21 +924,6 @@
         "Technology: Push Notifications"
       ],
       "category": "Mobile & Desktop Apps"
-    },
-    {
-      "name": "STOREFIT Website",
-      "date": "2018",
-      "entity": "planetmutlu gmbh & co. kg",
-      "description": "Entwicklung der Website für STOREFIT. Moderner Webauftritt mit Informationen zu Fitness- und Gesundheitsdienstleistungen.",
-      "highlights": [
-        "Webentwicklung",
-        "CMS",
-        "Technology: CMS",
-        "Technology: Webentwicklung"
-      ],
-      "image": "storefit-website-1.jpg",
-      "customer": "STOREFIT",
-      "category": "Web Development"
     },
     {
       "name": "Union Rösterei Website",
@@ -1459,7 +1499,8 @@
     {
       "name": "Beckröge Webseite & B2B Bestellsystem",
       "date": "2015",
-      "entity": "Tufekci Software Development & Consulting",
+      "entity": "planetmutlu gmbh & co. kg",
+      "customer": "Beckröge",
       "description": "Auf Basis Wordpress Elementor und ReactJS wurde eine Webseite mit der Möglichkeit für Gaststätten Betreiber Bestellungen vorzunehmen entwickelt.",
       "highlights": [
         "Technology: WordPress",
@@ -1474,7 +1515,8 @@
     {
       "name": "Bibliotheksportal (Deutscher Bibliotheksverband)",
       "date": "2015",
-      "entity": "Tufekci Software Development & Consulting",
+      "entity": "planetmutlu gmbh & co. kg",
+      "customer": "Deutscher Bibliotheksverband e.V.",
       "description": "Auf Basis Wordpress Elementor und ReactJS wurde ein Web-Portal für den Deutschen Bibliotheksverband e.V. entwickelt.",
       "highlights": [
         "Technology: WordPress",
@@ -1532,7 +1574,8 @@
     {
       "name": "Gewoba Database-Publishing (Redaktions-System)",
       "date": "2015",
-      "entity": "Tufekci Software Development & Consulting",
+      "entity": "planetmutlu gmbh & co. kg",
+      "customer": "GEWOBA",
       "description": "Auf Basis Wordpress wurde ein Redaktions-System zur Verwaltung von Artikeln und Medien für Magazine entwickelt.",
       "highlights": [
         "Technology: WordPress",
@@ -1566,7 +1609,8 @@
     {
       "name": "Kinotickets.online",
       "date": "2015",
-      "entity": "Tufekci Software Development & Consulting",
+      "entity": "planetmutlu gmbh & co. kg",
+      "customer": "Mars-EDV / PMKino",
       "description": "Auf Basis SlimPHP und ReactJS wurde ein Portal zur Buchung von Kino-Tickets entwickelt welches die Schnittstelle von MarsEDV nutzt und in mittlerweile über 15 Kinos im Einsatz ist.",
       "highlights": [
         "Technology: SlimPHP",
@@ -1582,7 +1626,8 @@
     {
       "name": "Messe Webseiten (WordPress Plugin-Sammlung)",
       "date": "2015",
-      "entity": "Tufekci Software Development & Consulting",
+      "entity": "planetmutlu gmbh & co. kg",
+      "customer": "Messe Bremen",
       "description": "Auf Basis Wordpress wurde eine Sammlung von Plugins und Themes zur Umsetzung verschiedener Messe spezifische Webseiten implementiert welches unteranderem zum Einsatz auf Reiselust-Bremen.de, Hanselife.de, Messe-Bremen.de, Jazzahead.de und weiter Messen ist oder war.",
       "highlights": [
         "Technology: WordPress",
@@ -1614,7 +1659,7 @@
     {
       "name": "PMKino Web2Print und Webseiten",
       "date": "2015",
-      "entity": "Tufekci Software Development & Consulting",
+      "entity": "planetmutlu gmbh & co. kg",
       "description": "Auf Basis Wordpress Elementor und Phalcon PHP sowie ReactJS wurde ein Portal zur Visuellen Erstellung von Flyern und Webseiten für Kinobetreiber entwickelt. (Konzeption, Entwicklung und Projektleitung)",
       "highlights": [
         "Technology: WordPress",

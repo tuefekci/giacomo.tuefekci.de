@@ -3,8 +3,6 @@
     export let data;
     const resume = data.props.resume;
 
-    import PortfolioItem from "$lib/components/portfolioItem.svelte";
-
     let activeFilter = "__featured__";
 
     $: categories = [...new Set(resume.projects.map(p => p.category).filter(Boolean))];
@@ -21,15 +19,27 @@
             : resume.projects.filter(p => p.category === activeFilter);
     $: sorted = [...filtered].sort((a, b) => (b.date || 0) - (a.date || 0));
 
+    $: grouped = sorted.reduce((acc, p) => {
+        const year = p.date || "Unknown";
+        if (!acc[year]) acc[year] = [];
+        acc[year].push(p);
+        return acc;
+    }, {});
+    $: years = Object.keys(grouped).sort((a, b) => Number(b) - Number(a));
+
+    function truncate(text, maxLen) {
+        if (!text) return "";
+        if (text.length <= maxLen) return text;
+        return text.slice(0, maxLen).trimEnd() + "...";
+    }
 </script>
 
-<!-- SEO -->
 <svelte:head>
-	<title>{resume.basics.name}'s Portfolio</title>
-	<meta property="og:type" content="website" />
-	<meta property="og:title" content="{resume.basics.name}'s Portfolio" />
-	<meta property="og:description" content="{resume.basics.summary}" />
-	<meta property="og:img" content="{resume.basics.image}" />
+    <title>{resume.basics.name}'s Portfolio</title>
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{resume.basics.name}'s Portfolio" />
+    <meta property="og:description" content="{resume.basics.summary}" />
+    <meta property="og:img" content="{resume.basics.image}" />
 </svelte:head>
 
 <div class="pt-12 print:pt-0">
@@ -41,7 +51,6 @@
                 <div class="flex grow h-1 mt-5 ml-3 gradient-background-line"></div>
             </div>
 
-            <!-- Filter Buttons -->
             <div class="flex gap-2 flex-wrap pb-2">
                 <button
                     class="text-[12px] px-4 py-2 rounded transition-all duration-200 {activeFilter === '__featured__' ? 'bg-[#FA5252] text-white' : 'bg-[#F3F6F6] dark:bg-[#1D1D1D] text-[#A6A6A6] hover:text-[#FA5252] dark:hover:text-white'}"
@@ -65,11 +74,58 @@
                 {/each}
             </div>
 
-            <!-- Project Grid -->
-            <div class="grid grid-cols-1 mt-[30px] gap-y-4 mb-6 pb-6">
-                {#each sorted as project (project.name)}
-                    <PortfolioItem {project} />
+            <!-- Year-Grouped Timeline -->
+            <div class="mt-[30px] mb-6 pb-6">
+                {#each years as year}
+                    <div class="mb-8">
+                        <div class="flex items-center gap-4 mb-4">
+                            <h3 class="text-2xl font-bold dark:text-white">{year}</h3>
+                            <div class="flex grow h-[2px] gradient-background-line"></div>
+                        </div>
+
+                        <div class="space-y-5">
+                            {#each grouped[year] as project (project.name)}
+                                <div class="pl-4 border-l-2 border-[#E3E3E3] dark:border-[#3D3A3A]">
+                                    <div class="flex justify-between items-start gap-2">
+                                        <h4 class="text-lg font-semibold dark:text-white">{project.name}</h4>
+                                    </div>
+
+                                    {#if project.entity}
+                                        <div class="text-sm dark:text-[#A6A6A6] mt-0.5">
+                                            {project.entity}
+                                            {#if project.customer}
+                                                <span class="dark:text-[#A6A6A6]/60">for {project.customer}</span>
+                                            {/if}
+                                        </div>
+                                    {/if}
+
+                                    {#if project.description}
+                                        <p class="text-sm dark:text-white/60 mt-1 line-clamp-2">
+                                            {truncate(project.description, 200)}
+                                        </p>
+                                    {/if}
+
+                                    {#if project.url}
+                                        <div class="mt-1">
+                                            <a
+                                                href="{project.url}"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                class="text-sm text-[#FA5252] hover:underline dark:text-[#FA5252]"
+                                            >
+                                                View Project →
+                                            </a>
+                                        </div>
+                                    {/if}
+                                </div>
+                            {/each}
+                        </div>
+                    </div>
                 {/each}
+
+                {#if years.length === 0}
+                    <p class="text-sm dark:text-[#A6A6A6] text-center py-8">No projects match this filter.</p>
+                {/if}
             </div>
 
         </div>
