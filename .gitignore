@@ -3,4 +3,3 @@ node_modules
 .svelte-kit
 _bak/
 build/
-build/images/portfolio

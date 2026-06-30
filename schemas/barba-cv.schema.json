@@ -1,0 +1,299 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Eurobotics-Association/barba-cv/raw/refs/heads/main/schema/barba-cv.schema.json",
+  "title": "Barba-CV Schema",
+  "description": "Open-source deterministic JSON schema for structured CV data. Barba-CV v1.2 keeps the CV payload at root for backward compatibility while introducing a meta block and an extensions area.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "barba_cv_version"
+  ],
+  "properties": {
+    "barba_cv_version": {
+      "type": "string",
+      "description": "Version of the Barba-CV payload format. Version 1 corresponded to raw Barba-CV JSON without formal schema metadata. Version 1.2 introduces this field, a meta block, and an extensions area.",
+      "examples": ["1.2"]
+    },
+    "personal_info": {
+      "$ref": "#/$defs/personalInfo"
+    },
+    "profile_summary": {
+      "type": "string",
+      "description": "Free-text professional summary or profile statement. May be empty or omitted."
+    },
+    "position_sought": {
+      "type": "array",
+      "description": "Target roles or positioning statements describing the candidate's desired position or professional orientation. Often used as the headline of the CV.",
+      "items": { "type": "string" }
+    },
+    "experiences": {
+      "type": "array",
+      "description": "Professional experience entries. May be empty or omitted.",
+      "items": { "$ref": "#/$defs/experienceItem" }
+    },
+    "education": {
+      "type": "array",
+      "description": "Education entries. May be empty or omitted.",
+      "items": { "$ref": "#/$defs/educationItem" }
+    },
+    "skills": {
+      "$ref": "#/$defs/skills"
+    },
+    "certifications": {
+      "type": "array",
+      "description": "Certification entries. May be empty or omitted.",
+      "items": { "$ref": "#/$defs/certificationItem" }
+    },
+    "languages": {
+      "type": "array",
+      "description": "Languages known by the candidate. Language level remains flexible and human-readable.",
+      "items": { "$ref": "#/$defs/languageItem" }
+    },
+    "interests": {
+      "type": "array",
+      "description": "Interests, hobbies, or other personal activities.",
+      "items": { "type": "string" }
+    },
+    "project_achievements": {
+      "type": "array",
+      "description": "Structured project or achievement extracts derived from the CV. Replaces the legacy projects_achievements_extracts key.",
+      "items": { "$ref": "#/$defs/projectAchievementItem" }
+    },
+    "meta": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "cv_uuid": { "$ref": "#/$defs/stringOrNull", "description": "Unique identifier for the CV within processing pipelines or databases." },
+        "cv_title": { "$ref": "#/$defs/stringOrNull", "description": "Human-readable title for the CV used for export, UI display, or filename generation." },
+        "parsing_errors": { "type": "array", "description": "Parser or mapping issues detected during extraction.", "items": { "type": "string" } },
+        "ats_processed": { "type": ["boolean", "null"], "description": "Whether the JSON content reflects ATS-compatible post-processing rather than raw extraction only." },
+        "processor_engine": { "$ref": "#/$defs/stringOrNull", "description": "Engine or processor identifier that generated or revised the payload." },
+        "parsed_at": { "$ref": "#/$defs/stringOrNull", "description": "Human-readable parse timestamp or ingestion timestamp." },
+        "source_original_text": { "$ref": "#/$defs/stringOrNull", "description": "Original extracted text source when stored alongside the payload." },
+        "source_ats_revised_text": { "$ref": "#/$defs/stringOrNull", "description": "ATS-oriented revised text representation when available." },
+        "original_filename": { "$ref": "#/$defs/stringOrNull" },
+        "source_format": { "$ref": "#/$defs/stringOrNull", "description": "Original source format such as pdf, docx, html, or text." },
+        "ingested_at": { "$ref": "#/$defs/stringOrNull", "description": "Human-readable timestamp for database ingestion or downstream storage." },
+        "embedded_at": { "$ref": "#/$defs/stringOrNull", "description": "Human-readable timestamp indicating when vector embedding or downstream enrichment occurred." },
+        "extraction_confidence_overall": { "type": ["number", "null"], "minimum": 0, "maximum": 1, "description": "Optional overall confidence score for AI extraction, between 0 and 1." }
+      }
+    }
+  },
+  "$defs": {
+    "stringOrNull": {
+      "oneOf": [
+        { "type": "string" },
+        { "type": "null" }
+      ]
+    },
+    "personalInfo": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "first_name": { "type": "string" },
+        "middle_name": { "type": "string" },
+        "last_name": { "type": "string" },
+        "date_of_birth": { "$ref": "#/$defs/stringOrNull" },
+        "driving_licenses": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "address": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "street": { "type": "string" },
+            "postal_code": { "type": "string" },
+            "city": { "type": "string" },
+            "country": { "type": "string" }
+          }
+        },
+        "contact": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "email": { "type": "string" },
+            "phone": { "type": "string" }
+          }
+        },
+        "links": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "linkedin": { "type": "string" },
+            "github": { "type": "string" },
+            "website": { "type": "string" },
+            "twitter": { "type": "string" },
+            "other_socials": {
+              "type": "array",
+              "items": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "experienceItem": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "organization": { "type": "string" },
+        "role_title": { "type": "string" },
+        "location": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "city": { "type": "string" },
+            "country": { "type": "string" }
+          }
+        },
+        "start_date": { "type": "string" },
+        "end_date": { "type": "string" },
+        "website": { "type": "string" },
+        "logo": { "type": "string" },
+        "tasks": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "achievements": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "educationItem": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "school": { "type": "string" },
+        "degree": { "type": "string" },
+        "field": { "type": "string" },
+        "start_date": { "type": "string" },
+        "end_date": { "type": "string" },
+        "website": { "type": "string" },
+        "logo": { "type": "string" },
+        "school_location": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "city": { "type": "string" },
+            "country": { "type": "string" }
+          }
+        }
+      }
+    },
+    "skillItem": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "name": { "type": "string" },
+        "level": { "type": "string" },
+        "category": { "type": "string" },
+        "keywords": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "skills": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "it_skills": {
+          "oneOf": [
+            { "type": "array", "items": { "$ref": "#/$defs/skillItem" } },
+            { "type": "array", "items": { "type": "string" } }
+          ]
+        },
+        "hard_skills": {
+          "oneOf": [
+            { "type": "array", "items": { "$ref": "#/$defs/skillItem" } },
+            { "type": "array", "items": { "type": "string" } }
+          ]
+        },
+        "soft_skills": {
+          "oneOf": [
+            { "type": "array", "items": { "$ref": "#/$defs/skillItem" } },
+            { "type": "array", "items": { "type": "string" } }
+          ]
+        }
+      }
+    },
+    "certificationItem": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "name": { "type": "string" },
+        "issuer": { "type": "string" },
+        "date_obtained": { "type": "string" },
+        "expiry_date": { "type": "string" },
+        "credential_id": { "type": "string" },
+        "credential_url": { "type": "string" }
+      }
+    },
+    "languageItem": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "language": { "type": "string" },
+        "level": { "type": "string" },
+        "certificates": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "projectAchievementItem": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string" },
+        "service_type": { "type": "string" },
+        "client": { "type": "string" },
+        "title": { "type": "string" },
+        "period": {
+          "oneOf": [
+            { "type": "string" },
+            {
+              "type": "object",
+              "properties": {
+                "start": { "type": "string" },
+                "end": { "type": "string" }
+              }
+            }
+          ]
+        },
+        "role": {
+          "oneOf": [
+            { "type": "string" },
+            { "type": "array", "items": { "type": "string" } }
+          ]
+        },
+        "sectors": {
+          "oneOf": [
+            { "type": "string" },
+            { "type": "array", "items": { "type": "string" } }
+          ]
+        },
+        "competencies": {
+          "oneOf": [
+            { "type": "string" },
+            { "type": "array", "items": { "type": "string" } }
+          ]
+        },
+        "keywords": {
+          "oneOf": [
+            { "type": "string" },
+            { "type": "array", "items": { "type": "string" } }
+          ]
+        },
+        "synonyms": {
+          "oneOf": [
+            { "type": "string" },
+            { "type": "object" }
+          ]
+        },
+        "description": { "type": "string" }
+      }
+    }
+  }
+}

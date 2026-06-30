@@ -6,7 +6,7 @@
     import { activeFilter } from '$lib/stores/portfolioFilter';
 
     const visibleProjects = resume.projects.filter(p =>
-        !p.entity?.toLowerCase().includes("planetmutlu")
+        p.visibility !== "hidden" && p.visibility !== "on-request"
     );
 
     $: categories = [...new Set(visibleProjects.map(p => p.category).filter(Boolean))];
@@ -21,12 +21,21 @@
         : $activeFilter === "__all__"
             ? visibleProjects
             : visibleProjects.filter(p => p.category === $activeFilter);
-    $: sorted = [...filtered].sort((a, b) => (b.date || 0) - (a.date || 0));
+    $: sorted = [...filtered].sort((a, b) => (b.startDate || 0) - (a.startDate || 0));
 
     $: grouped = sorted.reduce((acc, p) => {
-        const year = p.date || "Unknown";
-        if (!acc[year]) acc[year] = [];
-        acc[year].push(p);
+        const start = p.startDate ? parseInt(p.startDate) : null;
+        const end = p.endDate ? parseInt(p.endDate) : start;
+        if (start === null) {
+            if (!acc["Unknown"]) acc["Unknown"] = [];
+            acc["Unknown"].push(p);
+        } else {
+            for (let y = start; y <= end; y++) {
+                const year = String(y);
+                if (!acc[year]) acc[year] = [];
+                acc[year].push(p);
+            }
+        }
         return acc;
     }, {});
     $: years = Object.keys(grouped).sort((a, b) => Number(b) - Number(a));
@@ -40,10 +49,12 @@
 
 <svelte:head>
     <title>{resume.basics.name}'s Portfolio</title>
+    <meta name="description" content="{resume.basics.summary}" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="{resume.basics.name}'s Portfolio" />
     <meta property="og:description" content="{resume.basics.summary}" />
-    <meta property="og:img" content="{resume.basics.image}" />
+    <meta property="og:image" content="{resume.basics.image}" />
+    <link rel="canonical" href="https://giacomo.tuefekci.de/portfolio" />
 </svelte:head>
 
 <div class="pt-12 print:pt-0">

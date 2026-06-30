@@ -27,8 +27,13 @@
 <div class="py-4 pl-5 pr-3 space-y-2 mb-6 rounded-lg dark:border-[#212425] border-2 print:break-inside-avoid print:border-none print:p-0 print:pb-5" style="background: transparent;">
     <div class="flex justify-between items-start gap-2">
         <h3 class="text-xl dark:text-white">{project.name}</h3>
-        {#if project.date}
-            <span class="text-sm font-semibold dark:text-[#A6A6A6] whitespace-nowrap">{project.date}</span>
+        {#if project.startDate}
+            <span class="text-sm font-semibold dark:text-[#A6A6A6] whitespace-nowrap">
+                {project.startDate}
+                {#if project.endDate && project.endDate !== project.startDate}
+                    – {project.endDate}
+                {/if}
+            </span>
         {/if}
     </div>
 

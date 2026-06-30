@@ -1,0 +1,1840 @@
+{
+  "version": "0.0.1",
+  "format": "orf",
+  "meta": {
+    "name": "Giacomo Tüfekçi",
+    "sort": "chrono",
+    "sort_order": "desc",
+    "tags": [
+      "software-development",
+      "web-development",
+      "full-stack"
+    ]
+  },
+  "data": {
+    "personal": {
+      "name": "Giacomo Tüfekçi",
+      "phone_number": "",
+      "email": "giacomo@tuefekci.de",
+      "city": "Ludwigshafen am Rhein",
+      "state": "",
+      "country": "DE",
+      "url_linkedin": "https://www.linkedin.com/in/gtuefekci/",
+      "url_website": "https://giacomo.tuefekci.de",
+      "url_portfolio": null,
+      "url_other": []
+    },
+    "summary": "I'm a Full-Stack Developer based in Ludwigshafen am Rhein, Germany, with a background in web development, software engineering, and game design. I enjoy building end-to-end solutions and working seamlessly across various programming languages and web frameworks. Beyond just writing code, I value strong project management to ensure ideas actually make it to production efficiently and on time. When I’m not at my keyboard, I’m usually tinkering with electronics, keeping up with new tech, or tending to my garden. I also enjoy winding down with gaming, anime, and web novels. I speak fluent German and English, and I always aim to bring a practical, creative approach to the software I build.",
+    "education": [
+      {
+        "degree_level": "other",
+        "degree_title": "journeyman's certificate, specialized in Design and Technology",
+        "completed": true,
+        "institution": "Wilhelm Wagenfeld-Schule",
+        "institution_city": "",
+        "institution_state": "",
+        "major": "Media Designer",
+        "concentration": null,
+        "minor": null,
+        "gpa": null,
+        "gpa_scale": null,
+        "start_day": null,
+        "start_month": null,
+        "start_year": 2010,
+        "end_day": null,
+        "end_month": null,
+        "end_year": 2013
+      },
+      {
+        "degree_level": "other",
+        "degree_title": "journeyman's certificate, early dropout due to allergic reactions.",
+        "completed": true,
+        "institution": "SZ Rübekamp",
+        "institution_city": "",
+        "institution_state": "",
+        "major": "Apprenticeship Cook",
+        "concentration": null,
+        "minor": null,
+        "gpa": null,
+        "gpa_scale": null,
+        "start_day": null,
+        "start_month": null,
+        "start_year": 2009,
+        "end_day": null,
+        "end_month": null,
+        "end_year": 2010
+      },
+      {
+        "degree_level": "other",
+        "degree_title": "vocational baccalaureate (completed practical part)",
+        "completed": true,
+        "institution": "FOS Delmestrasse",
+        "institution_city": "",
+        "institution_state": "",
+        "major": "Social Pedagogy",
+        "concentration": null,
+        "minor": null,
+        "gpa": null,
+        "gpa_scale": null,
+        "start_day": null,
+        "start_month": null,
+        "start_year": 2008,
+        "end_day": null,
+        "end_month": null,
+        "end_year": 2009
+      },
+      {
+        "degree_level": "other",
+        "degree_title": "secondary school (certificate Real school)",
+        "completed": true,
+        "institution": "SZ Drebberstraße",
+        "institution_city": "",
+        "institution_state": "",
+        "major": "Highschool",
+        "concentration": null,
+        "minor": null,
+        "gpa": null,
+        "gpa_scale": null,
+        "start_day": null,
+        "start_month": null,
+        "start_year": 2002,
+        "end_day": null,
+        "end_month": null,
+        "end_year": 2008
+      }
+    ],
+    "experience": [
+      {
+        "title": "Full Stack Software Developer",
+        "employer": "Tüfekci Software Development & Consulting",
+        "employer_city": "Bremen",
+        "employer_state": "",
+        "employer_country": null,
+        "description": [
+          "Development of an Download Manager as a Prototype in PHP and than in Svelte",
+          "Development of an Web Application for the Management of a Cleaning Company",
+          "Development of an Web Application for the Management of an QR Code based Redirection System",
+          "Development of Apps, Plugins, Wrappers and Apis for Deta.space",
+          "Development of an Web Application which enables playing retro games in the Browser based on WASM Compiled Emulators.",
+          "Development of an Android Application to read Web & Light Novels from different Providers in an unified UI.",
+          "Development of an API & Crawler to build an index of Web & Light Novels from different Providers.",
+          "Some Prototype ML/AI Applications which can generate Content, Images, Translate etc. which is used in different Projects."
+        ]
+      },
+      {
+        "title": "Cloud Development / Software Developer",
+        "employer": "Cloud Development / Software Developer",
+        "employer_city": "",
+        "employer_state": "",
+        "employer_country": null,
+        "description": [
+          "Development of an Network Bridge between Web/Cloud to VisualBasic Application",
+          "Development of an Application/API to automate Facebook Events",
+          "Development of an APP for the Android and iOS Platform for Room Booking"
+        ]
+      },
+      {
+        "title": "Productowner",
+        "employer": "RR Software GmbH",
+        "employer_city": "Hasselfelde",
+        "employer_state": "",
+        "employer_country": null,
+        "description": [
+          "Planned and ReDesigned a Cloud/Web based Management System"
+        ]
+      },
+      {
+        "title": "Lead Web / Software Developer",
+        "employer": "planetmutlu gmbh & co. kg",
+        "employer_city": "Bremen",
+        "employer_state": "",
+        "employer_country": null,
+        "description": [
+          "Managed a 5-person development team",
+          "Planned, Developed and Managed a booking, website and web2print system for cinemas (pmkino) using PhalconPHP, Wordpress, MongoDB, Python, NodeJS and ReactJS",
+          "Developed a Web2Print solution using PhalconPHP, Wordpress, MongoDB, Python, NodeJS and ReactJS",
+          "Developed a Wordpress Plugin and Theme environment for Messe Bremen Events, which was used in 10+ Websites."
+        ]
+      },
+      {
+        "title": "Freelance Full Stack Web Developer",
+        "employer": "Tüfekci Software Development & Consulting",
+        "employer_city": "Bremen",
+        "employer_state": "",
+        "employer_country": null,
+        "description": []
+      },
+      {
+        "title": "Lead IT Manager",
+        "employer": "Humburg Media Group (Druckhaus Humburg)",
+        "employer_city": "Bremen",
+        "employer_state": "",
+        "employer_country": null,
+        "description": [
+          "Managed a 4-person development team"
+        ]
+      },
+      {
+        "title": "Apprenticeship Media Designer",
+        "employer": "image advertising gmbh & co. kg",
+        "employer_city": "Bremen",
+        "employer_state": "",
+        "employer_country": null,
+        "description": [
+          "Implemented layouts and developed applications and websites using CakePHP, Joomla, and other related technologies."
+        ]
+      },
+      {
+        "title": "CTO & Co Founder",
+        "employer": "SaveFM",
+        "employer_city": "Bremen",
+        "employer_state": "",
+        "employer_country": null,
+        "description": [
+          "Designed and developed a desktop and mobile application using Node-Webkit and Phonegap that automatically records web radio streams and shares them via the cloud. Project terminated due to legal cost issues."
+        ]
+      },
+      {
+        "title": "Apprenticeship Cook",
+        "employer": "Maritim Hotel Bremen",
+        "employer_city": "Bremen",
+        "employer_state": "",
+        "employer_country": null,
+        "description": [
+          "The profession demanded creativity and I quite liked it, but unfortunately, I had to quit due to allergic reactions."
+        ]
+      },
+      {
+        "title": "Parttime Line Cook / Service Staff",
+        "employer": "Maritim Hotel Bremen",
+        "employer_city": "Bremen",
+        "employer_state": "",
+        "employer_country": null,
+        "description": []
+      },
+      {
+        "title": "Freelance Web Developer",
+        "employer": "Tüfekci Software Development & Consulting",
+        "employer_city": "Bremen",
+        "employer_state": "",
+        "employer_country": null,
+        "description": []
+      },
+      {
+        "title": "Parttime Cashier and Stocker",
+        "employer": "ASG Supermarket",
+        "employer_city": "Bremen",
+        "employer_state": "",
+        "employer_country": null,
+        "description": []
+      },
+      {
+        "title": "Parttime Cashier and Stocker",
+        "employer": "GP (Getränke Partner)",
+        "employer_city": "Bremen",
+        "employer_state": "",
+        "employer_country": null,
+        "description": []
+      }
+    ],
+    "projects": [
+      {
+        "title": "Client Projects (NDA)",
+        "sub_title": "",
+        "url": "",
+        "description": [
+          "Ongoing full-stack development, API design, cloud infrastructure, and software consulting for various clients. Details protected by non-disclosure agreements."
+        ]
+      },
+      {
+        "title": "LLM Applications & AI Integration",
+        "sub_title": "",
+        "url": "",
+        "description": [
+          "Development of applications and workflows leveraging large language models including local LLM deployment (ollama, llama.cpp), Open WebUI, RAG pipelines, prompt engineering, and API wrappers for multiple AI providers."
+        ]
+      },
+      {
+        "title": "AI Image Generation Pipeline",
+        "sub_title": "",
+        "url": "",
+        "description": [
+          "Design and implementation of AI image generation pipelines using Stable Diffusion (ComfyUI, Automatic1111), custom LoRA training, batch generation and upscaling automation, and integration into existing workflows."
+        ]
+      },
+      {
+        "title": "Deta-PHP",
+        "sub_title": "",
+        "url": "https://github.com/tuefekci/Deta-PHP",
+        "description": [
+          "Technology: deta",
+          "Technology: deta-base",
+          "Technology: deta-drive",
+          "Technology: deta-micros",
+          "Technology: deta-space",
+          "Technology: php"
+        ]
+      },
+      {
+        "title": "Deta-PHP-Engine",
+        "sub_title": "",
+        "url": "https://github.com/tuefekci/Deta-PHP-Engine",
+        "description": [
+          "Technology: deta",
+          "Technology: deta-micros",
+          "Technology: deta-space"
+        ]
+      },
+      {
+        "title": "Deta-PHP-Sandbox",
+        "sub_title": "",
+        "url": "https://github.com/tuefekci/Deta-PHP-Sandbox",
+        "description": [
+          "Technology: deta",
+          "Technology: deta-space"
+        ]
+      },
+      {
+        "title": "deta-queue",
+        "sub_title": "",
+        "url": "https://github.com/tuefekci/deta-queue",
+        "description": [
+          "Technology: deta",
+          "Technology: deta-base",
+          "Technology: deta-micros",
+          "Technology: deta-space"
+        ]
+      },
+      {
+        "title": "deta-s3-server",
+        "sub_title": "",
+        "url": "https://github.com/tuefekci/deta-s3-server",
+        "description": [
+          "S3 Server for Deta.Space (Deta Drive) written in NodeJS based on jamhall/s3rver. A simple S3-compatible server that uses Deta Drive as a backend. Not a full S3 implementation — provides basic S3 API compatibility for storing and retrieving files via Deta Drive.\n\nAvailable on Deta Space Discovery: https://deta.space/discovery/@tuefekci/s3server"
+        ]
+      },
+      {
+        "title": "flatfilecache",
+        "sub_title": "",
+        "url": "https://github.com/tuefekci/flatfilecache",
+        "description": [
+          "Node.js flat file cache library written in TypeScript. Provides a simple file-based caching mechanism using the local filesystem, suitable for scenarios where a full database or Redis cache is not needed."
+        ]
+      },
+      {
+        "title": "novelsource-proxy",
+        "sub_title": "",
+        "url": "https://github.com/tuefekci/novelsource-proxy",
+        "description": [
+          "Proxy server for novel sources, complementing novelsourcePHP. Provides a proxy layer for web novel scraping operations, handling routing and requests between the scraping client and target novel sites."
+        ]
+      },
+      {
+        "title": "novelsourcePHP",
+        "sub_title": "",
+        "url": "https://github.com/tuefekci/novelsourcePHP",
+        "description": [
+          "A collection of webnovel/novel sources offering varying amounts of scraping capability. Primarily built for meta data aggregation (tags and genres for recommendation) rather than content scraping.\n\nAvailable as a Composer package: `tuefekci/novelsource`. Supports novel source adapters with search and last-checked tracking. Inspired by mensch272/novelsave_sources (Python) but built for PHP use cases."
+        ]
+      },
+      {
+        "title": "blkhole",
+        "sub_title": "",
+        "url": "https://github.com/tuefekci/blkhole",
+        "description": [
+          "Technology: alldebrid",
+          "Technology: blackhole",
+          "Technology: ddl",
+          "Technology: magnet",
+          "Technology: php",
+          "Technology: torrent"
+        ]
+      },
+      {
+        "title": "docker-radarr-xu4",
+        "sub_title": "",
+        "url": "https://github.com/tuefekci/docker-radarr-xu4",
+        "description": [
+          "Docker configuration to run Radarr on an ODROID-XU4 single-board computer. Provides a containerized setup for the Radarr movie management tool optimized for ARM-based hardware."
+        ]
+      },
+      {
+        "title": "docker-sonarr-xu4",
+        "sub_title": "",
+        "url": "https://github.com/tuefekci/docker-sonarr-xu4",
+        "description": [
+          "Docker configuration to run Sonarr on an ODROID-XU4 single-board computer. Includes a workaround to force the mono process onto one set of cores (big cores 4,5,6,7 and small cores 0,1,2,3) to resolve performance issues on the big.LITTLE ARM architecture."
+        ]
+      },
+      {
+        "title": "helpers",
+        "sub_title": "",
+        "url": "https://github.com/tuefekci/helpers",
+        "description": [
+          "Personal PHP helper library following PSR-4 autoloading and PSR-2 coding standards. Includes unit testing with PHPUnit 6, comprehensive guide and tutorial, and easy integration with any framework or plain PHP.\n\nRequirements: PHP >= 7.0, Composer. Uses a standard project structure with build/, src/, tests/ directories, Travis CI configuration, and code sniffing tools (PHPCS, PHPCBF)."
+        ]
+      },
+      {
+        "title": "overcli",
+        "sub_title": "",
+        "url": "https://github.com/tuefekci/overcli",
+        "description": [
+          "OverCLI is a PHP CLI / TUI Helper / Framework Library with a Render Loop, similar to how Game Engines handle application rendering. A collection of useful functions and classes for building CLI and TUI applications.\n\nFeatures:\n- Render Loop for continuous rendering with events\n- Exception renderer for static error display\n- Demo applications including a PIN IDENTIFICATION PROGRAM inspired by T2 Movie Prop\n- Fully dependent on the Runtime, framerate is stable with fine memory usage\n\nRequirements: PHP 7.2+ and Composer."
+        ]
+      },
+      {
+        "title": "php-benchmark",
+        "sub_title": "",
+        "url": "https://github.com/tuefekci/php-benchmark",
+        "description": [
+          "Benchmarking PHP7, PHP8, and PHP7-parallel performance on an i7-4790k with 16GB DDR3. Tests include math operations, string manipulation, loops, and if/else conditions with 1,000,000 iterations across 16 workers.\n\nResults (2021-10-04):\n- PHP 7.4.24: Total 79.612s (serial)\n- PHP 7.4.24-parallel: Total 9.361s (16 workers)\n- PHP 8.0.11: Total 69.053s (serial)\n\nConclusion: PHP8 performs better than PHP7 especially in string manipulation, while parallel processing on PHP7 delivers the fastest results for suitable workloads."
+        ]
+      },
+      {
+        "title": "Android Web / Light Novel Reader",
+        "sub_title": "",
+        "url": "",
+        "description": [
+          "Concept",
+          "Development",
+          "App Development",
+          "API Integration",
+          "Android",
+          "Java",
+          "Kotlin",
+          "REST API",
+          "WebView",
+          "SQLite"
+        ]
+      },
+      {
+        "title": "Download Manager (PHP → Svelte)",
+        "sub_title": "",
+        "url": "",
+        "description": [
+          "Concept",
+          "Development",
+          "Migration",
+          "Modernization",
+          "Svelte",
+          "SvelteKit",
+          "PHP",
+          "Node.js",
+          "TypeScript",
+          "JavaScript",
+          "REST API"
+        ]
+      },
+      {
+        "title": "QR Code Redirect System",
+        "sub_title": "",
+        "url": "",
+        "description": [
+          "Concept",
+          "Development",
+          "System Development",
+          "PHP",
+          "MySQL",
+          "Slim Framework",
+          "QR Code",
+          "REST API",
+          "Docker"
+        ]
+      },
+      {
+        "title": "ReactNative App und API (WebNovels)",
+        "sub_title": "",
+        "url": "",
+        "description": [
+          "Laravel",
+          "ReactNative",
+          "API",
+          "WebNovel",
+          "Crawler"
+        ]
+      },
+      {
+        "title": "Retro Game Browser Emulator (WASM)",
+        "sub_title": "",
+        "url": "",
+        "description": [
+          "Concept",
+          "Development",
+          "Porting",
+          "WASM Integration",
+          "WebAssembly",
+          "JavaScript",
+          "C/C++",
+          "HTML5",
+          "Canvas"
+        ]
+      },
+      {
+        "title": "ReactNative CRM Task/Todo App",
+        "sub_title": "",
+        "url": "",
+        "description": [
+          "ReactNative",
+          "CRM",
+          "Mobile App",
+          "Tasks"
+        ]
+      },
+      {
+        "title": "Reinigungsfirma CRM",
+        "sub_title": "",
+        "url": "",
+        "description": [
+          "PHP",
+          "Laravel",
+          "CRM",
+          "Database",
+          "WebView"
+        ]
+      },
+      {
+        "title": "phpkg",
+        "sub_title": "",
+        "url": "https://github.com/tuefekci/phpkg",
+        "description": [
+          "Package your PHP project into an executable for Linux, Mac and Windows. Provides source code protection by compiling PHP projects into standalone executables. Includes benchmark comparisons between the packaged (phpkg) version and native PHP 8.1.3 on an i5-8259U CPU.\n\nBenchmark results showed minimal performance difference between phpkg and native PHP execution (64.334s vs 67.316s total for math, string, loop, and if/else tests), indicating the packaging adds negligible overhead."
+        ]
+      },
+      {
+        "title": "Facebook Events Automation API",
+        "sub_title": "",
+        "url": "",
+        "description": [
+          "Concept",
+          "Development",
+          "API Integration",
+          "Automation",
+          "Data Processing",
+          "Technology: PHP",
+          "Technology: Facebook Graph API",
+          "Technology: MySQL",
+          "Technology: Cron",
+          "Technology: REST API",
+          "Technology: JSON"
+        ]
+      },
+      {
+        "title": "Room Booking App (Android/iOS)",
+        "sub_title": "",
+        "url": "",
+        "description": [
+          "Concept",
+          "Development",
+          "App Development",
+          "API Development",
+          "Database Design",
+          "Technology: Android",
+          "Technology: iOS",
+          "Technology: PHP",
+          "Technology: REST API",
+          "Technology: MySQL",
+          "Technology: Push Notifications"
+        ]
+      },
+      {
+        "title": "Union Rösterei Website",
+        "sub_title": "",
+        "url": "https://unionroesterei.de",
+        "description": [
+          "Planning",
+          "Concept",
+          "Design",
+          "Photoshoot by Servet",
+          "CMS Development",
+          "Integration of the WooCommerce Shop System",
+          "Blog Section",
+          "Implementation of extensive variety filters",
+          "Technology: WordPress",
+          "Technology: CMS",
+          "Technology: WooCommerce",
+          "Technology: E-Commerce",
+          "Technology: PHP"
+        ]
+      },
+      {
+        "title": "VB2Web Bridge und API",
+        "sub_title": "",
+        "url": "",
+        "description": [
+          "Node.js",
+          "C++",
+          "WebSocket",
+          "REST API",
+          "Visual Basic"
+        ]
+      },
+      {
+        "title": "BHV Bremen",
+        "sub_title": "",
+        "url": "https://bhv-bremen.de",
+        "description": [
+          "Planning",
+          "Concept",
+          "Design",
+          "CMS Development",
+          "Member Manager",
+          "Web Magazine",
+          "Website Creation",
+          "Newsletter System Setup",
+          "Technology: WordPress",
+          "Technology: CMS",
+          "Technology: PHP",
+          "Technology: Database"
+        ]
+      },
+      {
+        "title": "Bibliotheksportal",
+        "sub_title": "",
+        "url": "https://bibliotheksportal.de",
+        "description": [
+          "Consulting",
+          "Support",
+          "Development",
+          "SAP Interface Creation",
+          "Extensive Database Extensions",
+          "Custom Elementor Extensions",
+          "Responsive Coding",
+          "WP Extensions",
+          "Technology: WordPress",
+          "Technology: CMS",
+          "Technology: SAP",
+          "Technology: Database",
+          "Technology: Elementor",
+          "Technology: Responsive"
+        ]
+      },
+      {
+        "title": "Docker-PHP7-Phalcon",
+        "sub_title": "",
+        "url": "https://github.com/tuefekci/Docker-PHP7-Phalcon",
+        "description": [
+          "Docker + PHP7 + Phalcon development container. Provides a complete development environment combining PHP 7 with the Phalcon PHP framework (compiled as a C-extension), designed for rapid web application development."
+        ]
+      },
+      {
+        "title": "Forum Film & Kino Kongress 2017",
+        "sub_title": "",
+        "url": "",
+        "description": [
+          "Concept",
+          "Development",
+          "Implementation",
+          "PHP",
+          "WordPress",
+          "JavaScript",
+          "ReactJS",
+          "Webpack"
+        ]
+      },
+      {
+        "title": "Forum Film Kino 2018",
+        "sub_title": "",
+        "url": "",
+        "description": [
+          "Web Development",
+          "CMS",
+          "Development"
+        ]
+      },
+      {
+        "title": "Geschmackslabor Website",
+        "sub_title": "",
+        "url": "https://geschmackslabor.com",
+        "description": [
+          "Planning",
+          "Concept",
+          "Design",
+          "Website Creation",
+          "Photoshoots including with Servet",
+          "Technology: Web",
+          "Technology: Website",
+          "Technology: CMS"
+        ]
+      },
+      {
+        "title": "Hanselife",
+        "sub_title": "",
+        "url": "https://www.hanselife.de",
+        "description": [
+          "Planning",
+          "Conception",
+          "Design",
+          "Implementation",
+          "Website maintenance",
+          "Technology: CMS"
+        ]
+      },
+      {
+        "title": "Kaffeevollautomaten Landingpage",
+        "sub_title": "",
+        "url": "http://kaffeemaschinen.kaffeeplan.de",
+        "description": [
+          "Concept",
+          "Design",
+          "Implementation",
+          "WordPress",
+          "PHP",
+          "CSS",
+          "JavaScript"
+        ]
+      },
+      {
+        "title": "MARS Connector",
+        "sub_title": "",
+        "url": "",
+        "description": [
+          "Concept",
+          "Development",
+          "System Administration",
+          "Linux",
+          "SSH",
+          "Docker",
+          "VPN"
+        ]
+      },
+      {
+        "title": "Mars-EDV Online Booking Client",
+        "sub_title": "",
+        "url": "",
+        "description": [
+          "Web Development",
+          "API Integration",
+          "E-Commerce",
+          "Slim Framework",
+          "PHP",
+          "JavaScript",
+          "REST API"
+        ]
+      },
+      {
+        "title": "PM Product Database API",
+        "sub_title": "",
+        "url": "",
+        "description": [
+          "Concept",
+          "Development",
+          "API Development",
+          "Slim Framework",
+          "PHP",
+          "JSON API",
+          "MySQL"
+        ]
+      },
+      {
+        "title": "PMKino Reseller Booking (Alias)",
+        "sub_title": "",
+        "url": "",
+        "description": [
+          "Programming",
+          "Reseller interface",
+          "API integration",
+          "Technology: PHP",
+          "Technology: Slim Framework",
+          "Technology: PMKino API"
+        ]
+      },
+      {
+        "title": "PMKino Web Suite",
+        "sub_title": "",
+        "url": "",
+        "description": [
+          "Planning",
+          "Conception",
+          "Programming",
+          "WordPress Multisite",
+          "API development",
+          "Database design",
+          "Technology: WordPress",
+          "Technology: Multisite",
+          "Technology: PHP",
+          "Technology: Python",
+          "Technology: REST API",
+          "Technology: JSON"
+        ]
+      },
+      {
+        "title": "Terra Sola",
+        "sub_title": "",
+        "url": "http://terra-sola.ch/de/",
+        "description": [
+          "Planung",
+          "Konzeption",
+          "Gestaltung",
+          "Technology: Web",
+          "Technology: Website"
+        ]
+      },
+      {
+        "title": "Ökofix Berlin exklusiv",
+        "sub_title": "",
+        "url": "http://berlin.oekofix.de",
+        "description": [
+          "Planning",
+          "Conception",
+          "Design",
+          "Programming of a comprehensive real-time rate calculator",
+          "Website creation"
+        ]
+      },
+      {
+        "title": "Aykut Großhandel Website",
+        "sub_title": "",
+        "url": "http://gustogrosshandel.de",
+        "description": [
+          "Website design",
+          "WordPress CMS",
+          "Support",
+          "Concept",
+          "Consulting",
+          "Implementation and design",
+          "Technology: WordPress",
+          "Technology: CMS",
+          "Technology: Web"
+        ]
+      },
+      {
+        "title": "Beckröge Website",
+        "sub_title": "",
+        "url": "https://www.beckroege.de/hb/",
+        "description": [
+          "Planning",
+          "Conception",
+          "Design",
+          "Website creation",
+          "Wine catalog",
+          "Web magazine 'Beckröge Life' for customers",
+          "Implementation of the Beckröge beverages app",
+          "Creation and maintenance of various own online shops for Beckröge private labels",
+          "Implementation of a Beckröge beer quiz",
+          "Technology: WordPress",
+          "Technology: CMS",
+          "Technology: App",
+          "Technology: E-Commerce"
+        ]
+      },
+      {
+        "title": "Creamlovers Website",
+        "sub_title": "",
+        "url": "https://creamlovers.de",
+        "description": [
+          "Web Development",
+          "Design",
+          "Corporate Design",
+          "WordPress",
+          "CSS",
+          "JavaScript"
+        ]
+      },
+      {
+        "title": "Docker-PHP7-Container",
+        "sub_title": "",
+        "url": "https://github.com/tuefekci/Docker-PHP7-Container",
+        "description": [
+          "Docker development container for PHP7, designed for WordPress development. Provides a ready-to-use PHP7 environment with necessary extensions for running and testing WordPress sites locally."
+        ]
+      },
+      {
+        "title": "Draussen",
+        "sub_title": "",
+        "url": "https://rufus-bremen.de",
+        "description": [
+          "Planning",
+          "Conception",
+          "Design",
+          "Website with modern CMS",
+          "Consulting",
+          "Technology: CMS",
+          "Technology: Web",
+          "Technology: Website"
+        ]
+      },
+      {
+        "title": "Gewoba Web2Print CMS",
+        "sub_title": "",
+        "url": "",
+        "description": [
+          "Planning",
+          "Conception",
+          "Development",
+          "Web-to-Print Integration",
+          "WordPress CMS",
+          "Technology: WordPress",
+          "Technology: PHP",
+          "Technology: Web2Print",
+          "Technology: PDF Generation",
+          "Technology: Database"
+        ]
+      },
+      {
+        "title": "Green Tech Invest",
+        "sub_title": "",
+        "url": "http://www.greentechinvest.ch",
+        "description": [
+          "Planning",
+          "Conception",
+          "Development",
+          "Technology: Web"
+        ]
+      },
+      {
+        "title": "Jazzahead!",
+        "sub_title": "",
+        "url": "https://jazzahead.de",
+        "description": [
+          "Large media library for videos, photos, and program booklets",
+          "Program overview with multiple filters for venue, time period, genre, or country of origin of acts",
+          "User-friendly CMS system",
+          "Visitor and exhibitor registration",
+          "Showcase application system",
+          "Jury rating system",
+          "Technology: CMS",
+          "Technology: Web",
+          "Technology: Database",
+          "Technology: PHP"
+        ]
+      },
+      {
+        "title": "NT-Meter Energiemonitor",
+        "sub_title": "",
+        "url": "",
+        "description": [
+          "Web Development",
+          "Data Visualization",
+          "IoT",
+          "Slim Framework",
+          "PHP",
+          "JavaScript",
+          "Flot Charts",
+          "Raspberry Pi"
+        ]
+      },
+      {
+        "title": "PM WP PageAdmin",
+        "sub_title": "",
+        "url": "",
+        "description": [
+          "Development",
+          "Plugin Development",
+          "React Integration",
+          "Technology: WordPress",
+          "Technology: PHP",
+          "Technology: React",
+          "Technology: Webpack",
+          "Technology: JavaScript",
+          "Technology: phpFastCache"
+        ]
+      },
+      {
+        "title": "Passion Sports Convention",
+        "sub_title": "",
+        "url": "",
+        "description": [
+          "Planning",
+          "Conception",
+          "Design",
+          "CMS Development",
+          "Consulting",
+          "Implementation",
+          "Technology: CMS",
+          "Technology: Web"
+        ]
+      },
+      {
+        "title": "PlanetMutlu CLI Tool",
+        "sub_title": "",
+        "url": "",
+        "description": [
+          "Concept",
+          "Development",
+          "Automation",
+          "PHP",
+          "Electron",
+          "CLI",
+          "Node.js"
+        ]
+      },
+      {
+        "title": "Beckröge Webseite & B2B Bestellsystem",
+        "sub_title": "",
+        "url": "",
+        "description": [
+          "Concept",
+          "Development",
+          "E-Commerce",
+          "WordPress",
+          "ReactJS",
+          "PHP",
+          "MySQL"
+        ]
+      },
+      {
+        "title": "Bibliotheksportal (Deutscher Bibliotheksverband)",
+        "sub_title": "",
+        "url": "",
+        "description": [
+          "Concept",
+          "Development",
+          "CMS",
+          "WordPress",
+          "ReactJS",
+          "PHP"
+        ]
+      },
+      {
+        "title": "Bremen Classic Motorshow",
+        "sub_title": "",
+        "url": "https://www.classicmotorshow.de",
+        "description": [
+          "Planning",
+          "Conception",
+          "Design",
+          "Development",
+          "App landing page",
+          "Annual app updates",
+          "Technology: App",
+          "Technology: iOS",
+          "Technology: Android"
+        ]
+      },
+      {
+        "title": "Croll & Denecke Website",
+        "sub_title": "",
+        "url": "https://crolldenecke.com",
+        "description": [
+          "CMS Programming",
+          "Website Development",
+          "Photo Shoot",
+          "WooCommerce Integration",
+          "Technology: WordPress",
+          "Technology: CMS",
+          "Technology: WooCommerce",
+          "Technology: E-Commerce"
+        ]
+      },
+      {
+        "title": "Gewoba Database-Publishing (Redaktions-System)",
+        "sub_title": "",
+        "url": "",
+        "description": [
+          "Concept",
+          "Development",
+          "Editorial System",
+          "WordPress",
+          "PHP",
+          "Web2Print"
+        ]
+      },
+      {
+        "title": "Kaffeeplan Website",
+        "sub_title": "",
+        "url": "https://www.kaffeeplan.de",
+        "description": [
+          "Planning",
+          "Conception",
+          "Design",
+          "Website Development",
+          "Landing page for finding the perfect bean-to-cup coffee machine",
+          "Technology: Web",
+          "Technology: Website",
+          "Technology: CMS"
+        ]
+      },
+      {
+        "title": "Kinotickets.online",
+        "sub_title": "",
+        "url": "",
+        "description": [
+          "Web Development",
+          "Booking System",
+          "API Integration",
+          "Slim Framework",
+          "ReactJS",
+          "PHP",
+          "REST API"
+        ]
+      },
+      {
+        "title": "Messe Webseiten (WordPress Plugin-Sammlung)",
+        "sub_title": "",
+        "url": "",
+        "description": [
+          "Web Development",
+          "CMS",
+          "Plugin Development",
+          "WordPress",
+          "PHP",
+          "JavaScript"
+        ]
+      },
+      {
+        "title": "Ori Formreaktor Website",
+        "sub_title": "",
+        "url": "http://form-reaktor.com",
+        "description": [
+          "Web Development",
+          "Design",
+          "Corporate Design",
+          "WordPress",
+          "CSS",
+          "JavaScript"
+        ]
+      },
+      {
+        "title": "PMKino Web2Print und Webseiten",
+        "sub_title": "",
+        "url": "",
+        "description": [
+          "Concept",
+          "Development",
+          "Web2Print",
+          "WordPress",
+          "PhalconPHP",
+          "ReactJS",
+          "PHP",
+          "Adobe Script"
+        ]
+      },
+      {
+        "title": "Reiselust",
+        "sub_title": "",
+        "url": "https://www.reiselust-bremen.de",
+        "description": [
+          "Planning",
+          "Conception",
+          "Design",
+          "Maintenance",
+          "Technology: CMS"
+        ]
+      },
+      {
+        "title": "Website & Shop verias24.de",
+        "sub_title": "",
+        "url": "https://www.verias24.de",
+        "description": [
+          "Web Development",
+          "E-Commerce",
+          "System Integration",
+          "WordPress",
+          "WooCommerce",
+          "PHP",
+          "MySQL",
+          "ERP"
+        ]
+      },
+      {
+        "title": "Messe Bremen Website",
+        "sub_title": "",
+        "url": "https://www.messe-bremen.de",
+        "description": [
+          "Web Development",
+          "CMS",
+          "Theme Development",
+          "WordPress",
+          "PHP",
+          "JavaScript",
+          "Multisite"
+        ]
+      },
+      {
+        "title": "Web Exhibition Theme",
+        "sub_title": "",
+        "url": "",
+        "description": [
+          "Web Development",
+          "Theme Development",
+          "CMS",
+          "WordPress",
+          "PHP",
+          "CSS",
+          "JavaScript"
+        ]
+      },
+      {
+        "title": "Website lr28-bremen.de",
+        "sub_title": "",
+        "url": "http://lr28-bremen.de/de/",
+        "description": [
+          "Web Development",
+          "Design",
+          "CMS",
+          "WordPress",
+          "PHP",
+          "CSS",
+          "Responsive Design"
+        ]
+      },
+      {
+        "title": "ASP Automotive – Genuss-Portal Web2Print",
+        "sub_title": "",
+        "url": "",
+        "description": [
+          "Web Development",
+          "Web2Print",
+          "Concept",
+          "CakePHP",
+          "jQuery",
+          "Adobe Illustrator Scripting",
+          "MySQL"
+        ]
+      },
+      {
+        "title": "BTC Trading Dashboard",
+        "sub_title": "",
+        "url": "",
+        "description": [
+          "Web Development",
+          "Data Visualization",
+          "Concept",
+          "CakePHP",
+          "PHP",
+          "MySQL",
+          "JavaScript",
+          "HTML",
+          "CSS"
+        ]
+      },
+      {
+        "title": "Game Server Modding & Administration",
+        "sub_title": "",
+        "url": "",
+        "description": [
+          "Concept",
+          "Development",
+          "System Administration",
+          "Linux",
+          "SQF",
+          "Python",
+          "Bash"
+        ]
+      },
+      {
+        "title": "Ludwig von Kapff Etiketten-System",
+        "sub_title": "",
+        "url": "",
+        "description": [
+          "Web Development",
+          "Web2Print",
+          "E-Commerce",
+          "CakePHP",
+          "jQuery",
+          "Adobe Illustrator Scripting"
+        ]
+      },
+      {
+        "title": "MedienPrintPartner eG – Website",
+        "sub_title": "",
+        "url": "https://www.medienprintpartner.de",
+        "description": [
+          "Web Development",
+          "Design",
+          "Concept",
+          "CMS",
+          "CSS",
+          "JavaScript"
+        ]
+      },
+      {
+        "title": "SaveFM",
+        "sub_title": "",
+        "url": "",
+        "description": [
+          "Planning",
+          "Conception",
+          "Development",
+          "API Development",
+          "Frontend Development",
+          "Server Administration",
+          "UI/UX Design",
+          "Technology: CakePHP",
+          "Technology: Ember.js",
+          "Technology: Handlebars",
+          "Technology: Bootstrap",
+          "Technology: JavaScript",
+          "Technology: jQuery",
+          "Technology: MySQL",
+          "Technology: REST API",
+          "Technology: DigitalOcean API",
+          "Technology: PHP",
+          "Technology: HTML5",
+          "Technology: CSS3"
+        ]
+      },
+      {
+        "title": "Wolfgang-Borchert-Schule – Website Relaunch",
+        "sub_title": "",
+        "url": "",
+        "description": [
+          "Web Development",
+          "Relaunch",
+          "SEO",
+          "CMS",
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ]
+      },
+      {
+        "title": "Atelier Brokat – Abschlussprüfung",
+        "sub_title": "",
+        "url": "",
+        "description": [
+          "Planning",
+          "Conception",
+          "Design",
+          "Development",
+          "CMS Development",
+          "Technology: PHP",
+          "Technology: Limonade Framework",
+          "Technology: MySQL",
+          "Technology: HTML5",
+          "Technology: CSS3",
+          "Technology: JavaScript",
+          "Technology: jQuery"
+        ]
+      },
+      {
+        "title": "Avancarte Shop",
+        "sub_title": "",
+        "url": "",
+        "description": [
+          "Planning",
+          "Conception",
+          "Programming",
+          "Database Design",
+          "Product Catalog",
+          "Technology: CakePHP",
+          "Technology: PHP",
+          "Technology: MySQL",
+          "Technology: JavaScript",
+          "Technology: HTML5",
+          "Technology: CSS3"
+        ]
+      },
+      {
+        "title": "Bremer Feinkost – Delikatessenkatalog 2012",
+        "sub_title": "",
+        "url": "",
+        "description": [
+          "Web2Print",
+          "Catalog",
+          "Concept",
+          "CakePHP",
+          "Adobe InDesign Scripting",
+          "MySQL"
+        ]
+      },
+      {
+        "title": "DigitalOcean-PHP-Class",
+        "sub_title": "",
+        "url": "https://github.com/tuefekci/DigitalOcean-PHP-Class",
+        "description": [
+          "PHP wrapper for the DigitalOcean API. All methods are supported. Documentation for the DigitalOcean API can be found at digitalocean.com/api."
+        ]
+      },
+      {
+        "title": "Flexguard – Website & Online Shop",
+        "sub_title": "",
+        "url": "https://www.flexguard.de",
+        "description": [
+          "Web Development",
+          "E-Commerce",
+          "Design",
+          "Joomla",
+          "PHP",
+          "MySQL",
+          "CSS"
+        ]
+      },
+      {
+        "title": "Image Rendering Experiment",
+        "sub_title": "",
+        "url": "",
+        "description": [
+          "Experiment",
+          "Image Processing",
+          "PHP",
+          "PHPImageWorkshop",
+          "GD"
+        ]
+      },
+      {
+        "title": "Ludum Dare 24 – Evolution",
+        "sub_title": "",
+        "url": "https://ld24.tuefekci.de",
+        "description": [
+          "Game Development",
+          "Concept",
+          "HTML5",
+          "Canvas",
+          "JavaScript",
+          "Node-Webkit"
+        ]
+      },
+      {
+        "title": "PHP.js Build-Tool",
+        "sub_title": "",
+        "url": "",
+        "description": [
+          "Build Tool",
+          "Automation",
+          "Concept",
+          "PHP",
+          "JavaScript"
+        ]
+      },
+      {
+        "title": "Weather by Kumoni.de",
+        "sub_title": "",
+        "url": "",
+        "description": [
+          "Web Development",
+          "Design",
+          "Concept",
+          "Bootstrap",
+          "HTML5",
+          "CSS",
+          "JavaScript",
+          "PSD"
+        ]
+      },
+      {
+        "title": "WerderSports – Corporate Design 2012",
+        "sub_title": "",
+        "url": "https://www.werdersports.de",
+        "description": [
+          "Corporate Design",
+          "Web Development",
+          "Concept",
+          "CMS",
+          "PHP",
+          "CSS",
+          "Flash"
+        ]
+      },
+      {
+        "title": "Ambari – WebShop Relaunch",
+        "sub_title": "",
+        "url": "https://www.ambari.de",
+        "description": [
+          "Conception and Design",
+          "Webshop Programming",
+          "Database Programming",
+          "Search Engine Optimization"
+        ]
+      },
+      {
+        "title": "AvanCarte Produktverwaltung Backend",
+        "sub_title": "",
+        "url": "",
+        "description": [
+          "Planning",
+          "Conception",
+          "Programming",
+          "Database Design",
+          "PDA Data Synchronization",
+          "Media Management",
+          "Technology: PHP",
+          "Technology: MySQL",
+          "Technology: JavaScript",
+          "Technology: PDA Interface",
+          "Technology: Database"
+        ]
+      },
+      {
+        "title": "Blue Plaza – Internetbasierte Datenbank für Blue FM",
+        "sub_title": "",
+        "url": "",
+        "description": [
+          "Web Development",
+          "Database",
+          "Concept",
+          "PHP",
+          "MySQL",
+          "JavaScript",
+          "HTML",
+          "CSS"
+        ]
+      },
+      {
+        "title": "Druckhaus Humburg Website",
+        "sub_title": "",
+        "url": "https://www.humburg.de",
+        "description": [
+          "Web Development",
+          "Design",
+          "Concept",
+          "CMS",
+          "PHP",
+          "CSS",
+          "JavaScript"
+        ]
+      },
+      {
+        "title": "HCH HandelsContor Hamburg – Webshop & Portal",
+        "sub_title": "",
+        "url": "https://www.hch.de",
+        "description": [
+          "Web Development",
+          "E-Commerce",
+          "Concept",
+          "Joomla",
+          "VirtueMart",
+          "PHP",
+          "MySQL",
+          "Payment Plugin"
+        ]
+      },
+      {
+        "title": "HWT Hansen / heizungsfirma.de",
+        "sub_title": "",
+        "url": "https://heizungsfirma.de",
+        "description": [
+          "Web Development",
+          "Design",
+          "CMS",
+          "PHP",
+          "CSS",
+          "JavaScript"
+        ]
+      },
+      {
+        "title": "MP Multipack AG – Webshop & medienneutrale Datenbank",
+        "sub_title": "",
+        "url": "https://www.multipack.ch",
+        "description": [
+          "Web Development",
+          "E-Commerce",
+          "Database",
+          "PHP",
+          "MySQL",
+          "Flash Catalog",
+          "Adobe InDesign Scripting"
+        ]
+      },
+      {
+        "title": "MVD – Das Print-Partner-Netzwerk",
+        "sub_title": "",
+        "url": "https://www.mvd-online.net",
+        "description": [
+          "Support",
+          "Shop Systems",
+          "Customer Care",
+          "Customer Service"
+        ]
+      },
+      {
+        "title": "NordCap – Web2Print Tool",
+        "sub_title": "",
+        "url": "",
+        "description": [
+          "Web2Print",
+          "Concept",
+          "Development",
+          "Connexus",
+          "PHP",
+          "Adobe Illustrator Scripting"
+        ]
+      },
+      {
+        "title": "Robert Pack Fotodesign Website",
+        "sub_title": "",
+        "url": "",
+        "description": [
+          "Web Development",
+          "Design",
+          "CMS",
+          "PHP",
+          "MySQL",
+          "CSS",
+          "JavaScript"
+        ]
+      },
+      {
+        "title": "Tuefekci Portfolio (frühe Version)",
+        "sub_title": "",
+        "url": "",
+        "description": [
+          "Web Development",
+          "Design",
+          "Concept",
+          "PHP",
+          "Limonade",
+          "CSS",
+          "HTML"
+        ]
+      },
+      {
+        "title": "Tuefekci.eu – Animierte Portfolio-Website",
+        "sub_title": "",
+        "url": "http://www.tuefekci.eu",
+        "description": [
+          "Web Development",
+          "Animation",
+          "Design",
+          "jQuery",
+          "Spritely",
+          "CSS",
+          "HTML5"
+        ]
+      },
+      {
+        "title": "an Bord Verlag Website",
+        "sub_title": "",
+        "url": "https://www.anbord.de",
+        "description": [
+          "Web Development",
+          "CMS",
+          "Maintenance",
+          "PHP",
+          "CSS",
+          "JavaScript"
+        ]
+      },
+      {
+        "title": "AvanCarte Produkt Datenbank & Webshop",
+        "sub_title": "",
+        "url": "",
+        "description": [
+          "Continued Development",
+          "E-Commerce",
+          "Database",
+          "CakePHP",
+          "PHP",
+          "MySQL",
+          "JavaScript"
+        ]
+      },
+      {
+        "title": "Decoramic Wertgutschein-Portal & POS",
+        "sub_title": "",
+        "url": "",
+        "description": [
+          "Concept",
+          "Development",
+          "E-Commerce",
+          "CakePHP",
+          "jQuery",
+          "MySQL",
+          "JavaScript",
+          "POS"
+        ]
+      },
+      {
+        "title": "Exori Website",
+        "sub_title": "",
+        "url": "https://exori.de",
+        "description": [
+          "Web Development",
+          "Design",
+          "CMS",
+          "PHP",
+          "MySQL",
+          "CSS",
+          "JavaScript"
+        ]
+      },
+      {
+        "title": "IA System Web2Print/CRM",
+        "sub_title": "",
+        "url": "",
+        "description": [
+          "Concept",
+          "Development",
+          "Web2Print",
+          "CakePHP",
+          "jQuery",
+          "MySQL",
+          "Adobe Scripting"
+        ]
+      },
+      {
+        "title": "Ludwig von Kapff Database-Publishing",
+        "sub_title": "",
+        "url": "",
+        "description": [
+          "Concept",
+          "Development",
+          "Web2Print",
+          "Connexus",
+          "CakePHP",
+          "MySQL",
+          "ERP",
+          "Adobe Scripting"
+        ]
+      },
+      {
+        "title": "SchokoFoto",
+        "sub_title": "",
+        "url": "https://schokofoto.de",
+        "description": [
+          "Planning",
+          "Conception",
+          "Programming",
+          "E-Commerce",
+          "Image Processing",
+          "PDF Generation",
+          "Technology: PHP",
+          "Technology: MySQL",
+          "Technology: E-Commerce",
+          "Technology: Image Processing",
+          "Technology: PDF",
+          "Technology: JavaScript"
+        ]
+      },
+      {
+        "title": "Battlehost – Hosting Management",
+        "sub_title": "",
+        "url": "",
+        "description": [
+          "Concept",
+          "Development",
+          "Hosting",
+          "PHP",
+          "MySQL",
+          "HTML",
+          "CSS",
+          "Ajax"
+        ]
+      },
+      {
+        "title": "ISH Webhosting Plattform",
+        "sub_title": "",
+        "url": "",
+        "description": [
+          "Concept",
+          "Development",
+          "Hosting",
+          "PHP",
+          "MySQL",
+          "HTML",
+          "CSS",
+          "Ajax"
+        ]
+      },
+      {
+        "title": "Alkohol.in – Graphics Renderer & iOS UI Sim",
+        "sub_title": "",
+        "url": "",
+        "description": [
+          "Conception",
+          "Programming",
+          "Graphics Rendering",
+          "UI Prototyping",
+          "Technology: PHP",
+          "Technology: GD Library",
+          "Technology: MySQL",
+          "Technology: HTML",
+          "Technology: CSS",
+          "Technology: JavaScript"
+        ]
+      },
+      {
+        "title": "LudumDare48 Game (Hobby)",
+        "sub_title": "",
+        "url": "",
+        "description": [
+          "Game Development",
+          "Concept",
+          "Development",
+          "HTML5",
+          "Canvas",
+          "JavaScript"
+        ]
+      },
+      {
+        "title": "SaveFM Desktop & Mobile App",
+        "sub_title": "",
+        "url": "",
+        "description": [
+          "Concept",
+          "Development",
+          "App Development",
+          "Node-Webkit",
+          "PhoneGap",
+          "JavaScript",
+          "Node.js",
+          "Cloud Storage"
+        ]
+      },
+      {
+        "title": "Alkohol.in Grafik Renderer",
+        "sub_title": "",
+        "url": "https://alkohol.in",
+        "description": [
+          "Concept",
+          "Development",
+          "Graphics",
+          "PHP",
+          "GD Library",
+          "CSS"
+        ]
+      },
+      {
+        "title": "Verwaltungssoftware für Webhoster (Hostnetzwerk)",
+        "sub_title": "",
+        "url": "https://hostnetzwerk.de",
+        "description": [
+          "Concept",
+          "Development",
+          "Hosting",
+          "PHP",
+          "MySQL",
+          "HTML",
+          "CSS",
+          "Ajax",
+          "PDF"
+        ]
+      },
+      {
+        "title": "Virtual Currency / Bitcoin Tooling",
+        "sub_title": "",
+        "url": "",
+        "description": [
+          "Conception",
+          "Programming",
+          "API Integration",
+          "Flash Development",
+          "Technology: Flash",
+          "Technology: ActionScript",
+          "Technology: PHP",
+          "Technology: MySQL",
+          "Technology: API"
+        ]
+      },
+      {
+        "title": "Flash Games & Websites",
+        "sub_title": "",
+        "url": "",
+        "description": [
+          "Game Development",
+          "Web Development",
+          "Concept",
+          "Flash",
+          "ActionScript 2.0",
+          "PHP",
+          "MySQL"
+        ]
+      },
+      {
+        "title": "Clan Websites",
+        "sub_title": "",
+        "url": "",
+        "description": [
+          "Web Development",
+          "Design",
+          "Community",
+          "Fireworks MX",
+          "HTML",
+          "CSS",
+          "phpBB",
+          "vBulletin"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,1681 @@
+{
+  "protocol": {
+    "name": "ApplicantProfileProtocol",
+    "shortName": "APP",
+    "version": "1.0.0",
+    "uri": "https://app-protocol.org/schema/app-1.0.json",
+    "id": "urn:app-protocol:profile:tuefekci"
+  },
+  "basics": {
+    "name": {
+      "given": "Giacomo",
+      "family": "Tüfekçi"
+    },
+    "headline": "Full-Stack Developer",
+    "summary": "I'm a Full-Stack Developer based in Ludwigshafen am Rhein, Germany, with a background in web development, software engineering, and game design. I enjoy building end-to-end solutions and working seamlessly across various programming languages and web frameworks. Beyond just writing code, I value strong project management to ensure ideas actually make it to production efficiently and on time. When I’m not at my keyboard, I’m usually tinkering with electronics, keeping up with new tech, or tending to my garden. I also enjoy winding down with gaming, anime, and web novels. I speak fluent German and English, and I always aim to bring a practical, creative approach to the software I build.",
+    "location": {
+      "country": "DE",
+      "region": "Rheinland-Pfalz",
+      "city": "Ludwigshafen am Rhein",
+      "remote": true
+    },
+    "contact": {
+      "email": "giacomo@tuefekci.de",
+      "website": "https://giacomo.tuefekci.de",
+      "social": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/tuefekci"
+        },
+        {
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/gtuefekci/"
+        }
+      ]
+    }
+  },
+  "experience": [
+    {
+      "role": "Full Stack Software Developer",
+      "organization": {
+        "name": "Tüfekci Software Development & Consulting"
+      },
+      "start": "2020-01",
+      "current": true,
+      "location": {
+        "country": "DE",
+        "city": "Bremen"
+      },
+      "employmentType": "Full-time",
+      "highlights": [
+        "Development of an Download Manager as a Prototype in PHP and than in Svelte",
+        "Development of an Web Application for the Management of a Cleaning Company",
+        "Development of an Web Application for the Management of an QR Code based Redirection System",
+        "Development of Apps, Plugins, Wrappers and Apis for Deta.space",
+        "Development of an Web Application which enables playing retro games in the Browser based on WASM Compiled Emulators.",
+        "Development of an Android Application to read Web & Light Novels from different Providers in an unified UI.",
+        "Development of an API & Crawler to build an index of Web & Light Novels from different Providers.",
+        "Some Prototype ML/AI Applications which can generate Content, Images, Translate etc. which is used in different Projects."
+      ]
+    },
+    {
+      "role": "Cloud Development / Software Developer",
+      "organization": {
+        "name": "Cloud Development / Software Developer"
+      },
+      "start": "2018-03",
+      "end": "2019-10",
+      "current": false,
+      "location": {
+        "country": "DE"
+      },
+      "employmentType": "Full-time",
+      "highlights": [
+        "Development of an Network Bridge between Web/Cloud to VisualBasic Application",
+        "Development of an Application/API to automate Facebook Events",
+        "Development of an APP for the Android and iOS Platform for Room Booking"
+      ]
+    },
+    {
+      "role": "Productowner",
+      "organization": {
+        "name": "RR Software GmbH"
+      },
+      "start": "2017-09",
+      "end": "2018-02",
+      "current": false,
+      "location": {
+        "country": "DE",
+        "city": "Hasselfelde"
+      },
+      "employmentType": "Full-time",
+      "highlights": [
+        "Planned and ReDesigned a Cloud/Web based Management System"
+      ]
+    },
+    {
+      "role": "Lead Web / Software Developer",
+      "organization": {
+        "name": "planetmutlu gmbh & co. kg"
+      },
+      "start": "2015-07",
+      "end": "2017-08",
+      "current": false,
+      "location": {
+        "country": "DE",
+        "city": "Bremen"
+      },
+      "employmentType": "Full-time",
+      "highlights": [
+        "Managed a 5-person development team",
+        "Planned, Developed and Managed a booking, website and web2print system for cinemas (pmkino) using PhalconPHP, Wordpress, MongoDB, Python, NodeJS and ReactJS",
+        "Developed a Web2Print solution using PhalconPHP, Wordpress, MongoDB, Python, NodeJS and ReactJS",
+        "Developed a Wordpress Plugin and Theme environment for Messe Bremen Events, which was used in 10+ Websites."
+      ]
+    },
+    {
+      "role": "Freelance Full Stack Web Developer",
+      "organization": {
+        "name": "Tüfekci Software Development & Consulting"
+      },
+      "start": "2014-06",
+      "end": "2015-06",
+      "current": false,
+      "location": {
+        "country": "DE",
+        "city": "Bremen"
+      },
+      "employmentType": "Contract"
+    },
+    {
+      "role": "Lead IT Manager",
+      "organization": {
+        "name": "Humburg Media Group (Druckhaus Humburg)"
+      },
+      "start": "2013-08",
+      "end": "2014-05",
+      "current": false,
+      "location": {
+        "country": "DE",
+        "city": "Bremen"
+      },
+      "employmentType": "Full-time",
+      "highlights": [
+        "Managed a 4-person development team"
+      ]
+    },
+    {
+      "role": "Apprenticeship Media Designer",
+      "organization": {
+        "name": "image advertising gmbh & co. kg"
+      },
+      "start": "2010-08",
+      "end": "2013-08",
+      "current": false,
+      "location": {
+        "country": "DE",
+        "city": "Bremen"
+      },
+      "employmentType": "Internship"
+    },
+    {
+      "role": "CTO & Co Founder",
+      "organization": {
+        "name": "SaveFM"
+      },
+      "start": "2010-01",
+      "end": "2010-12",
+      "current": false,
+      "location": {
+        "country": "DE",
+        "city": "Bremen"
+      },
+      "employmentType": "Full-time"
+    },
+    {
+      "role": "Apprenticeship Cook",
+      "organization": {
+        "name": "Maritim Hotel Bremen"
+      },
+      "start": "2009-01",
+      "end": "2010-06",
+      "current": false,
+      "location": {
+        "country": "DE",
+        "city": "Bremen"
+      },
+      "employmentType": "Internship"
+    },
+    {
+      "role": "Parttime Line Cook / Service Staff",
+      "organization": {
+        "name": "Maritim Hotel Bremen"
+      },
+      "start": "2008-01",
+      "end": "2009-09",
+      "current": false,
+      "location": {
+        "country": "DE",
+        "city": "Bremen"
+      },
+      "employmentType": "Part-time"
+    },
+    {
+      "role": "Freelance Web Developer",
+      "organization": {
+        "name": "Tüfekci Software Development & Consulting"
+      },
+      "start": "2008-01",
+      "end": "2010-08",
+      "current": false,
+      "location": {
+        "country": "DE",
+        "city": "Bremen"
+      },
+      "employmentType": "Contract"
+    },
+    {
+      "role": "Parttime Cashier and Stocker",
+      "organization": {
+        "name": "ASG Supermarket"
+      },
+      "start": "2007-01",
+      "end": "2009-01",
+      "current": false,
+      "location": {
+        "country": "DE",
+        "city": "Bremen"
+      },
+      "employmentType": "Part-time"
+    },
+    {
+      "role": "Parttime Cashier and Stocker",
+      "organization": {
+        "name": "GP (Getränke Partner)"
+      },
+      "start": "2007-01",
+      "end": "2008-01",
+      "current": false,
+      "location": {
+        "country": "DE",
+        "city": "Bremen"
+      },
+      "employmentType": "Part-time"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Wilhelm Wagenfeld-Schule",
+      "area": "Media Designer",
+      "degree": "journeyman's certificate, specialized in Design and Technology",
+      "start": "2010",
+      "end": "2013",
+      "completed": true
+    },
+    {
+      "institution": "SZ Rübekamp",
+      "area": "Apprenticeship Cook",
+      "degree": "journeyman's certificate, early dropout due to allergic reactions.",
+      "start": "2009",
+      "end": "2010",
+      "completed": true
+    },
+    {
+      "institution": "FOS Delmestrasse",
+      "area": "Social Pedagogy",
+      "degree": "vocational baccalaureate (completed practical part)",
+      "start": "2008",
+      "end": "2009",
+      "completed": true
+    },
+    {
+      "institution": "SZ Drebberstraße",
+      "area": "Highschool",
+      "degree": "secondary school (certificate Real school)",
+      "start": "2002",
+      "end": "2008",
+      "completed": true
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "category": "Framework",
+      "level": "Expert",
+      "aliases": [
+        "AJAX",
+        "AMPHP",
+        "Bootstrap",
+        "CSS",
+        "CSS3",
+        "CakePHP",
+        "Canvas",
+        "Chai",
+        "Composer",
+        "Contao",
+        "Drupal",
+        "ES6+",
+        "Ember.js",
+        "Gulp",
+        "HTML",
+        "HTML5",
+        "Handlebars",
+        "JSON",
+        "Javascript",
+        "Joomla",
+        "Laravel",
+        "Less",
+        "Magento",
+        "MongoDB",
+        "Mustache",
+        "MySQL",
+        "NoSQL",
+        "NodeJS",
+        "OOP",
+        "PHP5",
+        "PHP7",
+        "PHP8",
+        "PHPUnit",
+        "PhalconPHP",
+        "Preact",
+        "Purecss",
+        "REST",
+        "React",
+        "ReactPHP",
+        "Responsive Design",
+        "Sass",
+        "Shopware",
+        "Slim",
+        "Solid",
+        "Svelte",
+        "SvelteKit",
+        "TestCafe",
+        "TypeScript",
+        "Typo3",
+        "Vite",
+        "WebGL",
+        "WebRTC",
+        "WebSockets",
+        "WebAssembly",
+        "Webpack",
+        "WooCommerce",
+        "Wordpress",
+        "XML",
+        "jQuery",
+        "npm",
+        "phpBB"
+      ]
+    },
+    {
+      "name": "Software Development",
+      "category": "ProgrammingLanguage",
+      "level": "Advanced",
+      "aliases": [
+        "Android",
+        "API",
+        "API Design",
+        "Browser Automation",
+        "C#",
+        "C++",
+        "Cordova",
+        "Dart",
+        "Design Patterns",
+        "Electron",
+        "Flask",
+        "GO",
+        "Haxe",
+        "Headless Browser",
+        "IPFS",
+        "Lua",
+        "MongoDB",
+        "MySQL",
+        "NoSQL",
+        "NodeJS",
+        "NodeWebkit",
+        "Phonegap",
+        "Puppeteer",
+        "Python",
+        "React Native",
+        "Redis",
+        "Rust",
+        "Scripting",
+        "Selenium",
+        "SQL",
+        "TypeScript",
+        "Unit Testing",
+        "Visual Basic",
+        "Version Control",
+        "iOS"
+      ]
+    },
+    {
+      "name": "Design / Creative",
+      "category": "Domain",
+      "level": "Advanced",
+      "aliases": [
+        "Adobe Automation",
+        "Adobe Script",
+        "Avocode",
+        "Blender",
+        "Corporate Design",
+        "Fireworks",
+        "Flash",
+        "Gimp",
+        "Illustrator",
+        "InDesign",
+        "Photoshop",
+        "Premiere",
+        "Prototyping",
+        "Sketch",
+        "Spritely",
+        "UI/UX Design",
+        "Wireframing"
+      ]
+    },
+    {
+      "name": "SysAdmin / DevOps",
+      "category": "Tool",
+      "level": "Intermediate",
+      "aliases": [
+        "AWS",
+        "Apache",
+        "Asterisk",
+        "Azure",
+        "Bash",
+        "CapRover",
+        "Cron",
+        "DNS",
+        "Database Administration",
+        "Docker",
+        "Docker Compose",
+        "Dockerfile",
+        "E-Mail",
+        "Linux",
+        "Load Balancing",
+        "Nginx",
+        "OpenFaaS",
+        "Podman",
+        "Rancher",
+        "Reverse Proxy",
+        "SSH",
+        "SSL/TLS",
+        "Shell Scripting",
+        "Swarm",
+        "System Administration",
+        "Unix",
+        "Vagrant",
+        "Windows"
+      ]
+    },
+    {
+      "name": "Game Dev / Design",
+      "category": "Domain",
+      "level": "Intermediate",
+      "aliases": [
+        "Blender",
+        "MelonJS",
+        "Unity3D",
+        "Unreal",
+        "WebGL / Canvas",
+        "three.js"
+      ]
+    },
+    {
+      "name": "Project Management",
+      "category": "Methodology",
+      "level": "Intermediate",
+      "aliases": [
+        "Agile",
+        "Bitbucket",
+        "Code Review",
+        "Confluence",
+        "Discord",
+        "Git",
+        "GitHub",
+        "GitLab",
+        "Google Workspace",
+        "Jira",
+        "Microsoft Office",
+        "Microsoft Teams",
+        "Project Planning",
+        "Slack",
+        "Technical Project Management",
+        "Trello",
+        "Version Control"
+      ]
+    },
+    {
+      "name": "Other Skills",
+      "category": "SoftSkill",
+      "level": "Intermediate",
+      "aliases": [
+        "ActionScript",
+        "ActionScript 2.0",
+        "AdobeScript",
+        "CLI",
+        "CMS",
+        "CRM",
+        "Connexus",
+        "Crawler",
+        "Database",
+        "Database-Publishing",
+        "Desktop App",
+        "DigitalOcean API",
+        "E-Commerce",
+        "ERP",
+        "Eigenes CMS",
+        "Elementor",
+        "Facebook Graph API",
+        "Facebook OG",
+        "Flot Chart",
+        "GD Library",
+        "Game Development",
+        "Game Server",
+        "Hosting",
+        "Hosting-Management",
+        "IA System",
+        "Limonade Framework",
+        "MarsEDV",
+        "Mobile App",
+        "Objekt-Meta-Datenbank",
+        "PDA-Schnittstelle",
+        "PDF",
+        "PDF-Generierung",
+        "PHPImageWorkshop",
+        "PMKino API",
+        "POS",
+        "Plugins",
+        "Product Designer",
+        "Push Notifications",
+        "QR-Code",
+        "Raspberry Pi",
+        "SQF",
+        "SQLite",
+        "Web2Print",
+        "WebNovel",
+        "WebView",
+        "Webshop",
+        "alldebrid",
+        "blackhole",
+        "ddl",
+        "deta",
+        "deta-base",
+        "deta-drive",
+        "deta-micros",
+        "deta-space",
+        "magnet",
+        "phpFastCache",
+        "torrent"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Client Projects (NDA)",
+      "description": "Ongoing full-stack development, API design, cloud infrastructure, and software consulting for various clients. Details protected by non-disclosure agreements.",
+      "role": "Developer"
+    },
+    {
+      "name": "LLM Applications & AI Integration",
+      "description": "Development of applications and workflows leveraging large language models including local LLM deployment (ollama, llama.cpp), Open WebUI, RAG pipelines, prompt engineering, and API wrappers for multiple AI providers.",
+      "role": "Developer"
+    },
+    {
+      "name": "AI Image Generation Pipeline",
+      "description": "Design and implementation of AI image generation pipelines using Stable Diffusion (ComfyUI, Automatic1111), custom LoRA training, batch generation and upscaling automation, and integration into existing workflows.",
+      "role": "Developer"
+    },
+    {
+      "name": "Deta-PHP",
+      "description": "PHP SDK for interacting with the Deta API. Provides a Deta client class for accessing Deta Base (NoSQL database) and Deta Drive (file storage).",
+      "role": "Developer",
+      "stack": [
+        "deta",
+        "deta-base",
+        "deta-drive",
+        "deta-micros",
+        "deta-space",
+        "php"
+      ],
+      "links": {
+        "repository": "https://github.com/tuefekci/Deta-PHP"
+      }
+    },
+    {
+      "name": "Deta-PHP-Engine",
+      "description": "PHP Runtime / Engine for Deta.Space. Based on PHP Version 8.1.8 using the Internal Webserver. Supports a wide range of PHP extensions including bcmath, curl, dom, gd, mbstring, mongodb, mysqlnd, pdo_mysql, pdo_sqlite, redis, simplexml, soap, sqlite3, swoole, tokenizer, xml, zip, and more.\n\nFeatures:\n- PHP 8.1.8\n- Internal Webserver\n- Support for multiple PHP Micros by duplicating the php folder and spacefile config\n- Custom php.ini support via --with-config-file",
+      "role": "Developer",
+      "stack": [
+        "deta",
+        "deta-micros",
+        "deta-space"
+      ],
+      "links": {
+        "repository": "https://github.com/tuefekci/Deta-PHP-Engine"
+      }
+    },
+    {
+      "name": "Deta-PHP-Sandbox",
+      "description": "Online Sandbox / Playground / Console to quickly test PHP code, deployed on Deta Space. Provides an interactive environment where users can paste PHP code, hit run, and see results in real-time without needing a local development setup.\n\nFeatures syntax highlighting, code completion, and error handling. Accessible from anywhere, at any time, without additional software. Available at: https://deta.space/discovery/@tuefekci/phpsandbox",
+      "role": "Developer",
+      "stack": [
+        "deta",
+        "deta-space"
+      ],
+      "links": {
+        "repository": "https://github.com/tuefekci/Deta-PHP-Sandbox"
+      }
+    },
+    {
+      "name": "deta-queue",
+      "description": "Queue implementation for use with Deta Base, written in TypeScript. Provides a simple FIFO queue backed by Deta's NoSQL database with configurable TTL and queue name. Published as npm package `deta-queue`.",
+      "role": "Developer",
+      "stack": [
+        "deta",
+        "deta-base",
+        "deta-micros",
+        "deta-space"
+      ],
+      "links": {
+        "repository": "https://github.com/tuefekci/deta-queue"
+      }
+    },
+    {
+      "name": "deta-s3-server",
+      "description": "S3 Server for Deta.Space (Deta Drive) written in NodeJS based on jamhall/s3rver. A simple S3-compatible server that uses Deta Drive as a backend. Not a full S3 implementation — provides basic S3 API compatibility for storing and retrieving files via Deta Drive.\n\nAvailable on Deta Space Discovery: https://deta.space/discovery/@tuefekci/s3server",
+      "role": "Developer",
+      "links": {
+        "repository": "https://github.com/tuefekci/deta-s3-server"
+      }
+    },
+    {
+      "name": "flatfilecache",
+      "description": "Node.js flat file cache library written in TypeScript. Provides a simple file-based caching mechanism using the local filesystem, suitable for scenarios where a full database or Redis cache is not needed.",
+      "role": "Developer",
+      "links": {
+        "repository": "https://github.com/tuefekci/flatfilecache"
+      }
+    },
+    {
+      "name": "novelsource-proxy",
+      "description": "Proxy server for novel sources, complementing novelsourcePHP. Provides a proxy layer for web novel scraping operations, handling routing and requests between the scraping client and target novel sites.",
+      "role": "Developer",
+      "links": {
+        "repository": "https://github.com/tuefekci/novelsource-proxy"
+      }
+    },
+    {
+      "name": "novelsourcePHP",
+      "description": "A collection of webnovel/novel sources offering varying amounts of scraping capability. Primarily built for meta data aggregation (tags and genres for recommendation) rather than content scraping.\n\nAvailable as a Composer package: `tuefekci/novelsource`. Supports novel source adapters with search and last-checked tracking. Inspired by mensch272/novelsave_sources (Python) but built for PHP use cases.",
+      "role": "Developer",
+      "links": {
+        "repository": "https://github.com/tuefekci/novelsourcePHP"
+      }
+    },
+    {
+      "name": "blkhole",
+      "description": "Blkhole serves as a download management tool designed for AllDebrid cloud downloads, facilitating the seamless automation of downloads directly to your local network.\n\nKey features:\n- User-friendly web interface for management of alldebrid.com downloads, cloud Torrent, Magnet, and DDL links\n- Automated category-based downloading of completed cloud tasks to the local file system\n- Download enhancements and optimizations\n- Supports Magnet links, DDL links, Torrents, Chunked Downloads\n- Bandwidth and connection limitation\n- Automatic cleanup of finished and failed downloads\n- Tested with Radarr and Sonarr",
+      "role": "Developer",
+      "stack": [
+        "alldebrid",
+        "blackhole",
+        "ddl",
+        "magnet",
+        "php",
+        "torrent"
+      ],
+      "links": {
+        "repository": "https://github.com/tuefekci/blkhole"
+      }
+    },
+    {
+      "name": "docker-radarr-xu4",
+      "description": "Docker configuration to run Radarr on an ODROID-XU4 single-board computer. Provides a containerized setup for the Radarr movie management tool optimized for ARM-based hardware.",
+      "role": "Developer",
+      "links": {
+        "repository": "https://github.com/tuefekci/docker-radarr-xu4"
+      }
+    },
+    {
+      "name": "docker-sonarr-xu4",
+      "description": "Docker configuration to run Sonarr on an ODROID-XU4 single-board computer. Includes a workaround to force the mono process onto one set of cores (big cores 4,5,6,7 and small cores 0,1,2,3) to resolve performance issues on the big.LITTLE ARM architecture.",
+      "role": "Developer",
+      "links": {
+        "repository": "https://github.com/tuefekci/docker-sonarr-xu4"
+      }
+    },
+    {
+      "name": "helpers",
+      "description": "Personal PHP helper library following PSR-4 autoloading and PSR-2 coding standards. Includes unit testing with PHPUnit 6, comprehensive guide and tutorial, and easy integration with any framework or plain PHP.\n\nRequirements: PHP >= 7.0, Composer. Uses a standard project structure with build/, src/, tests/ directories, Travis CI configuration, and code sniffing tools (PHPCS, PHPCBF).",
+      "role": "Developer",
+      "links": {
+        "repository": "https://github.com/tuefekci/helpers"
+      }
+    },
+    {
+      "name": "overcli",
+      "description": "OverCLI is a PHP CLI / TUI Helper / Framework Library with a Render Loop, similar to how Game Engines handle application rendering. A collection of useful functions and classes for building CLI and TUI applications.\n\nFeatures:\n- Render Loop for continuous rendering with events\n- Exception renderer for static error display\n- Demo applications including a PIN IDENTIFICATION PROGRAM inspired by T2 Movie Prop\n- Fully dependent on the Runtime, framerate is stable with fine memory usage\n\nRequirements: PHP 7.2+ and Composer.",
+      "role": "Developer",
+      "links": {
+        "repository": "https://github.com/tuefekci/overcli"
+      }
+    },
+    {
+      "name": "php-benchmark",
+      "description": "Benchmarking PHP7, PHP8, and PHP7-parallel performance on an i7-4790k with 16GB DDR3. Tests include math operations, string manipulation, loops, and if/else conditions with 1,000,000 iterations across 16 workers.\n\nResults (2021-10-04):\n- PHP 7.4.24: Total 79.612s (serial)\n- PHP 7.4.24-parallel: Total 9.361s (16 workers)\n- PHP 8.0.11: Total 69.053s (serial)\n\nConclusion: PHP8 performs better than PHP7 especially in string manipulation, while parallel processing on PHP7 delivers the fastest results for suitable workloads.",
+      "role": "Developer",
+      "links": {
+        "repository": "https://github.com/tuefekci/php-benchmark"
+      }
+    },
+    {
+      "name": "Android Web / Light Novel Reader",
+      "description": "An Android app for reading web and light novels. It aggregates content from various sources and offers a customized reader mode with bookmarks, offline storage, and customizable display options.",
+      "role": "Developer",
+      "highlights": [
+        "Concept",
+        "Development",
+        "App Development",
+        "API Integration",
+        "Android",
+        "Java",
+        "Kotlin",
+        "REST API",
+        "WebView",
+        "SQLite"
+      ]
+    },
+    {
+      "name": "Download Manager (PHP → Svelte)",
+      "description": "A cloud-based download manager migrated from a PHP backend to a modern Svelte/SvelteKit architecture. It manages and automates downloads from various cloud services with a reactive UI and WebSocket status updates.",
+      "role": "Developer",
+      "highlights": [
+        "Concept",
+        "Development",
+        "Migration",
+        "Modernization",
+        "Svelte",
+        "SvelteKit",
+        "PHP",
+        "Node.js",
+        "TypeScript",
+        "JavaScript",
+        "REST API"
+      ]
+    },
+    {
+      "name": "QR Code Redirect System",
+      "description": "A powerful QR code redirect system built with the Slim Framework. It generates QR codes that dynamically redirect based on device type, location, or other parameters for marketing campaigns and dynamic print media links.",
+      "role": "Developer",
+      "highlights": [
+        "Concept",
+        "Development",
+        "System Development",
+        "PHP",
+        "MySQL",
+        "Slim Framework",
+        "QR Code",
+        "REST API",
+        "Docker"
+      ]
+    },
+    {
+      "name": "ReactNative App und API (WebNovels)",
+      "description": "A Laravel-based API that fetches data from web novel sites for use with a ReactNative reader app. The API and crawler are complete while the app remains in active development.",
+      "role": "Developer",
+      "highlights": [
+        "Laravel",
+        "ReactNative",
+        "API",
+        "WebNovel",
+        "Crawler"
+      ]
+    },
+    {
+      "name": "Retro Game Browser Emulator (WASM)",
+      "description": "A platform-independent retro console emulator running in the browser with core logic ported to WebAssembly for native performance. Supports multiple classic consoles with save states and controller mapping.",
+      "role": "Developer",
+      "highlights": [
+        "Concept",
+        "Development",
+        "Porting",
+        "WASM Integration",
+        "WebAssembly",
+        "JavaScript",
+        "C/C++",
+        "HTML5",
+        "Canvas"
+      ]
+    },
+    {
+      "name": "ReactNative CRM Task/Todo App",
+      "description": "A ReactNative app for CRM software that forwards system-generated tasks to employees and reports issues back to the system.",
+      "role": "Developer",
+      "highlights": [
+        "ReactNative",
+        "CRM",
+        "Mobile App",
+        "Tasks"
+      ]
+    },
+    {
+      "name": "Reinigungsfirma CRM",
+      "description": "A PHP/Laravel CRM for managing tasks, inventory, personnel, issues/tickets, and chats, integrated into the client's existing app via WebView.",
+      "role": "Developer",
+      "highlights": [
+        "PHP",
+        "Laravel",
+        "CRM",
+        "Database",
+        "WebView"
+      ]
+    },
+    {
+      "name": "phpkg",
+      "description": "Package your PHP project into an executable for Linux, Mac and Windows. Provides source code protection by compiling PHP projects into standalone executables. Includes benchmark comparisons between the packaged (phpkg) version and native PHP 8.1.3 on an i5-8259U CPU.\n\nBenchmark results showed minimal performance difference between phpkg and native PHP execution (64.334s vs 67.316s total for math, string, loop, and if/else tests), indicating the packaging adds negligible overhead.",
+      "role": "Developer",
+      "links": {
+        "repository": "https://github.com/tuefekci/phpkg"
+      }
+    },
+    {
+      "name": "Facebook Events Automation API",
+      "description": "An automation API for Facebook Events. The system automatically synchronizes Facebook events with a local database and enables further processing of event data in other systems — ideal for event calendars and ticketing platforms.",
+      "role": "Developer",
+      "stack": [
+        "PHP",
+        "Facebook Graph API",
+        "MySQL",
+        "Cron",
+        "REST API",
+        "JSON"
+      ],
+      "highlights": [
+        "Concept",
+        "Development",
+        "API Integration",
+        "Automation",
+        "Data Processing"
+      ]
+    },
+    {
+      "name": "Room Booking App (Android/iOS)",
+      "description": "A mobile room booking app for Android and iOS. The system includes a calendar with real-time availability display, push notifications for booking changes, and a REST API for integration into existing booking systems.",
+      "role": "Developer",
+      "stack": [
+        "Android",
+        "iOS",
+        "PHP",
+        "REST API",
+        "MySQL",
+        "Push Notifications"
+      ],
+      "highlights": [
+        "Concept",
+        "Development",
+        "App Development",
+        "API Development",
+        "Database Design"
+      ]
+    },
+    {
+      "name": "VB2Web Bridge und API",
+      "description": "A bridge service built with Node.js, C++, and WebSockets enabling a legacy VB application to exchange data via REST with a cloud infrastructure.",
+      "role": "Developer",
+      "highlights": [
+        "Node.js",
+        "C++",
+        "WebSocket",
+        "REST API",
+        "Visual Basic"
+      ]
+    },
+    {
+      "name": "Docker-PHP7-Phalcon",
+      "description": "Docker + PHP7 + Phalcon development container. Provides a complete development environment combining PHP 7 with the Phalcon PHP framework (compiled as a C-extension), designed for rapid web application development.",
+      "role": "Developer",
+      "links": {
+        "repository": "https://github.com/tuefekci/Docker-PHP7-Phalcon"
+      }
+    },
+    {
+      "name": "Docker-PHP7-Container",
+      "description": "Docker development container for PHP7, designed for WordPress development. Provides a ready-to-use PHP7 environment with necessary extensions for running and testing WordPress sites locally.",
+      "role": "Developer",
+      "links": {
+        "repository": "https://github.com/tuefekci/Docker-PHP7-Container"
+      }
+    },
+    {
+      "name": "Website & Shop verias24.de",
+      "description": "Complex website and shop for verias24 insurance products, encompassing database modeling, layouts, insurance calculations, and ERP system integration.",
+      "role": "Developer",
+      "links": {
+        "website": "https://www.verias24.de"
+      },
+      "highlights": [
+        "Web Development",
+        "E-Commerce",
+        "System Integration",
+        "WordPress",
+        "WooCommerce",
+        "PHP",
+        "MySQL",
+        "ERP"
+      ]
+    },
+    {
+      "name": "Website lr28-bremen.de",
+      "description": "Responsive WordPress site for student apartments, realized by image advertising for the Humburg Media Group in 2014.",
+      "role": "Developer",
+      "links": {
+        "website": "http://lr28-bremen.de/de/"
+      },
+      "highlights": [
+        "Web Development",
+        "Design",
+        "CMS",
+        "WordPress",
+        "PHP",
+        "CSS",
+        "Responsive Design"
+      ]
+    },
+    {
+      "name": "ASP Automotive – Genuss-Portal Web2Print",
+      "description": "A unique Web2Print tool for ASP Automotive GmbH that generates print-ready templates from a web interface.",
+      "role": "Developer",
+      "highlights": [
+        "Web Development",
+        "Web2Print",
+        "Concept",
+        "CakePHP",
+        "jQuery",
+        "Adobe Illustrator Scripting",
+        "MySQL"
+      ]
+    },
+    {
+      "name": "BTC Trading Dashboard",
+      "description": "A web-based CakePHP platform for managing Bitcoin trading activities with order management and dashboard features.",
+      "role": "Developer",
+      "highlights": [
+        "Web Development",
+        "Data Visualization",
+        "Concept",
+        "CakePHP",
+        "PHP",
+        "MySQL",
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "name": "Game Server Modding & Administration",
+      "description": "Development and administration of game servers with custom missions, AI spawning systems, and cleanup scripts for DayZ and Minecraft servers.",
+      "role": "Developer",
+      "highlights": [
+        "Concept",
+        "Development",
+        "System Administration",
+        "Linux",
+        "SQF",
+        "Python",
+        "Bash"
+      ]
+    },
+    {
+      "name": "Ludwig von Kapff Etiketten-System",
+      "description": "A CakePHP-based web-to-print label system enabling creation and ordering of product labels for Ludwig von Kapff.",
+      "role": "Developer",
+      "highlights": [
+        "Web Development",
+        "Web2Print",
+        "E-Commerce",
+        "CakePHP",
+        "jQuery",
+        "Adobe Illustrator Scripting"
+      ]
+    },
+    {
+      "name": "MedienPrintPartner eG – Website",
+      "description": "The new website for Germany's first printing and media cooperative, developed by image advertising.",
+      "role": "Developer",
+      "links": {
+        "website": "https://www.medienprintpartner.de"
+      },
+      "highlights": [
+        "Web Development",
+        "Design",
+        "Concept",
+        "CMS",
+        "CSS",
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "SaveFM",
+      "description": "SaveFM was a platform for recording and managing internet radio streams. The project consisted of several components: a CakePHP-based API and web application with dashboard, recording management, server control (via DigitalOcean API), user management and friends list; an Ember.js single-page application as admin frontend with Bootstrap UI; and a public website. The platform enabled scheduled recording of radio stations, management of recordings, and delivery via a web interface.",
+      "role": "Developer",
+      "stack": [
+        "CakePHP",
+        "Ember.js",
+        "Handlebars",
+        "Bootstrap",
+        "JavaScript",
+        "jQuery",
+        "MySQL",
+        "REST API",
+        "DigitalOcean API",
+        "PHP",
+        "HTML5",
+        "CSS3"
+      ],
+      "highlights": [
+        "Planning",
+        "Conception",
+        "Development",
+        "API Development",
+        "Frontend Development",
+        "Server Administration",
+        "UI/UX Design"
+      ]
+    },
+    {
+      "name": "Wolfgang-Borchert-Schule – Website Relaunch",
+      "description": "Relaunch and modernization of the Wolfgang-Borchert-Schule website, adapted to current requirements.",
+      "role": "Developer",
+      "highlights": [
+        "Web Development",
+        "Relaunch",
+        "SEO",
+        "CMS",
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "Atelier Brokat – Abschlussprüfung",
+      "description": "Website for the fashion atelier \"Atelier Brokat\" – created as part of the final examination. The site presented women's and men's collections, stage gowns, fashion trends, and events. Implemented with the Limonade PHP micro-framework, custom route structure, and individually designed templates with CSS animations.",
+      "role": "Developer",
+      "stack": [
+        "PHP",
+        "Limonade Framework",
+        "MySQL",
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "jQuery"
+      ],
+      "highlights": [
+        "Planning",
+        "Conception",
+        "Design",
+        "Development",
+        "CMS Development"
+      ]
+    },
+    {
+      "name": "Avancarte Shop",
+      "description": "E-commerce product catalog for Avancarte. The CakePHP application managed an extensive range of articles, categories, models, and variants using a relational database structure. Product data was hierarchically organized by categories and models and prepared for export to various output formats.",
+      "role": "Developer",
+      "stack": [
+        "CakePHP",
+        "PHP",
+        "MySQL",
+        "JavaScript",
+        "HTML5",
+        "CSS3"
+      ],
+      "highlights": [
+        "Planning",
+        "Conception",
+        "Programming",
+        "Database Design",
+        "Product Catalog"
+      ]
+    },
+    {
+      "name": "Bremer Feinkost – Delikatessenkatalog 2012",
+      "description": "A Web2Print delicatessen catalog solution for Bremer Feinkost, a long-standing client of image advertising.",
+      "role": "Developer",
+      "highlights": [
+        "Web2Print",
+        "Catalog",
+        "Concept",
+        "CakePHP",
+        "Adobe InDesign Scripting",
+        "MySQL"
+      ]
+    },
+    {
+      "name": "DigitalOcean-PHP-Class",
+      "description": "PHP wrapper for the DigitalOcean API. All methods are supported. Documentation for the DigitalOcean API can be found at digitalocean.com/api.",
+      "role": "Developer",
+      "links": {
+        "repository": "https://github.com/tuefekci/DigitalOcean-PHP-Class"
+      }
+    },
+    {
+      "name": "Flexguard – Website & Online Shop",
+      "description": "Website and e-commerce shop developed for Flexguard AG using Joomla.",
+      "role": "Developer",
+      "links": {
+        "website": "https://www.flexguard.de"
+      },
+      "highlights": [
+        "Web Development",
+        "E-Commerce",
+        "Design",
+        "Joomla",
+        "PHP",
+        "MySQL",
+        "CSS"
+      ]
+    },
+    {
+      "name": "Image Rendering Experiment",
+      "description": "Experiment with the PHPImageWorkshop library for server-side image processing including cropping, scaling, filtering, and layering.",
+      "role": "Developer",
+      "highlights": [
+        "Experiment",
+        "Image Processing",
+        "PHP",
+        "PHPImageWorkshop",
+        "GD"
+      ]
+    },
+    {
+      "name": "Ludum Dare 24 – Evolution",
+      "description": "A 48-hour game jam entry for Ludum Dare 24 featuring an HTML5 Canvas game on the theme of Evolution with Node-Webkit desktop integration.",
+      "role": "Developer",
+      "links": {
+        "website": "https://ld24.tuefekci.de"
+      },
+      "highlights": [
+        "Game Development",
+        "Concept",
+        "HTML5",
+        "Canvas",
+        "JavaScript",
+        "Node-Webkit"
+      ]
+    },
+    {
+      "name": "PHP.js Build-Tool",
+      "description": "A PHP script that generates a complete 24,000+ line JavaScript file from over 30 function categories of the PHP.js library.",
+      "role": "Developer",
+      "highlights": [
+        "Build Tool",
+        "Automation",
+        "Concept",
+        "PHP",
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "Weather by Kumoni.de",
+      "description": "A responsive weather web app built with Bootstrap featuring a custom PSD background image layout.",
+      "role": "Developer",
+      "highlights": [
+        "Web Development",
+        "Design",
+        "Concept",
+        "Bootstrap",
+        "HTML5",
+        "CSS",
+        "JavaScript",
+        "PSD"
+      ]
+    },
+    {
+      "name": "WerderSports – Corporate Design 2012",
+      "description": "Corporate design and website for northern Germany's largest sports center, which opened in fall 2012.",
+      "role": "Developer",
+      "links": {
+        "website": "https://www.werdersports.de"
+      },
+      "highlights": [
+        "Corporate Design",
+        "Web Development",
+        "Concept",
+        "CMS",
+        "PHP",
+        "CSS",
+        "Flash"
+      ]
+    },
+    {
+      "name": "Ambari – WebShop Relaunch",
+      "description": "Ambari is a specialist for wine, spirits, wine accessories, delicacies, and lifestyle.\n\nAs part of the relaunch, image advertising carried out various optimizations of the webshop. More user-friendly design and search engine optimizations were the main focus. The new offers and gifts in the webshop have been very well received by customers.",
+      "role": "Developer",
+      "links": {
+        "website": "https://www.ambari.de"
+      },
+      "highlights": [
+        "Conception and Design",
+        "Webshop Programming",
+        "Database Programming",
+        "Search Engine Optimization"
+      ]
+    },
+    {
+      "name": "AvanCarte Produktverwaltung Backend",
+      "description": "Backend system for product media management for AvanCarte. The system enabled the management of product images and data as well as synchronization with PDAs for field sales staff.",
+      "role": "Developer",
+      "stack": [
+        "PHP",
+        "MySQL",
+        "JavaScript",
+        "PDA Interface",
+        "Database"
+      ],
+      "highlights": [
+        "Planning",
+        "Conception",
+        "Programming",
+        "Database Design",
+        "PDA Data Synchronization",
+        "Media Management"
+      ]
+    },
+    {
+      "name": "Blue Plaza – Internetbasierte Datenbank für Blue FM",
+      "description": "An internet-based facility management solution for managing properties, tenants, and service providers, developed as lead agency for Blue FM.",
+      "role": "Developer",
+      "highlights": [
+        "Web Development",
+        "Database",
+        "Concept",
+        "PHP",
+        "MySQL",
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "name": "Druckhaus Humburg Website",
+      "description": "Concept, design, and development of the website for Druckhaus Humburg.",
+      "role": "Developer",
+      "links": {
+        "website": "https://www.humburg.de"
+      },
+      "highlights": [
+        "Web Development",
+        "Design",
+        "Concept",
+        "CMS",
+        "PHP",
+        "CSS",
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "HCH HandelsContor Hamburg – Webshop & Portal",
+      "description": "A modern web portal with Joomla-based VirtueMart webshop featuring custom payment plugins, developed as part of HCH's visual repositioning.",
+      "role": "Developer",
+      "links": {
+        "website": "https://www.hch.de"
+      },
+      "highlights": [
+        "Web Development",
+        "E-Commerce",
+        "Concept",
+        "Joomla",
+        "VirtueMart",
+        "PHP",
+        "MySQL",
+        "Payment Plugin"
+      ]
+    },
+    {
+      "name": "HWT Hansen / heizungsfirma.de",
+      "description": "Website for heating contractor HWT Hansen with a custom CMS-driven online presence.",
+      "role": "Developer",
+      "links": {
+        "website": "https://heizungsfirma.de"
+      },
+      "highlights": [
+        "Web Development",
+        "Design",
+        "CMS",
+        "PHP",
+        "CSS",
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "MP Multipack AG – Webshop & medienneutrale Datenbank",
+      "description": "Product catalogs, webshop, and media-neutral database development for MP Multipack AG as lead agency.",
+      "role": "Developer",
+      "links": {
+        "website": "https://www.multipack.ch"
+      },
+      "highlights": [
+        "Web Development",
+        "E-Commerce",
+        "Database",
+        "PHP",
+        "MySQL",
+        "Flash Catalog",
+        "Adobe InDesign Scripting"
+      ]
+    },
+    {
+      "name": "MVD – Das Print-Partner-Netzwerk",
+      "description": "Excellence-in-Print W2P is a web-to-print software solution with patented technology, optionally available for many business areas. It allows users to conveniently and easily create customized printed products online with an international user interface.\n\nimage advertising supported MVD with shop systems and customer service.",
+      "role": "Developer",
+      "links": {
+        "website": "https://www.mvd-online.net"
+      },
+      "highlights": [
+        "Support",
+        "Shop Systems",
+        "Customer Care",
+        "Customer Service"
+      ]
+    },
+    {
+      "name": "NordCap – Web2Print Tool",
+      "description": "An innovative Web2Print tool based on Connexus for NordCap, enabling automated print-ready catalog production.",
+      "role": "Developer",
+      "highlights": [
+        "Web2Print",
+        "Concept",
+        "Development",
+        "Connexus",
+        "PHP",
+        "Adobe Illustrator Scripting"
+      ]
+    },
+    {
+      "name": "Robert Pack Fotodesign Website",
+      "description": "A photographer's website with custom CMS featuring image gallery management and responsive display.",
+      "role": "Developer",
+      "highlights": [
+        "Web Development",
+        "Design",
+        "CMS",
+        "PHP",
+        "MySQL",
+        "CSS",
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "Tuefekci Portfolio (frühe Version)",
+      "description": "Early version of a personal portfolio website built with the Limonade PHP microframework, serving as a first digital business card.",
+      "role": "Developer",
+      "highlights": [
+        "Web Development",
+        "Design",
+        "Concept",
+        "PHP",
+        "Limonade",
+        "CSS",
+        "HTML"
+      ]
+    },
+    {
+      "name": "Tuefekci.eu – Animierte Portfolio-Website",
+      "description": "Creative portfolio website with jQuery Spritely animations featuring an animated 2D landscape with interactive elements.",
+      "role": "Developer",
+      "links": {
+        "website": "http://www.tuefekci.eu"
+      },
+      "highlights": [
+        "Web Development",
+        "Animation",
+        "Design",
+        "jQuery",
+        "Spritely",
+        "CSS",
+        "HTML5"
+      ]
+    },
+    {
+      "name": "an Bord Verlag Website",
+      "description": "Development and long-term maintenance of the publishing website for an Bord, which produces on-board magazines for ferries and cruise ships.",
+      "role": "Developer",
+      "links": {
+        "website": "https://www.anbord.de"
+      },
+      "highlights": [
+        "Web Development",
+        "CMS",
+        "Maintenance",
+        "PHP",
+        "CSS",
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "AvanCarte Produkt Datenbank & Webshop",
+      "description": "Continued development of an existing PHP product database and development of a custom B2B webshop based on CakePHP.",
+      "role": "Developer",
+      "highlights": [
+        "Continued Development",
+        "E-Commerce",
+        "Database",
+        "CakePHP",
+        "PHP",
+        "MySQL",
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "Decoramic Wertgutschein-Portal & POS",
+      "description": "A portal for distribution and redemption of gift vouchers with a POS system for balance management, based on CakePHP and jQuery.",
+      "role": "Developer",
+      "highlights": [
+        "Concept",
+        "Development",
+        "E-Commerce",
+        "CakePHP",
+        "jQuery",
+        "MySQL",
+        "JavaScript",
+        "POS"
+      ]
+    },
+    {
+      "name": "Exori Website",
+      "description": "Corporate website for Exori with a custom content management system.",
+      "role": "Developer",
+      "links": {
+        "website": "https://exori.de"
+      },
+      "highlights": [
+        "Web Development",
+        "Design",
+        "CMS",
+        "PHP",
+        "MySQL",
+        "CSS",
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "IA System Web2Print/CRM",
+      "description": "A Web2Print portal for business cards and print materials to digitize IA System's print workflows.",
+      "role": "Developer",
+      "highlights": [
+        "Concept",
+        "Development",
+        "Web2Print",
+        "CakePHP",
+        "jQuery",
+        "MySQL",
+        "Adobe Scripting"
+      ]
+    },
+    {
+      "name": "Ludwig von Kapff Database-Publishing",
+      "description": "A portal for managing price tags, customer cards, and print materials, connected to the existing ERP system via IA System and Connexus.",
+      "role": "Developer",
+      "highlights": [
+        "Concept",
+        "Development",
+        "Web2Print",
+        "Connexus",
+        "CakePHP",
+        "MySQL",
+        "ERP",
+        "Adobe Scripting"
+      ]
+    },
+    {
+      "name": "SchokoFoto",
+      "description": "Webshop for personalized chocolate photo products. Customers could upload their own photos and have them printed on chocolate packaging. The system included image processing and automatic PDF print data generation.",
+      "role": "Developer",
+      "stack": [
+        "PHP",
+        "MySQL",
+        "E-Commerce",
+        "Image Processing",
+        "PDF",
+        "JavaScript"
+      ],
+      "links": {
+        "website": "https://schokofoto.de"
+      },
+      "highlights": [
+        "Planning",
+        "Conception",
+        "Programming",
+        "E-Commerce",
+        "Image Processing",
+        "PDF Generation"
+      ]
+    },
+    {
+      "name": "Battlehost – Hosting Management",
+      "description": "A hosting management system for game servers and web hosting, enabling customer management, invoicing, and server management.",
+      "role": "Developer",
+      "highlights": [
+        "Concept",
+        "Development",
+        "Hosting",
+        "PHP",
+        "MySQL",
+        "HTML",
+        "CSS",
+        "Ajax"
+      ]
+    },
+    {
+      "name": "ISH Webhosting Plattform",
+      "description": "A web hosting platform with automated customer management, including administration interface, customer login, and invoicing.",
+      "role": "Developer",
+      "highlights": [
+        "Concept",
+        "Development",
+        "Hosting",
+        "PHP",
+        "MySQL",
+        "HTML",
+        "CSS",
+        "Ajax"
+      ]
+    },
+    {
+      "name": "Alkohol.in – Graphics Renderer & iOS UI Sim",
+      "description": "Experimental PHP project with dynamic graphics generation using the GD Library. The project included server-side image rendering and a simulator-like iOS UI replica in HTML/JavaScript/CSS.",
+      "role": "Developer",
+      "stack": [
+        "PHP",
+        "GD Library",
+        "MySQL",
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "highlights": [
+        "Conception",
+        "Programming",
+        "Graphics Rendering",
+        "UI Prototyping"
+      ]
+    },
+    {
+      "name": "LudumDare48 Game (Hobby)",
+      "description": "A game developed with HTML5 and Canvas for the LudumDare48 game development competition.",
+      "role": "Developer",
+      "highlights": [
+        "Game Development",
+        "Concept",
+        "Development",
+        "HTML5",
+        "Canvas",
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "SaveFM Desktop & Mobile App",
+      "description": "An app for automated recording and playback of radio stations built with Node-Webkit and PhoneGap, recording web radio streams and sharing via the cloud.",
+      "role": "Developer",
+      "highlights": [
+        "Concept",
+        "Development",
+        "App Development",
+        "Node-Webkit",
+        "PhoneGap",
+        "JavaScript",
+        "Node.js",
+        "Cloud Storage"
+      ]
+    },
+    {
+      "name": "Alkohol.in Grafik Renderer",
+      "description": "A PHP-based graphics render script simulating iOS UI elements for Alkohol.in, a humor and entertainment portal.",
+      "role": "Developer",
+      "links": {
+        "website": "https://alkohol.in"
+      },
+      "highlights": [
+        "Concept",
+        "Development",
+        "Graphics",
+        "PHP",
+        "GD Library",
+        "CSS"
+      ]
+    },
+    {
+      "name": "Verwaltungssoftware für Webhoster (Hostnetzwerk)",
+      "description": "Administration software for web hosts with frontend, backend, and PDF invoicing, developed with PHP, MySQL, HTML, and CSS.",
+      "role": "Developer",
+      "links": {
+        "website": "https://hostnetzwerk.de"
+      },
+      "highlights": [
+        "Concept",
+        "Development",
+        "Hosting",
+        "PHP",
+        "MySQL",
+        "HTML",
+        "CSS",
+        "Ajax",
+        "PDF"
+      ]
+    },
+    {
+      "name": "Virtual Currency / Bitcoin Tooling",
+      "description": "Experiments and tooling in the field of virtual currencies and early Bitcoin integration. The project included Flash-based interfaces and PHP backend components for cryptocurrency APIs and transaction processing.",
+      "role": "Developer",
+      "stack": [
+        "Flash",
+        "ActionScript",
+        "PHP",
+        "MySQL",
+        "API"
+      ],
+      "highlights": [
+        "Conception",
+        "Programming",
+        "API Integration",
+        "Flash Development"
+      ]
+    },
+    {
+      "name": "Flash Games & Websites",
+      "description": "Development of various Flash games and interactive Flash websites with ActionScript 2.0 programming and PHP backend integration.",
+      "role": "Developer",
+      "highlights": [
+        "Game Development",
+        "Web Development",
+        "Concept",
+        "Flash",
+        "ActionScript 2.0",
+        "PHP",
+        "MySQL"
+      ]
+    },
+    {
+      "name": "Clan Websites",
+      "description": "Gaming clan websites with phpBB forum integration, designed with Fireworks MX and implemented as HTML table layouts.",
+      "role": "Developer",
+      "highlights": [
+        "Web Development",
+        "Design",
+        "Community",
+        "Fireworks MX",
+        "HTML",
+        "CSS",
+        "phpBB",
+        "vBulletin"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "name": "German",
+      "proficiency": "Native"
+    },
+    {
+      "name": "English",
+      "proficiency": "Professional"
+    }
+  ],
+  "preferences": {
+    "employmentType": [
+      "Full-time",
+      "Contract"
+    ],
+    "workMode": [
+      "Remote",
+      "Hybrid",
+      "Onsite"
+    ],
+    "relocation": false
+  },
+  "metadata": {
+    "created": "2026-06-30T17:34:06.552Z",
+    "updated": "2026-06-30T17:34:06.552Z",
+    "source": "Generated"
+  }
+}

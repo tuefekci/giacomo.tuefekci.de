@@ -23,7 +23,7 @@
 			"url": resume.basics.url,
 			"image": resume.basics.image,
 			"address": { "@type": "PostalAddress", "addressLocality": resume.basics.location.city, "addressCountry": resume.basics.location.countryCode },
-			"birthDate": resume.basics.birth.date,
+			"birthDate": "1991-01-01",
 			"knowsLanguage": resume.languages.map(l => ({ "@type": "Language", "name": l.language })),
 			"knowsAbout": [...new Set(resume.skills.flatMap(s => s.keywords || []))],
 			"description": resume.basics.summary
@@ -38,7 +38,7 @@
 	<div class="fixed top-0 left-0 right-0 z-50 lg:hidden bg-white dark:bg-[#111111] shadow-md border-b border-[#E3E3E3] dark:border-[#3D3A3A] print:hidden">
 		<div class="flex items-start gap-3 px-5 pt-4 pb-2.5 max-[375px]:px-4 max-[375px]:pt-3 max-[375px]:pb-2">
 			<img src="{resume.basics.image}"
-				alt="avatar"
+				alt="Portrait of {resume.basics.name}"
 				class="w-14 h-14 rounded-lg object-cover flex-shrink-0 max-[375px]:w-12 max-[375px]:h-12"
 			/>
 			<div class="min-w-0 flex-1">
@@ -82,9 +82,9 @@
 					class="w-full mb-6 print:mb-0 lg:mb-0 mx-auto bg-white text-center dark:bg-[#111111] px-6 lg:rounded-[20px] mt-[0px] lg:mt-0 lg:sticky top-44 print:relative print:top-0 print:h-screen lg:max-h-screen hidden lg:block"
 					
 				>
-					<img
-						alt="avatar"
-						src="{resume.basics.image}"
+				<img
+					alt="Portrait of {resume.basics.name}"
+					src="{resume.basics.image}"
 
 						decoding="async"
 						class="w-[240px] print:w-[360px]  absolute left-[50%] transform -translate-x-[50%] h-[240px] print:h-[360px] drop-shadow-xl mx-auto rounded-[20px] -mt-[140px] print:mt-0 print:relative print:left-0 print:top-0 print:mx-auto print:translate-x-0 print:translate-y-0"

@@ -1,0 +1,546 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://giacomo.tuefekci.de",
+  "name": "Giacomo Tüfekçi",
+  "givenName": "Giacomo",
+  "familyName": "Tüfekçi",
+  "jobTitle": "Full-Stack Developer",
+  "description": "I'm a Full-Stack Developer based in Ludwigshafen am Rhein, Germany, with a background in web development, software engineering, and game design. I enjoy building end-to-end solutions and working seamlessly across various programming languages and web frameworks. Beyond just writing code, I value strong project management to ensure ideas actually make it to production efficiently and on time. When I’m not at my keyboard, I’m usually tinkering with electronics, keeping up with new tech, or tending to my garden. I also enjoy winding down with gaming, anime, and web novels. I speak fluent German and English, and I always aim to bring a practical, creative approach to the software I build.",
+  "url": "https://giacomo.tuefekci.de",
+  "email": "giacomo@tuefekci.de",
+  "telephone": "",
+  "image": "https://avatars.githubusercontent.com/u/2657626?v=4",
+  "birthDate": "1991",
+  "nationality": {
+    "@type": "Country",
+    "name": "Germany"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Ludwigshafen am Rhein",
+    "addressCountry": "DE"
+  },
+  "knowsLanguage": [
+    {
+      "@type": "Language",
+      "name": "German"
+    },
+    {
+      "@type": "Language",
+      "name": "English"
+    }
+  ],
+  "knowsAbout": [
+    "AJAX",
+    "AMPHP",
+    "Bootstrap",
+    "CSS",
+    "CSS3",
+    "CakePHP",
+    "Canvas",
+    "Chai",
+    "Composer",
+    "Contao",
+    "Drupal",
+    "ES6+",
+    "Ember.js",
+    "Gulp",
+    "HTML",
+    "HTML5",
+    "Handlebars",
+    "JSON",
+    "Javascript",
+    "Joomla",
+    "Laravel",
+    "Less",
+    "Magento",
+    "MongoDB",
+    "Mustache",
+    "MySQL",
+    "NoSQL",
+    "NodeJS",
+    "OOP",
+    "PHP5",
+    "PHP7",
+    "PHP8",
+    "PHPUnit",
+    "PhalconPHP",
+    "Preact",
+    "Purecss",
+    "REST",
+    "React",
+    "ReactPHP",
+    "Responsive Design",
+    "Sass",
+    "Shopware",
+    "Slim",
+    "Solid",
+    "Svelte",
+    "SvelteKit",
+    "TestCafe",
+    "TypeScript",
+    "Typo3",
+    "Vite",
+    "WebGL",
+    "WebRTC",
+    "WebSockets",
+    "WebAssembly",
+    "Webpack",
+    "WooCommerce",
+    "Wordpress",
+    "XML",
+    "jQuery",
+    "npm",
+    "phpBB",
+    "Android",
+    "API",
+    "API Design",
+    "Browser Automation",
+    "C#",
+    "C++",
+    "Cordova",
+    "Dart",
+    "Design Patterns",
+    "Electron",
+    "Flask",
+    "GO",
+    "Haxe",
+    "Headless Browser",
+    "IPFS",
+    "Lua",
+    "NodeWebkit",
+    "Phonegap",
+    "Puppeteer",
+    "Python",
+    "React Native",
+    "Redis",
+    "Rust",
+    "Scripting",
+    "Selenium",
+    "SQL",
+    "Unit Testing",
+    "Visual Basic",
+    "Version Control",
+    "iOS",
+    "Adobe Automation",
+    "Adobe Script",
+    "Avocode",
+    "Blender",
+    "Corporate Design",
+    "Fireworks",
+    "Flash",
+    "Gimp",
+    "Illustrator",
+    "InDesign",
+    "Photoshop",
+    "Premiere",
+    "Prototyping",
+    "Sketch",
+    "Spritely",
+    "UI/UX Design",
+    "Wireframing",
+    "AWS",
+    "Apache",
+    "Asterisk",
+    "Azure",
+    "Bash",
+    "CapRover",
+    "Cron",
+    "DNS",
+    "Database Administration",
+    "Docker",
+    "Docker Compose",
+    "Dockerfile",
+    "E-Mail",
+    "Linux",
+    "Load Balancing",
+    "Nginx",
+    "OpenFaaS",
+    "Podman",
+    "Rancher",
+    "Reverse Proxy",
+    "SSH",
+    "SSL/TLS",
+    "Shell Scripting",
+    "Swarm",
+    "System Administration",
+    "Unix",
+    "Vagrant",
+    "Windows",
+    "MelonJS",
+    "Unity3D",
+    "Unreal",
+    "WebGL / Canvas",
+    "three.js",
+    "Agile",
+    "Bitbucket",
+    "Code Review",
+    "Confluence",
+    "Discord",
+    "Git",
+    "GitHub",
+    "GitLab",
+    "Google Workspace",
+    "Jira",
+    "Microsoft Office",
+    "Microsoft Teams",
+    "Project Planning",
+    "Slack",
+    "Technical Project Management",
+    "Trello",
+    "ActionScript",
+    "ActionScript 2.0",
+    "AdobeScript",
+    "CLI",
+    "CMS",
+    "CRM",
+    "Connexus",
+    "Crawler",
+    "Database",
+    "Database-Publishing",
+    "Desktop App",
+    "DigitalOcean API",
+    "E-Commerce",
+    "ERP",
+    "Eigenes CMS",
+    "Elementor",
+    "Facebook Graph API",
+    "Facebook OG",
+    "Flot Chart",
+    "GD Library",
+    "Game Development",
+    "Game Server",
+    "Hosting",
+    "Hosting-Management",
+    "IA System",
+    "Limonade Framework",
+    "MarsEDV",
+    "Mobile App",
+    "Objekt-Meta-Datenbank",
+    "PDA-Schnittstelle",
+    "PDF",
+    "PDF-Generierung",
+    "PHPImageWorkshop",
+    "PMKino API",
+    "POS",
+    "Plugins",
+    "Product Designer",
+    "Push Notifications",
+    "QR-Code",
+    "Raspberry Pi",
+    "SQF",
+    "SQLite",
+    "Web2Print",
+    "WebNovel",
+    "WebView",
+    "Webshop",
+    "alldebrid",
+    "blackhole",
+    "ddl",
+    "deta",
+    "deta-base",
+    "deta-drive",
+    "deta-micros",
+    "deta-space",
+    "magnet",
+    "phpFastCache",
+    "torrent"
+  ],
+  "hasOccupation": [
+    {
+      "@type": "Occupation",
+      "name": "Full Stack Software Developer",
+      "startDate": "2020-01-01",
+      "employer": {
+        "@type": "Organization",
+        "name": "Tüfekci Software Development & Consulting",
+        "location": {
+          "@type": "Place",
+          "address": "Bremen"
+        }
+      }
+    },
+    {
+      "@type": "Occupation",
+      "name": "Cloud Development / Software Developer",
+      "startDate": "2018-03-01",
+      "endDate": "2019-10-31",
+      "employer": {
+        "@type": "Organization",
+        "name": ""
+      }
+    },
+    {
+      "@type": "Occupation",
+      "name": "Productowner",
+      "description": "I submitted my resignation as the project was terminated based on my recommendation. The progress made did not align with the expectations as documented by the management. Although an alternative employment opportunity was offered, I declined.",
+      "startDate": "2017-09-01",
+      "endDate": "2018-02-28",
+      "employer": {
+        "@type": "Organization",
+        "name": "RR Software GmbH",
+        "location": {
+          "@type": "Place",
+          "address": "Hasselfelde"
+        }
+      }
+    },
+    {
+      "@type": "Occupation",
+      "name": "Lead Web / Software Developer",
+      "description": "Responsibilities included developing Web2Print, booking (pmkino) and E-Commerce solutions, as well as planning and implementing websites using WordPress. Promoted to Lead Web Developer / Software Developer after one year.",
+      "startDate": "2015-07-01",
+      "endDate": "2017-08-31",
+      "employer": {
+        "@type": "Organization",
+        "name": "planetmutlu gmbh & co. kg",
+        "location": {
+          "@type": "Place",
+          "address": "Bremen"
+        }
+      }
+    },
+    {
+      "@type": "Occupation",
+      "name": "Freelance Full Stack Web Developer",
+      "startDate": "2014-06-01",
+      "endDate": "2015-06-31",
+      "employer": {
+        "@type": "Organization",
+        "name": "Tüfekci Software Development & Consulting",
+        "location": {
+          "@type": "Place",
+          "address": "Bremen"
+        }
+      }
+    },
+    {
+      "@type": "Occupation",
+      "name": "Lead IT Manager",
+      "description": "Transfered from Subsidiary image advertising gmbh & co. kg, started as a Software Developer, I developed Web2Print, database, and E-Commerce solutions while also leading the planning and implementation of websites. Within one year, I was promoted to IT Manager",
+      "startDate": "2013-08-01",
+      "endDate": "2014-05-31",
+      "employer": {
+        "@type": "Organization",
+        "name": "Humburg Media Group (Druckhaus Humburg)",
+        "location": {
+          "@type": "Place",
+          "address": "Bremen"
+        }
+      }
+    },
+    {
+      "@type": "Occupation",
+      "name": "Apprenticeship Media Designer",
+      "description": "Implemented layouts and developed applications and websites using CakePHP, Joomla, and other related technologies.",
+      "startDate": "2010-08-01",
+      "endDate": "2013-08-31",
+      "employer": {
+        "@type": "Organization",
+        "name": "image advertising gmbh & co. kg",
+        "location": {
+          "@type": "Place",
+          "address": "Bremen"
+        }
+      }
+    },
+    {
+      "@type": "Occupation",
+      "name": "CTO & Co Founder",
+      "description": "Designed and developed a desktop and mobile application using Node-Webkit and Phonegap that automatically records web radio streams and shares them via the cloud. Project terminated due to legal cost issues.",
+      "startDate": "2010-01-01",
+      "endDate": "2010-12-31",
+      "employer": {
+        "@type": "Organization",
+        "name": "SaveFM",
+        "location": {
+          "@type": "Place",
+          "address": "Bremen"
+        }
+      }
+    },
+    {
+      "@type": "Occupation",
+      "name": "Apprenticeship Cook",
+      "description": "The profession demanded creativity and I quite liked it, but unfortunately, I had to quit due to allergic reactions.",
+      "startDate": "2009",
+      "endDate": "2010-06-31",
+      "employer": {
+        "@type": "Organization",
+        "name": "Maritim Hotel Bremen",
+        "location": {
+          "@type": "Place",
+          "address": "Bremen"
+        }
+      }
+    },
+    {
+      "@type": "Occupation",
+      "name": "Parttime Line Cook / Service Staff",
+      "description": "",
+      "startDate": "2008",
+      "endDate": "2009-09-31",
+      "employer": {
+        "@type": "Organization",
+        "name": "Maritim Hotel Bremen",
+        "location": {
+          "@type": "Place",
+          "address": "Bremen"
+        }
+      }
+    },
+    {
+      "@type": "Occupation",
+      "name": "Freelance Web Developer",
+      "startDate": "2008-01-01",
+      "endDate": "2010-08-31",
+      "employer": {
+        "@type": "Organization",
+        "name": "Tüfekci Software Development & Consulting",
+        "location": {
+          "@type": "Place",
+          "address": "Bremen"
+        }
+      }
+    },
+    {
+      "@type": "Occupation",
+      "name": "Parttime Cashier and Stocker",
+      "description": "",
+      "startDate": "2007",
+      "endDate": "2009",
+      "employer": {
+        "@type": "Organization",
+        "name": "ASG Supermarket",
+        "location": {
+          "@type": "Place",
+          "address": "Bremen"
+        }
+      }
+    },
+    {
+      "@type": "Occupation",
+      "name": "Parttime Cashier and Stocker",
+      "description": "",
+      "startDate": "2007",
+      "endDate": "2008",
+      "employer": {
+        "@type": "Organization",
+        "name": "GP (Getränke Partner)",
+        "location": {
+          "@type": "Place",
+          "address": "Bremen"
+        }
+      }
+    }
+  ],
+  "alumniOf": [
+    {
+      "@type": "EducationalOrganization",
+      "name": "Wilhelm Wagenfeld-Schule",
+      "description": "journeyman's certificate, specialized in Design and Technology in Media Designer"
+    },
+    {
+      "@type": "EducationalOrganization",
+      "name": "SZ Rübekamp",
+      "description": "journeyman's certificate, early dropout due to allergic reactions. in Apprenticeship Cook"
+    },
+    {
+      "@type": "EducationalOrganization",
+      "name": "FOS Delmestrasse",
+      "description": "vocational baccalaureate (completed practical part) in Social Pedagogy"
+    },
+    {
+      "@type": "EducationalOrganization",
+      "name": "SZ Drebberstraße",
+      "description": "secondary school (certificate Real school) in Highschool"
+    }
+  ],
+  "worksFor": [
+    {
+      "@type": "Organization",
+      "name": "Tüfekci Software Development & Consulting"
+    },
+    {
+      "@type": "Organization",
+      "name": "RR Software GmbH"
+    },
+    {
+      "@type": "Organization",
+      "name": "planetmutlu gmbh & co. kg"
+    },
+    {
+      "@type": "Organization",
+      "name": "Humburg Media Group (Druckhaus Humburg)"
+    },
+    {
+      "@type": "Organization",
+      "name": "image advertising gmbh & co. kg"
+    },
+    {
+      "@type": "Organization",
+      "name": "SaveFM"
+    },
+    {
+      "@type": "Organization",
+      "name": "Maritim Hotel Bremen"
+    },
+    {
+      "@type": "Organization",
+      "name": "ASG Supermarket"
+    },
+    {
+      "@type": "Organization",
+      "name": "GP (Getränke Partner)"
+    }
+  ],
+  "sameAs": [
+    "https://github.com/tuefekci",
+    "https://www.linkedin.com/in/gtuefekci/"
+  ],
+  "skill": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Web Development",
+      "description": "I build responsive, dynamic web applications using modern front-end technologies like HTML, CSS, JavaScript, TypeScript, React, and Svelte. On the back end, I am highly versatile. I am just as comfortable building fast, scalable architectures using Node.js, Deno, or Bun as I am working with PHP frameworks like Laravel and CakePHP. I also have strong experience customizing CMS platforms like WordPress and Drupal.",
+      "inDefinedTermSet": "Master"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Software Development",
+      "description": "Experience in developing software solutions across multiple platforms and languages.",
+      "inDefinedTermSet": "Advanced"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Design / Creative",
+      "description": "Proficient in design tools for creating visual content, from layouts to digital assets.",
+      "inDefinedTermSet": "Skilled"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "SysAdmin / DevOps",
+      "description": "Experienced in server management, cloud platforms, and containerization.",
+      "inDefinedTermSet": "Proficient"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Game Dev / Design",
+      "description": "Experience in game development using various engines and frameworks.",
+      "inDefinedTermSet": "Intermediate"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Project Management",
+      "description": "Experience in technical project management, planning, and team leadership.",
+      "inDefinedTermSet": "Proficient"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Other Skills",
+      "description": "Additional technical skills and competencies.",
+      "inDefinedTermSet": "Intermediate"
+    }
+  ]
+}

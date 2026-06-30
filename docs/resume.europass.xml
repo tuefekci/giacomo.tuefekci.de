@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SkillsPassport xmlns="http://europass.cedefop.europa.eu/Europass"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:schemaLocation="http://europass.cedefop.europa.eu/Europass
+                                    http://europass.cedefop.europa.eu/xml/v3.4.0/EuropassSchema.xsd">
+  <DocumentInfo>
+    <DocumentType>ECV</DocumentType>
+    <CreationDate>2026-06-30T17:34:06.773Z</CreationDate>
+    <LastUpdateDate>2026-06-30T17:34:06.773Z</LastUpdateDate>
+    <XSDVersion>V3.4</XSDVersion>
+    <Generator>resume-to-europass v1</Generator>
+  </DocumentInfo>
+  <LearnerInfo>
+    <Identification>
+      <PersonName>
+        <FirstName>Giacomo</FirstName>
+        <Surname>Tüfekçi</Surname>
+      </PersonName>
+      <DateOfBirth>1991</DateOfBirth>
+      <Nationality><Code>DE</Code></Nationality>
+      <ContactInfo>
+        <Contact contactType="email">giacomo@tuefekci.de</Contact>
+        
+        <Contact contactType="url">https://giacomo.tuefekci.de</Contact>
+      </ContactInfo>
+    </Identification>
+    <Headline><Label>Full-Stack Developer</Label></Headline>
+    <WorkExperienceList>
+    <WorkExperience>
+      <Period><From>2020-01</From><To></To></Period>
+      <Position><Label>Full Stack Software Developer</Label></Position>
+      <Employer><Name>Tüfekci Software Development &amp; Consulting</Name></Employer>
+      <Location><Municipality>Bremen</Municipality></Location>
+      
+      <Activities><Description>Development of an Download Manager as a Prototype in PHP and than in Svelte</Description>
+        <Description>Development of an Web Application for the Management of a Cleaning Company</Description>
+        <Description>Development of an Web Application for the Management of an QR Code based Redirection System</Description>
+        <Description>Development of Apps, Plugins, Wrappers and Apis for Deta.space</Description>
+        <Description>Development of an Web Application which enables playing retro games in the Browser based on WASM Compiled Emulators.</Description>
+        <Description>Development of an Android Application to read Web &amp; Light Novels from different Providers in an unified UI.</Description>
+        <Description>Development of an API &amp; Crawler to build an index of Web &amp; Light Novels from different Providers.</Description>
+        <Description>Some Prototype ML/AI Applications which can generate Content, Images, Translate etc. which is used in different Projects.</Description></Activities>
+    </WorkExperience>
+    <WorkExperience>
+      <Period><From>2018-03</From><To>2019-10</To></Period>
+      <Position><Label>Cloud Development / Software Developer</Label></Position>
+      <Employer><Name>Cloud Development / Software Developer</Name></Employer>
+      
+      
+      <Activities><Description>Development of an Network Bridge between Web/Cloud to VisualBasic Application</Description>
+        <Description>Development of an Application/API to automate Facebook Events</Description>
+        <Description>Development of an APP for the Android and iOS Platform for Room Booking</Description></Activities>
+    </WorkExperience>
+    <WorkExperience>
+      <Period><From>2017-09</From><To>2018-02</To></Period>
+      <Position><Label>Productowner</Label></Position>
+      <Employer><Name>RR Software GmbH</Name></Employer>
+      <Location><Municipality>Hasselfelde</Municipality></Location>
+      
+      <Activities><Description>Planned and ReDesigned a Cloud/Web based Management System</Description></Activities>
+    </WorkExperience>
+    <WorkExperience>
+      <Period><From>2015-07</From><To>2017-08</To></Period>
+      <Position><Label>Lead Web / Software Developer</Label></Position>
+      <Employer><Name>planetmutlu gmbh &amp; co. kg</Name></Employer>
+      <Location><Municipality>Bremen</Municipality></Location>
+      
+      <Activities><Description>Managed a 5-person development team</Description>
+        <Description>Planned, Developed and Managed a booking, website and web2print system for cinemas (pmkino) using PhalconPHP, Wordpress, MongoDB, Python, NodeJS and ReactJS</Description>
+        <Description>Developed a Web2Print solution using PhalconPHP, Wordpress, MongoDB, Python, NodeJS and ReactJS</Description>
+        <Description>Developed a Wordpress Plugin and Theme environment for Messe Bremen Events, which was used in 10+ Websites.</Description></Activities>
+    </WorkExperience>
+    <WorkExperience>
+      <Period><From>2014-06</From><To>2015-06</To></Period>
+      <Position><Label>Freelance Full Stack Web Developer</Label></Position>
+      <Employer><Name>Tüfekci Software Development &amp; Consulting</Name></Employer>
+      <Location><Municipality>Bremen</Municipality></Location>
+      
+    </WorkExperience>
+    <WorkExperience>
+      <Period><From>2013-08</From><To>2014-05</To></Period>
+      <Position><Label>Lead IT Manager</Label></Position>
+      <Employer><Name>Humburg Media Group (Druckhaus Humburg)</Name></Employer>
+      <Location><Municipality>Bremen</Municipality></Location>
+      
+      <Activities><Description>Managed a 4-person development team</Description></Activities>
+    </WorkExperience>
+    <WorkExperience>
+      <Period><From>2010-08</From><To>2013-08</To></Period>
+      <Position><Label>Apprenticeship Media Designer</Label></Position>
+      <Employer><Name>image advertising gmbh &amp; co. kg</Name></Employer>
+      <Location><Municipality>Bremen</Municipality></Location>
+      
+    </WorkExperience>
+    <WorkExperience>
+      <Period><From>2010-01</From><To>2010-12</To></Period>
+      <Position><Label>CTO &amp; Co Founder</Label></Position>
+      <Employer><Name>SaveFM</Name></Employer>
+      <Location><Municipality>Bremen</Municipality></Location>
+      
+    </WorkExperience>
+    <WorkExperience>
+      <Period><From>2009-</From><To>2010-06</To></Period>
+      <Position><Label>Apprenticeship Cook</Label></Position>
+      <Employer><Name>Maritim Hotel Bremen</Name></Employer>
+      <Location><Municipality>Bremen</Municipality></Location>
+      
+    </WorkExperience>
+    <WorkExperience>
+      <Period><From>2008-</From><To>2009-09</To></Period>
+      <Position><Label>Parttime Line Cook / Service Staff</Label></Position>
+      <Employer><Name>Maritim Hotel Bremen</Name></Employer>
+      <Location><Municipality>Bremen</Municipality></Location>
+      
+    </WorkExperience>
+    <WorkExperience>
+      <Period><From>2008-01</From><To>2010-08</To></Period>
+      <Position><Label>Freelance Web Developer</Label></Position>
+      <Employer><Name>Tüfekci Software Development &amp; Consulting</Name></Employer>
+      <Location><Municipality>Bremen</Municipality></Location>
+      
+    </WorkExperience>
+    <WorkExperience>
+      <Period><From>2007-</From><To>2009-</To></Period>
+      <Position><Label>Parttime Cashier and Stocker</Label></Position>
+      <Employer><Name>ASG Supermarket</Name></Employer>
+      <Location><Municipality>Bremen</Municipality></Location>
+      
+    </WorkExperience>
+    <WorkExperience>
+      <Period><From>2007-</From><To>2008-</To></Period>
+      <Position><Label>Parttime Cashier and Stocker</Label></Position>
+      <Employer><Name>GP (Getränke Partner)</Name></Employer>
+      <Location><Municipality>Bremen</Municipality></Location>
+      
+    </WorkExperience>
+  </WorkExperienceList>
+    <EducationList>
+    <Education>
+      <Period><From>2010-10</From><To>2013-06</To></Period>
+      <Title>journeyman's certificate, specialized in Design and Technology Media Designer</Title>
+      <Organisation><Name>Wilhelm Wagenfeld-Schule</Name></Organisation>
+    </Education>
+    <Education>
+      <Period><From>2009-</From><To>2010-</To></Period>
+      <Title>journeyman's certificate, early dropout due to allergic reactions. Apprenticeship Cook</Title>
+      <Organisation><Name>SZ Rübekamp</Name></Organisation>
+    </Education>
+    <Education>
+      <Period><From>2008-</From><To>2009-</To></Period>
+      <Title>vocational baccalaureate (completed practical part) Social Pedagogy</Title>
+      <Organisation><Name>FOS Delmestrasse</Name></Organisation>
+    </Education>
+    <Education>
+      <Period><From>2002-</From><To>2008-</To></Period>
+      <Title>secondary school (certificate Real school) Highschool</Title>
+      <Organisation><Name>SZ Drebberstraße</Name></Organisation>
+    </Education>
+  </EducationList>
+    <Skills><Linguistic>
+    <Linguistic>
+      <MotherTongue><Language><Code>DE</Code></Language></MotherTongue>
+      <ForeignLanguage><Language><Code>DE</Code><ProficiencyLevel><Listening>C2</Listening><Reading>C2</Reading><SpokenInteraction>C2</SpokenInteraction><SpokenProduction>C2</SpokenProduction><Writing>C2</Writing></ProficiencyLevel></Language></ForeignLanguage>
+    </Linguistic>
+    <Linguistic>
+      <MotherTongue><Language><Code>EN</Code></Language></MotherTongue>
+      <ForeignLanguage><Language><Code>EN</Code><ProficiencyLevel><Listening>C1</Listening><Reading>C1</Reading><SpokenInteraction>C1</SpokenInteraction><SpokenProduction>C1</SpokenProduction><Writing>C1</Writing></ProficiencyLevel></Language></ForeignLanguage>
+    </Linguistic>
+    </Linguistic></Skills>
+  </LearnerInfo>
+</SkillsPassport>

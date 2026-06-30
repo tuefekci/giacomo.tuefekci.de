@@ -1,0 +1,477 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opentalentprotocol.org/schema/v0.2/otp.schema.json",
+  "title": "Open Talent Protocol v0.2",
+  "description": "Machine-readable talent profile for agent-to-agent hiring transactions on the ADNX network.",
+  "type": "object",
+
+  "required": [
+    "schema_version",
+    "otp_id",
+    "created_at",
+    "updated_at",
+    "disclosure_tier",
+    "name",
+    "title",
+    "location",
+    "availability",
+    "work_model"
+  ],
+
+  "$defs": {
+    "name_object": {
+      "type": "object",
+      "required": ["given", "family"],
+      "properties": {
+        "given": { "type": "string", "maxLength": 100 },
+        "family": { "type": "string", "maxLength": 100 },
+        "display": { "type": "string", "maxLength": 200 }
+      },
+      "additionalProperties": false
+    },
+
+    "location_object": {
+      "type": "object",
+      "required": ["country"],
+      "properties": {
+        "country": {
+          "type": "string",
+          "pattern": "^[A-Z]{2}$",
+          "description": "ISO 3166-1 alpha-2 country code"
+        },
+        "city": { "type": "string", "maxLength": 100 },
+        "region": { "type": "string", "maxLength": 100 },
+        "coordinates": {
+          "type": "object",
+          "required": ["lat", "lon"],
+          "properties": {
+            "lat": { "type": "number", "minimum": -90, "maximum": 90 },
+            "lon": { "type": "number", "minimum": -180, "maximum": 180 }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+
+    "salary_band": {
+      "type": "object",
+      "required": ["min", "max", "currency", "period"],
+      "properties": {
+        "min": { "type": "number", "minimum": 0 },
+        "max": { "type": "number", "minimum": 0 },
+        "currency": {
+          "type": "string",
+          "pattern": "^[A-Z]{3}$",
+          "description": "ISO 4217 currency code"
+        },
+        "period": {
+          "type": "string",
+          "enum": ["annual", "monthly", "daily", "hourly"]
+        }
+      },
+      "additionalProperties": false
+    },
+
+    "visa_status": {
+      "type": "object",
+      "required": ["requires_sponsorship", "authorized_countries"],
+      "properties": {
+        "requires_sponsorship": { "type": "boolean" },
+        "authorized_countries": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Z]{2}$",
+            "description": "ISO 3166-1 alpha-2 country code"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+
+    "skill": {
+      "type": "object",
+      "required": ["name", "level"],
+      "properties": {
+        "name": { "type": "string", "maxLength": 100 },
+        "level": { "type": "integer", "minimum": 1, "maximum": 5 },
+        "years": { "type": "number", "minimum": 0 },
+        "esco_id": {
+          "type": "string",
+          "pattern": "^S\\d+(\\.\\d+)*$",
+          "description": "ESCO taxonomy skill identifier"
+        }
+      },
+      "additionalProperties": false
+    },
+
+    "experience_entry": {
+      "type": "object",
+      "required": ["company", "title", "start_date"],
+      "properties": {
+        "company": { "type": "string", "maxLength": 200 },
+        "title": { "type": "string", "maxLength": 200 },
+        "start_date": { "type": "string", "format": "date" },
+        "end_date": { "type": "string", "format": "date" },
+        "location": { "type": "string", "maxLength": 200 },
+        "description": { "type": "string", "maxLength": 2000 }
+      },
+      "additionalProperties": false
+    },
+
+    "education_entry": {
+      "type": "object",
+      "required": ["institution", "degree", "field", "status"],
+      "properties": {
+        "institution": { "type": "string", "maxLength": 200 },
+        "degree": { "type": "string", "maxLength": 100 },
+        "field": { "type": "string", "maxLength": 200 },
+        "status": {
+          "type": "string",
+          "enum": ["completed", "in_progress", "incomplete"],
+          "description": "Outcome: completed = degree awarded, in_progress = currently enrolled, incomplete = attended but did not finish"
+        },
+        "graduation_date": { "type": "string", "maxLength": 7, "pattern": "^\\d{4}-(0[1-9]|1[0-2])$" }
+      },
+      "additionalProperties": false
+    },
+
+    "certification": {
+      "type": "object",
+      "required": ["name", "issuer", "date"],
+      "properties": {
+        "name": { "type": "string", "maxLength": 200 },
+        "issuer": { "type": "string", "maxLength": 200 },
+        "date": { "type": "string", "format": "date" },
+        "credential_id": { "type": "string", "maxLength": 100 },
+        "url": { "type": "string", "format": "uri" }
+      },
+      "additionalProperties": false
+    },
+
+    "language_proficiency": {
+      "type": "object",
+      "required": ["language", "proficiency"],
+      "properties": {
+        "language": {
+          "type": "string",
+          "pattern": "^[a-z]{2}$",
+          "description": "ISO 639-1 language code"
+        },
+        "proficiency": {
+          "type": "string",
+          "enum": ["A1", "A2", "B1", "B2", "C1", "C2", "native"]
+        }
+      },
+      "additionalProperties": false
+    },
+
+    "notice_period": {
+      "type": "object",
+      "required": ["days", "negotiable"],
+      "properties": {
+        "days": { "type": "integer", "minimum": 0 },
+        "negotiable": { "type": "boolean" }
+      },
+      "additionalProperties": false
+    },
+
+    "preferences_object": {
+      "type": "object",
+      "properties": {
+        "company_size": {
+          "type": "array",
+          "items": { "type": "string", "enum": ["startup", "scale_up", "mid_market", "enterprise"] }
+        },
+        "industries": {
+          "type": "array",
+          "items": { "type": "string", "maxLength": 100 }
+        },
+        "tech_stack": {
+          "type": "array",
+          "items": { "type": "string", "maxLength": 100 }
+        },
+        "culture_values": {
+          "type": "array",
+          "items": { "type": "string", "maxLength": 100 }
+        }
+      },
+      "additionalProperties": false
+    },
+
+    "relocation_object": {
+      "type": "object",
+      "required": ["willing"],
+      "properties": {
+        "willing": { "type": "boolean" },
+        "target_locations": {
+          "type": "array",
+          "items": { "type": "string", "maxLength": 100 }
+        }
+      },
+      "additionalProperties": false
+    },
+
+    "source": {
+      "type": "object",
+      "required": ["agent_id", "consent_type", "consent_date"],
+      "properties": {
+        "agent_id": { "type": "string", "maxLength": 200 },
+        "platform": { "type": "string", "maxLength": 200 },
+        "consent_type": {
+          "type": "string",
+          "enum": ["consent", "legitimate_interest"]
+        },
+        "consent_date": { "type": "string", "format": "date" }
+      },
+      "additionalProperties": false
+    },
+
+    "work_sample": {
+      "type": "object",
+      "required": ["title", "url", "type"],
+      "properties": {
+        "title": { "type": "string", "maxLength": 200 },
+        "url": { "type": "string", "format": "uri" },
+        "description": { "type": "string", "maxLength": 1000 },
+        "type": {
+          "type": "string",
+          "enum": ["portfolio", "github", "publication"]
+        }
+      },
+      "additionalProperties": false
+    },
+
+    "reference_entry": {
+      "type": "object",
+      "required": ["name", "relationship", "available"],
+      "properties": {
+        "name": { "type": "string", "maxLength": 200 },
+        "relationship": { "type": "string", "maxLength": 200 },
+        "contact": { "type": "string", "maxLength": 200 },
+        "available": { "type": "boolean" }
+      },
+      "additionalProperties": false
+    },
+
+    "extended_history": {
+      "type": "object",
+      "properties": {
+        "projects": {
+          "type": "array",
+          "items": { "type": "object" }
+        },
+        "volunteer": {
+          "type": "array",
+          "items": { "type": "object" }
+        },
+        "awards": {
+          "type": "array",
+          "items": { "type": "object" }
+        },
+        "patents": {
+          "type": "array",
+          "items": { "type": "object" }
+        }
+      },
+      "additionalProperties": false
+    },
+
+    "assessment": {
+      "type": "object",
+      "required": ["type", "provider", "score", "date"],
+      "properties": {
+        "type": { "type": "string", "maxLength": 100 },
+        "provider": { "type": "string", "maxLength": 200 },
+        "score": { "type": "string", "maxLength": 100 },
+        "date": { "type": "string", "format": "date" },
+        "url": { "type": "string", "format": "uri" }
+      },
+      "additionalProperties": false
+    }
+  },
+
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "0.2.0",
+      "description": "Semantic version of the OTP schema"
+    },
+    "otp_id": {
+      "type": "string",
+      "format": "uuid",
+      "description": "Unique profile identifier"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Profile creation timestamp (ISO 8601)"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Last modification timestamp (ISO 8601)"
+    },
+    "disclosure_tier": {
+      "type": "string",
+      "enum": ["metadata", "profile", "deep"],
+      "description": "Current payload tier controlling progressive disclosure"
+    },
+    "name": { "$ref": "#/$defs/name_object" },
+    "title": {
+      "type": "string",
+      "maxLength": 200,
+      "description": "Current professional title"
+    },
+    "location": { "$ref": "#/$defs/location_object" },
+    "availability": {
+      "type": "string",
+      "enum": ["immediate", "2_weeks", "1_month", "3_months", "passive", "unavailable"],
+      "description": "Current availability status"
+    },
+    "work_model": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["onsite", "hybrid", "remote"]
+      },
+      "minItems": 1,
+      "uniqueItems": true,
+      "description": "Accepted work arrangements"
+    },
+    "salary_band": { "$ref": "#/$defs/salary_band" },
+    "visa_status": { "$ref": "#/$defs/visa_status" },
+
+    "summary": {
+      "type": "string",
+      "maxLength": 500,
+      "description": "Professional summary"
+    },
+    "skills": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/skill" },
+      "description": "Skills with optional ESCO taxonomy IDs"
+    },
+    "experience": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/experience_entry" },
+      "description": "Work history"
+    },
+    "education": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/education_entry" },
+      "description": "Education history"
+    },
+    "certifications": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/certification" },
+      "description": "Professional certifications"
+    },
+    "languages": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/language_proficiency" },
+      "description": "Language proficiencies (CEFR scale)"
+    },
+    "industries": {
+      "type": "array",
+      "items": { "type": "string", "maxLength": 100 },
+      "description": "Industry experience"
+    },
+    "seniority": {
+      "type": "string",
+      "enum": ["intern", "junior", "mid", "senior", "staff", "lead", "principal", "director", "vp", "c_level"],
+      "description": "Career level"
+    },
+    "notice_period": { "$ref": "#/$defs/notice_period" },
+    "preferences": { "$ref": "#/$defs/preferences_object" },
+    "relocation": { "$ref": "#/$defs/relocation_object" },
+    "source": { "$ref": "#/$defs/source" },
+
+    "work_samples": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/work_sample" },
+      "description": "Portfolio, code, or writing samples"
+    },
+    "references": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/reference_entry" },
+      "description": "Professional references"
+    },
+    "extended_history": { "$ref": "#/$defs/extended_history" },
+    "assessments": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/assessment" },
+      "description": "Coding tests, psychometrics, etc."
+    },
+    "europass_credential": {
+      "type": "object",
+      "description": "EU Europass Digital Credential if available"
+    }
+  },
+
+  "additionalProperties": false,
+
+  "allOf": [
+    {
+      "if": {
+        "properties": { "disclosure_tier": { "const": "metadata" } },
+        "required": ["disclosure_tier"]
+      },
+      "then": {
+        "not": {
+          "anyOf": [
+            { "required": ["summary"] },
+            { "required": ["skills"] },
+            { "required": ["experience"] },
+            { "required": ["education"] },
+            { "required": ["certifications"] },
+            { "required": ["languages"] },
+            { "required": ["industries"] },
+            { "required": ["seniority"] },
+            { "required": ["notice_period"] },
+            { "required": ["preferences"] },
+            { "required": ["relocation"] },
+            { "required": ["source"] },
+            { "required": ["work_samples"] },
+            { "required": ["references"] },
+            { "required": ["extended_history"] },
+            { "required": ["assessments"] },
+            { "required": ["europass_credential"] }
+          ]
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": { "disclosure_tier": { "const": "profile" } },
+        "required": ["disclosure_tier"]
+      },
+      "then": {
+        "allOf": [
+          { "required": ["skills", "experience", "source"] },
+          {
+            "not": {
+              "anyOf": [
+                { "required": ["work_samples"] },
+                { "required": ["references"] },
+                { "required": ["extended_history"] },
+                { "required": ["assessments"] },
+                { "required": ["europass_credential"] }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": { "disclosure_tier": { "const": "deep" } },
+        "required": ["disclosure_tier"]
+      },
+      "then": {
+        "required": ["skills", "experience", "source"]
+      }
+    }
+  ]
+}

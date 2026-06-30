@@ -42,10 +42,12 @@
 <!-- SEO -->
 <svelte:head>
 	<title>{resume.basics.name}´s Resume / CV</title>
+	<meta name="description" content="{resume.basics.summary}" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="{resume.basics.name}´s Resume" />
 	<meta property="og:description" content="{resume.basics.summary}" />
-	<meta property="og:img" content="{resume.basics.image}" />
+	<meta property="og:image" content="{resume.basics.image}" />
+	<link rel="canonical" href="https://giacomo.tuefekci.de/cv" />
 </svelte:head>
 
   <div class="pt-12 pb-6 lg:pb-0 print:pt-0">

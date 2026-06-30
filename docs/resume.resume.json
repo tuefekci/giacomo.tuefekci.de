@@ -1,0 +1,1520 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "resumejson": "https://auth.careers/schema/"
+  },
+  "@type": "CreativeWork",
+  "additionalType": "resumejson:StructuredResume",
+  "about": {
+    "@type": "Person",
+    "givenName": "Giacomo",
+    "familyName": "Tüfekçi",
+    "name": "Giacomo Tüfekçi",
+    "jobTitle": "Full-Stack Developer",
+    "description": "I'm a Full-Stack Developer based in Ludwigshafen am Rhein, Germany, with a background in web development, software engineering, and game design. I enjoy building end-to-end solutions and working seamlessly across various programming languages and web frameworks. Beyond just writing code, I value strong project management to ensure ideas actually make it to production efficiently and on time. When I’m not at my keyboard, I’m usually tinkering with electronics, keeping up with new tech, or tending to my garden. I also enjoy winding down with gaming, anime, and web novels. I speak fluent German and English, and I always aim to bring a practical, creative approach to the software I build.",
+    "url": "https://giacomo.tuefekci.de",
+    "image": "https://avatars.githubusercontent.com/u/2657626?v=4"
+  },
+  "resumejson:address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Ludwigshafen am Rhein",
+    "addressCountry": "DE",
+    "addressRegion": "Rheinland-Pfalz"
+  },
+  "resumejson:contactPoints": [
+    {
+      "@type": "ContactPoint",
+      "email": "giacomo@tuefekci.de",
+      "telephone": ""
+    }
+  ],
+  "resumejson:socialProfiles": [
+    {
+      "@type": "resumejson:SocialProfile",
+      "resumejson:platform": "GitHub",
+      "resumejson:username": "tuefekci",
+      "url": "https://github.com/tuefekci"
+    },
+    {
+      "@type": "resumejson:SocialProfile",
+      "resumejson:platform": "LinkedIn",
+      "resumejson:username": "gtuefekci",
+      "url": "https://www.linkedin.com/in/gtuefekci/"
+    }
+  ],
+  "resumejson:workExperience": [
+    {
+      "@type": "OrganizationRole",
+      "roleName": "Full Stack Software Developer",
+      "startDate": "2020-01-01",
+      "endDate": "",
+      "resumejson:responsibilities": "",
+      "resumejson:achievements": [
+        "Development of an Download Manager as a Prototype in PHP and than in Svelte",
+        "Development of an Web Application for the Management of a Cleaning Company",
+        "Development of an Web Application for the Management of an QR Code based Redirection System",
+        "Development of Apps, Plugins, Wrappers and Apis for Deta.space",
+        "Development of an Web Application which enables playing retro games in the Browser based on WASM Compiled Emulators.",
+        "Development of an Android Application to read Web & Light Novels from different Providers in an unified UI.",
+        "Development of an API & Crawler to build an index of Web & Light Novels from different Providers.",
+        "Some Prototype ML/AI Applications which can generate Content, Images, Translate etc. which is used in different Projects."
+      ],
+      "employer": {
+        "@type": "Organization",
+        "name": "Tüfekci Software Development & Consulting",
+        "url": ""
+      }
+    },
+    {
+      "@type": "OrganizationRole",
+      "roleName": "Cloud Development / Software Developer",
+      "startDate": "2018-03-01",
+      "endDate": "2019-10-31",
+      "resumejson:responsibilities": "",
+      "resumejson:achievements": [
+        "Development of an Network Bridge between Web/Cloud to VisualBasic Application",
+        "Development of an Application/API to automate Facebook Events",
+        "Development of an APP for the Android and iOS Platform for Room Booking"
+      ],
+      "employer": {
+        "@type": "Organization",
+        "name": "Cloud Development / Software Developer",
+        "url": ""
+      }
+    },
+    {
+      "@type": "OrganizationRole",
+      "roleName": "Productowner",
+      "startDate": "2017-09-01",
+      "endDate": "2018-02-28",
+      "resumejson:responsibilities": "I submitted my resignation as the project was terminated based on my recommendation. The progress made did not align with the expectations as documented by the management. Although an alternative employment opportunity was offered, I declined.",
+      "resumejson:achievements": [
+        "Planned and ReDesigned a Cloud/Web based Management System"
+      ],
+      "employer": {
+        "@type": "Organization",
+        "name": "RR Software GmbH",
+        "url": ""
+      }
+    },
+    {
+      "@type": "OrganizationRole",
+      "roleName": "Lead Web / Software Developer",
+      "startDate": "2015-07-01",
+      "endDate": "2017-08-31",
+      "resumejson:responsibilities": "Responsibilities included developing Web2Print, booking (pmkino) and E-Commerce solutions, as well as planning and implementing websites using WordPress. Promoted to Lead Web Developer / Software Developer after one year.",
+      "resumejson:achievements": [
+        "Managed a 5-person development team",
+        "Planned, Developed and Managed a booking, website and web2print system for cinemas (pmkino) using PhalconPHP, Wordpress, MongoDB, Python, NodeJS and ReactJS",
+        "Developed a Web2Print solution using PhalconPHP, Wordpress, MongoDB, Python, NodeJS and ReactJS",
+        "Developed a Wordpress Plugin and Theme environment for Messe Bremen Events, which was used in 10+ Websites."
+      ],
+      "employer": {
+        "@type": "Organization",
+        "name": "planetmutlu gmbh & co. kg",
+        "url": ""
+      }
+    },
+    {
+      "@type": "OrganizationRole",
+      "roleName": "Freelance Full Stack Web Developer",
+      "startDate": "2014-06-01",
+      "endDate": "2015-06-31",
+      "resumejson:responsibilities": "",
+      "resumejson:achievements": [],
+      "employer": {
+        "@type": "Organization",
+        "name": "Tüfekci Software Development & Consulting",
+        "url": ""
+      }
+    },
+    {
+      "@type": "OrganizationRole",
+      "roleName": "Lead IT Manager",
+      "startDate": "2013-08-01",
+      "endDate": "2014-05-31",
+      "resumejson:responsibilities": "Transfered from Subsidiary image advertising gmbh & co. kg, started as a Software Developer, I developed Web2Print, database, and E-Commerce solutions while also leading the planning and implementation of websites. Within one year, I was promoted to IT Manager",
+      "resumejson:achievements": [
+        "Managed a 4-person development team"
+      ],
+      "employer": {
+        "@type": "Organization",
+        "name": "Humburg Media Group (Druckhaus Humburg)",
+        "url": ""
+      }
+    },
+    {
+      "@type": "OrganizationRole",
+      "roleName": "Apprenticeship Media Designer",
+      "startDate": "2010-08-01",
+      "endDate": "2013-08-31",
+      "resumejson:responsibilities": "Implemented layouts and developed applications and websites using CakePHP, Joomla, and other related technologies.",
+      "resumejson:achievements": [],
+      "employer": {
+        "@type": "Organization",
+        "name": "image advertising gmbh & co. kg",
+        "url": ""
+      }
+    },
+    {
+      "@type": "OrganizationRole",
+      "roleName": "CTO & Co Founder",
+      "startDate": "2010-01-01",
+      "endDate": "2010-12-31",
+      "resumejson:responsibilities": "Designed and developed a desktop and mobile application using Node-Webkit and Phonegap that automatically records web radio streams and shares them via the cloud. Project terminated due to legal cost issues.",
+      "resumejson:achievements": [],
+      "employer": {
+        "@type": "Organization",
+        "name": "SaveFM",
+        "url": ""
+      }
+    },
+    {
+      "@type": "OrganizationRole",
+      "roleName": "Apprenticeship Cook",
+      "startDate": "2009",
+      "endDate": "2010-06-31",
+      "resumejson:responsibilities": "The profession demanded creativity and I quite liked it, but unfortunately, I had to quit due to allergic reactions.",
+      "resumejson:achievements": [],
+      "employer": {
+        "@type": "Organization",
+        "name": "Maritim Hotel Bremen",
+        "url": ""
+      }
+    },
+    {
+      "@type": "OrganizationRole",
+      "roleName": "Parttime Line Cook / Service Staff",
+      "startDate": "2008",
+      "endDate": "2009-09-31",
+      "resumejson:responsibilities": "",
+      "resumejson:achievements": [],
+      "employer": {
+        "@type": "Organization",
+        "name": "Maritim Hotel Bremen",
+        "url": ""
+      }
+    },
+    {
+      "@type": "OrganizationRole",
+      "roleName": "Freelance Web Developer",
+      "startDate": "2008-01-01",
+      "endDate": "2010-08-31",
+      "resumejson:responsibilities": "",
+      "resumejson:achievements": [],
+      "employer": {
+        "@type": "Organization",
+        "name": "Tüfekci Software Development & Consulting",
+        "url": ""
+      }
+    },
+    {
+      "@type": "OrganizationRole",
+      "roleName": "Parttime Cashier and Stocker",
+      "startDate": "2007",
+      "endDate": "2009",
+      "resumejson:responsibilities": "",
+      "resumejson:achievements": [],
+      "employer": {
+        "@type": "Organization",
+        "name": "ASG Supermarket",
+        "url": ""
+      }
+    },
+    {
+      "@type": "OrganizationRole",
+      "roleName": "Parttime Cashier and Stocker",
+      "startDate": "2007",
+      "endDate": "2008",
+      "resumejson:responsibilities": "",
+      "resumejson:achievements": [],
+      "employer": {
+        "@type": "Organization",
+        "name": "GP (Getränke Partner)",
+        "url": ""
+      }
+    }
+  ],
+  "resumejson:education": [
+    {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "journeyman's certificate, specialized in Design and Technology",
+      "name": "Media Designer",
+      "description": "journeyman's certificate, specialized in Design and Technology in Media Designer",
+      "dateCreated": "2010-10-01",
+      "dateModified": "2013-06-01",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Wilhelm Wagenfeld-Schule"
+      }
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "journeyman's certificate, early dropout due to allergic reactions.",
+      "name": "Apprenticeship Cook",
+      "description": "journeyman's certificate, early dropout due to allergic reactions. in Apprenticeship Cook",
+      "dateCreated": "2009",
+      "dateModified": "2010",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "SZ Rübekamp"
+      }
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "vocational baccalaureate (completed practical part)",
+      "name": "Social Pedagogy",
+      "description": "vocational baccalaureate (completed practical part) in Social Pedagogy",
+      "dateCreated": "2008",
+      "dateModified": "2009",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "FOS Delmestrasse"
+      }
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "secondary school (certificate Real school)",
+      "name": "Highschool",
+      "description": "secondary school (certificate Real school) in Highschool",
+      "dateCreated": "2002",
+      "dateModified": "2008",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "SZ Drebberstraße"
+      }
+    }
+  ],
+  "resumejson:skills": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Web Development",
+      "resumejson:proficiencyLevel": "Master",
+      "termCode": "AJAX, AMPHP, Bootstrap, CSS, CSS3, CakePHP, Canvas, Chai, Composer, Contao, Drupal, ES6+, Ember.js, Gulp, HTML, HTML5, Handlebars, JSON, Javascript, Joomla, Laravel, Less, Magento, MongoDB, Mustache, MySQL, NoSQL, NodeJS, OOP, PHP5, PHP7, PHP8, PHPUnit, PhalconPHP, Preact, Purecss, REST, React, ReactPHP, Responsive Design, Sass, Shopware, Slim, Solid, Svelte, SvelteKit, TestCafe, TypeScript, Typo3, Vite, WebGL, WebRTC, WebSockets, WebAssembly, Webpack, WooCommerce, Wordpress, XML, jQuery, npm, phpBB"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Software Development",
+      "resumejson:proficiencyLevel": "Advanced",
+      "termCode": "Android, API, API Design, Browser Automation, C#, C++, Cordova, Dart, Design Patterns, Electron, Flask, GO, Haxe, Headless Browser, IPFS, Lua, MongoDB, MySQL, NoSQL, NodeJS, NodeWebkit, Phonegap, Puppeteer, Python, React Native, Redis, Rust, Scripting, Selenium, SQL, TypeScript, Unit Testing, Visual Basic, Version Control, iOS"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Design / Creative",
+      "resumejson:proficiencyLevel": "Skilled",
+      "termCode": "Adobe Automation, Adobe Script, Avocode, Blender, Corporate Design, Fireworks, Flash, Gimp, Illustrator, InDesign, Photoshop, Premiere, Prototyping, Sketch, Spritely, UI/UX Design, Wireframing"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "SysAdmin / DevOps",
+      "resumejson:proficiencyLevel": "Proficient",
+      "termCode": "AWS, Apache, Asterisk, Azure, Bash, CapRover, Cron, DNS, Database Administration, Docker, Docker Compose, Dockerfile, E-Mail, Linux, Load Balancing, Nginx, OpenFaaS, Podman, Rancher, Reverse Proxy, SSH, SSL/TLS, Shell Scripting, Swarm, System Administration, Unix, Vagrant, Windows"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Game Dev / Design",
+      "resumejson:proficiencyLevel": "Intermediate",
+      "termCode": "Blender, MelonJS, Unity3D, Unreal, WebGL / Canvas, three.js"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Project Management",
+      "resumejson:proficiencyLevel": "Proficient",
+      "termCode": "Agile, Bitbucket, Code Review, Confluence, Discord, Git, GitHub, GitLab, Google Workspace, Jira, Microsoft Office, Microsoft Teams, Project Planning, Slack, Technical Project Management, Trello, Version Control"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Other Skills",
+      "resumejson:proficiencyLevel": "Intermediate",
+      "termCode": "ActionScript, ActionScript 2.0, AdobeScript, CLI, CMS, CRM, Connexus, Crawler, Database, Database-Publishing, Desktop App, DigitalOcean API, E-Commerce, ERP, Eigenes CMS, Elementor, Facebook Graph API, Facebook OG, Flot Chart, GD Library, Game Development, Game Server, Hosting, Hosting-Management, IA System, Limonade Framework, MarsEDV, Mobile App, Objekt-Meta-Datenbank, PDA-Schnittstelle, PDF, PDF-Generierung, PHPImageWorkshop, PMKino API, POS, Plugins, Product Designer, Push Notifications, QR-Code, Raspberry Pi, SQF, SQLite, Web2Print, WebNovel, WebView, Webshop, alldebrid, blackhole, ddl, deta, deta-base, deta-drive, deta-micros, deta-space, magnet, phpFastCache, torrent"
+    }
+  ],
+  "resumejson:certifications": [],
+  "resumejson:projects": [
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Client Projects (NDA)",
+      "description": "Ongoing full-stack development, API design, cloud infrastructure, and software consulting for various clients. Details protected by non-disclosure agreements.",
+      "url": "",
+      "dateCreated": "2019",
+      "dateModified": "2026",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "LLM Applications & AI Integration",
+      "description": "Development of applications and workflows leveraging large language models including local LLM deployment (ollama, llama.cpp), Open WebUI, RAG pipelines, prompt engineering, and API wrappers for multiple AI providers.",
+      "url": "",
+      "dateCreated": "2026",
+      "dateModified": "2026",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "AI Image Generation Pipeline",
+      "description": "Design and implementation of AI image generation pipelines using Stable Diffusion (ComfyUI, Automatic1111), custom LoRA training, batch generation and upscaling automation, and integration into existing workflows.",
+      "url": "",
+      "dateCreated": "2025",
+      "dateModified": "2025",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Deta-PHP",
+      "description": "PHP SDK for interacting with the Deta API. Provides a Deta client class for accessing Deta Base (NoSQL database) and Deta Drive (file storage).",
+      "url": "https://github.com/tuefekci/Deta-PHP",
+      "dateCreated": "2023",
+      "dateModified": "2023",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Deta-PHP-Engine",
+      "description": "PHP Runtime / Engine for Deta.Space. Based on PHP Version 8.1.8 using the Internal Webserver. Supports a wide range of PHP extensions including bcmath, curl, dom, gd, mbstring, mongodb, mysqlnd, pdo_mysql, pdo_sqlite, redis, simplexml, soap, sqlite3, swoole, tokenizer, xml, zip, and more.\n\nFeatures:\n- PHP 8.1.8\n- Internal Webserver\n- Support for multiple PHP Micros by duplicating the php folder and spacefile config\n- Custom php.ini support via --with-config-file",
+      "url": "https://github.com/tuefekci/Deta-PHP-Engine",
+      "dateCreated": "2023",
+      "dateModified": "2023",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Deta-PHP-Sandbox",
+      "description": "Online Sandbox / Playground / Console to quickly test PHP code, deployed on Deta Space. Provides an interactive environment where users can paste PHP code, hit run, and see results in real-time without needing a local development setup.\n\nFeatures syntax highlighting, code completion, and error handling. Accessible from anywhere, at any time, without additional software. Available at: https://deta.space/discovery/@tuefekci/phpsandbox",
+      "url": "https://github.com/tuefekci/Deta-PHP-Sandbox",
+      "dateCreated": "2023",
+      "dateModified": "2023",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "deta-queue",
+      "description": "Queue implementation for use with Deta Base, written in TypeScript. Provides a simple FIFO queue backed by Deta's NoSQL database with configurable TTL and queue name. Published as npm package `deta-queue`.",
+      "url": "https://github.com/tuefekci/deta-queue",
+      "dateCreated": "2023",
+      "dateModified": "2023",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "deta-s3-server",
+      "description": "S3 Server for Deta.Space (Deta Drive) written in NodeJS based on jamhall/s3rver. A simple S3-compatible server that uses Deta Drive as a backend. Not a full S3 implementation — provides basic S3 API compatibility for storing and retrieving files via Deta Drive.\n\nAvailable on Deta Space Discovery: https://deta.space/discovery/@tuefekci/s3server",
+      "url": "https://github.com/tuefekci/deta-s3-server",
+      "dateCreated": "2023",
+      "dateModified": "2023",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "flatfilecache",
+      "description": "Node.js flat file cache library written in TypeScript. Provides a simple file-based caching mechanism using the local filesystem, suitable for scenarios where a full database or Redis cache is not needed.",
+      "url": "https://github.com/tuefekci/flatfilecache",
+      "dateCreated": "2022",
+      "dateModified": "2022",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "novelsource-proxy",
+      "description": "Proxy server for novel sources, complementing novelsourcePHP. Provides a proxy layer for web novel scraping operations, handling routing and requests between the scraping client and target novel sites.",
+      "url": "https://github.com/tuefekci/novelsource-proxy",
+      "dateCreated": "2022",
+      "dateModified": "2022",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "novelsourcePHP",
+      "description": "A collection of webnovel/novel sources offering varying amounts of scraping capability. Primarily built for meta data aggregation (tags and genres for recommendation) rather than content scraping.\n\nAvailable as a Composer package: `tuefekci/novelsource`. Supports novel source adapters with search and last-checked tracking. Inspired by mensch272/novelsave_sources (Python) but built for PHP use cases.",
+      "url": "https://github.com/tuefekci/novelsourcePHP",
+      "dateCreated": "2022",
+      "dateModified": "2022",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "blkhole",
+      "description": "Blkhole serves as a download management tool designed for AllDebrid cloud downloads, facilitating the seamless automation of downloads directly to your local network.\n\nKey features:\n- User-friendly web interface for management of alldebrid.com downloads, cloud Torrent, Magnet, and DDL links\n- Automated category-based downloading of completed cloud tasks to the local file system\n- Download enhancements and optimizations\n- Supports Magnet links, DDL links, Torrents, Chunked Downloads\n- Bandwidth and connection limitation\n- Automatic cleanup of finished and failed downloads\n- Tested with Radarr and Sonarr",
+      "url": "https://github.com/tuefekci/blkhole",
+      "dateCreated": "2021",
+      "dateModified": "2021",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "docker-radarr-xu4",
+      "description": "Docker configuration to run Radarr on an ODROID-XU4 single-board computer. Provides a containerized setup for the Radarr movie management tool optimized for ARM-based hardware.",
+      "url": "https://github.com/tuefekci/docker-radarr-xu4",
+      "dateCreated": "2021",
+      "dateModified": "2021",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "docker-sonarr-xu4",
+      "description": "Docker configuration to run Sonarr on an ODROID-XU4 single-board computer. Includes a workaround to force the mono process onto one set of cores (big cores 4,5,6,7 and small cores 0,1,2,3) to resolve performance issues on the big.LITTLE ARM architecture.",
+      "url": "https://github.com/tuefekci/docker-sonarr-xu4",
+      "dateCreated": "2021",
+      "dateModified": "2021",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "helpers",
+      "description": "Personal PHP helper library following PSR-4 autoloading and PSR-2 coding standards. Includes unit testing with PHPUnit 6, comprehensive guide and tutorial, and easy integration with any framework or plain PHP.\n\nRequirements: PHP >= 7.0, Composer. Uses a standard project structure with build/, src/, tests/ directories, Travis CI configuration, and code sniffing tools (PHPCS, PHPCBF).",
+      "url": "https://github.com/tuefekci/helpers",
+      "dateCreated": "2021",
+      "dateModified": "2021",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "overcli",
+      "description": "OverCLI is a PHP CLI / TUI Helper / Framework Library with a Render Loop, similar to how Game Engines handle application rendering. A collection of useful functions and classes for building CLI and TUI applications.\n\nFeatures:\n- Render Loop for continuous rendering with events\n- Exception renderer for static error display\n- Demo applications including a PIN IDENTIFICATION PROGRAM inspired by T2 Movie Prop\n- Fully dependent on the Runtime, framerate is stable with fine memory usage\n\nRequirements: PHP 7.2+ and Composer.",
+      "url": "https://github.com/tuefekci/overcli",
+      "dateCreated": "2021",
+      "dateModified": "2021",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "php-benchmark",
+      "description": "Benchmarking PHP7, PHP8, and PHP7-parallel performance on an i7-4790k with 16GB DDR3. Tests include math operations, string manipulation, loops, and if/else conditions with 1,000,000 iterations across 16 workers.\n\nResults (2021-10-04):\n- PHP 7.4.24: Total 79.612s (serial)\n- PHP 7.4.24-parallel: Total 9.361s (16 workers)\n- PHP 8.0.11: Total 69.053s (serial)\n\nConclusion: PHP8 performs better than PHP7 especially in string manipulation, while parallel processing on PHP7 delivers the fastest results for suitable workloads.",
+      "url": "https://github.com/tuefekci/php-benchmark",
+      "dateCreated": "2021",
+      "dateModified": "2021",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Android Web / Light Novel Reader",
+      "description": "An Android app for reading web and light novels. It aggregates content from various sources and offers a customized reader mode with bookmarks, offline storage, and customizable display options.",
+      "url": "",
+      "dateCreated": "2020",
+      "dateModified": "2020",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Download Manager (PHP → Svelte)",
+      "description": "A cloud-based download manager migrated from a PHP backend to a modern Svelte/SvelteKit architecture. It manages and automates downloads from various cloud services with a reactive UI and WebSocket status updates.",
+      "url": "",
+      "dateCreated": "2020",
+      "dateModified": "2020",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "QR Code Redirect System",
+      "description": "A powerful QR code redirect system built with the Slim Framework. It generates QR codes that dynamically redirect based on device type, location, or other parameters for marketing campaigns and dynamic print media links.",
+      "url": "",
+      "dateCreated": "2020",
+      "dateModified": "2020",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "ReactNative App und API (WebNovels)",
+      "description": "A Laravel-based API that fetches data from web novel sites for use with a ReactNative reader app. The API and crawler are complete while the app remains in active development.",
+      "url": "",
+      "dateCreated": "2020",
+      "dateModified": "2020",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Retro Game Browser Emulator (WASM)",
+      "description": "A platform-independent retro console emulator running in the browser with core logic ported to WebAssembly for native performance. Supports multiple classic consoles with save states and controller mapping.",
+      "url": "",
+      "dateCreated": "2020",
+      "dateModified": "2020",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "ReactNative CRM Task/Todo App",
+      "description": "A ReactNative app for CRM software that forwards system-generated tasks to employees and reports issues back to the system.",
+      "url": "",
+      "dateCreated": "2019",
+      "dateModified": "2019",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Reinigungsfirma CRM",
+      "description": "A PHP/Laravel CRM for managing tasks, inventory, personnel, issues/tickets, and chats, integrated into the client's existing app via WebView.",
+      "url": "",
+      "dateCreated": "2019",
+      "dateModified": "2019",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "phpkg",
+      "description": "Package your PHP project into an executable for Linux, Mac and Windows. Provides source code protection by compiling PHP projects into standalone executables. Includes benchmark comparisons between the packaged (phpkg) version and native PHP 8.1.3 on an i5-8259U CPU.\n\nBenchmark results showed minimal performance difference between phpkg and native PHP execution (64.334s vs 67.316s total for math, string, loop, and if/else tests), indicating the packaging adds negligible overhead.",
+      "url": "https://github.com/tuefekci/phpkg",
+      "dateCreated": "2019",
+      "dateModified": "2019",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Facebook Events Automation API",
+      "description": "An automation API for Facebook Events. The system automatically synchronizes Facebook events with a local database and enables further processing of event data in other systems — ideal for event calendars and ticketing platforms.",
+      "url": "",
+      "dateCreated": "2018",
+      "dateModified": "2018",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Room Booking App (Android/iOS)",
+      "description": "A mobile room booking app for Android and iOS. The system includes a calendar with real-time availability display, push notifications for booking changes, and a REST API for integration into existing booking systems.",
+      "url": "",
+      "dateCreated": "2018",
+      "dateModified": "2018",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Union Rösterei Website",
+      "description": "The Union Rösterei shop, passionately hand-coded at planetmutlu.",
+      "url": "https://unionroesterei.de",
+      "dateCreated": "2018",
+      "dateModified": "2018",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "VB2Web Bridge und API",
+      "description": "A bridge service built with Node.js, C++, and WebSockets enabling a legacy VB application to exchange data via REST with a cloud infrastructure.",
+      "url": "",
+      "dateCreated": "2018",
+      "dateModified": "2018",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "BHV Bremen",
+      "description": "A complete relaunch of the BHV Bremen website with more than 250 members!",
+      "url": "https://bhv-bremen.de",
+      "dateCreated": "2017",
+      "dateModified": "2017",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Bibliotheksportal",
+      "description": "The library portal of the Competence Network for Libraries informs about library offerings and services and supports their work through current professional information.",
+      "url": "https://bibliotheksportal.de",
+      "dateCreated": "2017",
+      "dateModified": "2017",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Docker-PHP7-Phalcon",
+      "description": "Docker + PHP7 + Phalcon development container. Provides a complete development environment combining PHP 7 with the Phalcon PHP framework (compiled as a C-extension), designed for rapid web application development.",
+      "url": "https://github.com/tuefekci/Docker-PHP7-Phalcon",
+      "dateCreated": "2017",
+      "dateModified": "2017",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Forum Film & Kino Kongress 2017",
+      "description": "Dashboard and web presence for the Forum Film & Kino Congress 2017, built with a modular system architecture.",
+      "url": "",
+      "dateCreated": "2017",
+      "dateModified": "2017",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Forum Film Kino 2018",
+      "description": "A registration portal for congress participants with a comprehensive backend administration interface.",
+      "url": "",
+      "dateCreated": "2018",
+      "dateModified": "2018",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Geschmackslabor Website",
+      "description": "Website design with a distinctive signature.",
+      "url": "https://geschmackslabor.com",
+      "dateCreated": "2017",
+      "dateModified": "2017",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Hanselife",
+      "description": "The shopping and experience fair. There is a lot to discover not only at the fair itself, but also on its website.",
+      "url": "https://www.hanselife.de",
+      "dateCreated": "2017",
+      "dateModified": "2017",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Kaffeevollautomaten Landingpage",
+      "description": "A WordPress landing page for Kaffeeplan featuring filter functionality and a category tree to help find the perfect coffee machine.",
+      "url": "http://kaffeemaschinen.kaffeeplan.de",
+      "dateCreated": "2017",
+      "dateModified": "2017",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "MARS Connector",
+      "description": "A virtual connector appliance integrating the MARS cinema reservation system via an SSH tunnel-based network bridge between the cinema network and cloud infrastructure.",
+      "url": "",
+      "dateCreated": "2017",
+      "dateModified": "2017",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Mars-EDV Online Booking Client",
+      "description": "An online booking client for the Mars-EDV reservation system via the PMKino API, with a Slim PHP frontend for booking cinema tickets.",
+      "url": "",
+      "dateCreated": "2017",
+      "dateModified": "2017",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "PM Product Database API",
+      "description": "Object and metadata management API built with the Slim Framework. Served as a Product Database API for managing products for Croll und Denecke across various shops.",
+      "url": "",
+      "dateCreated": "2017",
+      "dateModified": "2017",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "PMKino Reseller Booking (Alias)",
+      "description": "Reseller component of the online booking system for the PMKino platform. This project was closely connected to the Online Booking Client and provided the reseller interface for cinema ticket booking.",
+      "url": "",
+      "dateCreated": "2017",
+      "dateModified": "2017",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "PMKino Web Suite",
+      "description": "The PMKino Web Suite is a WordPress Multisite platform for cinema operators. It included multiple microsites for various cinemas as well as a Python-based backend (pmkino-server) for providing API endpoints for cinema data management. The system enabled centralized management of film programs, screenings and booking data through a unified interface.",
+      "url": "",
+      "dateCreated": "2017",
+      "dateModified": "2017",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Terra Sola",
+      "description": "Terra Sola Website.",
+      "url": "http://terra-sola.ch/de/",
+      "dateCreated": "2017",
+      "dateModified": "2017",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Ökofix Berlin exklusiv",
+      "description": "Stadtwerke Nürtingen",
+      "url": "http://berlin.oekofix.de",
+      "dateCreated": "2017",
+      "dateModified": "2017",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Aykut Großhandel Website",
+      "description": "Website for Aykut Großhandel, later Gusto Großhandel.",
+      "url": "http://gustogrosshandel.de",
+      "dateCreated": "2016",
+      "dateModified": "2016",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Beckröge Website",
+      "description": "Website relaunch for beverage wholesale company Beckröge.",
+      "url": "https://www.beckroege.de/hb/",
+      "dateCreated": "2016",
+      "dateModified": "2016",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Creamlovers Website",
+      "description": "Website design and implementation as part of the complete corporate design for Creamlovers, built as a WordPress theme.",
+      "url": "https://creamlovers.de",
+      "dateCreated": "2016",
+      "dateModified": "2016",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Docker-PHP7-Container",
+      "description": "Docker development container for PHP7, designed for WordPress development. Provides a ready-to-use PHP7 environment with necessary extensions for running and testing WordPress sites locally.",
+      "url": "https://github.com/tuefekci/Docker-PHP7-Container",
+      "dateCreated": "2016",
+      "dateModified": "2016",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Draussen",
+      "description": "The website of Draussen (formerly \"Rad & Outdoor\"), the trade fair for cycling and outdoor sports in Bremen, was transformed into a modern web presence in line with Planetmutlu's new corporate design.",
+      "url": "https://rufus-bremen.de",
+      "dateCreated": "2016",
+      "dateModified": "2016",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Gewoba Web2Print CMS",
+      "description": "Content management system for the web-to-print solution of GEWOBA. The WordPress-based CMS enabled the management and automatic generation of printed materials from web content.",
+      "url": "",
+      "dateCreated": "2016",
+      "dateModified": "2016",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Green Tech Invest",
+      "description": "Implementation of a website for Green Tech Invest.",
+      "url": "http://www.greentechinvest.ch",
+      "dateCreated": "2016",
+      "dateModified": "2016",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Jazzahead!",
+      "description": "The pages for the jazz trade fair and festival are equipped with extensive features and innovations for visitors, exhibitors, and the Jazzahead! team.",
+      "url": "https://jazzahead.de",
+      "dateCreated": "2016",
+      "dateModified": "2016",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "NT-Meter Energiemonitor",
+      "description": "Web frontend for the NT-Meter energy monitor running on a Raspberry Pi. The Slim PHP application visualizes energy consumption data in real time.",
+      "url": "",
+      "dateCreated": "2016",
+      "dateModified": "2016",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "PM WP PageAdmin",
+      "description": "WordPress plugin with a React-based admin interface for advanced page management. The plugin used Webpack for the frontend build system and phpFastCache for optimized performance. It enabled user-friendly management of WordPress pages beyond the standard editor.",
+      "url": "",
+      "dateCreated": "2016",
+      "dateModified": "2016",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Passion Sports Convention",
+      "description": "Complete relaunch of the website for Bremen's fun and extreme sports trade fair, Passion Sports Convention.",
+      "url": "",
+      "dateCreated": "2016",
+      "dateModified": "2016",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "PlanetMutlu CLI Tool",
+      "description": "Internal CLI tool for automating build, watch, and sync processes at PlanetMutlu. Developed in PHP with an Electron-based GUI.",
+      "url": "",
+      "dateCreated": "2016",
+      "dateModified": "2016",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Beckröge Webseite & B2B Bestellsystem",
+      "description": "A WordPress Elementor and ReactJS website allowing restaurants and retailers to place and manage orders for beverage wholesaler Beckröge.",
+      "url": "",
+      "dateCreated": "2015",
+      "dateModified": "2015",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Bibliotheksportal (Deutscher Bibliotheksverband)",
+      "description": "A web portal for the German Library Association built with WordPress Elementor and ReactJS, providing centralized information for libraries.",
+      "url": "",
+      "dateCreated": "2015",
+      "dateModified": "2015",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Bremen Classic Motorshow",
+      "description": "The Bremen Classic Motorshow website is the official show guide. It provides quick and easy access to all information about the event, including news, current special shows, tickets, and exhibitors.",
+      "url": "https://www.classicmotorshow.de",
+      "dateCreated": "2015",
+      "dateModified": "2015",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Croll & Denecke Website",
+      "description": "Website relaunch for Croll & Denecke. Europe's leading natural sponge producer receives an attractive website with an online shop for B2B customers.",
+      "url": "https://crolldenecke.com",
+      "dateCreated": "2015",
+      "dateModified": "2015",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Gewoba Database-Publishing (Redaktions-System)",
+      "description": "An editorial system built with WordPress for managing articles and media for magazines, tenant newspapers, annual reports, and the online magazine.",
+      "url": "",
+      "dateCreated": "2015",
+      "dateModified": "2015",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Kaffeeplan Website",
+      "description": "A complete relaunch of the website.",
+      "url": "https://www.kaffeeplan.de",
+      "dateCreated": "2015",
+      "dateModified": "2015",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Kinotickets.online",
+      "description": "A cinema ticket booking portal built with SlimPHP and ReactJS using the MarsEDV interface, deployed in over 15 cinemas.",
+      "url": "",
+      "dateCreated": "2015",
+      "dateModified": "2015",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Messe Webseiten (WordPress Plugin-Sammlung)",
+      "description": "A collection of WordPress plugins and themes for trade fair websites, used on Reiselust-Bremen.de, Hanselife.de, Messe-Bremen.de, Jazzahead.de, and others.",
+      "url": "",
+      "dateCreated": "2015",
+      "dateModified": "2015",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Ori Formreaktor Website",
+      "description": "Website for salon Ori implemented with WordPress as part of a complete corporate design refresh for this long-time client.",
+      "url": "http://form-reaktor.com",
+      "dateCreated": "2015",
+      "dateModified": "2015",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "PMKino Web2Print und Webseiten",
+      "description": "A portal for visually creating cinema posters, flyers, menus, and more, built with WordPress Elementor, Phalcon PHP, and ReactJS. Associated websites and shops were also integrated.",
+      "url": "",
+      "dateCreated": "2015",
+      "dateModified": "2015",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Reiselust",
+      "description": "## Reiselust\n\nWebsite relaunch for Reiselust, Bremen's travel fair.",
+      "url": "https://www.reiselust-bremen.de",
+      "dateCreated": "2015",
+      "dateModified": "2015",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Website & Shop verias24.de",
+      "description": "Complex website and shop for verias24 insurance products, encompassing database modeling, layouts, insurance calculations, and ERP system integration.",
+      "url": "https://www.verias24.de",
+      "dateCreated": "2015",
+      "dateModified": "2015",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Messe Bremen Website",
+      "description": "Development and maintenance of the Messe Bremen website based on WordPress Multisite, including custom theme and plugins for trade fair-specific functions.",
+      "url": "https://www.messe-bremen.de",
+      "dateCreated": "2014",
+      "dateModified": "2014",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Web Exhibition Theme",
+      "description": "WordPress theme for trade fair and exhibition projects at PlanetMutlu, developed in two versions (2014 and 2016) and deployed on over 10 exhibition websites.",
+      "url": "",
+      "dateCreated": "2014",
+      "dateModified": "2014",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Website lr28-bremen.de",
+      "description": "Responsive WordPress site for student apartments, realized by image advertising for the Humburg Media Group in 2014.",
+      "url": "http://lr28-bremen.de/de/",
+      "dateCreated": "2014",
+      "dateModified": "2014",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "ASP Automotive – Genuss-Portal Web2Print",
+      "description": "A unique Web2Print tool for ASP Automotive GmbH that generates print-ready templates from a web interface.",
+      "url": "",
+      "dateCreated": "2013",
+      "dateModified": "2013",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "BTC Trading Dashboard",
+      "description": "A web-based CakePHP platform for managing Bitcoin trading activities with order management and dashboard features.",
+      "url": "",
+      "dateCreated": "2013",
+      "dateModified": "2013",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Game Server Modding & Administration",
+      "description": "Development and administration of game servers with custom missions, AI spawning systems, and cleanup scripts for DayZ and Minecraft servers.",
+      "url": "",
+      "dateCreated": "2013",
+      "dateModified": "2013",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Ludwig von Kapff Etiketten-System",
+      "description": "A CakePHP-based web-to-print label system enabling creation and ordering of product labels for Ludwig von Kapff.",
+      "url": "",
+      "dateCreated": "2013",
+      "dateModified": "2013",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "MedienPrintPartner eG – Website",
+      "description": "The new website for Germany's first printing and media cooperative, developed by image advertising.",
+      "url": "https://www.medienprintpartner.de",
+      "dateCreated": "2013",
+      "dateModified": "2013",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "SaveFM",
+      "description": "SaveFM was a platform for recording and managing internet radio streams. The project consisted of several components: a CakePHP-based API and web application with dashboard, recording management, server control (via DigitalOcean API), user management and friends list; an Ember.js single-page application as admin frontend with Bootstrap UI; and a public website. The platform enabled scheduled recording of radio stations, management of recordings, and delivery via a web interface.",
+      "url": "",
+      "dateCreated": "2013",
+      "dateModified": "2013",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Wolfgang-Borchert-Schule – Website Relaunch",
+      "description": "Relaunch and modernization of the Wolfgang-Borchert-Schule website, adapted to current requirements.",
+      "url": "",
+      "dateCreated": "2013",
+      "dateModified": "2013",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Atelier Brokat – Abschlussprüfung",
+      "description": "Website for the fashion atelier \"Atelier Brokat\" – created as part of the final examination. The site presented women's and men's collections, stage gowns, fashion trends, and events. Implemented with the Limonade PHP micro-framework, custom route structure, and individually designed templates with CSS animations.",
+      "url": "",
+      "dateCreated": "2013",
+      "dateModified": "2013",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Avancarte Shop",
+      "description": "E-commerce product catalog for Avancarte. The CakePHP application managed an extensive range of articles, categories, models, and variants using a relational database structure. Product data was hierarchically organized by categories and models and prepared for export to various output formats.",
+      "url": "",
+      "dateCreated": "2012",
+      "dateModified": "2012",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Bremer Feinkost – Delikatessenkatalog 2012",
+      "description": "A Web2Print delicatessen catalog solution for Bremer Feinkost, a long-standing client of image advertising.",
+      "url": "",
+      "dateCreated": "2012",
+      "dateModified": "2012",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "DigitalOcean-PHP-Class",
+      "description": "PHP wrapper for the DigitalOcean API. All methods are supported. Documentation for the DigitalOcean API can be found at digitalocean.com/api.",
+      "url": "https://github.com/tuefekci/DigitalOcean-PHP-Class",
+      "dateCreated": "2012",
+      "dateModified": "2012",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Flexguard – Website & Online Shop",
+      "description": "Website and e-commerce shop developed for Flexguard AG using Joomla.",
+      "url": "https://www.flexguard.de",
+      "dateCreated": "2012",
+      "dateModified": "2012",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Image Rendering Experiment",
+      "description": "Experiment with the PHPImageWorkshop library for server-side image processing including cropping, scaling, filtering, and layering.",
+      "url": "",
+      "dateCreated": "2012",
+      "dateModified": "2012",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Ludum Dare 24 – Evolution",
+      "description": "A 48-hour game jam entry for Ludum Dare 24 featuring an HTML5 Canvas game on the theme of Evolution with Node-Webkit desktop integration.",
+      "url": "https://ld24.tuefekci.de",
+      "dateCreated": "2012",
+      "dateModified": "2012",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "PHP.js Build-Tool",
+      "description": "A PHP script that generates a complete 24,000+ line JavaScript file from over 30 function categories of the PHP.js library.",
+      "url": "",
+      "dateCreated": "2012",
+      "dateModified": "2012",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Weather by Kumoni.de",
+      "description": "A responsive weather web app built with Bootstrap featuring a custom PSD background image layout.",
+      "url": "",
+      "dateCreated": "2012",
+      "dateModified": "2012",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "WerderSports – Corporate Design 2012",
+      "description": "Corporate design and website for northern Germany's largest sports center, which opened in fall 2012.",
+      "url": "https://www.werdersports.de",
+      "dateCreated": "2012",
+      "dateModified": "2012",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Ambari – WebShop Relaunch",
+      "description": "Ambari is a specialist for wine, spirits, wine accessories, delicacies, and lifestyle.\n\nAs part of the relaunch, image advertising carried out various optimizations of the webshop. More user-friendly design and search engine optimizations were the main focus. The new offers and gifts in the webshop have been very well received by customers.",
+      "url": "https://www.ambari.de",
+      "dateCreated": "2011",
+      "dateModified": "2011",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "AvanCarte Produktverwaltung Backend",
+      "description": "Backend system for product media management for AvanCarte. The system enabled the management of product images and data as well as synchronization with PDAs for field sales staff.",
+      "url": "",
+      "dateCreated": "2011",
+      "dateModified": "2011",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Blue Plaza – Internetbasierte Datenbank für Blue FM",
+      "description": "An internet-based facility management solution for managing properties, tenants, and service providers, developed as lead agency for Blue FM.",
+      "url": "",
+      "dateCreated": "2011",
+      "dateModified": "2011",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Druckhaus Humburg Website",
+      "description": "Concept, design, and development of the website for Druckhaus Humburg.",
+      "url": "https://www.humburg.de",
+      "dateCreated": "2011",
+      "dateModified": "2011",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "HCH HandelsContor Hamburg – Webshop & Portal",
+      "description": "A modern web portal with Joomla-based VirtueMart webshop featuring custom payment plugins, developed as part of HCH's visual repositioning.",
+      "url": "https://www.hch.de",
+      "dateCreated": "2011",
+      "dateModified": "2011",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "HWT Hansen / heizungsfirma.de",
+      "description": "Website for heating contractor HWT Hansen with a custom CMS-driven online presence.",
+      "url": "https://heizungsfirma.de",
+      "dateCreated": "2011",
+      "dateModified": "2011",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "MP Multipack AG – Webshop & medienneutrale Datenbank",
+      "description": "Product catalogs, webshop, and media-neutral database development for MP Multipack AG as lead agency.",
+      "url": "https://www.multipack.ch",
+      "dateCreated": "2011",
+      "dateModified": "2011",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "MVD – Das Print-Partner-Netzwerk",
+      "description": "Excellence-in-Print W2P is a web-to-print software solution with patented technology, optionally available for many business areas. It allows users to conveniently and easily create customized printed products online with an international user interface.\n\nimage advertising supported MVD with shop systems and customer service.",
+      "url": "https://www.mvd-online.net",
+      "dateCreated": "2011",
+      "dateModified": "2011",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "NordCap – Web2Print Tool",
+      "description": "An innovative Web2Print tool based on Connexus for NordCap, enabling automated print-ready catalog production.",
+      "url": "",
+      "dateCreated": "2011",
+      "dateModified": "2011",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Robert Pack Fotodesign Website",
+      "description": "A photographer's website with custom CMS featuring image gallery management and responsive display.",
+      "url": "",
+      "dateCreated": "2011",
+      "dateModified": "2011",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Tuefekci Portfolio (frühe Version)",
+      "description": "Early version of a personal portfolio website built with the Limonade PHP microframework, serving as a first digital business card.",
+      "url": "",
+      "dateCreated": "2011",
+      "dateModified": "2011",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Tuefekci.eu – Animierte Portfolio-Website",
+      "description": "Creative portfolio website with jQuery Spritely animations featuring an animated 2D landscape with interactive elements.",
+      "url": "http://www.tuefekci.eu",
+      "dateCreated": "2011",
+      "dateModified": "2011",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "an Bord Verlag Website",
+      "description": "Development and long-term maintenance of the publishing website for an Bord, which produces on-board magazines for ferries and cruise ships.",
+      "url": "https://www.anbord.de",
+      "dateCreated": "2011",
+      "dateModified": "2011",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "AvanCarte Produkt Datenbank & Webshop",
+      "description": "Continued development of an existing PHP product database and development of a custom B2B webshop based on CakePHP.",
+      "url": "",
+      "dateCreated": "2013",
+      "dateModified": "2013",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Decoramic Wertgutschein-Portal & POS",
+      "description": "A portal for distribution and redemption of gift vouchers with a POS system for balance management, based on CakePHP and jQuery.",
+      "url": "",
+      "dateCreated": "2013",
+      "dateModified": "2013",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Exori Website",
+      "description": "Corporate website for Exori with a custom content management system.",
+      "url": "https://exori.de",
+      "dateCreated": "2010",
+      "dateModified": "2010",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "IA System Web2Print/CRM",
+      "description": "A Web2Print portal for business cards and print materials to digitize IA System's print workflows.",
+      "url": "",
+      "dateCreated": "2010",
+      "dateModified": "2010",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Ludwig von Kapff Database-Publishing",
+      "description": "A portal for managing price tags, customer cards, and print materials, connected to the existing ERP system via IA System and Connexus.",
+      "url": "",
+      "dateCreated": "2013",
+      "dateModified": "2013",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "SchokoFoto",
+      "description": "Webshop for personalized chocolate photo products. Customers could upload their own photos and have them printed on chocolate packaging. The system included image processing and automatic PDF print data generation.",
+      "url": "https://schokofoto.de",
+      "dateCreated": "2010",
+      "dateModified": "2010",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Battlehost – Hosting Management",
+      "description": "A hosting management system for game servers and web hosting, enabling customer management, invoicing, and server management.",
+      "url": "",
+      "dateCreated": "2009",
+      "dateModified": "2009",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "ISH Webhosting Plattform",
+      "description": "A web hosting platform with automated customer management, including administration interface, customer login, and invoicing.",
+      "url": "",
+      "dateCreated": "2009",
+      "dateModified": "2009",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Alkohol.in – Graphics Renderer & iOS UI Sim",
+      "description": "Experimental PHP project with dynamic graphics generation using the GD Library. The project included server-side image rendering and a simulator-like iOS UI replica in HTML/JavaScript/CSS.",
+      "url": "",
+      "dateCreated": "2008",
+      "dateModified": "2008",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "LudumDare48 Game (Hobby)",
+      "description": "A game developed with HTML5 and Canvas for the LudumDare48 game development competition.",
+      "url": "",
+      "dateCreated": "2008",
+      "dateModified": "2008",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "SaveFM Desktop & Mobile App",
+      "description": "An app for automated recording and playback of radio stations built with Node-Webkit and PhoneGap, recording web radio streams and sharing via the cloud.",
+      "url": "",
+      "dateCreated": "2008",
+      "dateModified": "2008",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Alkohol.in Grafik Renderer",
+      "description": "A PHP-based graphics render script simulating iOS UI elements for Alkohol.in, a humor and entertainment portal.",
+      "url": "https://alkohol.in",
+      "dateCreated": "2007",
+      "dateModified": "2007",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Verwaltungssoftware für Webhoster (Hostnetzwerk)",
+      "description": "Administration software for web hosts with frontend, backend, and PDF invoicing, developed with PHP, MySQL, HTML, and CSS.",
+      "url": "https://hostnetzwerk.de",
+      "dateCreated": "2007",
+      "dateModified": "2007",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Virtual Currency / Bitcoin Tooling",
+      "description": "Experiments and tooling in the field of virtual currencies and early Bitcoin integration. The project included Flash-based interfaces and PHP backend components for cryptocurrency APIs and transaction processing.",
+      "url": "",
+      "dateCreated": "2007",
+      "dateModified": "2007",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Flash Games & Websites",
+      "description": "Development of various Flash games and interactive Flash websites with ActionScript 2.0 programming and PHP backend integration.",
+      "url": "",
+      "dateCreated": "2006",
+      "dateModified": "2006",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Clan Websites",
+      "description": "Gaming clan websites with phpBB forum integration, designed with Fireworks MX and implemented as HTML table layouts.",
+      "url": "",
+      "dateCreated": "2005",
+      "dateModified": "2005",
+      "keywords": ""
+    }
+  ],
+  "resumejson:languages": [
+    {
+      "@type": "resumejson:LanguageProficiency",
+      "name": "German",
+      "resumejson:proficiencyLevel": "Native"
+    },
+    {
+      "@type": "resumejson:LanguageProficiency",
+      "name": "English",
+      "resumejson:proficiencyLevel": "Professional"
+    }
+  ],
+  "resumejson:awards": [],
+  "resumejson:publications": [],
+  "resumejson:volunteering": []
+}

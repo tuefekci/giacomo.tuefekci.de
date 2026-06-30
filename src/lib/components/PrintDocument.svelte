@@ -12,7 +12,7 @@
     }
 
     $: visibleProjects = resume.projects.filter(p =>
-        !p.entity?.toLowerCase().includes("planetmutlu")
+        p.visibility !== "hidden" && p.visibility !== "on-request"
     );
 
     $: printCategories = [...new Set(visibleProjects.map(p => p.category).filter(Boolean))];
@@ -23,9 +23,18 @@
     $: printFeaturedCount = visibleProjects.filter(p => p.featured).length;
 
     $: grouped = visibleProjects.reduce((acc, p) => {
-        const year = p.date || "Unknown";
-        if (!acc[year]) acc[year] = [];
-        acc[year].push(p);
+        const start = p.startDate ? parseInt(p.startDate) : null;
+        const end = p.endDate ? parseInt(p.endDate) : start;
+        if (start === null) {
+            if (!acc["Unknown"]) acc["Unknown"] = [];
+            acc["Unknown"].push(p);
+        } else {
+            for (let y = start; y <= end; y++) {
+                const year = String(y);
+                if (!acc[year]) acc[year] = [];
+                acc[year].push(p);
+            }
+        }
         return acc;
     }, {});
     $: years = Object.keys(grouped).sort((a, b) => Number(b) - Number(a));

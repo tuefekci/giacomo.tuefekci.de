@@ -8,8 +8,13 @@
 <!-- SEO -->
 <svelte:head>
 	<title>{data.meta.title} | {resume.basics.name}´s Blog</title>
+	<meta name="description" content="{data.meta.description}" />
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content="{data.meta.title} | {resume.basics.name}´s Blog" />
+	<meta property="og:description" content="{data.meta.description}" />
+	<meta property="og:image" content="{data.meta.image || resume.basics.image}" />
+	<meta property="og:url" content="https://giacomo.tuefekci.de/blog/posts/{data.meta.slug || data.meta.title.toLowerCase().replace(/\\s+/g, '-')}" />
+	<link rel="canonical" href="https://giacomo.tuefekci.de/blog/posts/{data.meta.slug}" />
 </svelte:head>
 
 <article class="pt-12 print:pt-0">

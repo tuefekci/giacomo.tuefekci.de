@@ -1,0 +1,885 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Resume xmlns="http://ns.hr-xml.org/2007-04-15"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://ns.hr-xml.org/2007-04-15 https://s3.amazonaws.com/Build_2_5/HR-XML-2_5/SEP/Resume.xsd"
+        xml:lang="EN">
+  <StructuredXMLResume>
+    <ContactInfo>
+      <PersonName>
+        <GivenName>Giacomo</GivenName>
+        <FamilyName>Tüfekçi</FamilyName>
+      </PersonName>
+      
+      <ContactMethod>
+        
+        <InternetEmailAddress>giacomo@tuefekci.de</InternetEmailAddress>
+        <InternetWebAddress>https://giacomo.tuefekci.de</InternetWebAddress>
+        <PostalAddress>
+          <CountryCode>DE</CountryCode>
+          <Municipality>Ludwigshafen am Rhein</Municipality>
+        </PostalAddress>
+      </ContactMethod>
+    </ContactInfo>
+    <ExecutiveSummary>I'm a Full-Stack Developer based in Ludwigshafen am Rhein, Germany, with a background in web development, software engineering, and game design. I enjoy building end-to-end solutions and working seamlessly across various programming languages and web frameworks. Beyond just writing code, I value strong project management to ensure ideas actually make it to production efficiently and on time. When I’m not at my keyboard, I’m usually tinkering with electronics, keeping up with new tech, or tending to my garden. I also enjoy winding down with gaming, anime, and web novels. I speak fluent German and English, and I always aim to bring a practical, creative approach to the software I build.</ExecutiveSummary>
+    <Objective>Full-Stack Developer</Objective>
+    <EmploymentHistory>
+      <EmployerOrg>
+        <EmployerOrgName>Tüfekci Software Development &amp; Consulting</EmployerOrgName>
+        <PositionHistory>
+          <Title>Full Stack Software Developer</Title>
+          
+          <StartDate><YearMonth>2020-01</YearMonth></StartDate>
+          
+          <Competency description="Development of an Download Manager as a Prototype in PHP and than in Svelte"/>
+          <Competency description="Development of an Web Application for the Management of a Cleaning Company"/>
+          <Competency description="Development of an Web Application for the Management of an QR Code based Redirection System"/>
+          <Competency description="Development of Apps, Plugins, Wrappers and Apis for Deta.space"/>
+          <Competency description="Development of an Web Application which enables playing retro games in the Browser based on WASM Compiled Emulators."/>
+          <Competency description="Development of an Android Application to read Web &amp; Light Novels from different Providers in an unified UI."/>
+          <Competency description="Development of an API &amp; Crawler to build an index of Web &amp; Light Novels from different Providers."/>
+          <Competency description="Some Prototype ML/AI Applications which can generate Content, Images, Translate etc. which is used in different Projects."/>
+        </PositionHistory>
+      </EmployerOrg>
+      <EmployerOrg>
+        <EmployerOrgName>Cloud Development / Software Developer</EmployerOrgName>
+        <PositionHistory>
+          <Title>Cloud Development / Software Developer</Title>
+          
+          <StartDate><YearMonth>2018-03</YearMonth></StartDate>
+          <EndDate><YearMonth>2019-10</YearMonth></EndDate>
+          <Competency description="Development of an Network Bridge between Web/Cloud to VisualBasic Application"/>
+          <Competency description="Development of an Application/API to automate Facebook Events"/>
+          <Competency description="Development of an APP for the Android and iOS Platform for Room Booking"/>
+        </PositionHistory>
+      </EmployerOrg>
+      <EmployerOrg>
+        <EmployerOrgName>RR Software GmbH</EmployerOrgName>
+        <PositionHistory>
+          <Title>Productowner</Title>
+          <Description>I submitted my resignation as the project was terminated based on my recommendation. The progress made did not align with the expectations as documented by the management. Although an alternative employment opportunity was offered, I declined.</Description>
+          <StartDate><YearMonth>2017-09</YearMonth></StartDate>
+          <EndDate><YearMonth>2018-02</YearMonth></EndDate>
+          <Competency description="Planned and ReDesigned a Cloud/Web based Management System"/>
+        </PositionHistory>
+      </EmployerOrg>
+      <EmployerOrg>
+        <EmployerOrgName>planetmutlu gmbh &amp; co. kg</EmployerOrgName>
+        <PositionHistory>
+          <Title>Lead Web / Software Developer</Title>
+          <Description>Responsibilities included developing Web2Print, booking (pmkino) and E-Commerce solutions, as well as planning and implementing websites using WordPress. Promoted to Lead Web Developer / Software Developer after one year.</Description>
+          <StartDate><YearMonth>2015-07</YearMonth></StartDate>
+          <EndDate><YearMonth>2017-08</YearMonth></EndDate>
+          <Competency description="Managed a 5-person development team"/>
+          <Competency description="Planned, Developed and Managed a booking, website and web2print system for cinemas (pmkino) using PhalconPHP, Wordpress, MongoDB, Python, NodeJS and ReactJS"/>
+          <Competency description="Developed a Web2Print solution using PhalconPHP, Wordpress, MongoDB, Python, NodeJS and ReactJS"/>
+          <Competency description="Developed a Wordpress Plugin and Theme environment for Messe Bremen Events, which was used in 10+ Websites."/>
+        </PositionHistory>
+      </EmployerOrg>
+      <EmployerOrg>
+        <EmployerOrgName>Tüfekci Software Development &amp; Consulting</EmployerOrgName>
+        <PositionHistory>
+          <Title>Freelance Full Stack Web Developer</Title>
+          
+          <StartDate><YearMonth>2014-06</YearMonth></StartDate>
+          <EndDate><YearMonth>2015-06</YearMonth></EndDate>
+          
+        </PositionHistory>
+      </EmployerOrg>
+      <EmployerOrg>
+        <EmployerOrgName>Humburg Media Group (Druckhaus Humburg)</EmployerOrgName>
+        <PositionHistory>
+          <Title>Lead IT Manager</Title>
+          <Description>Transfered from Subsidiary image advertising gmbh &amp; co. kg, started as a Software Developer, I developed Web2Print, database, and E-Commerce solutions while also leading the planning and implementation of websites. Within one year, I was promoted to IT Manager</Description>
+          <StartDate><YearMonth>2013-08</YearMonth></StartDate>
+          <EndDate><YearMonth>2014-05</YearMonth></EndDate>
+          <Competency description="Managed a 4-person development team"/>
+        </PositionHistory>
+      </EmployerOrg>
+      <EmployerOrg>
+        <EmployerOrgName>image advertising gmbh &amp; co. kg</EmployerOrgName>
+        <PositionHistory>
+          <Title>Apprenticeship Media Designer</Title>
+          <Description>Implemented layouts and developed applications and websites using CakePHP, Joomla, and other related technologies.</Description>
+          <StartDate><YearMonth>2010-08</YearMonth></StartDate>
+          <EndDate><YearMonth>2013-08</YearMonth></EndDate>
+          
+        </PositionHistory>
+      </EmployerOrg>
+      <EmployerOrg>
+        <EmployerOrgName>SaveFM</EmployerOrgName>
+        <PositionHistory>
+          <Title>CTO &amp; Co Founder</Title>
+          <Description>Designed and developed a desktop and mobile application using Node-Webkit and Phonegap that automatically records web radio streams and shares them via the cloud. Project terminated due to legal cost issues.</Description>
+          <StartDate><YearMonth>2010-01</YearMonth></StartDate>
+          <EndDate><YearMonth>2010-12</YearMonth></EndDate>
+          
+        </PositionHistory>
+      </EmployerOrg>
+      <EmployerOrg>
+        <EmployerOrgName>Maritim Hotel Bremen</EmployerOrgName>
+        <PositionHistory>
+          <Title>Apprenticeship Cook</Title>
+          <Description>The profession demanded creativity and I quite liked it, but unfortunately, I had to quit due to allergic reactions.</Description>
+          <StartDate><YearMonth>2009-01</YearMonth></StartDate>
+          <EndDate><YearMonth>2010-06</YearMonth></EndDate>
+          
+        </PositionHistory>
+      </EmployerOrg>
+      <EmployerOrg>
+        <EmployerOrgName>Maritim Hotel Bremen</EmployerOrgName>
+        <PositionHistory>
+          <Title>Parttime Line Cook / Service Staff</Title>
+          
+          <StartDate><YearMonth>2008-01</YearMonth></StartDate>
+          <EndDate><YearMonth>2009-09</YearMonth></EndDate>
+          
+        </PositionHistory>
+      </EmployerOrg>
+      <EmployerOrg>
+        <EmployerOrgName>Tüfekci Software Development &amp; Consulting</EmployerOrgName>
+        <PositionHistory>
+          <Title>Freelance Web Developer</Title>
+          
+          <StartDate><YearMonth>2008-01</YearMonth></StartDate>
+          <EndDate><YearMonth>2010-08</YearMonth></EndDate>
+          
+        </PositionHistory>
+      </EmployerOrg>
+      <EmployerOrg>
+        <EmployerOrgName>ASG Supermarket</EmployerOrgName>
+        <PositionHistory>
+          <Title>Parttime Cashier and Stocker</Title>
+          
+          <StartDate><YearMonth>2007-01</YearMonth></StartDate>
+          <EndDate><YearMonth>2009-01</YearMonth></EndDate>
+          
+        </PositionHistory>
+      </EmployerOrg>
+      <EmployerOrg>
+        <EmployerOrgName>GP (Getränke Partner)</EmployerOrgName>
+        <PositionHistory>
+          <Title>Parttime Cashier and Stocker</Title>
+          
+          <StartDate><YearMonth>2007-01</YearMonth></StartDate>
+          <EndDate><YearMonth>2008-01</YearMonth></EndDate>
+          
+        </PositionHistory>
+      </EmployerOrg>
+    </EmploymentHistory>
+    <EducationHistory>
+      <SchoolOrInstitution schoolType="University">
+        <SchoolName>Wilhelm Wagenfeld-Schule</SchoolName>
+        <Degree degreeType="journeyman's-certificate, specialized in design and technology">
+          <DegreeName>journeyman's certificate, specialized in Design and Technology in Media Designer</DegreeName>
+          <DegreeDate><Year>2013</Year></DegreeDate>
+          <DegreeMajor><Name>Media Designer</Name></DegreeMajor>
+        </Degree>
+      </SchoolOrInstitution>
+      <SchoolOrInstitution schoolType="University">
+        <SchoolName>SZ Rübekamp</SchoolName>
+        <Degree degreeType="journeyman's-certificate, early dropout due to allergic reactions.">
+          <DegreeName>journeyman's certificate, early dropout due to allergic reactions. in Apprenticeship Cook</DegreeName>
+          <DegreeDate><Year>2010</Year></DegreeDate>
+          <DegreeMajor><Name>Apprenticeship Cook</Name></DegreeMajor>
+        </Degree>
+      </SchoolOrInstitution>
+      <SchoolOrInstitution schoolType="University">
+        <SchoolName>FOS Delmestrasse</SchoolName>
+        <Degree degreeType="vocational-baccalaureate (completed practical part)">
+          <DegreeName>vocational baccalaureate (completed practical part) in Social Pedagogy</DegreeName>
+          <DegreeDate><Year>2009</Year></DegreeDate>
+          <DegreeMajor><Name>Social Pedagogy</Name></DegreeMajor>
+        </Degree>
+      </SchoolOrInstitution>
+      <SchoolOrInstitution schoolType="University">
+        <SchoolName>SZ Drebberstraße</SchoolName>
+        <Degree degreeType="secondary-school (certificate real school)">
+          <DegreeName>secondary school (certificate Real school) in Highschool</DegreeName>
+          <DegreeDate><Year>2008</Year></DegreeDate>
+          <DegreeMajor><Name>Highschool</Name></DegreeMajor>
+        </Degree>
+      </SchoolOrInstitution>
+    </EducationHistory>
+    <Qualifications><QualificationSummary>Skills</QualificationSummary>
+      <Competency name="AJAX">
+        <CompetencyEvidence><Description>Web Development — Master</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="AMPHP">
+        <CompetencyEvidence><Description>Web Development — Master</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Bootstrap">
+        <CompetencyEvidence><Description>Web Development — Master</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="CSS">
+        <CompetencyEvidence><Description>Web Development — Master</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="CSS3">
+        <CompetencyEvidence><Description>Web Development — Master</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="CakePHP">
+        <CompetencyEvidence><Description>Web Development — Master</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Canvas">
+        <CompetencyEvidence><Description>Web Development — Master</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Chai">
+        <CompetencyEvidence><Description>Web Development — Master</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Composer">
+        <CompetencyEvidence><Description>Web Development — Master</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Contao">
+        <CompetencyEvidence><Description>Web Development — Master</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Drupal">
+        <CompetencyEvidence><Description>Web Development — Master</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="ES6+">
+        <CompetencyEvidence><Description>Web Development — Master</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Ember.js">
+        <CompetencyEvidence><Description>Web Development — Master</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Gulp">
+        <CompetencyEvidence><Description>Web Development — Master</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="HTML">
+        <CompetencyEvidence><Description>Web Development — Master</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="HTML5">
+        <CompetencyEvidence><Description>Web Development — Master</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Handlebars">
+        <CompetencyEvidence><Description>Web Development — Master</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="JSON">
+        <CompetencyEvidence><Description>Web Development — Master</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Javascript">
+        <CompetencyEvidence><Description>Web Development — Master</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Joomla">
+        <CompetencyEvidence><Description>Web Development — Master</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Laravel">
+        <CompetencyEvidence><Description>Web Development — Master</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Less">
+        <CompetencyEvidence><Description>Web Development — Master</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Magento">
+        <CompetencyEvidence><Description>Web Development — Master</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="MongoDB">
+        <CompetencyEvidence><Description>Web Development — Master</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Mustache">
+        <CompetencyEvidence><Description>Web Development — Master</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="MySQL">
+        <CompetencyEvidence><Description>Web Development — Master</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="NoSQL">
+        <CompetencyEvidence><Description>Web Development — Master</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="NodeJS">
+        <CompetencyEvidence><Description>Web Development — Master</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="OOP">
+        <CompetencyEvidence><Description>Web Development — Master</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="PHP5">
+        <CompetencyEvidence><Description>Web Development — Master</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="PHP7">
+        <CompetencyEvidence><Description>Web Development — Master</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="PHP8">
+        <CompetencyEvidence><Description>Web Development — Master</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="PHPUnit">
+        <CompetencyEvidence><Description>Web Development — Master</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="PhalconPHP">
+        <CompetencyEvidence><Description>Web Development — Master</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Preact">
+        <CompetencyEvidence><Description>Web Development — Master</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Purecss">
+        <CompetencyEvidence><Description>Web Development — Master</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="REST">
+        <CompetencyEvidence><Description>Web Development — Master</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="React">
+        <CompetencyEvidence><Description>Web Development — Master</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="ReactPHP">
+        <CompetencyEvidence><Description>Web Development — Master</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Responsive Design">
+        <CompetencyEvidence><Description>Web Development — Master</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Sass">
+        <CompetencyEvidence><Description>Web Development — Master</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Shopware">
+        <CompetencyEvidence><Description>Web Development — Master</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Slim">
+        <CompetencyEvidence><Description>Web Development — Master</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Solid">
+        <CompetencyEvidence><Description>Web Development — Master</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Svelte">
+        <CompetencyEvidence><Description>Web Development — Master</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="SvelteKit">
+        <CompetencyEvidence><Description>Web Development — Master</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="TestCafe">
+        <CompetencyEvidence><Description>Web Development — Master</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="TypeScript">
+        <CompetencyEvidence><Description>Web Development — Master</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Typo3">
+        <CompetencyEvidence><Description>Web Development — Master</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Vite">
+        <CompetencyEvidence><Description>Web Development — Master</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="WebGL">
+        <CompetencyEvidence><Description>Web Development — Master</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="WebRTC">
+        <CompetencyEvidence><Description>Web Development — Master</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="WebSockets">
+        <CompetencyEvidence><Description>Web Development — Master</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="WebAssembly">
+        <CompetencyEvidence><Description>Web Development — Master</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Webpack">
+        <CompetencyEvidence><Description>Web Development — Master</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="WooCommerce">
+        <CompetencyEvidence><Description>Web Development — Master</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Wordpress">
+        <CompetencyEvidence><Description>Web Development — Master</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="XML">
+        <CompetencyEvidence><Description>Web Development — Master</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="jQuery">
+        <CompetencyEvidence><Description>Web Development — Master</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="npm">
+        <CompetencyEvidence><Description>Web Development — Master</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="phpBB">
+        <CompetencyEvidence><Description>Web Development — Master</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Android">
+        <CompetencyEvidence><Description>Software Development — Advanced</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="API">
+        <CompetencyEvidence><Description>Software Development — Advanced</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="API Design">
+        <CompetencyEvidence><Description>Software Development — Advanced</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Browser Automation">
+        <CompetencyEvidence><Description>Software Development — Advanced</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="C#">
+        <CompetencyEvidence><Description>Software Development — Advanced</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="C++">
+        <CompetencyEvidence><Description>Software Development — Advanced</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Cordova">
+        <CompetencyEvidence><Description>Software Development — Advanced</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Dart">
+        <CompetencyEvidence><Description>Software Development — Advanced</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Design Patterns">
+        <CompetencyEvidence><Description>Software Development — Advanced</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Electron">
+        <CompetencyEvidence><Description>Software Development — Advanced</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Flask">
+        <CompetencyEvidence><Description>Software Development — Advanced</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="GO">
+        <CompetencyEvidence><Description>Software Development — Advanced</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Haxe">
+        <CompetencyEvidence><Description>Software Development — Advanced</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Headless Browser">
+        <CompetencyEvidence><Description>Software Development — Advanced</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="IPFS">
+        <CompetencyEvidence><Description>Software Development — Advanced</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Lua">
+        <CompetencyEvidence><Description>Software Development — Advanced</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="MongoDB">
+        <CompetencyEvidence><Description>Software Development — Advanced</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="MySQL">
+        <CompetencyEvidence><Description>Software Development — Advanced</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="NoSQL">
+        <CompetencyEvidence><Description>Software Development — Advanced</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="NodeJS">
+        <CompetencyEvidence><Description>Software Development — Advanced</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="NodeWebkit">
+        <CompetencyEvidence><Description>Software Development — Advanced</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Phonegap">
+        <CompetencyEvidence><Description>Software Development — Advanced</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Puppeteer">
+        <CompetencyEvidence><Description>Software Development — Advanced</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Python">
+        <CompetencyEvidence><Description>Software Development — Advanced</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="React Native">
+        <CompetencyEvidence><Description>Software Development — Advanced</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Redis">
+        <CompetencyEvidence><Description>Software Development — Advanced</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Rust">
+        <CompetencyEvidence><Description>Software Development — Advanced</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Scripting">
+        <CompetencyEvidence><Description>Software Development — Advanced</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Selenium">
+        <CompetencyEvidence><Description>Software Development — Advanced</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="SQL">
+        <CompetencyEvidence><Description>Software Development — Advanced</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="TypeScript">
+        <CompetencyEvidence><Description>Software Development — Advanced</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Unit Testing">
+        <CompetencyEvidence><Description>Software Development — Advanced</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Visual Basic">
+        <CompetencyEvidence><Description>Software Development — Advanced</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Version Control">
+        <CompetencyEvidence><Description>Software Development — Advanced</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="iOS">
+        <CompetencyEvidence><Description>Software Development — Advanced</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Adobe Automation">
+        <CompetencyEvidence><Description>Design / Creative — Skilled</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Adobe Script">
+        <CompetencyEvidence><Description>Design / Creative — Skilled</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Avocode">
+        <CompetencyEvidence><Description>Design / Creative — Skilled</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Blender">
+        <CompetencyEvidence><Description>Design / Creative — Skilled</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Corporate Design">
+        <CompetencyEvidence><Description>Design / Creative — Skilled</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Fireworks">
+        <CompetencyEvidence><Description>Design / Creative — Skilled</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Flash">
+        <CompetencyEvidence><Description>Design / Creative — Skilled</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Gimp">
+        <CompetencyEvidence><Description>Design / Creative — Skilled</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Illustrator">
+        <CompetencyEvidence><Description>Design / Creative — Skilled</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="InDesign">
+        <CompetencyEvidence><Description>Design / Creative — Skilled</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Photoshop">
+        <CompetencyEvidence><Description>Design / Creative — Skilled</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Premiere">
+        <CompetencyEvidence><Description>Design / Creative — Skilled</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Prototyping">
+        <CompetencyEvidence><Description>Design / Creative — Skilled</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Sketch">
+        <CompetencyEvidence><Description>Design / Creative — Skilled</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Spritely">
+        <CompetencyEvidence><Description>Design / Creative — Skilled</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="UI/UX Design">
+        <CompetencyEvidence><Description>Design / Creative — Skilled</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Wireframing">
+        <CompetencyEvidence><Description>Design / Creative — Skilled</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="AWS">
+        <CompetencyEvidence><Description>SysAdmin / DevOps — Proficient</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Apache">
+        <CompetencyEvidence><Description>SysAdmin / DevOps — Proficient</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Asterisk">
+        <CompetencyEvidence><Description>SysAdmin / DevOps — Proficient</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Azure">
+        <CompetencyEvidence><Description>SysAdmin / DevOps — Proficient</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Bash">
+        <CompetencyEvidence><Description>SysAdmin / DevOps — Proficient</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="CapRover">
+        <CompetencyEvidence><Description>SysAdmin / DevOps — Proficient</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Cron">
+        <CompetencyEvidence><Description>SysAdmin / DevOps — Proficient</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="DNS">
+        <CompetencyEvidence><Description>SysAdmin / DevOps — Proficient</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Database Administration">
+        <CompetencyEvidence><Description>SysAdmin / DevOps — Proficient</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Docker">
+        <CompetencyEvidence><Description>SysAdmin / DevOps — Proficient</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Docker Compose">
+        <CompetencyEvidence><Description>SysAdmin / DevOps — Proficient</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Dockerfile">
+        <CompetencyEvidence><Description>SysAdmin / DevOps — Proficient</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="E-Mail">
+        <CompetencyEvidence><Description>SysAdmin / DevOps — Proficient</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Linux">
+        <CompetencyEvidence><Description>SysAdmin / DevOps — Proficient</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Load Balancing">
+        <CompetencyEvidence><Description>SysAdmin / DevOps — Proficient</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Nginx">
+        <CompetencyEvidence><Description>SysAdmin / DevOps — Proficient</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="OpenFaaS">
+        <CompetencyEvidence><Description>SysAdmin / DevOps — Proficient</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Podman">
+        <CompetencyEvidence><Description>SysAdmin / DevOps — Proficient</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Rancher">
+        <CompetencyEvidence><Description>SysAdmin / DevOps — Proficient</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Reverse Proxy">
+        <CompetencyEvidence><Description>SysAdmin / DevOps — Proficient</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="SSH">
+        <CompetencyEvidence><Description>SysAdmin / DevOps — Proficient</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="SSL/TLS">
+        <CompetencyEvidence><Description>SysAdmin / DevOps — Proficient</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Shell Scripting">
+        <CompetencyEvidence><Description>SysAdmin / DevOps — Proficient</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Swarm">
+        <CompetencyEvidence><Description>SysAdmin / DevOps — Proficient</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="System Administration">
+        <CompetencyEvidence><Description>SysAdmin / DevOps — Proficient</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Unix">
+        <CompetencyEvidence><Description>SysAdmin / DevOps — Proficient</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Vagrant">
+        <CompetencyEvidence><Description>SysAdmin / DevOps — Proficient</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Windows">
+        <CompetencyEvidence><Description>SysAdmin / DevOps — Proficient</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Blender">
+        <CompetencyEvidence><Description>Game Dev / Design — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="MelonJS">
+        <CompetencyEvidence><Description>Game Dev / Design — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Unity3D">
+        <CompetencyEvidence><Description>Game Dev / Design — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Unreal">
+        <CompetencyEvidence><Description>Game Dev / Design — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="WebGL / Canvas">
+        <CompetencyEvidence><Description>Game Dev / Design — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="three.js">
+        <CompetencyEvidence><Description>Game Dev / Design — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Agile">
+        <CompetencyEvidence><Description>Project Management — Proficient</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Bitbucket">
+        <CompetencyEvidence><Description>Project Management — Proficient</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Code Review">
+        <CompetencyEvidence><Description>Project Management — Proficient</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Confluence">
+        <CompetencyEvidence><Description>Project Management — Proficient</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Discord">
+        <CompetencyEvidence><Description>Project Management — Proficient</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Git">
+        <CompetencyEvidence><Description>Project Management — Proficient</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="GitHub">
+        <CompetencyEvidence><Description>Project Management — Proficient</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="GitLab">
+        <CompetencyEvidence><Description>Project Management — Proficient</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Google Workspace">
+        <CompetencyEvidence><Description>Project Management — Proficient</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Jira">
+        <CompetencyEvidence><Description>Project Management — Proficient</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Microsoft Office">
+        <CompetencyEvidence><Description>Project Management — Proficient</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Microsoft Teams">
+        <CompetencyEvidence><Description>Project Management — Proficient</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Project Planning">
+        <CompetencyEvidence><Description>Project Management — Proficient</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Slack">
+        <CompetencyEvidence><Description>Project Management — Proficient</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Technical Project Management">
+        <CompetencyEvidence><Description>Project Management — Proficient</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Trello">
+        <CompetencyEvidence><Description>Project Management — Proficient</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Version Control">
+        <CompetencyEvidence><Description>Project Management — Proficient</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="ActionScript">
+        <CompetencyEvidence><Description>Other Skills — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="ActionScript 2.0">
+        <CompetencyEvidence><Description>Other Skills — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="AdobeScript">
+        <CompetencyEvidence><Description>Other Skills — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="CLI">
+        <CompetencyEvidence><Description>Other Skills — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="CMS">
+        <CompetencyEvidence><Description>Other Skills — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="CRM">
+        <CompetencyEvidence><Description>Other Skills — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Connexus">
+        <CompetencyEvidence><Description>Other Skills — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Crawler">
+        <CompetencyEvidence><Description>Other Skills — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Database">
+        <CompetencyEvidence><Description>Other Skills — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Database-Publishing">
+        <CompetencyEvidence><Description>Other Skills — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Desktop App">
+        <CompetencyEvidence><Description>Other Skills — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="DigitalOcean API">
+        <CompetencyEvidence><Description>Other Skills — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="E-Commerce">
+        <CompetencyEvidence><Description>Other Skills — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="ERP">
+        <CompetencyEvidence><Description>Other Skills — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Eigenes CMS">
+        <CompetencyEvidence><Description>Other Skills — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Elementor">
+        <CompetencyEvidence><Description>Other Skills — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Facebook Graph API">
+        <CompetencyEvidence><Description>Other Skills — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Facebook OG">
+        <CompetencyEvidence><Description>Other Skills — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Flot Chart">
+        <CompetencyEvidence><Description>Other Skills — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="GD Library">
+        <CompetencyEvidence><Description>Other Skills — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Game Development">
+        <CompetencyEvidence><Description>Other Skills — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Game Server">
+        <CompetencyEvidence><Description>Other Skills — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Hosting">
+        <CompetencyEvidence><Description>Other Skills — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Hosting-Management">
+        <CompetencyEvidence><Description>Other Skills — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="IA System">
+        <CompetencyEvidence><Description>Other Skills — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Limonade Framework">
+        <CompetencyEvidence><Description>Other Skills — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="MarsEDV">
+        <CompetencyEvidence><Description>Other Skills — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Mobile App">
+        <CompetencyEvidence><Description>Other Skills — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Objekt-Meta-Datenbank">
+        <CompetencyEvidence><Description>Other Skills — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="PDA-Schnittstelle">
+        <CompetencyEvidence><Description>Other Skills — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="PDF">
+        <CompetencyEvidence><Description>Other Skills — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="PDF-Generierung">
+        <CompetencyEvidence><Description>Other Skills — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="PHPImageWorkshop">
+        <CompetencyEvidence><Description>Other Skills — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="PMKino API">
+        <CompetencyEvidence><Description>Other Skills — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="POS">
+        <CompetencyEvidence><Description>Other Skills — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Plugins">
+        <CompetencyEvidence><Description>Other Skills — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Product Designer">
+        <CompetencyEvidence><Description>Other Skills — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Push Notifications">
+        <CompetencyEvidence><Description>Other Skills — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="QR-Code">
+        <CompetencyEvidence><Description>Other Skills — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Raspberry Pi">
+        <CompetencyEvidence><Description>Other Skills — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="SQF">
+        <CompetencyEvidence><Description>Other Skills — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="SQLite">
+        <CompetencyEvidence><Description>Other Skills — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Web2Print">
+        <CompetencyEvidence><Description>Other Skills — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="WebNovel">
+        <CompetencyEvidence><Description>Other Skills — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="WebView">
+        <CompetencyEvidence><Description>Other Skills — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="Webshop">
+        <CompetencyEvidence><Description>Other Skills — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="alldebrid">
+        <CompetencyEvidence><Description>Other Skills — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="blackhole">
+        <CompetencyEvidence><Description>Other Skills — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="ddl">
+        <CompetencyEvidence><Description>Other Skills — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="deta">
+        <CompetencyEvidence><Description>Other Skills — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="deta-base">
+        <CompetencyEvidence><Description>Other Skills — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="deta-drive">
+        <CompetencyEvidence><Description>Other Skills — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="deta-micros">
+        <CompetencyEvidence><Description>Other Skills — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="deta-space">
+        <CompetencyEvidence><Description>Other Skills — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="magnet">
+        <CompetencyEvidence><Description>Other Skills — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="phpFastCache">
+        <CompetencyEvidence><Description>Other Skills — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+      <Competency name="torrent">
+        <CompetencyEvidence><Description>Other Skills — Intermediate</Description></CompetencyEvidence>
+      </Competency>
+    </Qualifications>
+    <Languages>
+      
+      <Language>
+        <LanguageCode>DE</LanguageCode>
+        <Read>Native</Read>
+        <Write>Native</Write>
+        <Speak>Native</Speak>
+      </Language>
+      <Language>
+        <LanguageCode>EN</LanguageCode>
+        <Read>Professional</Read>
+        <Write>Professional</Write>
+        <Speak>Professional</Speak>
+      </Language>
+    </Languages>
+    <RevisionDate>2026-06-30</RevisionDate>
+  </StructuredXMLResume>
+</Resume>

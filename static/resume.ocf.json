@@ -1,0 +1,1440 @@
+{
+  "schemaVersion": "0.3",
+  "meta": {
+    "fileRole": "candidate-master",
+    "language": "en"
+  },
+  "person": {
+    "name": {
+      "renderAs": "Giacomo Tüfekçi",
+      "given": "Giacomo",
+      "family": "Tüfekçi"
+    },
+    "headline": "Full-Stack Developer",
+    "summary": "I'm a Full-Stack Developer based in Ludwigshafen am Rhein, Germany, with a background in web development, software engineering, and game design. I enjoy building end-to-end solutions and working seamlessly across various programming languages and web frameworks. Beyond just writing code, I value strong project management to ensure ideas actually make it to production efficiently and on time. When I’m not at my keyboard, I’m usually tinkering with electronics, keeping up with new tech, or tending to my garden. I also enjoy winding down with gaming, anime, and web novels. I speak fluent German and English, and I always aim to bring a practical, creative approach to the software I build.",
+    "contacts": [
+      {
+        "type": "email",
+        "value": "giacomo@tuefekci.de"
+      },
+      {
+        "type": "url",
+        "value": "https://giacomo.tuefekci.de"
+      }
+    ],
+    "locations": [
+      {
+        "city": "Ludwigshafen am Rhein",
+        "country": "DE"
+      }
+    ]
+  },
+  "experience": [
+    {
+      "kind": "employment",
+      "organizationRef": "Tüfekci Software Development & Consulting",
+      "positions": [
+        {
+          "title": "Full Stack Software Developer",
+          "dateRange": {
+            "start": "2020-01-01",
+            "end": ""
+          },
+          "summary": "",
+          "achievements": [
+            {
+              "description": "Development of an Download Manager as a Prototype in PHP and than in Svelte"
+            },
+            {
+              "description": "Development of an Web Application for the Management of a Cleaning Company"
+            },
+            {
+              "description": "Development of an Web Application for the Management of an QR Code based Redirection System"
+            },
+            {
+              "description": "Development of Apps, Plugins, Wrappers and Apis for Deta.space"
+            },
+            {
+              "description": "Development of an Web Application which enables playing retro games in the Browser based on WASM Compiled Emulators."
+            },
+            {
+              "description": "Development of an Android Application to read Web & Light Novels from different Providers in an unified UI."
+            },
+            {
+              "description": "Development of an API & Crawler to build an index of Web & Light Novels from different Providers."
+            },
+            {
+              "description": "Some Prototype ML/AI Applications which can generate Content, Images, Translate etc. which is used in different Projects."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "employment",
+      "organizationRef": "Cloud Development / Software Developer",
+      "positions": [
+        {
+          "title": "Cloud Development / Software Developer",
+          "dateRange": {
+            "start": "2018-03-01",
+            "end": "2019-10-31"
+          },
+          "summary": "",
+          "achievements": [
+            {
+              "description": "Development of an Network Bridge between Web/Cloud to VisualBasic Application"
+            },
+            {
+              "description": "Development of an Application/API to automate Facebook Events"
+            },
+            {
+              "description": "Development of an APP for the Android and iOS Platform for Room Booking"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "employment",
+      "organizationRef": "RR Software GmbH",
+      "positions": [
+        {
+          "title": "Productowner",
+          "dateRange": {
+            "start": "2017-09-01",
+            "end": "2018-02-28"
+          },
+          "summary": "I submitted my resignation as the project was terminated based on my recommendation. The progress made did not align with the expectations as documented by the management. Although an alternative employment opportunity was offered, I declined.",
+          "achievements": [
+            {
+              "description": "Planned and ReDesigned a Cloud/Web based Management System"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "employment",
+      "organizationRef": "planetmutlu gmbh & co. kg",
+      "positions": [
+        {
+          "title": "Lead Web / Software Developer",
+          "dateRange": {
+            "start": "2015-07-01",
+            "end": "2017-08-31"
+          },
+          "summary": "Responsibilities included developing Web2Print, booking (pmkino) and E-Commerce solutions, as well as planning and implementing websites using WordPress. Promoted to Lead Web Developer / Software Developer after one year.",
+          "achievements": [
+            {
+              "description": "Managed a 5-person development team"
+            },
+            {
+              "description": "Planned, Developed and Managed a booking, website and web2print system for cinemas (pmkino) using PhalconPHP, Wordpress, MongoDB, Python, NodeJS and ReactJS"
+            },
+            {
+              "description": "Developed a Web2Print solution using PhalconPHP, Wordpress, MongoDB, Python, NodeJS and ReactJS"
+            },
+            {
+              "description": "Developed a Wordpress Plugin and Theme environment for Messe Bremen Events, which was used in 10+ Websites."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "self-employed",
+      "organizationRef": "Tüfekci Software Development & Consulting",
+      "positions": [
+        {
+          "title": "Freelance Full Stack Web Developer",
+          "dateRange": {
+            "start": "2014-06-01",
+            "end": "2015-06-31"
+          },
+          "summary": "",
+          "achievements": []
+        }
+      ]
+    },
+    {
+      "kind": "employment",
+      "organizationRef": "Humburg Media Group (Druckhaus Humburg)",
+      "positions": [
+        {
+          "title": "Lead IT Manager",
+          "dateRange": {
+            "start": "2013-08-01",
+            "end": "2014-05-31"
+          },
+          "summary": "Transfered from Subsidiary image advertising gmbh & co. kg, started as a Software Developer, I developed Web2Print, database, and E-Commerce solutions while also leading the planning and implementation of websites. Within one year, I was promoted to IT Manager",
+          "achievements": [
+            {
+              "description": "Managed a 4-person development team"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "employment",
+      "organizationRef": "image advertising gmbh & co. kg",
+      "positions": [
+        {
+          "title": "Apprenticeship Media Designer",
+          "dateRange": {
+            "start": "2010-08-01",
+            "end": "2013-08-31"
+          },
+          "summary": "Implemented layouts and developed applications and websites using CakePHP, Joomla, and other related technologies.",
+          "achievements": []
+        }
+      ]
+    },
+    {
+      "kind": "employment",
+      "organizationRef": "SaveFM",
+      "positions": [
+        {
+          "title": "CTO & Co Founder",
+          "dateRange": {
+            "start": "2010-01-01",
+            "end": "2010-12-31"
+          },
+          "summary": "Designed and developed a desktop and mobile application using Node-Webkit and Phonegap that automatically records web radio streams and shares them via the cloud. Project terminated due to legal cost issues.",
+          "achievements": []
+        }
+      ]
+    },
+    {
+      "kind": "employment",
+      "organizationRef": "Maritim Hotel Bremen",
+      "positions": [
+        {
+          "title": "Apprenticeship Cook",
+          "dateRange": {
+            "start": "2009",
+            "end": "2010-06-31"
+          },
+          "summary": "The profession demanded creativity and I quite liked it, but unfortunately, I had to quit due to allergic reactions.",
+          "achievements": []
+        }
+      ]
+    },
+    {
+      "kind": "employment",
+      "organizationRef": "Maritim Hotel Bremen",
+      "positions": [
+        {
+          "title": "Parttime Line Cook / Service Staff",
+          "dateRange": {
+            "start": "2008",
+            "end": "2009-09-31"
+          },
+          "summary": "",
+          "achievements": []
+        }
+      ]
+    },
+    {
+      "kind": "self-employed",
+      "organizationRef": "Tüfekci Software Development & Consulting",
+      "positions": [
+        {
+          "title": "Freelance Web Developer",
+          "dateRange": {
+            "start": "2008-01-01",
+            "end": "2010-08-31"
+          },
+          "summary": "",
+          "achievements": []
+        }
+      ]
+    },
+    {
+      "kind": "employment",
+      "organizationRef": "ASG Supermarket",
+      "positions": [
+        {
+          "title": "Parttime Cashier and Stocker",
+          "dateRange": {
+            "start": "2007",
+            "end": "2009"
+          },
+          "summary": "",
+          "achievements": []
+        }
+      ]
+    },
+    {
+      "kind": "employment",
+      "organizationRef": "GP (Getränke Partner)",
+      "positions": [
+        {
+          "title": "Parttime Cashier and Stocker",
+          "dateRange": {
+            "start": "2007",
+            "end": "2008"
+          },
+          "summary": "",
+          "achievements": []
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Wilhelm Wagenfeld-Schule",
+      "degree": "journeyman's certificate, specialized in Design and Technology",
+      "field": "Media Designer",
+      "dateRange": {
+        "start": "2010-10-01",
+        "end": "2013-06-01"
+      }
+    },
+    {
+      "institution": "SZ Rübekamp",
+      "degree": "journeyman's certificate, early dropout due to allergic reactions.",
+      "field": "Apprenticeship Cook",
+      "dateRange": {
+        "start": "2009",
+        "end": "2010"
+      }
+    },
+    {
+      "institution": "FOS Delmestrasse",
+      "degree": "vocational baccalaureate (completed practical part)",
+      "field": "Social Pedagogy",
+      "dateRange": {
+        "start": "2008",
+        "end": "2009"
+      }
+    },
+    {
+      "institution": "SZ Drebberstraße",
+      "degree": "secondary school (certificate Real school)",
+      "field": "Highschool",
+      "dateRange": {
+        "start": "2002",
+        "end": "2008"
+      }
+    }
+  ],
+  "skills": [
+    {
+      "name": "AJAX",
+      "category": "Web Development",
+      "level": "Master"
+    },
+    {
+      "name": "AMPHP",
+      "category": "Web Development",
+      "level": "Master"
+    },
+    {
+      "name": "Bootstrap",
+      "category": "Web Development",
+      "level": "Master"
+    },
+    {
+      "name": "CSS",
+      "category": "Web Development",
+      "level": "Master"
+    },
+    {
+      "name": "CSS3",
+      "category": "Web Development",
+      "level": "Master"
+    },
+    {
+      "name": "CakePHP",
+      "category": "Web Development",
+      "level": "Master"
+    },
+    {
+      "name": "Canvas",
+      "category": "Web Development",
+      "level": "Master"
+    },
+    {
+      "name": "Chai",
+      "category": "Web Development",
+      "level": "Master"
+    },
+    {
+      "name": "Composer",
+      "category": "Web Development",
+      "level": "Master"
+    },
+    {
+      "name": "Contao",
+      "category": "Web Development",
+      "level": "Master"
+    },
+    {
+      "name": "Drupal",
+      "category": "Web Development",
+      "level": "Master"
+    },
+    {
+      "name": "ES6+",
+      "category": "Web Development",
+      "level": "Master"
+    },
+    {
+      "name": "Ember.js",
+      "category": "Web Development",
+      "level": "Master"
+    },
+    {
+      "name": "Gulp",
+      "category": "Web Development",
+      "level": "Master"
+    },
+    {
+      "name": "HTML",
+      "category": "Web Development",
+      "level": "Master"
+    },
+    {
+      "name": "HTML5",
+      "category": "Web Development",
+      "level": "Master"
+    },
+    {
+      "name": "Handlebars",
+      "category": "Web Development",
+      "level": "Master"
+    },
+    {
+      "name": "JSON",
+      "category": "Web Development",
+      "level": "Master"
+    },
+    {
+      "name": "Javascript",
+      "category": "Web Development",
+      "level": "Master"
+    },
+    {
+      "name": "Joomla",
+      "category": "Web Development",
+      "level": "Master"
+    },
+    {
+      "name": "Laravel",
+      "category": "Web Development",
+      "level": "Master"
+    },
+    {
+      "name": "Less",
+      "category": "Web Development",
+      "level": "Master"
+    },
+    {
+      "name": "Magento",
+      "category": "Web Development",
+      "level": "Master"
+    },
+    {
+      "name": "MongoDB",
+      "category": "Web Development",
+      "level": "Master"
+    },
+    {
+      "name": "Mustache",
+      "category": "Web Development",
+      "level": "Master"
+    },
+    {
+      "name": "MySQL",
+      "category": "Web Development",
+      "level": "Master"
+    },
+    {
+      "name": "NoSQL",
+      "category": "Web Development",
+      "level": "Master"
+    },
+    {
+      "name": "NodeJS",
+      "category": "Web Development",
+      "level": "Master"
+    },
+    {
+      "name": "OOP",
+      "category": "Web Development",
+      "level": "Master"
+    },
+    {
+      "name": "PHP5",
+      "category": "Web Development",
+      "level": "Master"
+    },
+    {
+      "name": "PHP7",
+      "category": "Web Development",
+      "level": "Master"
+    },
+    {
+      "name": "PHP8",
+      "category": "Web Development",
+      "level": "Master"
+    },
+    {
+      "name": "PHPUnit",
+      "category": "Web Development",
+      "level": "Master"
+    },
+    {
+      "name": "PhalconPHP",
+      "category": "Web Development",
+      "level": "Master"
+    },
+    {
+      "name": "Preact",
+      "category": "Web Development",
+      "level": "Master"
+    },
+    {
+      "name": "Purecss",
+      "category": "Web Development",
+      "level": "Master"
+    },
+    {
+      "name": "REST",
+      "category": "Web Development",
+      "level": "Master"
+    },
+    {
+      "name": "React",
+      "category": "Web Development",
+      "level": "Master"
+    },
+    {
+      "name": "ReactPHP",
+      "category": "Web Development",
+      "level": "Master"
+    },
+    {
+      "name": "Responsive Design",
+      "category": "Web Development",
+      "level": "Master"
+    },
+    {
+      "name": "Sass",
+      "category": "Web Development",
+      "level": "Master"
+    },
+    {
+      "name": "Shopware",
+      "category": "Web Development",
+      "level": "Master"
+    },
+    {
+      "name": "Slim",
+      "category": "Web Development",
+      "level": "Master"
+    },
+    {
+      "name": "Solid",
+      "category": "Web Development",
+      "level": "Master"
+    },
+    {
+      "name": "Svelte",
+      "category": "Web Development",
+      "level": "Master"
+    },
+    {
+      "name": "SvelteKit",
+      "category": "Web Development",
+      "level": "Master"
+    },
+    {
+      "name": "TestCafe",
+      "category": "Web Development",
+      "level": "Master"
+    },
+    {
+      "name": "TypeScript",
+      "category": "Web Development",
+      "level": "Master"
+    },
+    {
+      "name": "Typo3",
+      "category": "Web Development",
+      "level": "Master"
+    },
+    {
+      "name": "Vite",
+      "category": "Web Development",
+      "level": "Master"
+    },
+    {
+      "name": "WebGL",
+      "category": "Web Development",
+      "level": "Master"
+    },
+    {
+      "name": "WebRTC",
+      "category": "Web Development",
+      "level": "Master"
+    },
+    {
+      "name": "WebSockets",
+      "category": "Web Development",
+      "level": "Master"
+    },
+    {
+      "name": "WebAssembly",
+      "category": "Web Development",
+      "level": "Master"
+    },
+    {
+      "name": "Webpack",
+      "category": "Web Development",
+      "level": "Master"
+    },
+    {
+      "name": "WooCommerce",
+      "category": "Web Development",
+      "level": "Master"
+    },
+    {
+      "name": "Wordpress",
+      "category": "Web Development",
+      "level": "Master"
+    },
+    {
+      "name": "XML",
+      "category": "Web Development",
+      "level": "Master"
+    },
+    {
+      "name": "jQuery",
+      "category": "Web Development",
+      "level": "Master"
+    },
+    {
+      "name": "npm",
+      "category": "Web Development",
+      "level": "Master"
+    },
+    {
+      "name": "phpBB",
+      "category": "Web Development",
+      "level": "Master"
+    },
+    {
+      "name": "Android",
+      "category": "Software Development",
+      "level": "Advanced"
+    },
+    {
+      "name": "API",
+      "category": "Software Development",
+      "level": "Advanced"
+    },
+    {
+      "name": "API Design",
+      "category": "Software Development",
+      "level": "Advanced"
+    },
+    {
+      "name": "Browser Automation",
+      "category": "Software Development",
+      "level": "Advanced"
+    },
+    {
+      "name": "C#",
+      "category": "Software Development",
+      "level": "Advanced"
+    },
+    {
+      "name": "C++",
+      "category": "Software Development",
+      "level": "Advanced"
+    },
+    {
+      "name": "Cordova",
+      "category": "Software Development",
+      "level": "Advanced"
+    },
+    {
+      "name": "Dart",
+      "category": "Software Development",
+      "level": "Advanced"
+    },
+    {
+      "name": "Design Patterns",
+      "category": "Software Development",
+      "level": "Advanced"
+    },
+    {
+      "name": "Electron",
+      "category": "Software Development",
+      "level": "Advanced"
+    },
+    {
+      "name": "Flask",
+      "category": "Software Development",
+      "level": "Advanced"
+    },
+    {
+      "name": "GO",
+      "category": "Software Development",
+      "level": "Advanced"
+    },
+    {
+      "name": "Haxe",
+      "category": "Software Development",
+      "level": "Advanced"
+    },
+    {
+      "name": "Headless Browser",
+      "category": "Software Development",
+      "level": "Advanced"
+    },
+    {
+      "name": "IPFS",
+      "category": "Software Development",
+      "level": "Advanced"
+    },
+    {
+      "name": "Lua",
+      "category": "Software Development",
+      "level": "Advanced"
+    },
+    {
+      "name": "MongoDB",
+      "category": "Software Development",
+      "level": "Advanced"
+    },
+    {
+      "name": "MySQL",
+      "category": "Software Development",
+      "level": "Advanced"
+    },
+    {
+      "name": "NoSQL",
+      "category": "Software Development",
+      "level": "Advanced"
+    },
+    {
+      "name": "NodeJS",
+      "category": "Software Development",
+      "level": "Advanced"
+    },
+    {
+      "name": "NodeWebkit",
+      "category": "Software Development",
+      "level": "Advanced"
+    },
+    {
+      "name": "Phonegap",
+      "category": "Software Development",
+      "level": "Advanced"
+    },
+    {
+      "name": "Puppeteer",
+      "category": "Software Development",
+      "level": "Advanced"
+    },
+    {
+      "name": "Python",
+      "category": "Software Development",
+      "level": "Advanced"
+    },
+    {
+      "name": "React Native",
+      "category": "Software Development",
+      "level": "Advanced"
+    },
+    {
+      "name": "Redis",
+      "category": "Software Development",
+      "level": "Advanced"
+    },
+    {
+      "name": "Rust",
+      "category": "Software Development",
+      "level": "Advanced"
+    },
+    {
+      "name": "Scripting",
+      "category": "Software Development",
+      "level": "Advanced"
+    },
+    {
+      "name": "Selenium",
+      "category": "Software Development",
+      "level": "Advanced"
+    },
+    {
+      "name": "SQL",
+      "category": "Software Development",
+      "level": "Advanced"
+    },
+    {
+      "name": "TypeScript",
+      "category": "Software Development",
+      "level": "Advanced"
+    },
+    {
+      "name": "Unit Testing",
+      "category": "Software Development",
+      "level": "Advanced"
+    },
+    {
+      "name": "Visual Basic",
+      "category": "Software Development",
+      "level": "Advanced"
+    },
+    {
+      "name": "Version Control",
+      "category": "Software Development",
+      "level": "Advanced"
+    },
+    {
+      "name": "iOS",
+      "category": "Software Development",
+      "level": "Advanced"
+    },
+    {
+      "name": "Adobe Automation",
+      "category": "Design / Creative",
+      "level": "Skilled"
+    },
+    {
+      "name": "Adobe Script",
+      "category": "Design / Creative",
+      "level": "Skilled"
+    },
+    {
+      "name": "Avocode",
+      "category": "Design / Creative",
+      "level": "Skilled"
+    },
+    {
+      "name": "Blender",
+      "category": "Design / Creative",
+      "level": "Skilled"
+    },
+    {
+      "name": "Corporate Design",
+      "category": "Design / Creative",
+      "level": "Skilled"
+    },
+    {
+      "name": "Fireworks",
+      "category": "Design / Creative",
+      "level": "Skilled"
+    },
+    {
+      "name": "Flash",
+      "category": "Design / Creative",
+      "level": "Skilled"
+    },
+    {
+      "name": "Gimp",
+      "category": "Design / Creative",
+      "level": "Skilled"
+    },
+    {
+      "name": "Illustrator",
+      "category": "Design / Creative",
+      "level": "Skilled"
+    },
+    {
+      "name": "InDesign",
+      "category": "Design / Creative",
+      "level": "Skilled"
+    },
+    {
+      "name": "Photoshop",
+      "category": "Design / Creative",
+      "level": "Skilled"
+    },
+    {
+      "name": "Premiere",
+      "category": "Design / Creative",
+      "level": "Skilled"
+    },
+    {
+      "name": "Prototyping",
+      "category": "Design / Creative",
+      "level": "Skilled"
+    },
+    {
+      "name": "Sketch",
+      "category": "Design / Creative",
+      "level": "Skilled"
+    },
+    {
+      "name": "Spritely",
+      "category": "Design / Creative",
+      "level": "Skilled"
+    },
+    {
+      "name": "UI/UX Design",
+      "category": "Design / Creative",
+      "level": "Skilled"
+    },
+    {
+      "name": "Wireframing",
+      "category": "Design / Creative",
+      "level": "Skilled"
+    },
+    {
+      "name": "AWS",
+      "category": "SysAdmin / DevOps",
+      "level": "Proficient"
+    },
+    {
+      "name": "Apache",
+      "category": "SysAdmin / DevOps",
+      "level": "Proficient"
+    },
+    {
+      "name": "Asterisk",
+      "category": "SysAdmin / DevOps",
+      "level": "Proficient"
+    },
+    {
+      "name": "Azure",
+      "category": "SysAdmin / DevOps",
+      "level": "Proficient"
+    },
+    {
+      "name": "Bash",
+      "category": "SysAdmin / DevOps",
+      "level": "Proficient"
+    },
+    {
+      "name": "CapRover",
+      "category": "SysAdmin / DevOps",
+      "level": "Proficient"
+    },
+    {
+      "name": "Cron",
+      "category": "SysAdmin / DevOps",
+      "level": "Proficient"
+    },
+    {
+      "name": "DNS",
+      "category": "SysAdmin / DevOps",
+      "level": "Proficient"
+    },
+    {
+      "name": "Database Administration",
+      "category": "SysAdmin / DevOps",
+      "level": "Proficient"
+    },
+    {
+      "name": "Docker",
+      "category": "SysAdmin / DevOps",
+      "level": "Proficient"
+    },
+    {
+      "name": "Docker Compose",
+      "category": "SysAdmin / DevOps",
+      "level": "Proficient"
+    },
+    {
+      "name": "Dockerfile",
+      "category": "SysAdmin / DevOps",
+      "level": "Proficient"
+    },
+    {
+      "name": "E-Mail",
+      "category": "SysAdmin / DevOps",
+      "level": "Proficient"
+    },
+    {
+      "name": "Linux",
+      "category": "SysAdmin / DevOps",
+      "level": "Proficient"
+    },
+    {
+      "name": "Load Balancing",
+      "category": "SysAdmin / DevOps",
+      "level": "Proficient"
+    },
+    {
+      "name": "Nginx",
+      "category": "SysAdmin / DevOps",
+      "level": "Proficient"
+    },
+    {
+      "name": "OpenFaaS",
+      "category": "SysAdmin / DevOps",
+      "level": "Proficient"
+    },
+    {
+      "name": "Podman",
+      "category": "SysAdmin / DevOps",
+      "level": "Proficient"
+    },
+    {
+      "name": "Rancher",
+      "category": "SysAdmin / DevOps",
+      "level": "Proficient"
+    },
+    {
+      "name": "Reverse Proxy",
+      "category": "SysAdmin / DevOps",
+      "level": "Proficient"
+    },
+    {
+      "name": "SSH",
+      "category": "SysAdmin / DevOps",
+      "level": "Proficient"
+    },
+    {
+      "name": "SSL/TLS",
+      "category": "SysAdmin / DevOps",
+      "level": "Proficient"
+    },
+    {
+      "name": "Shell Scripting",
+      "category": "SysAdmin / DevOps",
+      "level": "Proficient"
+    },
+    {
+      "name": "Swarm",
+      "category": "SysAdmin / DevOps",
+      "level": "Proficient"
+    },
+    {
+      "name": "System Administration",
+      "category": "SysAdmin / DevOps",
+      "level": "Proficient"
+    },
+    {
+      "name": "Unix",
+      "category": "SysAdmin / DevOps",
+      "level": "Proficient"
+    },
+    {
+      "name": "Vagrant",
+      "category": "SysAdmin / DevOps",
+      "level": "Proficient"
+    },
+    {
+      "name": "Windows",
+      "category": "SysAdmin / DevOps",
+      "level": "Proficient"
+    },
+    {
+      "name": "Blender",
+      "category": "Game Dev / Design",
+      "level": "Intermediate"
+    },
+    {
+      "name": "MelonJS",
+      "category": "Game Dev / Design",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Unity3D",
+      "category": "Game Dev / Design",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Unreal",
+      "category": "Game Dev / Design",
+      "level": "Intermediate"
+    },
+    {
+      "name": "WebGL / Canvas",
+      "category": "Game Dev / Design",
+      "level": "Intermediate"
+    },
+    {
+      "name": "three.js",
+      "category": "Game Dev / Design",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Agile",
+      "category": "Project Management",
+      "level": "Proficient"
+    },
+    {
+      "name": "Bitbucket",
+      "category": "Project Management",
+      "level": "Proficient"
+    },
+    {
+      "name": "Code Review",
+      "category": "Project Management",
+      "level": "Proficient"
+    },
+    {
+      "name": "Confluence",
+      "category": "Project Management",
+      "level": "Proficient"
+    },
+    {
+      "name": "Discord",
+      "category": "Project Management",
+      "level": "Proficient"
+    },
+    {
+      "name": "Git",
+      "category": "Project Management",
+      "level": "Proficient"
+    },
+    {
+      "name": "GitHub",
+      "category": "Project Management",
+      "level": "Proficient"
+    },
+    {
+      "name": "GitLab",
+      "category": "Project Management",
+      "level": "Proficient"
+    },
+    {
+      "name": "Google Workspace",
+      "category": "Project Management",
+      "level": "Proficient"
+    },
+    {
+      "name": "Jira",
+      "category": "Project Management",
+      "level": "Proficient"
+    },
+    {
+      "name": "Microsoft Office",
+      "category": "Project Management",
+      "level": "Proficient"
+    },
+    {
+      "name": "Microsoft Teams",
+      "category": "Project Management",
+      "level": "Proficient"
+    },
+    {
+      "name": "Project Planning",
+      "category": "Project Management",
+      "level": "Proficient"
+    },
+    {
+      "name": "Slack",
+      "category": "Project Management",
+      "level": "Proficient"
+    },
+    {
+      "name": "Technical Project Management",
+      "category": "Project Management",
+      "level": "Proficient"
+    },
+    {
+      "name": "Trello",
+      "category": "Project Management",
+      "level": "Proficient"
+    },
+    {
+      "name": "Version Control",
+      "category": "Project Management",
+      "level": "Proficient"
+    },
+    {
+      "name": "ActionScript",
+      "category": "Other Skills",
+      "level": "Intermediate"
+    },
+    {
+      "name": "ActionScript 2.0",
+      "category": "Other Skills",
+      "level": "Intermediate"
+    },
+    {
+      "name": "AdobeScript",
+      "category": "Other Skills",
+      "level": "Intermediate"
+    },
+    {
+      "name": "CLI",
+      "category": "Other Skills",
+      "level": "Intermediate"
+    },
+    {
+      "name": "CMS",
+      "category": "Other Skills",
+      "level": "Intermediate"
+    },
+    {
+      "name": "CRM",
+      "category": "Other Skills",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Connexus",
+      "category": "Other Skills",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Crawler",
+      "category": "Other Skills",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Database",
+      "category": "Other Skills",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Database-Publishing",
+      "category": "Other Skills",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Desktop App",
+      "category": "Other Skills",
+      "level": "Intermediate"
+    },
+    {
+      "name": "DigitalOcean API",
+      "category": "Other Skills",
+      "level": "Intermediate"
+    },
+    {
+      "name": "E-Commerce",
+      "category": "Other Skills",
+      "level": "Intermediate"
+    },
+    {
+      "name": "ERP",
+      "category": "Other Skills",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Eigenes CMS",
+      "category": "Other Skills",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Elementor",
+      "category": "Other Skills",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Facebook Graph API",
+      "category": "Other Skills",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Facebook OG",
+      "category": "Other Skills",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Flot Chart",
+      "category": "Other Skills",
+      "level": "Intermediate"
+    },
+    {
+      "name": "GD Library",
+      "category": "Other Skills",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Game Development",
+      "category": "Other Skills",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Game Server",
+      "category": "Other Skills",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Hosting",
+      "category": "Other Skills",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Hosting-Management",
+      "category": "Other Skills",
+      "level": "Intermediate"
+    },
+    {
+      "name": "IA System",
+      "category": "Other Skills",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Limonade Framework",
+      "category": "Other Skills",
+      "level": "Intermediate"
+    },
+    {
+      "name": "MarsEDV",
+      "category": "Other Skills",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Mobile App",
+      "category": "Other Skills",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Objekt-Meta-Datenbank",
+      "category": "Other Skills",
+      "level": "Intermediate"
+    },
+    {
+      "name": "PDA-Schnittstelle",
+      "category": "Other Skills",
+      "level": "Intermediate"
+    },
+    {
+      "name": "PDF",
+      "category": "Other Skills",
+      "level": "Intermediate"
+    },
+    {
+      "name": "PDF-Generierung",
+      "category": "Other Skills",
+      "level": "Intermediate"
+    },
+    {
+      "name": "PHPImageWorkshop",
+      "category": "Other Skills",
+      "level": "Intermediate"
+    },
+    {
+      "name": "PMKino API",
+      "category": "Other Skills",
+      "level": "Intermediate"
+    },
+    {
+      "name": "POS",
+      "category": "Other Skills",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Plugins",
+      "category": "Other Skills",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Product Designer",
+      "category": "Other Skills",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Push Notifications",
+      "category": "Other Skills",
+      "level": "Intermediate"
+    },
+    {
+      "name": "QR-Code",
+      "category": "Other Skills",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Raspberry Pi",
+      "category": "Other Skills",
+      "level": "Intermediate"
+    },
+    {
+      "name": "SQF",
+      "category": "Other Skills",
+      "level": "Intermediate"
+    },
+    {
+      "name": "SQLite",
+      "category": "Other Skills",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Web2Print",
+      "category": "Other Skills",
+      "level": "Intermediate"
+    },
+    {
+      "name": "WebNovel",
+      "category": "Other Skills",
+      "level": "Intermediate"
+    },
+    {
+      "name": "WebView",
+      "category": "Other Skills",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Webshop",
+      "category": "Other Skills",
+      "level": "Intermediate"
+    },
+    {
+      "name": "alldebrid",
+      "category": "Other Skills",
+      "level": "Intermediate"
+    },
+    {
+      "name": "blackhole",
+      "category": "Other Skills",
+      "level": "Intermediate"
+    },
+    {
+      "name": "ddl",
+      "category": "Other Skills",
+      "level": "Intermediate"
+    },
+    {
+      "name": "deta",
+      "category": "Other Skills",
+      "level": "Intermediate"
+    },
+    {
+      "name": "deta-base",
+      "category": "Other Skills",
+      "level": "Intermediate"
+    },
+    {
+      "name": "deta-drive",
+      "category": "Other Skills",
+      "level": "Intermediate"
+    },
+    {
+      "name": "deta-micros",
+      "category": "Other Skills",
+      "level": "Intermediate"
+    },
+    {
+      "name": "deta-space",
+      "category": "Other Skills",
+      "level": "Intermediate"
+    },
+    {
+      "name": "magnet",
+      "category": "Other Skills",
+      "level": "Intermediate"
+    },
+    {
+      "name": "phpFastCache",
+      "category": "Other Skills",
+      "level": "Intermediate"
+    },
+    {
+      "name": "torrent",
+      "category": "Other Skills",
+      "level": "Intermediate"
+    }
+  ],
+  "languages": [
+    {
+      "language": "German",
+      "proficiency": "Native"
+    },
+    {
+      "language": "English",
+      "proficiency": "Professional"
+    }
+  ]
+}

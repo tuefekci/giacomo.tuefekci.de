@@ -9,10 +9,12 @@
 <!-- SEO -->
 <svelte:head>
 	<title>{resume.basics.name}´s Blog</title>
-	<meta property="og:type" content="blog" />
+	<meta name="description" content="Read articles and insights from {resume.basics.name}." />
+	<meta property="og:type" content="website" />
 	<meta property="og:title" content="{resume.basics.name}´s Blog" />
 	<meta property="og:description" content="{resume.basics.summary}" />
-	<meta property="og:img" content="{resume.basics.image}" />
+	<meta property="og:image" content="{resume.basics.image}" />
+	<link rel="canonical" href="https://giacomo.tuefekci.de/blog" />
 </svelte:head>
 
 <div class="pt-12 print:pt-0 h-full">

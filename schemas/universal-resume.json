@@ -1,0 +1,861 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$defs": {
+    "ProperNoun": {
+      "type": "string",
+      "description": "A proper noun is a word, or a couple of words that represents a person, a title, a place, an institution, etc. Each word is Capitalized.",
+      "title": "Proper Noun",
+      "examples": [
+        "John Doe",
+        "Paris",
+        "Parts Unlimited",
+        "Google AI Research Certificate"
+      ],
+      "minLength": 1
+    },
+    "Organization": {
+      "type": "object",
+      "required": [
+        "name"
+      ],
+      "properties": {
+        "name": {
+          "$ref": "#/$defs/ProperNoun"
+        },
+        "location": {
+          "$ref": "#/$defs/Location"
+        },
+        "description": {
+          "$ref": "#/$defs/NonEmptyString"
+        }
+      },
+      "additionalProperties": false,
+      "description": "The company or institution to which the related experience belongs.",
+      "title": "Organization"
+    },
+    "Location": {
+      "type": "object",
+      "required": [],
+      "properties": {
+        "address": {
+          "$ref": "#/$defs/NonEmptyString"
+        },
+        "city": {
+          "$ref": "#/$defs/ProperNoun"
+        },
+        "countryCode": {
+          "$ref": "#/$defs/CountryCode"
+        },
+        "postalCode": {
+          "$ref": "#/$defs/NonEmptyString"
+        },
+        "region": {
+          "$ref": "#/$defs/NonEmptyString"
+        }
+      },
+      "additionalProperties": false,
+      "description": "The location of related experience, the place where it happened. It is supposed to be a city, a country, a region, etc.",
+      "examples": [
+        {
+          "address": "123 Main St",
+          "city": "New York",
+          "countryCode": "US",
+          "postalCode": "10001",
+          "region": "New York"
+        },
+        {
+          "city": "New York"
+        }
+      ]
+    },
+    "NonEmptyString": {
+      "type": "string",
+      "description": "a non empty string",
+      "title": "nonEmptyString",
+      "minLength": 1
+    },
+    "CountryCode": {
+      "type": "string",
+      "description": "Country code in ISO 3166-1 alpha-2 format",
+      "title": "nonEmptyString",
+      "examples": [
+        "US",
+        "UK",
+        "FR",
+        "DE",
+        "IT",
+        "ES"
+      ],
+      "minLength": 1
+    },
+    "Day": {
+      "type": "string",
+      "description": "startDate and endDate mention the time period, and date a more exact date when the related experience happened. The format is any JS Date constructor understands format: YYYY-MM-DD, YYYY-MM, YYYY, etc.",
+      "title": "nonEmptyString",
+      "examples": [
+        "2021-01-01",
+        "2021-01",
+        "2021"
+      ],
+      "minLength": 1
+    },
+    "Summary": {
+      "type": "string",
+      "description": "The summary of a section is a short amount of text that describes the context and your role in this context.",
+      "title": "nonEmptyString",
+      "examples": [
+        "Promoted to lead all IT operations after successfully stabilizing key systems and driving company-wide transformation efforts. Oversaw infrastructure, deployments, incident response, and service delivery."
+      ],
+      "minLength": 1
+    },
+    "Tag": {
+      "type": "string",
+      "description": "Short, unordered and not related with each others keyword that you want to associate with the related experience.",
+      "title": "nonEmptyString",
+      "examples": [
+        "Typescript",
+        "Leadership",
+        "DevOps",
+        "AI",
+        "Automation",
+        "Customer Support"
+      ],
+      "minLength": 1
+    },
+    "basics": {
+      "type": "object",
+      "required": [
+        "headline",
+        "name"
+      ],
+      "properties": {
+        "availability": {
+          "$ref": "#/$defs/NonEmptyTrimmedString"
+        },
+        "birth": {
+          "$ref": "#/$defs/Day"
+        },
+        "drivingLicenses": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/NonEmptyString"
+          }
+        },
+        "contact": {
+          "$ref": "#/$defs/Contact"
+        },
+        "headline": {
+          "$ref": "#/$defs/NonEmptyString",
+          "description": "The headline, title or position of resume subject",
+          "title": "maxLength(50)",
+          "examples": [
+            "Software Engineer"
+          ],
+          "maxLength": 50
+        },
+        "picture": {
+          "$ref": "#/$defs/Url"
+        },
+        "location": {
+          "$ref": "#/$defs/Location"
+        },
+        "name": {
+          "$ref": "#/$defs/ProperNoun"
+        },
+        "nationalities": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/CountryCode"
+          }
+        },
+        "profiles": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Profile"
+          }
+        },
+        "summary": {
+          "$ref": "#/$defs/Summary"
+        },
+        "website": {
+          "$ref": "#/$defs/Url"
+        },
+        "remote": {
+          "type": "boolean",
+          "description": "Whether the resume subject is willing to work remotely",
+          "examples": [
+            true
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "NonEmptyTrimmedString": {
+      "type": "string",
+      "description": "Date, delay, or any information about your availability to take a new job",
+      "title": "nonEmptyString",
+      "pattern": "^\\S[\\s\\S]*\\S$|^\\S$|^$",
+      "examples": [
+        "ASAP",
+        "3 months",
+        "September",
+        "Q2"
+      ],
+      "minLength": 1
+    },
+    "Contact": {
+      "type": "object",
+      "required": [],
+      "properties": {
+        "email": {
+          "$ref": "#/$defs/Email"
+        },
+        "phone": {
+          "$ref": "#/$defs/NonEmptyString"
+        },
+        "linkedin": {
+          "$ref": "#/$defs/Url"
+        }
+      },
+      "additionalProperties": false,
+      "description": "Some ways to contact a person",
+      "examples": [
+        {
+          "email": "john.doe@google.com",
+          "phone": "+1234567890"
+        }
+      ]
+    },
+    "Email": {
+      "type": "string",
+      "description": "Email address in lowercase",
+      "title": "nonEmptyString",
+      "examples": [
+        "john.doe@example.com"
+      ],
+      "minLength": 1
+    },
+    "Url": {
+      "type": "string",
+      "description": "Any external link that you want to add to the section. It can be a link to an original document, an organization, a project, a blog post, a video, a podcast, etc.",
+      "title": "nonEmptyString",
+      "examples": [
+        "https://www.linkedin.com/in/john-doe",
+        "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "https://www.github.com/john-doe"
+      ],
+      "minLength": 1
+    },
+    "Profile": {
+      "type": "object",
+      "required": [
+        "network",
+        "url"
+      ],
+      "properties": {
+        "network": {
+          "type": "string",
+          "enum": [
+            "LinkedIn",
+            "Github",
+            "X",
+            "Instagram",
+            "Youtube",
+            "Twitch",
+            "Reddit",
+            "Tiktok"
+          ]
+        },
+        "url": {
+          "$ref": "#/$defs/Url"
+        },
+        "username": {
+          "$ref": "#/$defs/NonEmptyString"
+        }
+      },
+      "additionalProperties": false,
+      "description": "The profile of the resume subject on a specific platform, social network, etc.",
+      "examples": [
+        {
+          "network": "LinkedIn",
+          "url": "https://www.linkedin.com/in/john-doe",
+          "username": "john-doe"
+        }
+      ]
+    },
+    "Score": {
+      "type": "string",
+      "description": "The score obtained at the related field",
+      "title": "nonEmptyString",
+      "examples": [
+        "3.8",
+        "A"
+      ],
+      "minLength": 1
+    },
+    "Highlight": {
+      "type": "string",
+      "description": "Concrete achievements you want to bring attention to in the context of the related experience.",
+      "title": "nonEmptyString",
+      "examples": [
+        "Led the turnaround of a failed ERP deployment",
+        "Reduced deployment times from weeks to hours",
+        "Created a culture of accountability and cross-team collaboration",
+        "Standardized monitoring, CI/CD pipelines, and postmortem processes"
+      ],
+      "minLength": 1
+    },
+    "Position": {
+      "type": "string",
+      "description": "Your position in related experience, the role you held in the organization.",
+      "title": "nonEmptyString",
+      "examples": [
+        "Software Engineer",
+        "Marketing Manager",
+        "Elementary School Teacher",
+        "Registered Nurse",
+        "Graphic Designer",
+        "Sales Representative",
+        "Research Scientist",
+        "Customer Service Specialist",
+        "Construction Project Manager",
+        "Financial Analyst"
+      ],
+      "minLength": 1
+    }
+  },
+  "type": "object",
+  "required": [
+    "basics"
+  ],
+  "properties": {
+    "awards": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "title",
+          "issuer",
+          "date"
+        ],
+        "properties": {
+          "title": {
+            "$ref": "#/$defs/ProperNoun"
+          },
+          "issuer": {
+            "$ref": "#/$defs/Organization"
+          },
+          "date": {
+            "$ref": "#/$defs/Day"
+          },
+          "location": {
+            "$ref": "#/$defs/Location"
+          },
+          "summary": {
+            "$ref": "#/$defs/Summary"
+          },
+          "tags": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/Tag"
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "basics": {
+      "$ref": "#/$defs/basics"
+    },
+    "certificates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "date",
+          "issuer",
+          "name"
+        ],
+        "properties": {
+          "date": {
+            "$ref": "#/$defs/Day"
+          },
+          "issuer": {
+            "$ref": "#/$defs/Organization"
+          },
+          "name": {
+            "$ref": "#/$defs/ProperNoun"
+          },
+          "summary": {
+            "$ref": "#/$defs/Summary"
+          },
+          "url": {
+            "$ref": "#/$defs/Url"
+          },
+          "tags": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/Tag"
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "education": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "area",
+          "organization",
+          "startDate",
+          "type"
+        ],
+        "properties": {
+          "area": {
+            "$ref": "#/$defs/ProperNoun"
+          },
+          "courses": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "name"
+              ],
+              "properties": {
+                "summary": {
+                  "$ref": "#/$defs/Summary"
+                },
+                "name": {
+                  "$ref": "#/$defs/ProperNoun"
+                },
+                "format": {
+                  "$ref": "#/$defs/NonEmptyString",
+                  "description": "The format or delivery mode",
+                  "examples": [
+                    "Online bootcamp",
+                    "In-person",
+                    "etc"
+                  ]
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "endDate": {
+            "$ref": "#/$defs/Day"
+          },
+          "organization": {
+            "$ref": "#/$defs/Organization"
+          },
+          "location": {
+            "$ref": "#/$defs/Location"
+          },
+          "score": {
+            "$ref": "#/$defs/Score"
+          },
+          "startDate": {
+            "$ref": "#/$defs/Day"
+          },
+          "type": {
+            "$ref": "#/$defs/NonEmptyString"
+          },
+          "url": {
+            "$ref": "#/$defs/Url"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "interests": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name"
+        ],
+        "properties": {
+          "summary": {
+            "$ref": "#/$defs/Summary"
+          },
+          "name": {
+            "$ref": "#/$defs/ProperNoun"
+          },
+          "tags": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/Tag"
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "languages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name"
+        ],
+        "properties": {
+          "certifications": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "name",
+                "score"
+              ],
+              "properties": {
+                "name": {
+                  "$ref": "#/$defs/ProperNoun"
+                },
+                "score": {
+                  "$ref": "#/$defs/Score"
+                }
+              },
+              "additionalProperties": false,
+              "description": "Any certifications about your language skills",
+              "examples": [
+                {
+                  "name": "TOEFL",
+                  "score": "100"
+                }
+              ]
+            }
+          },
+          "fluency": {
+            "type": "string",
+            "enum": [
+              "elementary",
+              "limited-working",
+              "professional-working",
+              "full-professional",
+              "fluent",
+              "bilingual"
+            ]
+          },
+          "name": {
+            "$ref": "#/$defs/ProperNoun"
+          },
+          "countryCode": {
+            "$ref": "#/$defs/CountryCode"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "meta": {
+      "type": "object",
+      "required": [],
+      "properties": {
+        "canonical": {
+          "$ref": "#/$defs/Url"
+        },
+        "lastModified": {
+          "$ref": "#/$defs/Day"
+        },
+        "schema": {
+          "$ref": "#/$defs/NonEmptyString"
+        }
+      },
+      "additionalProperties": false
+    },
+    "initiatives": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "summary",
+          "name",
+          "position",
+          "startDate",
+          "type"
+        ],
+        "properties": {
+          "summary": {
+            "$ref": "#/$defs/Summary"
+          },
+          "endDate": {
+            "$ref": "#/$defs/Day"
+          },
+          "organization": {
+            "$ref": "#/$defs/Organization"
+          },
+          "highlights": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/Highlight"
+            }
+          },
+          "location": {
+            "$ref": "#/$defs/Location"
+          },
+          "name": {
+            "$ref": "#/$defs/ProperNoun"
+          },
+          "position": {
+            "$ref": "#/$defs/Position"
+          },
+          "references": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "date",
+                "name"
+              ],
+              "properties": {
+                "contact": {
+                  "$ref": "#/$defs/Contact"
+                },
+                "date": {
+                  "$ref": "#/$defs/Day"
+                },
+                "name": {
+                  "$ref": "#/$defs/ProperNoun"
+                },
+                "position": {
+                  "$ref": "#/$defs/Position"
+                },
+                "testimonial": {
+                  "$ref": "#/$defs/NonEmptyString"
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "startDate": {
+            "$ref": "#/$defs/Day"
+          },
+          "status": {
+            "$ref": "#/$defs/NonEmptyString"
+          },
+          "tags": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/Tag"
+            }
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "volunteering",
+              "personal",
+              "education",
+              "open-source",
+              "startup",
+              "civic",
+              "research"
+            ]
+          },
+          "url": {
+            "$ref": "#/$defs/Url"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "publications": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "date",
+          "summary",
+          "type"
+        ],
+        "properties": {
+          "authors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/ProperNoun"
+            }
+          },
+          "doi": {
+            "$ref": "#/$defs/NonEmptyString"
+          },
+          "name": {
+            "$ref": "#/$defs/ProperNoun"
+          },
+          "publisher": {
+            "$ref": "#/$defs/Organization"
+          },
+          "date": {
+            "$ref": "#/$defs/Day"
+          },
+          "summary": {
+            "$ref": "#/$defs/Summary"
+          },
+          "tags": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/Tag"
+            }
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "article",
+              "blog-post",
+              "book",
+              "book-chapter",
+              "conference-paper",
+              "journal-paper",
+              "whitepaper",
+              "thesis",
+              "report",
+              "webinar",
+              "presentation",
+              "other"
+            ]
+          },
+          "url": {
+            "$ref": "#/$defs/Url"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "skills": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name"
+        ],
+        "properties": {
+          "level": {
+            "type": "string",
+            "enum": [
+              "beginner",
+              "intermediate",
+              "advanced",
+              "expert"
+            ]
+          },
+          "name": {
+            "$ref": "#/$defs/ProperNoun"
+          },
+          "tags": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/Tag"
+            }
+          },
+          "yearsOfExperience": {
+            "type": "number",
+            "description": "The years of experience of the skill",
+            "title": "positive",
+            "examples": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ],
+            "exclusiveMinimum": 0
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "employments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "type",
+          "organization",
+          "position",
+          "startDate"
+        ],
+        "properties": {
+          "type": {
+            "type": "string",
+            "enum": [
+              "internal",
+              "freelance",
+              "agency",
+              "contract",
+              "apprenticeship",
+              "internship"
+            ],
+            "description": "The type of contract between the employer and the employee"
+          },
+          "summary": {
+            "$ref": "#/$defs/Summary"
+          },
+          "endDate": {
+            "$ref": "#/$defs/Day"
+          },
+          "highlights": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/Highlight"
+            }
+          },
+          "location": {
+            "$ref": "#/$defs/Location"
+          },
+          "organization": {
+            "$ref": "#/$defs/Organization"
+          },
+          "position": {
+            "$ref": "#/$defs/Position"
+          },
+          "references": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "date",
+                "name"
+              ],
+              "properties": {
+                "contact": {
+                  "$ref": "#/$defs/Contact"
+                },
+                "date": {
+                  "$ref": "#/$defs/Day"
+                },
+                "name": {
+                  "$ref": "#/$defs/ProperNoun"
+                },
+                "position": {
+                  "$ref": "#/$defs/Position"
+                },
+                "testimonial": {
+                  "$ref": "#/$defs/NonEmptyString"
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "startDate": {
+            "$ref": "#/$defs/Day"
+          },
+          "tags": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/Tag"
+            }
+          },
+          "url": {
+            "$ref": "#/$defs/Url"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
