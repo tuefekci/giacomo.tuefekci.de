@@ -46,15 +46,6 @@
 		margin-inline: auto;
 	}
 
-	h1 {
-		text-transform: capitalize;
-	}
-
-	h1 + p {
-		margin-top: var(--size-2);
-		color: var(--text-2);
-	}
-
 	.tags {
 		display: flex;
 		gap: var(--size-3);

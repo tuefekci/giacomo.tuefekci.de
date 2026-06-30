@@ -20,6 +20,7 @@
 >
     {#if icons[icon]}
         <span class="w-5 h-5 flex-shrink-0 transition-colors duration-300">
+            <!-- eslint-disable-next-line svelte/no-at-html-tags -->
             {@html icons[icon]}
         </span>
     {/if}

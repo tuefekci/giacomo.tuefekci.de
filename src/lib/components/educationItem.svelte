@@ -2,7 +2,7 @@
     export let education;
 	const startDate = new Date(education.startDate).getFullYear();
 
-	var endDate;
+	let endDate;
 	if(!education.endDate) {
 		endDate = "Present";
 	} else {

@@ -1,14 +1,14 @@
 <script>
     export let work;
 
-	var startDate;
+	let startDate;
 	if(!work.startDate) {
 		startDate = "";
 	} else {
 		startDate = new Date(work.startDate).getFullYear();
 	}
 
-	var endDate;
+	let endDate;
 	if(!work.endDate) {
 		endDate = "Present";
 	} else {
