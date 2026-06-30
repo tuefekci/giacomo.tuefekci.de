@@ -3,44 +3,24 @@
     export let data;
     const resume = data.props.resume;
 
-    let activeFilter = "__featured__";
+    import { activeFilter } from '$lib/stores/portfolioFilter';
 
-    import { onMount } from 'svelte';
+    const visibleProjects = resume.projects.filter(p =>
+        !p.entity?.toLowerCase().includes("planetmutlu")
+    );
 
-    onMount(() => {
-        const orig = {};
-
-        const setAll = () => {
-            orig.activeFilter = activeFilter;
-            activeFilter = "__all__";
-        };
-        const restore = () => {
-            if (orig.activeFilter !== undefined) {
-                activeFilter = orig.activeFilter;
-            }
-        };
-
-        window.addEventListener('beforeprint', setAll);
-        window.addEventListener('afterprint', restore);
-
-        return () => {
-            window.removeEventListener('beforeprint', setAll);
-            window.removeEventListener('afterprint', restore);
-        };
-    });
-
-    $: categories = [...new Set(resume.projects.map(p => p.category).filter(Boolean))];
-    $: categoryCounts = resume.projects.reduce((acc, p) => {
+    $: categories = [...new Set(visibleProjects.map(p => p.category).filter(Boolean))];
+    $: categoryCounts = visibleProjects.reduce((acc, p) => {
         if (p.category) acc[p.category] = (acc[p.category] || 0) + 1;
         return acc;
     }, {});
-    $: featuredCount = resume.projects.filter(p => p.featured).length;
+    $: featuredCount = visibleProjects.filter(p => p.featured).length;
 
-    $: filtered = activeFilter === "__featured__"
-        ? resume.projects.filter(p => p.featured)
-        : activeFilter === "__all__"
-            ? resume.projects
-            : resume.projects.filter(p => p.category === activeFilter);
+    $: filtered = $activeFilter === "__featured__"
+        ? visibleProjects.filter(p => p.featured)
+        : $activeFilter === "__all__"
+            ? visibleProjects
+            : visibleProjects.filter(p => p.category === $activeFilter);
     $: sorted = [...filtered].sort((a, b) => (b.date || 0) - (a.date || 0));
 
     $: grouped = sorted.reduce((acc, p) => {
@@ -75,28 +55,36 @@
                 <div class="flex grow h-1 mt-5 ml-3 gradient-background-line"></div>
             </div>
 
-            <div class="flex gap-2 flex-wrap pb-2 print:hidden">
-                <button
-                    class="text-[12px] px-4 py-2 rounded transition-all duration-200 {activeFilter === '__featured__' ? 'bg-[#FA5252] text-white' : 'bg-[#F3F6F6] dark:bg-[#1D1D1D] text-[#A6A6A6] hover:text-[#FA5252] dark:hover:text-white'}"
-                    on:click={() => activeFilter = "__featured__"}
-                >
-                    &#9733; Featured ({featuredCount})
-                </button>
-                <button
-                    class="text-[12px] px-4 py-2 rounded transition-all duration-200 {activeFilter === '__all__' ? 'bg-[#FA5252] text-white' : 'bg-[#F3F6F6] dark:bg-[#1D1D1D] text-[#A6A6A6] hover:text-[#FA5252] dark:hover:text-white'}"
-                    on:click={() => activeFilter = "__all__"}
-                >
-                    All ({resume.projects.length})
-                </button>
-                {#each categories as cat}
+            <div class="print:hidden">
+                <div class="flex gap-2 pb-1.5">
                     <button
-                        class="text-[12px] px-4 py-2 rounded transition-all duration-200 {activeFilter === cat ? 'bg-[#FA5252] text-white' : 'bg-[#F3F6F6] dark:bg-[#1D1D1D] text-[#A6A6A6] hover:text-[#FA5252] dark:hover:text-white'}"
-                        on:click={() => activeFilter = cat}
+                        class="text-[13px] px-5 py-2.5 rounded-lg font-semibold transition-all duration-200 {$activeFilter === '__featured__' ? 'bg-[#FA5252] text-white shadow-sm' : 'bg-[#F3F6F6] dark:bg-[#1D1D1D] text-[#A6A6A6] hover:text-[#FA5252] dark:hover:text-white'}"
+                        on:click={() => $activeFilter = "__featured__"}
                     >
-                        {cat} ({categoryCounts[cat] || 0})
+                        &#9733; Featured ({featuredCount})
                     </button>
-                {/each}
+                    <button
+                        class="text-[13px] px-5 py-2.5 rounded-lg font-semibold transition-all duration-200 {$activeFilter === '__all__' ? 'bg-[#FA5252] text-white shadow-sm' : 'bg-[#F3F6F6] dark:bg-[#1D1D1D] text-[#A6A6A6] hover:text-[#FA5252] dark:hover:text-white'}"
+                        on:click={() => $activeFilter = "__all__"}
+                    >
+                        All ({visibleProjects.length})
+                    </button>
+                </div>
+                <div class="flex gap-1.5 flex-wrap">
+                    {#each categories as cat}
+                        <button
+                            class="text-[11px] px-3 py-1.5 rounded transition-all duration-200 {$activeFilter === cat ? 'bg-[#FA5252] text-white' : 'bg-[#F3F6F6] dark:bg-[#1D1D1D] text-[#A6A6A6] hover:text-[#FA5252] dark:hover:text-white'}"
+                            on:click={() => $activeFilter = cat}
+                        >
+                            {cat} ({categoryCounts[cat] || 0})
+                        </button>
+                    {/each}
+                </div>
             </div>
+
+            <p class="text-[10px] text-[#A6A6A6] dark:text-[#A6A6A6]/60 pb-2 print:hidden">
+                Projects shown under employer or client names are based on publicly available information. Not all professional work is listed due to NDAs. All trademarks belong to their respective owners.
+            </p>
 
             <!-- Year-Grouped Timeline -->
             <div class="mt-[30px] mb-6 pb-6">

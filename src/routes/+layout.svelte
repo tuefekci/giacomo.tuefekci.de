@@ -7,6 +7,7 @@
 
 	import MenuItem from '$lib/components/menuItem.svelte';
 	import PageTransition from './transition.svelte'
+	import PrintDocument from '$lib/components/PrintDocument.svelte'
 
 	//<MenuItem path="blog">Blog</MenuItem>
 </script>
@@ -19,7 +20,7 @@
 	>
 	
 		<div
-			class="grid grid-cols-12 md:gap-5 xl:gap-10 lg:p-5 xl:p-0 justify-between lg:mt-[120px] lg:mb-[120px] print:pt-0 print:mt-0 print:p-0 print:m-0 "
+			class="grid grid-cols-12 md:gap-5 xl:gap-10 lg:p-5 xl:p-0 justify-between lg:mt-[120px] lg:mb-[120px] print:hidden"
 		>
 			<div class="col-span-12 lg:col-span-4 ">
 				<div
@@ -76,29 +77,16 @@
 
 							</div>
 
-							<div class="flex py-2.5 print:border-b print:border-[#E3E3E3]">
+							<div class="flex py-2.5 border-b border-[#E3E3E3] dark:border-[#3D3A3A]">
 								<div class="text-left ml-2.5">
 									<p class="text-xs text-[#44566C] dark:text-[#A6A6A6]">Languages</p>
 									<div class="flex gap-x-2 gap-y-2 flex-wrap">
 										{#each resume.languages as language }
-											<div class="  print:text-black ">{language.language} ({language.fluency})</div>
+											<div>{language.language} ({language.fluency})</div>
 										{/each}
 									</div>
 
 								</div>
-							</div>
-							
-	
-							<div class="flex py-2.5 hidden print:block">
-								<span
-									class="flex-shrink-0 socialbtn bg-white dark:bg-black text-[#C17CEB] shadow-md"
-									></span
-								>
-								<div class="text-left ml-2.5">
-									<p class="text-xs text-[#44566C] dark:text-[#A6A6A6]">Short Bio</p>
-									<p class="dark:text-white text-sm">{resume.basics.summary}</p>
-								</div>
-
 							</div>
 
 						</div>
@@ -124,6 +112,10 @@
 				</div>
 			</div>
 		</div>
+		</div>
+
+		<div class="hidden print:block">
+			<PrintDocument {resume} />
 		</div>
 	</div>
 </div>

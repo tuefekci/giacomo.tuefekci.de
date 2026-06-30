@@ -95,13 +95,13 @@
       "position": "Lead IT Manager",
       "startDate": "2013-08-01",
       "endDate": "2014-05-31",
-      "summary": "started as a Software Developer, I developed Web2Print, database, and E-Commerce solutions while also leading the planning and implementation of websites. Within one year, I was promoted to IT Manager",
+      "summary": "Transfered from Subsidiary image advertising gmbh & co. kg, started as a Software Developer, I developed Web2Print, database, and E-Commerce solutions while also leading the planning and implementation of websites. Within one year, I was promoted to IT Manager",
       "highlights": [
         "Managed a 4-person development team"
       ]
     },
     {
-      "name": "image advertising gmbh & co. kg (Subsidiary of Humburg Media Group)",
+      "name": "image advertising gmbh & co. kg",
       "location": "Bremen",
       "description": "Training as media designer",
       "position": "Apprenticeship Media Designer",
@@ -203,7 +203,7 @@
     {
       "name": "Web Development",
       "level": "Master",
-      "summary": "I'm a web development maestro, mastering HTML, CSS, JavaScript, and various frameworks like React, Svelte, and more. I'm also fluent in PHP, with expertise in CakePHP, Laravel, and other content management systems like WordPress and Drupal.",
+      "summary": "I build responsive, dynamic web applications using modern front-end technologies like HTML, CSS, JavaScript, TypeScript, React, and Svelte. On the back end, I am highly versatile. I am just as comfortable building fast, scalable architectures using Node.js, Deno, or Bun as I am working with PHP frameworks like Laravel and CakePHP. I also have strong experience customizing CMS platforms like WordPress and Drupal.",
       "keywords": [
         "AJAX",
         "AMPHP",
@@ -504,26 +504,6 @@
       ]
     },
     {
-      "name": "Gardening & Plants",
-      "summary": "I seem to prefer plants that serve a practical or edible purpose, though I'm not entirely sure why."
-    },
-    {
-      "name": "AI & Machine Learning",
-      "summary": "I thrive on building with AI, focusing heavily on local-first architecture and integrating open-source models directly into desktop applications. From experimenting with foundational LLMs to deploying lightweight models natively via ONNX for real-time classification, I’m all about breaking free from SaaS walled gardens. I might not be training massive clusters from scratch, but I'm masterfully orchestrating them right on the edge."
-    },
-    {
-      "name": "Technology & Electronics",
-      "summary": "I love tinkering with electronics and writing low-level code for Arduinos and ESP microcontrollers. It's the physical hardware where my grand ideas usually meet reality. That said, my hands lack the steady precision required to be a soldering expert, meaning a career as a neurosurgeon is definitely off the table, and my desktop prototype wiring occasionally looks like a pirate's rigging."
-    },
-    {
-      "name": "Anime",
-      "summary": "I've been a big anime fan since beeing a child, especially during my days of odd jobs with irregular schedules. It was a great way to unwind. However, it seems I'm showing my age, as I now find myself mostly revisiting old favorites or series I read the manga or novel years ago."
-    },
-    {
-      "name": "Manga",
-      "summary": "I was once deeply immersed in manga, but over time, I discovered that some of the series I loved had their origins in light novels. This revelation sparked a significant shift in my preference towards consuming novels."
-    },
-    {
       "name": "Gaming",
       "summary": "I don't game as much as I used to, but when I do, I find myself gravitating towards what some might call \"old man game´s\" like Factorio, Satisfactory, simulators, and tycoon games. Interestingly, tycoon games were my favorite genre when I first started gaming.",
       "keywords": [
@@ -546,6 +526,26 @@
         "Warcraft 3",
         "Hitman"
       ]
+    },
+    {
+      "name": "AI & Machine Learning",
+      "summary": "I thrive on building with AI, focusing heavily on local-first architecture and integrating open-source models directly into desktop applications. From experimenting with foundational LLMs to deploying lightweight models natively via ONNX for real-time classification, I’m all about breaking free from SaaS walled gardens. I might not be training massive clusters from scratch, but I'm masterfully orchestrating them right on the edge."
+    },
+    {
+      "name": "Technology & Electronics",
+      "summary": "I love tinkering with electronics and writing low-level code for Arduinos and ESP microcontrollers. It's the physical hardware where my grand ideas usually meet reality. That said, my hands lack the steady precision required to be a soldering expert, meaning a career as a neurosurgeon is definitely off the table, and my desktop prototype wiring occasionally looks like a pirate's rigging."
+    },
+    {
+      "name": "Anime",
+      "summary": "I've been a big anime fan since beeing a child, especially during my days of odd jobs with irregular schedules. It was a great way to unwind. However, it seems I'm showing my age, as I now find myself mostly revisiting old favorites or series I read the manga or novel years ago."
+    },
+    {
+      "name": "Manga",
+      "summary": "I was once deeply immersed in manga, but over time, I discovered that some of the series I loved had their origins in light novels. This revelation sparked a significant shift in my preference towards consuming novels."
+    },
+    {
+      "name": "Gardening & Plants",
+      "summary": "I seem to prefer plants that serve a practical or edible purpose, though I'm not entirely sure why."
     }
   ],
   "projects": [
@@ -617,7 +617,7 @@
       "name": "Deta-PHP",
       "date": "2023",
       "entity": "Tufekci Software Development & Consulting",
-      "description": "PHP SDK for interacting with the Deta API. Provides a Deta client class for accessing Deta Base (NoSQL database) and Deta Drive (file storage).\n\n### Usage\n```php\nuse tuefekci\\deta\\Deta;\n$deta = new Deta('your_project_id', 'your_api_key');\n$my_base = $deta->base('my_base');\n\n// Insert, get, update, delete, and query items in Base\n$my_base->insert(['name' => 'Alice', 'age' => 30]);\n$item = $my_base->get('abc123');\n$my_base->update('abc123', ['name' => 'Bob']);\n$my_base->delete('abc123');\n$items = $my_base->query(['age' => ['lt' => 40]]);\n\n// File operations via Drive\n$my_drive = $deta->drive('my_drive');\n$my_drive->put('file.txt', 'Hello, world!');\n$content = $my_drive->get('file.txt');\n$files = $my_drive->list();\n```",
+      "description": "PHP SDK for interacting with the Deta API. Provides a Deta client class for accessing Deta Base (NoSQL database) and Deta Drive (file storage).",
       "url": "https://github.com/tuefekci/Deta-PHP",
       "highlights": [
         "Technology: deta",
@@ -659,7 +659,7 @@
       "name": "deta-queue",
       "date": "2023",
       "entity": "Tufekci Software Development & Consulting",
-      "description": "Queue implementation for use with Deta Base, written in TypeScript. Provides a simple FIFO queue backed by Deta's NoSQL database with configurable TTL and queue name.\n\n### Usage\n```typescript\nimport { Queue } from 'deta-queue';\nimport { Deta } from 'deta';\n\nconst deta = Deta(process.env.DETA_PROJECT_KEY);\nconst queue = new Queue(deta);\n\nasync function main() {\n    await queue.empty();\n    const items = [\"test1\", \"test2\", \"test3\", \"test4\", \"test5\"];\n    for (let element of items) {\n        await queue.push(element);\n    }\n    const item = queue.pop(1);\n    console.log(item);  //=> 'test1'\n}\n```\n\nPublished as npm package `deta-queue`.",
+      "description": "Queue implementation for use with Deta Base, written in TypeScript. Provides a simple FIFO queue backed by Deta's NoSQL database with configurable TTL and queue name. Published as npm package `deta-queue`.",
       "url": "https://github.com/tuefekci/deta-queue",
       "highlights": [
         "Technology: deta",
@@ -1926,7 +1926,7 @@
       "name": "DigitalOcean-PHP-Class",
       "date": "2012",
       "entity": "Tufekci Software Development & Consulting",
-      "description": "PHP wrapper for the DigitalOcean API. All methods are supported. Documentation for the DigitalOcean API can be found at digitalocean.com/api. Automatically generated phpDoc lives at remmelt.github.com/DigitalOcean-PHP-Class.\n\n### Example Usage\n```php\nrequire_once('DigitalOcean.class.php');\n$ocean = new \\DigitalOceanApi\\DigitalOcean('client_id_here','api_key_here');\n$droplets = get_object_vars($ocean->getDroplets());\n$i=0;\n$x=0;\nforeach ($droplets as $drops) {\n\tif (!is_array($drops)) {\n\t\techo $i . '. Status: ' . $drops . '<br />';\n\t} else {\n\t\techo $i . '. Name: ' . $drops[$x]->name . '<br />';\n\t\techo $i . '. IP: ' . $drops[$x]->ip_address . '<br />';\n\t\t$x++;\n\t}\n\t$i++;\n}\n```\n\nThe above will result in something like:\n```\n0. Status: OK\n1. Name: your-droplet-name\n1. IP: your-droplet-ip\n```",
+      "description": "PHP wrapper for the DigitalOcean API. All methods are supported. Documentation for the DigitalOcean API can be found at digitalocean.com/api.",
       "url": "https://github.com/tuefekci/DigitalOcean-PHP-Class",
       "category": "Libraries & Developer Tools",
       "featured": true

@@ -48,6 +48,11 @@ html {}
 }
 
 @media print {
+	html, body {
+		background: white !important;
+		color: black !important;
+	}
+
 	.container {
 		max-width: 100%;
 		width: 100%;
@@ -55,20 +60,21 @@ html {}
 
 	.gradient-background,
 	.gradient-background-fast {
-		background: none;
+		background: none !important;
 		animation: none;
+	}
 
+	img {
+		max-width: 100%;
+	}
+
+	a {
+		color: #000 !important;
+		text-decoration: underline;
 	}
 
 	@page {
-		margin: 7%;
+		margin: 15mm 18mm;
 		size: A4;
-
-		@top-center {
-			font-family: sans-serif;
-			font-weight: bold;
-			font-size: 2em;
-			content: counter(page);
-		}
 	}
 }
