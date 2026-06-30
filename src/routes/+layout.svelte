@@ -27,14 +27,14 @@
 					<span class="font-semibold text-base dark:text-white truncate">{resume.basics.name}</span>
 					<span class="text-sm text-[#7B7B7B] truncate">· {resume.basics.label}</span>
 				</div>
-				<div class="w-full flex justify-between text-[10px] text-[#7B7B7B] mt-0.5 leading-tight">
-					<span>Born {resume.basics.birth.date}, {resume.basics.birth.city}</span>
-					<span>{#each resume.languages as lang, i}{i > 0 ? " · " : ""}{lang.language} ({lang.fluency}){/each}</span>
-				</div>
-				<div class="w-full flex justify-between text-[10px] text-[#7B7B7B] leading-tight">
-					<span>{resume.basics.email}</span>
-					<span>Based in {resume.basics.location.city}</span>
-				</div>
+			<div class="w-full text-[10px] text-[#7B7B7B] mt-0.5 leading-tight flex flex-wrap gap-x-2">
+				<span>Born {resume.basics.birth.date}, {resume.basics.birth.city}</span>
+				<span>{#each resume.languages as lang, i}{i > 0 ? "· " : ""}{lang.language} ({lang.fluency}){/each}</span>
+			</div>
+			<div class="w-full text-[10px] text-[#7B7B7B] leading-tight flex flex-wrap gap-x-2">
+				<span>{resume.basics.email}</span>
+				<span>Based in {resume.basics.location.city}</span>
+			</div>
 			</div>
 		</div>
 		<div class="flex border-t border-[#E3E3E3] dark:border-[#3D3A3A]">
