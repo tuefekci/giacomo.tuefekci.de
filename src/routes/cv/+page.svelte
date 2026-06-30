@@ -142,6 +142,9 @@
                     <span class=" text-base font-semibold dark:text-white">{skill.name}</span>
 
                 </div>
+                {#if skill.summary}
+                    <p class="text-sm leading-relaxed dark:text-white/60 mb-3">{skill.summary}</p>
+                {/if}
             </div>
 
             <div class="flex gap-x-2 gap-y-2 flex-wrap">
