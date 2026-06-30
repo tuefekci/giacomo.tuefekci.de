@@ -1864,7 +1864,7 @@
     },
     {
       "name": "Atelier Brokat – Abschlussprüfung",
-      "date": "2012",
+      "date": "2013",
       "entity": "Tufekci Software Development & Consulting",
       "description": "Website for the fashion atelier \"Atelier Brokat\" – created as part of the final examination. The site presented women's and men's collections, stage gowns, fashion trends, and events. Implemented with the Limonade PHP micro-framework, custom route structure, and individually designed templates with CSS animations.",
       "highlights": [
@@ -2265,25 +2265,9 @@
       "category": "Game & Creative"
     },
     {
-      "name": "ASP Automotive GmbH \"Genuss-Portal\" Web2Print",
-      "date": "2010",
-      "entity": "Tufekci Software Development & Consulting",
-      "description": "A Web2Print portal using CakePHP and jQuery that passes data via AdobeScript to Illustrator for print processing.",
-      "highlights": [
-        "Web2Print",
-        "Concept",
-        "Development",
-        "CakePHP",
-        "jQuery",
-        "Adobe Scripting",
-        "MySQL"
-      ],
-      "category": "E-Commerce & Web2Print"
-    },
-    {
       "name": "AvanCarte Produkt Datenbank & Webshop",
-      "date": "2010",
-      "entity": "Tufekci Software Development & Consulting",
+      "date": "2013",
+      "entity": "Image Advertising H. G. GmbH & Co. KG",
       "description": "Continued development of an existing PHP product database and development of a custom B2B webshop based on CakePHP.",
       "highlights": [
         "Continued Development",
@@ -2298,8 +2282,8 @@
     },
     {
       "name": "Decoramic Wertgutschein-Portal & POS",
-      "date": "2010",
-      "entity": "Tufekci Software Development & Consulting",
+      "date": "2013",
+      "entity": "Image Advertising H. G. GmbH & Co. KG",
       "description": "A portal for distribution and redemption of gift vouchers with a POS system for balance management, based on CakePHP and jQuery.",
       "highlights": [
         "Concept",
@@ -2334,7 +2318,7 @@
     {
       "name": "IA System Web2Print/CRM",
       "date": "2010",
-      "entity": "Tufekci Software Development & Consulting",
+      "entity": "Image Advertising H. G. GmbH & Co. KG",
       "description": "A Web2Print portal for business cards and print materials to digitize IA System's print workflows.",
       "highlights": [
         "Concept",
@@ -2349,8 +2333,8 @@
     },
     {
       "name": "Ludwig von Kapff Database-Publishing",
-      "date": "2010",
-      "entity": "Tufekci Software Development & Consulting",
+      "date": "2013",
+      "entity": "Image Advertising H. G. GmbH & Co. KG",
       "description": "A portal for managing price tags, customer cards, and print materials, connected to the existing ERP system via IA System and Connexus.",
       "highlights": [
         "Concept",
