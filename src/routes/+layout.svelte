@@ -17,15 +17,15 @@
 <div class="min-h-screen dark:text-white w-full h-full gradient-background print:bg-transparent print:text-black">
 
 	<div class="fixed top-0 left-0 right-0 z-50 lg:hidden bg-white dark:bg-[#111111] shadow-md border-b border-[#E3E3E3] dark:border-[#3D3A3A]">
-		<div class="flex items-start gap-3 px-5 pt-4 pb-2.5">
+		<div class="flex items-start gap-3 px-5 pt-4 pb-2.5 max-[375px]:px-4 max-[375px]:pt-3 max-[375px]:pb-2">
 			<img src="{resume.basics.image}"
 				alt="avatar"
-				class="w-14 h-14 rounded-lg object-cover flex-shrink-0"
+				class="w-14 h-14 rounded-lg object-cover flex-shrink-0 max-[375px]:w-12 max-[375px]:h-12"
 			/>
 			<div class="min-w-0 flex-1">
 				<div class="flex items-baseline gap-1.5 flex-wrap">
-					<span class="font-semibold text-base dark:text-white truncate">{resume.basics.name}</span>
-					<span class="text-sm text-[#7B7B7B] truncate">· {resume.basics.label}</span>
+					<span class="font-semibold text-base dark:text-white truncate max-[375px]:text-sm">{resume.basics.name}</span>
+					<span class="text-sm text-[#7B7B7B] truncate max-[375px]:text-xs">· {resume.basics.label}</span>
 				</div>
 			<div class="w-full text-[10px] text-[#7B7B7B] mt-0.5 leading-tight flex flex-wrap gap-x-2">
 				<span>Born {resume.basics.birth.date}, {resume.basics.birth.city}</span>
@@ -41,7 +41,7 @@
 			{#each [{p:"", label:"About"},{p:"cv", label:"Resume"},{p:"portfolio", label:"Works"}] as item}
 				{@const active = $page.url.pathname.replace(/\/$/, '') === (base + '/' + item.p).replace(/\/$/, '')}
 				<a href="{base}/{item.p}"
-					class="flex-1 text-center pt-3.5 pb-5 text-sm font-medium transition-colors relative {active ? 'text-[#FA5252]' : 'text-[#7B7B7B] hover:text-[#FA5252] dark:hover:text-[#FA5252]'}"
+					class="flex-1 text-center pt-3.5 pb-5 text-sm font-medium transition-colors relative max-[375px]:pt-2.5 max-[375px]:pb-4 max-[375px]:text-xs {active ? 'text-[#FA5252]' : 'text-[#7B7B7B] hover:text-[#FA5252] dark:hover:text-[#FA5252]'}"
 				>
 					{item.label}
 					{#if active}
@@ -132,7 +132,7 @@
 
 			<div class="col-span-12 lg:col-span-8">
 
-				<div class="bg-white dark:bg-[#111111] md:rounded-[20px] pt-[140px] lg:pt-0 mt-0 lg:mt-0 print:p-0 print:m-0">
+				<div class="bg-white dark:bg-[#111111] md:rounded-[20px] pt-[140px] lg:pt-0 mt-0 lg:mt-0 max-[375px]:pt-[125px] print:p-0 print:m-0">
 					<header class="print:hidden hidden lg:block bg-[#F8F9FA] dark:bg-[#1A1A1A] rounded-t-[20px] border-b border-[#E3E3E3] dark:border-[#3D3A3A]">
 						<nav class="flex items-center gap-1 px-6 pt-3 pb-3">
 							<MenuItem path="" icon="about">About</MenuItem>
