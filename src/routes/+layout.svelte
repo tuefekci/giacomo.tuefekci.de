@@ -1,14 +1,31 @@
 <script>
 	/** @type {import('./$types').PageData} */
 	export let data;
-	import { page } from '$app/stores';  
+	import { page } from '$app/stores';
 	import { base } from '$app/paths';
+	import { onMount, onDestroy } from 'svelte';
 	const resume = data.props.resume;
 	const age = new Date().getFullYear() - parseInt(resume.basics.birth.date);
 
 	import MenuItem from '$lib/components/menuItem.svelte';
 	import PageTransition from './transition.svelte'
 	import PrintDocument from '$lib/components/PrintDocument.svelte'
+
+	let showBackToTop = false;
+	function handleScroll() {
+		showBackToTop = window.scrollY > window.innerHeight;
+	}
+	function scrollToTop() {
+		window.scrollTo({ top: 0, behavior: 'smooth' });
+	}
+	onMount(() => {
+		window.addEventListener('scroll', handleScroll);
+	});
+	onDestroy(() => {
+		if (typeof window !== 'undefined') {
+			window.removeEventListener('scroll', handleScroll);
+		}
+	});
 
 	//<MenuItem path="blog">Blog</MenuItem>
 </script>
@@ -203,7 +220,19 @@
 		</div>
 
 		<div class="hidden print:block">
-			<PrintDocument {resume} />
+			<PrintDocument {resume} fullDetails={data.fullDetails} />
 		</div>
 	</div>
+
+	{#if showBackToTop}
+		<button
+			on:click={scrollToTop}
+			aria-label="Back to top"
+			class="fixed bottom-6 right-6 z-50 w-12 h-12 rounded-full bg-[#FA5252] text-white shadow-[0_4px_12px_rgba(0,0,0,0.35)] flex items-center justify-center hover:bg-[#e04848] transition-colors duration-200"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+				<path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7" />
+			</svg>
+		</button>
+	{/if}
 </div>

@@ -41,6 +41,7 @@ export default [
             '.svelte-kit/',
             'src/data/',
             'docs/',
+            'private-build/',
             'static/',
             'schemas/',
             'package-lock.json',

@@ -1,22 +1,6 @@
 <script>
     export let project;
 
-    function getTechKeywords(highlights) {
-        if (!highlights) return [];
-        return highlights
-            .filter(h => h.startsWith("Technology: "))
-            .map(h => h.replace("Technology: ", ""));
-    }
-
-    function getServiceKeywords(highlights) {
-        if (!highlights) return [];
-        return highlights
-            .filter(h => !h.startsWith("Technology: "));
-    }
-
-    const techs = getTechKeywords(project.highlights);
-    const services = getServiceKeywords(project.highlights);
-
     function truncate(text, maxLen) {
         if (!text) return "";
         if (text.length <= maxLen) return text;
@@ -24,52 +8,28 @@
     }
 </script>
 
-<div class="py-4 pl-5 pr-3 space-y-2 mb-6 rounded-lg dark:border-[#212425] border-2 print:break-inside-avoid print:border-none print:p-0 print:pb-5" style="background: transparent;">
+<div class="pl-4 border-l-2 border-[#E3E3E3] dark:border-[#3D3A3A]">
     <div class="flex justify-between items-start gap-2">
-        <h3 class="text-xl dark:text-white">{project.name}</h3>
-        {#if project.startDate}
-            <span class="text-sm font-semibold dark:text-[#A6A6A6] whitespace-nowrap">
-                {project.startDate}
-                {#if project.endDate && project.endDate !== project.startDate}
-                    – {project.endDate}
-                {/if}
-            </span>
-        {/if}
+        <h4 class="text-lg font-semibold dark:text-white">{project.name}</h4>
     </div>
 
     {#if project.entity}
-        <div>
-            <span class="text-base font-semibold dark:text-[#A6A6A6]">{project.entity}</span>
+        <div class="text-sm dark:text-[#A6A6A6] mt-0.5">
+            {project.entity}
             {#if project.customer}
-                <div class="text-sm dark:text-[#A6A6A6]/70">for {project.customer}</div>
+                <span class="dark:text-[#A6A6A6]/60">for {project.customer}</span>
             {/if}
         </div>
     {/if}
 
     {#if project.description}
-        <p class="leading-2 line-clamp-3 text-sm dark:text-white/60">
-            {truncate(project.description, 300)}
+        <p class="text-sm dark:text-white/60 mt-1 line-clamp-2">
+            {truncate(project.description, 200)}
         </p>
     {/if}
 
-    {#if services.length > 0}
-        <div class="flex gap-x-2 gap-y-2 flex-wrap pt-1">
-            {#each services as service}
-                <div class="bg-[#F3F6F6] dark:bg-[#1D1D1D] text-[#A6A6A6] print:text-black print:border text-[12px] p-2 rounded">{service}</div>
-            {/each}
-        </div>
-    {/if}
-
-    {#if techs.length > 0}
-        <div class="flex gap-x-2 gap-y-2 flex-wrap pt-1">
-            {#each techs as tech}
-                <div class="bg-[#F3F6F6] dark:bg-[#1D1D1D] text-[#A6A6A6] print:text-black print:border text-[12px] p-2 rounded">{tech}</div>
-            {/each}
-        </div>
-    {/if}
-
     {#if project.url}
-        <div class="pt-2 print:hidden">
+        <div class="mt-1 print:hidden">
             <a
                 href="{project.url}"
                 target="_blank"

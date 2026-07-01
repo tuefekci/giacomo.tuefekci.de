@@ -1,5 +1,6 @@
 <script>
     export let resume;
+    export let fullDetails = false;
 
     function getTechKeywords(highlights) {
         if (!highlights) return [];
@@ -11,9 +12,11 @@
         return new Date(dateStr).getFullYear();
     }
 
-    $: visibleProjects = resume.projects.filter(p =>
-        p.visibility !== "hidden" && p.visibility !== "on-request"
-    );
+    $: visibleProjects = fullDetails
+        ? resume.projects
+        : resume.projects.filter(p =>
+            p.visibility !== "hidden" && p.visibility !== "on-request"
+        );
 
     $: printCategories = [...new Set(visibleProjects.map(p => p.category).filter(Boolean))];
     $: printCategoryCounts = visibleProjects.reduce((acc, p) => {
@@ -45,7 +48,11 @@
         <h1>{resume.basics.name}</h1>
         <p class="print-title">{resume.basics.label}</p>
         <p class="print-contact">
-            {resume.basics.location.address}, {resume.basics.location.postalCode} {resume.basics.location.city}, {resume.basics.location.countryCode}
+            {#if fullDetails}
+                {resume.basics.location.address}, {resume.basics.location.postalCode} {resume.basics.location.city}, {resume.basics.location.countryCode}
+            {:else}
+                {resume.basics.location.city}, {resume.basics.location.countryCode}
+            {/if}
             &ensp;|&ensp;{resume.basics.email}
         </p>
         <p class="print-contact">

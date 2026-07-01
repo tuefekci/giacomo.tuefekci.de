@@ -10,5 +10,6 @@ export async function load({ url  }) {
 		props: {
 			resume: json_resume.default,
 		},
+		fullDetails: import.meta.env.VITE_FULL_DETAILS === 'true',
 	};
 }

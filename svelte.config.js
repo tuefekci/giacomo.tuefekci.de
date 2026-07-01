@@ -21,11 +21,12 @@ const mdsvexOptions = {
 }
 
 /** @type {import('@sveltejs/kit').Config} */
+const outDir = process.env.OUTPUT_DIR || 'docs';
 const config = {
   extensions: ['.svelte', '.md'],
   preprocess: [vitePreprocess(), mdsvex(mdsvexOptions)],
   kit: {
-    adapter: adapter({ pages: "docs", assets: "docs", strict: false }),
+    adapter: adapter({ pages: outDir, assets: outDir, strict: false }),
     prerender: {
       handleHttpError: 'ignore',
     },
