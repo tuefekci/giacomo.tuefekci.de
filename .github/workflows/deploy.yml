@@ -30,6 +30,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Create docs directory
+        run: mkdir -p docs
+
       - name: Prebuild (lint, export, validate)
         run: npm run prebuild
 
