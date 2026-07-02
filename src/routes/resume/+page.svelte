@@ -149,7 +149,7 @@
 
             <div class="flex gap-x-2 gap-y-2 flex-wrap">
                 {#each skill.keywords as keyword }
-                    <div class="bg-[#F3F6F6] dark:bg-[#1D1D1D] text-[#A6A6A6] print:text-black print:border text-[12px] p-2">{keyword}</div>
+                    <div class="bg-[#F3F6F6] dark:bg-[#1D1D1D] text-[#44566C] dark:text-[#A6A6A6] print:text-black print:border text-[12px] p-2">{keyword}</div>
                 {/each}
             </div>
         </div>
@@ -160,6 +160,25 @@
       </div>
     
   </div>
-  
+
+  {#if resume.recognition?.length}
+    <div class="pt-12">
+      <div class="flex">
+        <h2 class="text-4xl">Recognition</h2>
+        <div class="flex grow h-1 mt-5 ml-3 gradient-background-line"></div>
+      </div>
+      <div class="pt-6">
+        {#each resume.recognition as mention}
+          <p class="text-base dark:text-white/60 pt-2">
+            <a href={mention.url} target="_blank" rel="noopener" class="hover:text-[#FA5252] transition-colors">
+              {mention.title}
+            </a>
+            <span class="text-[#7B7B7B]"> - {mention.publisher}</span>
+          </p>
+        {/each}
+      </div>
+    </div>
+  {/if}
+
 
   

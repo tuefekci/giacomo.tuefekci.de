@@ -4,6 +4,7 @@
 	import { page } from '$app/stores';
 	import { base } from '$app/paths';
 	import { onMount, onDestroy } from 'svelte';
+	import { theme } from '$lib/store';
 	const resume = data.props.resume;
 	const age = new Date().getFullYear() - parseInt(resume.basics.birth.date);
 
@@ -19,6 +20,7 @@
 		window.scrollTo({ top: 0, behavior: 'smooth' });
 	}
 	onMount(() => {
+		theme.init();
 		window.addEventListener('scroll', handleScroll);
 	});
 	onDestroy(() => {
@@ -75,7 +77,7 @@
 			</div>
 		</div>
 		<div class="flex border-t border-[#E3E3E3] dark:border-[#3D3A3A]">
-			{#each [{p:"", label:"About"},{p:"cv", label:"Resume"},{p:"portfolio", label:"Works"}] as item}
+			{#each [{p:"", label:"About"},{p:"resume", label:"Resume"},{p:"portfolio", label:"Works"}] as item}
 				{@const active = $page.url.pathname.replace(/\/$/, '') === (base + '/' + item.p).replace(/\/$/, '')}
 				<a href="{base}/{item.p}"
 					class="flex-1 text-center pt-3.5 pb-5 text-sm font-medium transition-colors relative max-[375px]:pt-2.5 max-[375px]:pb-4 max-[375px]:text-xs {active ? 'text-[#FA5252]' : 'text-[#7B7B7B] hover:text-[#FA5252] dark:hover:text-[#FA5252]'}"
@@ -86,6 +88,17 @@
 					{/if}
 				</a>
 			{/each}
+			<button
+				on:click={theme.toggle}
+				class="flex-1 text-center pt-3.5 pb-5 text-sm font-medium transition-colors max-[375px]:pt-2.5 max-[375px]:pb-4 max-[375px]:text-xs {$theme === 'dark' ? 'text-[#FA5252]' : 'text-[#7B7B7B] hover:text-[#FA5252] dark:hover:text-[#FA5252]'}"
+				aria-label="Toggle theme"
+			>
+				{#if $theme === 'dark'}
+					☀️
+				{:else}
+					🌙
+				{/if}
+			</button>
 		</div>
 	</div>
 	<div
@@ -205,8 +218,19 @@
 					<header class="print:hidden hidden lg:block bg-[#F8F9FA] dark:bg-[#1A1A1A] rounded-t-[20px] border-b border-[#E3E3E3] dark:border-[#3D3A3A]">
 						<nav class="flex items-center gap-1 px-6 pt-3 pb-3">
 							<MenuItem path="" icon="about">About</MenuItem>
-							<MenuItem path="cv" icon="resume">Resume</MenuItem>
+							<MenuItem path="resume" icon="resume">Resume</MenuItem>
 							<MenuItem path="portfolio" icon="works">Works</MenuItem>
+							<button
+								on:click={theme.toggle}
+								class="ml-auto p-2 rounded hover:text-[#FA5252] dark:hover:text-[#FA5252] transition-colors"
+								aria-label="Toggle theme"
+							>
+								{#if $theme === 'dark'}
+									☀️
+								{:else}
+									🌙
+								{/if}
+							</button>
 						</nav>
 					</header>
 		

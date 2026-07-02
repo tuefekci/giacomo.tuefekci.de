@@ -76,7 +76,7 @@
 	</div>
 	<div class="pt-6 flex gap-x-2 gap-y-2 flex-wrap">
 		{#each resume.basics.industries as industry}
-			<div class="bg-[#F3F6F6] dark:bg-[#1D1D1D] text-[#A6A6A6] text-[12px] px-3 py-1.5 rounded">
+			<div class="bg-[#F3F6F6] dark:bg-[#1D1D1D] text-[#44566C] dark:text-[#A6A6A6] text-[12px] px-3 py-1.5 rounded">
 				{industry}
 			</div>
 		{/each}
@@ -157,7 +157,7 @@
           {#if interest.keywords}
             <div class="flex gap-x-2 gap-y-2 flex-wrap">
                 {#each interest.keywords as keyword }
-                    <div class="bg-[#F3F6F6] dark:bg-[#1D1D1D] text-[#A6A6A6] print:text-black print:border text-[12px] p-2">{keyword}</div>
+                    <div class="bg-[#F3F6F6] dark:bg-[#1D1D1D] text-[#44566C] dark:text-[#A6A6A6] print:text-black print:border text-[12px] p-2">{keyword}</div>
                 {/each}
                 
             </div>

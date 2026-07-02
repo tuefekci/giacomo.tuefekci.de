@@ -91,4 +91,17 @@ html {
 		margin: 15mm 18mm;
 		size: A4;
 	}
+
+	.dark\:bg-\[\#111111\],
+	.dark\:bg-\[\#1A1A1A\],
+	.dark\:bg-\[\#1D1D1D\],
+	.dark\:bg-black {
+		background-color: white !important;
+	}
+
+	.dark\:text-white,
+	.dark\:text-\[A6A6A6\],
+	.dark\:text-\[7B7B7B\] {
+		color: #000 !important;
+	}
 }

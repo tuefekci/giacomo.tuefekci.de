@@ -66,13 +66,13 @@ import PortfolioItem from '$lib/components/portfolioItem.svelte';
             <div class="print:hidden">
                 <div class="flex gap-2 pb-1.5">
                     <button
-                        class="text-[13px] px-5 py-2.5 rounded-lg font-semibold transition-all duration-200 {$activeFilter === '__featured__' ? 'bg-[#FA5252] text-white shadow-sm' : 'bg-[#F3F6F6] dark:bg-[#1D1D1D] text-[#A6A6A6] hover:text-[#FA5252] dark:hover:text-white'}"
+                        class="text-[13px] px-5 py-2.5 rounded-lg font-semibold transition-all duration-200 {$activeFilter === '__featured__' ? 'bg-[#FA5252] text-white shadow-sm' : 'bg-[#F3F6F6] dark:bg-[#1D1D1D] text-[#44566C] dark:text-[#A6A6A6] hover:text-[#FA5252] dark:hover:text-white'}"
                         on:click={() => $activeFilter = "__featured__"}
                     >
                         &#9733; Featured ({featuredCount})
                     </button>
                     <button
-                        class="text-[13px] px-5 py-2.5 rounded-lg font-semibold transition-all duration-200 {$activeFilter === '__all__' ? 'bg-[#FA5252] text-white shadow-sm' : 'bg-[#F3F6F6] dark:bg-[#1D1D1D] text-[#A6A6A6] hover:text-[#FA5252] dark:hover:text-white'}"
+                        class="text-[13px] px-5 py-2.5 rounded-lg font-semibold transition-all duration-200 {$activeFilter === '__all__' ? 'bg-[#FA5252] text-white shadow-sm' : 'bg-[#F3F6F6] dark:bg-[#1D1D1D] text-[#44566C] dark:text-[#A6A6A6] hover:text-[#FA5252] dark:hover:text-white'}"
                         on:click={() => $activeFilter = "__all__"}
                     >
                         All ({visibleProjects.length})
@@ -81,7 +81,7 @@ import PortfolioItem from '$lib/components/portfolioItem.svelte';
                 <div class="flex gap-1.5 flex-wrap">
                     {#each categories as cat}
                         <button
-                            class="text-[11px] px-3 py-1.5 rounded transition-all duration-200 {$activeFilter === cat ? 'bg-[#FA5252] text-white' : 'bg-[#F3F6F6] dark:bg-[#1D1D1D] text-[#A6A6A6] hover:text-[#FA5252] dark:hover:text-white'}"
+                            class="text-[11px] px-3 py-1.5 rounded transition-all duration-200 {$activeFilter === cat ? 'bg-[#FA5252] text-white' : 'bg-[#F3F6F6] dark:bg-[#1D1D1D] text-[#44566C] dark:text-[#A6A6A6] hover:text-[#FA5252] dark:hover:text-white'}"
                             on:click={() => $activeFilter = cat}
                         >
                             {cat} ({categoryCounts[cat] || 0})

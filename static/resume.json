@@ -2410,6 +2410,20 @@
       "endDate": "2005"
     }
   ],
+  "recognition": [
+    {
+      "title": "Happy Thanksgiving from Sammy the Turkey",
+      "publisher": "DigitalOcean",
+      "url": "https://www.digitalocean.com/blog/happy-thanksgiving-from-sammy-the-turkey",
+      "date": "2012"
+    },
+    {
+      "title": "WordPress Plugin Contributor",
+      "publisher": "Lando",
+      "url": "https://docs.lando.dev/plugins/wordpress/v/dev/team.html",
+      "date": "2024"
+    }
+  ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
     "version": "v1.0.0",

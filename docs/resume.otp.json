@@ -1,8 +1,8 @@
 {
   "schema_version": "0.2.0",
-  "otp_id": "89db61c5-cbce-42d9-beed-f3b65116ecc4",
-  "created_at": "2026-07-01T12:19:30.551Z",
-  "updated_at": "2026-07-01T12:19:30.551Z",
+  "otp_id": "f52df05a-f182-4b8c-819a-74f83b7a5603",
+  "created_at": "2026-07-02T13:52:15.568Z",
+  "updated_at": "2026-07-02T13:52:15.568Z",
   "disclosure_tier": "profile",
   "name": {
     "given": "Giacomo",
@@ -1047,6 +1047,6 @@
   "source": {
     "agent_id": "giacomo.tuefekci/export-otp",
     "consent_type": "consent",
-    "consent_date": "2026-07-01"
+    "consent_date": "2026-07-02"
   }
 }

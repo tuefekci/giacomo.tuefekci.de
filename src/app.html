@@ -5,6 +5,14 @@
 		<link rel="icon" href="%sveltekit.assets%/images/favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="alternate" type="application/atom+xml" href="/rss.xml" />
+    <script>
+      (function() {
+        const theme = localStorage.getItem('theme');
+        if (theme === 'dark' || (!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+          document.documentElement.classList.add('dark');
+        }
+      })();
+    </script>
     %sveltekit.head%
   </head>
   <body>
