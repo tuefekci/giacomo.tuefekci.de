@@ -288,7 +288,7 @@
   "resumejson:skills": [
     {
       "@type": "DefinedTerm",
-      "name": "Web Development",
+      "name": "Web",
       "resumejson:proficiencyLevel": "Master",
       "termCode": "AJAX, AMPHP, Bootstrap, CSS, CSS3, CakePHP, Canvas, Chai, Composer, Contao, Drupal, ES6+, Ember.js, Gulp, HTML, HTML5, Handlebars, JSON, Javascript, Joomla, Laravel, Less, Magento, MongoDB, Mustache, MySQL, NoSQL, NodeJS, OOP, PHP5, PHP7, PHP8, PHPUnit, PhalconPHP, Preact, Purecss, REST, React, ReactPHP, Responsive Design, Sass, Shopware, Slim, Solid, Svelte, SvelteKit, TestCafe, TypeScript, Typo3, Vite, WebGL, WebRTC, WebSockets, WebAssembly, Webpack, WooCommerce, Wordpress, XML, jQuery, npm, phpBB"
     },
@@ -605,7 +605,7 @@
       "@type": "CreativeWork",
       "additionalType": "resumejson:Project",
       "name": "Union Rösterei Website",
-      "description": "The Union Rösterei shop, passionately hand-coded at planetmutlu.",
+      "description": "The Union Rösterei shop.",
       "url": "https://unionroesterei.de",
       "dateCreated": "2018",
       "dateModified": "2018",
@@ -995,7 +995,7 @@
       "@type": "CreativeWork",
       "additionalType": "resumejson:Project",
       "name": "Reiselust",
-      "description": "## Reiselust\n\nWebsite relaunch for Reiselust, Bremen's travel fair.",
+      "description": "Reiselust Website relaunch for Reiselust, Bremen's travel fair.",
       "url": "https://www.reiselust-bremen.de",
       "dateCreated": "2015",
       "dateModified": "2015",
@@ -1097,8 +1097,8 @@
       "name": "SaveFM",
       "description": "SaveFM was a platform for recording and managing internet radio streams. The project consisted of several components: a CakePHP-based API and web application with dashboard, recording management, server control (via DigitalOcean API), user management and friends list; an Ember.js single-page application as admin frontend with Bootstrap UI; and a public website. The platform enabled scheduled recording of radio stations, management of recordings, and delivery via a web interface.",
       "url": "",
-      "dateCreated": "2013",
-      "dateModified": "2013",
+      "dateCreated": "2009",
+      "dateModified": "2010",
       "keywords": ""
     },
     {
@@ -1326,7 +1326,7 @@
       "additionalType": "resumejson:Project",
       "name": "Tuefekci.eu – Animierte Portfolio-Website",
       "description": "Creative portfolio website with jQuery Spritely animations featuring an animated 2D landscape with interactive elements.",
-      "url": "http://www.tuefekci.eu",
+      "url": "",
       "dateCreated": "2011",
       "dateModified": "2011",
       "keywords": ""
@@ -1499,6 +1499,336 @@
       "url": "",
       "dateCreated": "2005",
       "dateModified": "2005",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "AI Artwork Crawler",
+      "description": "Midjourney AI artwork crawler and filtering system built with PHP. Crawls Discord channels to extract AI-generated images, exports chat data using DiscordChatExporter, and provides a web interface for filtering and curating artwork by keywords.",
+      "url": "",
+      "dateCreated": "2023",
+      "dateModified": "2023",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Image Generation API",
+      "description": "Node.js automation tool for interfacing with Microsoft's Bing Image Creator (DALL-E 3) to generate, download, and manage AI-generated images at scale using authenticated accounts.",
+      "url": "",
+      "dateCreated": "2023",
+      "dateModified": "2023",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Cooking Content Automation",
+      "description": "Cooking content automation system providing pre-recorded voiceover assets for channel branding, introductions, and top-countdown formats with structured recipe data storage.",
+      "url": "",
+      "dateCreated": "2022",
+      "dateModified": "2022",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Ambient Content Channel",
+      "description": "Ambient content channel automation project featuring AI-generated visuals with relaxation content. Uses FFmpeg for video processing and AI image generation for artwork.",
+      "url": "",
+      "dateCreated": "2022",
+      "dateModified": "2022",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Content Analytics Platform",
+      "description": "Content analytics and revenue calculation platform providing automated view count tracking and revenue estimation based on views and CPM.",
+      "url": "",
+      "dateCreated": "2022",
+      "dateModified": "2022",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "URL Shortener",
+      "description": "URL shortener service built with Express.js and deployed on Deta platform for managing and redirecting URLs.",
+      "url": "",
+      "dateCreated": "2022",
+      "dateModified": "2022",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Piano Tutorial Generator",
+      "description": "Remotion-based piano tutorial video generator that converts MIDI files into animated tutorial videos with note visualization and thumbnail generation.",
+      "url": "",
+      "dateCreated": "2022",
+      "dateModified": "",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Video Processing Pipeline",
+      "description": "Processed video output directory for completed piano tutorial videos with rendered videos ready for platform upload.",
+      "url": "",
+      "dateCreated": "2022",
+      "dateModified": "",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "YouTube Automation Toolkit",
+      "description": "Comprehensive YouTube automation and MIDI processing pipeline combining MIDI manipulation, web crawling, and video upload automation with ML predictions.",
+      "url": "",
+      "dateCreated": "2022",
+      "dateModified": "",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Subscriber Analytics",
+      "description": "Machine learning subscription trend prediction tool using Rubix ML's Ridge regressor providing analytics for content creator subscriber growth.",
+      "url": "",
+      "dateCreated": "2022",
+      "dateModified": "2022",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Video Auto-Uploader",
+      "description": "Video automation tool that uploads videos to social platforms using Selenium with undetected-chromedriver for bot detection bypass.",
+      "url": "",
+      "dateCreated": "2022",
+      "dateModified": "2022",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Download Manager (PHP)",
+      "description": "Download management tool for cloud downloads enabling automatic downloads of Torrents, Magnets, and Direct Download links. Built with async PHP using Amp with React-based web interface.",
+      "url": "",
+      "dateCreated": "2021",
+      "dateModified": "2021",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Serverless PHP Framework",
+      "description": "Async PHP serverless function worker framework built with Amp's HTTP server executing PHP functions inside Docker containers with resource limits and job queue management.",
+      "url": "",
+      "dateCreated": "2021",
+      "dateModified": "2021",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Novel API Proxy",
+      "description": "CORS-enabled REST API proxy server for web novels providing mobile-friendly API with fuzzy search, caching, and chapter content retrieval.",
+      "url": "",
+      "dateCreated": "2022",
+      "dateModified": "2022",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "OBS Overlay System",
+      "description": "Real-time news ticker overlay for OBS streaming built with Deno and React integrating multiple APIs for weather, sports, news, and aurora forecasts.",
+      "url": "",
+      "dateCreated": "2023",
+      "dateModified": "2023",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "E-commerce Platform",
+      "description": "Laravel web application with MoonShine admin panel featuring user authentication, role-based access control, and modern frontend stack.",
+      "url": "",
+      "dateCreated": "2023",
+      "dateModified": "2023",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "WAF Bypass Library",
+      "description": "Node.js package that bypasses Cloudflare's JavaScript anti-bot/WAF challenges automatically detecting and solving JS challenge pages.",
+      "url": "",
+      "dateCreated": "2021",
+      "dateModified": "2021",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Football Simulation Engine",
+      "description": "Real-time football (soccer) match simulator with React frontend and Socket.IO backend featuring custom game engine with physics, offside detection, and score tracking.",
+      "url": "",
+      "dateCreated": "2021",
+      "dateModified": "2021",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Novel Downloader",
+      "description": "Light novel downloading system using lightnovel-crawler with custom indexer for browsing downloaded content from 380+ sources.",
+      "url": "",
+      "dateCreated": "2020",
+      "dateModified": "",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Novel Indexer CLI",
+      "description": "Terminal-based CLI monitoring dashboard built with React and Ink providing real-time system monitoring with memory usage and event logging.",
+      "url": "",
+      "dateCreated": "2022",
+      "dateModified": "2022",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Music Memory Game",
+      "description": "Music-themed memory card matching game built with SvelteKit combining nostalgic music discovery with gameplay using Billboard data and audio previews.",
+      "url": "",
+      "dateCreated": "2022",
+      "dateModified": "2022",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Novel Aggregation Platform",
+      "description": "Comprehensive web novel reading platform aggregating content from 50+ sources with Cordova mobile app, REST APIs, web scrapers, and CDN.",
+      "url": "",
+      "dateCreated": "2020",
+      "dateModified": "",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "PHP Router Framework",
+      "description": "Minimalist PHP routing framework demonstrating MVC-style request/response separation, middleware patterns, and basic web framework architecture.",
+      "url": "",
+      "dateCreated": "2020",
+      "dateModified": "2020",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "AI Image Wrapper",
+      "description": "Python wrapper for Bing Image Generator using authenticated cookies for AI-generated images from text prompts with async HTTP requests.",
+      "url": "",
+      "dateCreated": "2022",
+      "dateModified": "2022",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "CLI Text Automation",
+      "description": "React-based terminal CLI application for AI text task automation built with Ink and Deta Queue for background job processing.",
+      "url": "",
+      "dateCreated": "2023",
+      "dateModified": "2023",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "AI Image Platform",
+      "description": "Laravel-based REST API abstracting multiple AI image generation providers (DALL-E, Midjourney, Stable Diffusion) behind a unified interface with queue-based async processing.",
+      "url": "",
+      "dateCreated": "2023",
+      "dateModified": "2023",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Article Scraper",
+      "description": "Python tool that scrapes archived web articles from the Wayback Machine discovering expired domains and extracting full article content for SEO purposes.",
+      "url": "",
+      "dateCreated": "2021",
+      "dateModified": "2021",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Social Media Automation",
+      "description": "Node.js automation toolkit for social media management automating platform logins and video uploads with metadata including titles, descriptions, tags, and playlists.",
+      "url": "",
+      "dateCreated": "2022",
+      "dateModified": "2022",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Space Trading Game",
+      "description": "Electron-based 2D space trading game with custom Daisy game engine featuring event-driven architecture, FPS tracking, and three-tier update system.",
+      "url": "",
+      "dateCreated": "2016",
+      "dateModified": "2016",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Game API Proxy",
+      "description": "REST API proxy for game data proxied from official GraphQL API with file-based caching and Deta cloud integration for persistence.",
+      "url": "",
+      "dateCreated": "2022",
+      "dateModified": "2022",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Twitch Bot",
+      "description": "Node.js chat bot and API integration using the official Twurple library featuring chat commands, subscription notifications, and game/stream info lookup.",
+      "url": "",
+      "dateCreated": "2021",
+      "dateModified": "2021",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Personal Portfolio",
+      "description": "Personal portfolio website with custom WebGL glitch shader effects using Three.js Effect Composer for real-time post-processing and page transitions.",
+      "url": "",
+      "dateCreated": "2018",
+      "dateModified": "2018",
+      "keywords": ""
+    },
+    {
+      "@type": "CreativeWork",
+      "additionalType": "resumejson:Project",
+      "name": "Video Pipeline",
+      "description": "Full-stack YouTube content automation system for creating and uploading short-form video content with intelligent clip selection, watermarking, and SEO-optimized metadata.",
+      "url": "",
+      "dateCreated": "2022",
+      "dateModified": "",
       "keywords": ""
     }
   ],

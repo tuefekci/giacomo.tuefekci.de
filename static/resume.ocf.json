@@ -323,307 +323,307 @@
   "skills": [
     {
       "name": "AJAX",
-      "category": "Web Development",
+      "category": "Web",
       "level": "Master"
     },
     {
       "name": "AMPHP",
-      "category": "Web Development",
+      "category": "Web",
       "level": "Master"
     },
     {
       "name": "Bootstrap",
-      "category": "Web Development",
+      "category": "Web",
       "level": "Master"
     },
     {
       "name": "CSS",
-      "category": "Web Development",
+      "category": "Web",
       "level": "Master"
     },
     {
       "name": "CSS3",
-      "category": "Web Development",
+      "category": "Web",
       "level": "Master"
     },
     {
       "name": "CakePHP",
-      "category": "Web Development",
+      "category": "Web",
       "level": "Master"
     },
     {
       "name": "Canvas",
-      "category": "Web Development",
+      "category": "Web",
       "level": "Master"
     },
     {
       "name": "Chai",
-      "category": "Web Development",
+      "category": "Web",
       "level": "Master"
     },
     {
       "name": "Composer",
-      "category": "Web Development",
+      "category": "Web",
       "level": "Master"
     },
     {
       "name": "Contao",
-      "category": "Web Development",
+      "category": "Web",
       "level": "Master"
     },
     {
       "name": "Drupal",
-      "category": "Web Development",
+      "category": "Web",
       "level": "Master"
     },
     {
       "name": "ES6+",
-      "category": "Web Development",
+      "category": "Web",
       "level": "Master"
     },
     {
       "name": "Ember.js",
-      "category": "Web Development",
+      "category": "Web",
       "level": "Master"
     },
     {
       "name": "Gulp",
-      "category": "Web Development",
+      "category": "Web",
       "level": "Master"
     },
     {
       "name": "HTML",
-      "category": "Web Development",
+      "category": "Web",
       "level": "Master"
     },
     {
       "name": "HTML5",
-      "category": "Web Development",
+      "category": "Web",
       "level": "Master"
     },
     {
       "name": "Handlebars",
-      "category": "Web Development",
+      "category": "Web",
       "level": "Master"
     },
     {
       "name": "JSON",
-      "category": "Web Development",
+      "category": "Web",
       "level": "Master"
     },
     {
       "name": "Javascript",
-      "category": "Web Development",
+      "category": "Web",
       "level": "Master"
     },
     {
       "name": "Joomla",
-      "category": "Web Development",
+      "category": "Web",
       "level": "Master"
     },
     {
       "name": "Laravel",
-      "category": "Web Development",
+      "category": "Web",
       "level": "Master"
     },
     {
       "name": "Less",
-      "category": "Web Development",
+      "category": "Web",
       "level": "Master"
     },
     {
       "name": "Magento",
-      "category": "Web Development",
+      "category": "Web",
       "level": "Master"
     },
     {
       "name": "MongoDB",
-      "category": "Web Development",
+      "category": "Web",
       "level": "Master"
     },
     {
       "name": "Mustache",
-      "category": "Web Development",
+      "category": "Web",
       "level": "Master"
     },
     {
       "name": "MySQL",
-      "category": "Web Development",
+      "category": "Web",
       "level": "Master"
     },
     {
       "name": "NoSQL",
-      "category": "Web Development",
+      "category": "Web",
       "level": "Master"
     },
     {
       "name": "NodeJS",
-      "category": "Web Development",
+      "category": "Web",
       "level": "Master"
     },
     {
       "name": "OOP",
-      "category": "Web Development",
+      "category": "Web",
       "level": "Master"
     },
     {
       "name": "PHP5",
-      "category": "Web Development",
+      "category": "Web",
       "level": "Master"
     },
     {
       "name": "PHP7",
-      "category": "Web Development",
+      "category": "Web",
       "level": "Master"
     },
     {
       "name": "PHP8",
-      "category": "Web Development",
+      "category": "Web",
       "level": "Master"
     },
     {
       "name": "PHPUnit",
-      "category": "Web Development",
+      "category": "Web",
       "level": "Master"
     },
     {
       "name": "PhalconPHP",
-      "category": "Web Development",
+      "category": "Web",
       "level": "Master"
     },
     {
       "name": "Preact",
-      "category": "Web Development",
+      "category": "Web",
       "level": "Master"
     },
     {
       "name": "Purecss",
-      "category": "Web Development",
+      "category": "Web",
       "level": "Master"
     },
     {
       "name": "REST",
-      "category": "Web Development",
+      "category": "Web",
       "level": "Master"
     },
     {
       "name": "React",
-      "category": "Web Development",
+      "category": "Web",
       "level": "Master"
     },
     {
       "name": "ReactPHP",
-      "category": "Web Development",
+      "category": "Web",
       "level": "Master"
     },
     {
       "name": "Responsive Design",
-      "category": "Web Development",
+      "category": "Web",
       "level": "Master"
     },
     {
       "name": "Sass",
-      "category": "Web Development",
+      "category": "Web",
       "level": "Master"
     },
     {
       "name": "Shopware",
-      "category": "Web Development",
+      "category": "Web",
       "level": "Master"
     },
     {
       "name": "Slim",
-      "category": "Web Development",
+      "category": "Web",
       "level": "Master"
     },
     {
       "name": "Solid",
-      "category": "Web Development",
+      "category": "Web",
       "level": "Master"
     },
     {
       "name": "Svelte",
-      "category": "Web Development",
+      "category": "Web",
       "level": "Master"
     },
     {
       "name": "SvelteKit",
-      "category": "Web Development",
+      "category": "Web",
       "level": "Master"
     },
     {
       "name": "TestCafe",
-      "category": "Web Development",
+      "category": "Web",
       "level": "Master"
     },
     {
       "name": "TypeScript",
-      "category": "Web Development",
+      "category": "Web",
       "level": "Master"
     },
     {
       "name": "Typo3",
-      "category": "Web Development",
+      "category": "Web",
       "level": "Master"
     },
     {
       "name": "Vite",
-      "category": "Web Development",
+      "category": "Web",
       "level": "Master"
     },
     {
       "name": "WebGL",
-      "category": "Web Development",
+      "category": "Web",
       "level": "Master"
     },
     {
       "name": "WebRTC",
-      "category": "Web Development",
+      "category": "Web",
       "level": "Master"
     },
     {
       "name": "WebSockets",
-      "category": "Web Development",
+      "category": "Web",
       "level": "Master"
     },
     {
       "name": "WebAssembly",
-      "category": "Web Development",
+      "category": "Web",
       "level": "Master"
     },
     {
       "name": "Webpack",
-      "category": "Web Development",
+      "category": "Web",
       "level": "Master"
     },
     {
       "name": "WooCommerce",
-      "category": "Web Development",
+      "category": "Web",
       "level": "Master"
     },
     {
       "name": "Wordpress",
-      "category": "Web Development",
+      "category": "Web",
       "level": "Master"
     },
     {
       "name": "XML",
-      "category": "Web Development",
+      "category": "Web",
       "level": "Master"
     },
     {
       "name": "jQuery",
-      "category": "Web Development",
+      "category": "Web",
       "level": "Master"
     },
     {
       "name": "npm",
-      "category": "Web Development",
+      "category": "Web",
       "level": "Master"
     },
     {
       "name": "phpBB",
-      "category": "Web Development",
+      "category": "Web",
       "level": "Master"
     },
     {

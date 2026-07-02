@@ -29,6 +29,7 @@ const config = {
     adapter: adapter({ pages: outDir, assets: outDir, strict: false }),
     prerender: {
       handleHttpError: 'ignore',
+      handleMissingId: 'warn',
     },
   }
 };

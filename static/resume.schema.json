@@ -510,7 +510,7 @@
   "skill": [
     {
       "@type": "DefinedTerm",
-      "name": "Web Development",
+      "name": "Web",
       "description": "I build responsive, dynamic web applications using modern front-end technologies like HTML, CSS, JavaScript, TypeScript, React, and Svelte. On the back end, I am highly versatile. I am just as comfortable building fast, scalable architectures using Node.js, Deno, or Bun as I am working with PHP frameworks like Laravel and CakePHP. I also have strong experience customizing CMS platforms like WordPress and Drupal.",
       "inDefinedTermSet": "Master"
     },

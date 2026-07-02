@@ -1,8 +1,8 @@
 {
   "schema_version": "0.2.0",
-  "otp_id": "eb98575a-6e48-4a46-b323-ff9a92f420ed",
-  "created_at": "2026-07-02T20:07:54.786Z",
-  "updated_at": "2026-07-02T20:07:54.786Z",
+  "otp_id": "832ffce5-a058-4e6d-9826-d121024ae974",
+  "created_at": "2026-07-02T23:03:31.768Z",
+  "updated_at": "2026-07-02T23:03:31.768Z",
   "disclosure_tier": "profile",
   "name": {
     "given": "Giacomo",
@@ -1027,7 +1027,7 @@
   ],
   "seniority": "senior",
   "industries": [
-    "Web Development",
+    "Web",
     "Software Engineering",
     "Mobile Development",
     "Desktop Development",

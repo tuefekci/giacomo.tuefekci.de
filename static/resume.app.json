@@ -284,8 +284,8 @@
   ],
   "skills": [
     {
-      "name": "Web Development",
-      "category": "Framework",
+      "name": "Web",
+      "category": "Domain",
       "level": "Expert",
       "aliases": [
         "AJAX",
@@ -899,7 +899,7 @@
         "website": "https://www.verias24.de"
       },
       "highlights": [
-        "Web Development",
+        "Web",
         "E-Commerce",
         "System Integration",
         "WordPress",
@@ -917,7 +917,7 @@
         "website": "http://lr28-bremen.de/de/"
       },
       "highlights": [
-        "Web Development",
+        "Web",
         "Design",
         "CMS",
         "WordPress",
@@ -931,7 +931,7 @@
       "description": "A unique Web2Print tool for ASP Automotive GmbH that generates print-ready templates from a web interface.",
       "role": "Developer",
       "highlights": [
-        "Web Development",
+        "Web",
         "Web2Print",
         "Concept",
         "CakePHP",
@@ -945,7 +945,7 @@
       "description": "A web-based CakePHP platform for managing Bitcoin trading activities with order management and dashboard features.",
       "role": "Developer",
       "highlights": [
-        "Web Development",
+        "Web",
         "Data Visualization",
         "Concept",
         "CakePHP",
@@ -975,7 +975,7 @@
       "description": "A CakePHP-based web-to-print label system enabling creation and ordering of product labels for Ludwig von Kapff.",
       "role": "Developer",
       "highlights": [
-        "Web Development",
+        "Web",
         "Web2Print",
         "E-Commerce",
         "CakePHP",
@@ -991,7 +991,7 @@
         "website": "https://www.medienprintpartner.de"
       },
       "highlights": [
-        "Web Development",
+        "Web",
         "Design",
         "Concept",
         "CMS",
@@ -1032,7 +1032,7 @@
       "description": "Relaunch and modernization of the Wolfgang-Borchert-Schule website, adapted to current requirements.",
       "role": "Developer",
       "highlights": [
-        "Web Development",
+        "Web",
         "Relaunch",
         "SEO",
         "CMS",
@@ -1111,7 +1111,7 @@
         "website": "https://www.flexguard.de"
       },
       "highlights": [
-        "Web Development",
+        "Web",
         "E-Commerce",
         "Design",
         "Joomla",
@@ -1165,7 +1165,7 @@
       "description": "A responsive weather web app built with Bootstrap featuring a custom PSD background image layout.",
       "role": "Developer",
       "highlights": [
-        "Web Development",
+        "Web",
         "Design",
         "Concept",
         "Bootstrap",
@@ -1184,7 +1184,7 @@
       },
       "highlights": [
         "Corporate Design",
-        "Web Development",
+        "Web",
         "Concept",
         "CMS",
         "PHP",
@@ -1231,7 +1231,7 @@
       "description": "An internet-based facility management solution for managing properties, tenants, and service providers, developed as lead agency for Blue FM.",
       "role": "Developer",
       "highlights": [
-        "Web Development",
+        "Web",
         "Database",
         "Concept",
         "PHP",
@@ -1249,7 +1249,7 @@
         "website": "https://www.humburg.de"
       },
       "highlights": [
-        "Web Development",
+        "Web",
         "Design",
         "Concept",
         "CMS",
@@ -1266,7 +1266,7 @@
         "website": "https://www.hch.de"
       },
       "highlights": [
-        "Web Development",
+        "Web",
         "E-Commerce",
         "Concept",
         "Joomla",
@@ -1284,7 +1284,7 @@
         "website": "https://heizungsfirma.de"
       },
       "highlights": [
-        "Web Development",
+        "Web",
         "Design",
         "CMS",
         "PHP",
@@ -1300,7 +1300,7 @@
         "website": "https://www.multipack.ch"
       },
       "highlights": [
-        "Web Development",
+        "Web",
         "E-Commerce",
         "Database",
         "PHP",
@@ -1341,7 +1341,7 @@
       "description": "A photographer's website with custom CMS featuring image gallery management and responsive display.",
       "role": "Developer",
       "highlights": [
-        "Web Development",
+        "Web",
         "Design",
         "CMS",
         "PHP",
@@ -1355,7 +1355,7 @@
       "description": "Early version of a personal portfolio website built with the Limonade PHP microframework, serving as a first digital business card.",
       "role": "Developer",
       "highlights": [
-        "Web Development",
+        "Web",
         "Design",
         "Concept",
         "PHP",
@@ -1368,11 +1368,8 @@
       "name": "Tuefekci.eu – Animierte Portfolio-Website",
       "description": "Creative portfolio website with jQuery Spritely animations featuring an animated 2D landscape with interactive elements.",
       "role": "Developer",
-      "links": {
-        "website": "http://www.tuefekci.eu"
-      },
       "highlights": [
-        "Web Development",
+        "Web",
         "Animation",
         "Design",
         "jQuery",
@@ -1389,7 +1386,7 @@
         "website": "https://www.anbord.de"
       },
       "highlights": [
-        "Web Development",
+        "Web",
         "CMS",
         "Maintenance",
         "PHP",
@@ -1434,7 +1431,7 @@
         "website": "https://exori.de"
       },
       "highlights": [
-        "Web Development",
+        "Web",
         "Design",
         "CMS",
         "PHP",
@@ -1632,7 +1629,7 @@
       "role": "Developer",
       "highlights": [
         "Game Development",
-        "Web Development",
+        "Web",
         "Concept",
         "Flash",
         "ActionScript 2.0",
@@ -1645,7 +1642,7 @@
       "description": "Gaming clan websites with phpBB forum integration, designed with Fireworks MX and implemented as HTML table layouts.",
       "role": "Developer",
       "highlights": [
-        "Web Development",
+        "Web",
         "Design",
         "Community",
         "Fireworks MX",
@@ -1653,6 +1650,368 @@
         "CSS",
         "phpBB",
         "vBulletin"
+      ]
+    },
+    {
+      "name": "AI Artwork Crawler",
+      "description": "Midjourney AI artwork crawler and filtering system built with PHP. Crawls Discord channels to extract AI-generated images, exports chat data using DiscordChatExporter, and provides a web interface for filtering and curating artwork by keywords.",
+      "role": "Developer",
+      "stack": [
+        "PHP 8+",
+        "ReactPHP",
+        "SleekDB",
+        "Discord API",
+        "League\\Plates"
+      ]
+    },
+    {
+      "name": "Image Generation API",
+      "description": "Node.js automation tool for interfacing with Microsoft's Bing Image Creator (DALL-E 3) to generate, download, and manage AI-generated images at scale using authenticated accounts.",
+      "role": "Developer",
+      "stack": [
+        "Node.js",
+        "Puppeteer",
+        "DALL-E 3",
+        "Browser Automation"
+      ]
+    },
+    {
+      "name": "Cooking Content Automation",
+      "description": "Cooking content automation system providing pre-recorded voiceover assets for channel branding, introductions, and top-countdown formats with structured recipe data storage.",
+      "role": "Developer",
+      "stack": [
+        "Audio Production",
+        "Text-to-Speech"
+      ]
+    },
+    {
+      "name": "Ambient Content Channel",
+      "description": "Ambient content channel automation project featuring AI-generated visuals with relaxation content. Uses FFmpeg for video processing and AI image generation for artwork.",
+      "role": "Developer",
+      "stack": [
+        "FFmpeg",
+        "AI Image Generation",
+        "Remotion"
+      ]
+    },
+    {
+      "name": "Content Analytics Platform",
+      "description": "Content analytics and revenue calculation platform providing automated view count tracking and revenue estimation based on views and CPM.",
+      "role": "Developer",
+      "stack": [
+        "Analytics",
+        "Revenue Calculation"
+      ]
+    },
+    {
+      "name": "URL Shortener",
+      "description": "URL shortener service built with Express.js and deployed on Deta platform for managing and redirecting URLs.",
+      "role": "Developer",
+      "stack": [
+        "Node.js",
+        "Express.js",
+        "Deta"
+      ]
+    },
+    {
+      "name": "Piano Tutorial Generator",
+      "description": "Remotion-based piano tutorial video generator that converts MIDI files into animated tutorial videos with note visualization and thumbnail generation.",
+      "role": "Developer",
+      "stack": [
+        "React",
+        "Remotion",
+        "TypeScript",
+        "MIDI Processing",
+        "GitHub Actions"
+      ]
+    },
+    {
+      "name": "Video Processing Pipeline",
+      "description": "Processed video output directory for completed piano tutorial videos with rendered videos ready for platform upload.",
+      "role": "Developer",
+      "stack": [
+        "FFmpeg",
+        "MIDI",
+        "Video Rendering"
+      ]
+    },
+    {
+      "name": "YouTube Automation Toolkit",
+      "description": "Comprehensive YouTube automation and MIDI processing pipeline combining MIDI manipulation, web crawling, and video upload automation with ML predictions.",
+      "role": "Developer",
+      "stack": [
+        "Node.js",
+        "PHP",
+        "Python",
+        "Puppeteer",
+        "Selenium",
+        "FFmpeg",
+        "ML"
+      ]
+    },
+    {
+      "name": "Subscriber Analytics",
+      "description": "Machine learning subscription trend prediction tool using Rubix ML's Ridge regressor providing analytics for content creator subscriber growth.",
+      "role": "Developer",
+      "stack": [
+        "PHP",
+        "Rubix ML",
+        "Regression Analysis",
+        "ML"
+      ]
+    },
+    {
+      "name": "Video Auto-Uploader",
+      "description": "Video automation tool that uploads videos to social platforms using Selenium with undetected-chromedriver for bot detection bypass.",
+      "role": "Developer",
+      "stack": [
+        "Python",
+        "Selenium",
+        "Browser Automation"
+      ]
+    },
+    {
+      "name": "Download Manager (PHP)",
+      "description": "Download management tool for cloud downloads enabling automatic downloads of Torrents, Magnets, and Direct Download links. Built with async PHP using Amp with React-based web interface.",
+      "role": "Developer",
+      "stack": [
+        "PHP 7.4+",
+        "Amp",
+        "React",
+        "Docker",
+        "AllDebrid API"
+      ]
+    },
+    {
+      "name": "Serverless PHP Framework",
+      "description": "Async PHP serverless function worker framework built with Amp's HTTP server executing PHP functions inside Docker containers with resource limits and job queue management.",
+      "role": "Developer",
+      "stack": [
+        "PHP 7.4",
+        "Amp",
+        "Docker",
+        "Async"
+      ]
+    },
+    {
+      "name": "Novel API Proxy",
+      "description": "CORS-enabled REST API proxy server for web novels providing mobile-friendly API with fuzzy search, caching, and chapter content retrieval.",
+      "role": "Developer",
+      "stack": [
+        "Node.js",
+        "Express.js",
+        "Deta",
+        "Fuse.js"
+      ]
+    },
+    {
+      "name": "OBS Overlay System",
+      "description": "Real-time news ticker overlay for OBS streaming built with Deno and React integrating multiple APIs for weather, sports, news, and aurora forecasts.",
+      "role": "Developer",
+      "stack": [
+        "Deno",
+        "TypeScript",
+        "React",
+        "Oak Framework"
+      ]
+    },
+    {
+      "name": "E-commerce Platform",
+      "description": "Laravel web application with MoonShine admin panel featuring user authentication, role-based access control, and modern frontend stack.",
+      "role": "Developer",
+      "stack": [
+        "Laravel 11",
+        "PHP 8.2+",
+        "MoonShine",
+        "Tailwind CSS",
+        "SQLite"
+      ]
+    },
+    {
+      "name": "WAF Bypass Library",
+      "description": "Node.js package that bypasses Cloudflare's JavaScript anti-bot/WAF challenges automatically detecting and solving JS challenge pages.",
+      "role": "Developer",
+      "stack": [
+        "Node.js",
+        "Cloudflare",
+        "WAF",
+        "Web Scraping"
+      ]
+    },
+    {
+      "name": "Football Simulation Engine",
+      "description": "Real-time football (soccer) match simulator with React frontend and Socket.IO backend featuring custom game engine with physics, offside detection, and score tracking.",
+      "role": "Developer",
+      "stack": [
+        "Node.js",
+        "React",
+        "Socket.IO",
+        "TypeScript"
+      ]
+    },
+    {
+      "name": "Novel Downloader",
+      "description": "Light novel downloading system using lightnovel-crawler with custom indexer for browsing downloaded content from 380+ sources.",
+      "role": "Developer",
+      "stack": [
+        "Python",
+        "TypeScript",
+        "React",
+        "Web Scraping"
+      ]
+    },
+    {
+      "name": "Novel Indexer CLI",
+      "description": "Terminal-based CLI monitoring dashboard built with React and Ink providing real-time system monitoring with memory usage and event logging.",
+      "role": "Developer",
+      "stack": [
+        "Node.js",
+        "Ink",
+        "React",
+        "TypeScript"
+      ]
+    },
+    {
+      "name": "Music Memory Game",
+      "description": "Music-themed memory card matching game built with SvelteKit combining nostalgic music discovery with gameplay using Billboard data and audio previews.",
+      "role": "Developer",
+      "stack": [
+        "SvelteKit",
+        "Svelte 4",
+        "Konsta UI",
+        "Deta Base"
+      ]
+    },
+    {
+      "name": "Novel Aggregation Platform",
+      "description": "Comprehensive web novel reading platform aggregating content from 50+ sources with Cordova mobile app, REST APIs, web scrapers, and CDN.",
+      "role": "Developer",
+      "stack": [
+        "Node.js",
+        "Apache Cordova",
+        "React",
+        "Deta",
+        "PHP",
+        "Python"
+      ]
+    },
+    {
+      "name": "PHP Router Framework",
+      "description": "Minimalist PHP routing framework demonstrating MVC-style request/response separation, middleware patterns, and basic web framework architecture.",
+      "role": "Developer",
+      "stack": [
+        "PHP",
+        "Router",
+        "Middleware"
+      ]
+    },
+    {
+      "name": "AI Image Wrapper",
+      "description": "Python wrapper for Bing Image Generator using authenticated cookies for AI-generated images from text prompts with async HTTP requests.",
+      "role": "Developer",
+      "stack": [
+        "Python 3",
+        "aiohttp",
+        "asyncio",
+        "Bing API"
+      ]
+    },
+    {
+      "name": "CLI Text Automation",
+      "description": "React-based terminal CLI application for AI text task automation built with Ink and Deta Queue for background job processing.",
+      "role": "Developer",
+      "stack": [
+        "Node.js",
+        "Ink",
+        "React",
+        "Deta"
+      ]
+    },
+    {
+      "name": "AI Image Platform",
+      "description": "Laravel-based REST API abstracting multiple AI image generation providers (DALL-E, Midjourney, Stable Diffusion) behind a unified interface with queue-based async processing.",
+      "role": "Developer",
+      "stack": [
+        "Laravel",
+        "PHP 8.1+",
+        "Docker",
+        "AI Integration"
+      ]
+    },
+    {
+      "name": "Article Scraper",
+      "description": "Python tool that scrapes archived web articles from the Wayback Machine discovering expired domains and extracting full article content for SEO purposes.",
+      "role": "Developer",
+      "stack": [
+        "Python 3.9",
+        "BeautifulSoup",
+        "Wayback Machine API",
+        "Newspaper3k"
+      ]
+    },
+    {
+      "name": "Social Media Automation",
+      "description": "Node.js automation toolkit for social media management automating platform logins and video uploads with metadata including titles, descriptions, tags, and playlists.",
+      "role": "Developer",
+      "stack": [
+        "Node.js",
+        "Puppeteer",
+        "YouTube API",
+        "Browser Automation"
+      ]
+    },
+    {
+      "name": "Space Trading Game",
+      "description": "Electron-based 2D space trading game with custom Daisy game engine featuring event-driven architecture, FPS tracking, and three-tier update system.",
+      "role": "Developer",
+      "stack": [
+        "Electron",
+        "React",
+        "Custom Game Engine"
+      ]
+    },
+    {
+      "name": "Game API Proxy",
+      "description": "REST API proxy for game data proxied from official GraphQL API with file-based caching and Deta cloud integration for persistence.",
+      "role": "Developer",
+      "stack": [
+        "Node.js",
+        "Express",
+        "GraphQL",
+        "Deta"
+      ]
+    },
+    {
+      "name": "Twitch Bot",
+      "description": "Node.js chat bot and API integration using the official Twurple library featuring chat commands, subscription notifications, and game/stream info lookup.",
+      "role": "Developer",
+      "stack": [
+        "Node.js",
+        "Twurple",
+        "Twitch API",
+        "Chat Bot"
+      ]
+    },
+    {
+      "name": "Personal Portfolio",
+      "description": "Personal portfolio website with custom WebGL glitch shader effects using Three.js Effect Composer for real-time post-processing and page transitions.",
+      "role": "Developer",
+      "stack": [
+        "WordPress",
+        "Three.js",
+        "WebGL",
+        "GLSL"
+      ]
+    },
+    {
+      "name": "Video Pipeline",
+      "description": "Full-stack YouTube content automation system for creating and uploading short-form video content with intelligent clip selection, watermarking, and SEO-optimized metadata.",
+      "role": "Developer",
+      "stack": [
+        "Node.js",
+        "PHP",
+        "FFmpeg",
+        "YouTube API"
       ]
     }
   ],
@@ -1679,8 +2038,8 @@
     "relocation": false
   },
   "metadata": {
-    "created": "2026-07-02T20:07:54.958Z",
-    "updated": "2026-07-02T20:07:54.958Z",
+    "created": "2026-07-02T23:03:31.896Z",
+    "updated": "2026-07-02T23:03:31.896Z",
     "source": "Generated"
   }
 }

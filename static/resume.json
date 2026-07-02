@@ -197,7 +197,7 @@
   ],
   "skills": [
     {
-      "name": "Web Development",
+      "name": "Web",
       "level": "Master",
       "keywords": [
         "AJAX",
@@ -515,7 +515,7 @@
       ]
     },
     {
-      "name": "AI & Machine Learning"
+      "name": "AI"
     },
     {
       "name": "Technology & Electronics"
@@ -863,13 +863,12 @@
       "name": "Union Rösterei Website",
       "entity": "planetmutlu gmbh & co. kg",
       "visibility": "on-request",
-      "description": "The Union Rösterei shop, passionately hand-coded at planetmutlu.",
+      "description": "The Union Rösterei shop.",
       "url": "https://unionroesterei.de",
       "highlights": [
         "Planning",
         "Concept",
         "Design",
-        "Photoshoot by Servet",
         "CMS Development",
         "Integration of the WooCommerce Shop System",
         "Blog Section",
@@ -977,7 +976,7 @@
       "visibility": "on-request",
       "description": "A registration portal for congress participants with a comprehensive backend administration interface.",
       "highlights": [
-        "Web Development",
+        "Web",
         "CMS",
         "Development"
       ],
@@ -1061,7 +1060,7 @@
       "visibility": "on-request",
       "description": "An online booking client for the Mars-EDV reservation system via the PMKino API, with a Slim PHP frontend for booking cinema tickets.",
       "highlights": [
-        "Web Development",
+        "Web",
         "API Integration",
         "E-Commerce",
         "Slim Framework",
@@ -1210,7 +1209,7 @@
       "description": "Website design and implementation as part of the complete corporate design for Creamlovers, built as a WordPress theme.",
       "url": "https://creamlovers.de",
       "highlights": [
-        "Web Development",
+        "Web",
         "Design",
         "Corporate Design",
         "WordPress",
@@ -1309,7 +1308,7 @@
       "visibility": "on-request",
       "description": "Web frontend for the NT-Meter energy monitor running on a Raspberry Pi. The Slim PHP application visualizes energy consumption data in real time.",
       "highlights": [
-        "Web Development",
+        "Web",
         "Data Visualization",
         "IoT",
         "Slim Framework",
@@ -1488,7 +1487,7 @@
       "visibility": "on-request",
       "description": "A cinema ticket booking portal built with SlimPHP and ReactJS using the MarsEDV interface, deployed in over 15 cinemas.",
       "highlights": [
-        "Web Development",
+        "Web",
         "Booking System",
         "API Integration",
         "Slim Framework",
@@ -1505,7 +1504,7 @@
       "visibility": "on-request",
       "description": "A collection of WordPress plugins and themes for trade fair websites, used on Reiselust-Bremen.de, Hanselife.de, Messe-Bremen.de, Jazzahead.de, and others.",
       "highlights": [
-        "Web Development",
+        "Web",
         "CMS",
         "Plugin Development",
         "WordPress",
@@ -1522,7 +1521,7 @@
       "description": "Website for salon Ori implemented with WordPress as part of a complete corporate design refresh for this long-time client.",
       "url": "http://form-reaktor.com",
       "highlights": [
-        "Web Development",
+        "Web",
         "Design",
         "Corporate Design",
         "WordPress",
@@ -1554,7 +1553,7 @@
       "name": "Reiselust",
       "entity": "planetmutlu gmbh & co. kg",
       "visibility": "on-request",
-      "description": "## Reiselust\n\nWebsite relaunch for Reiselust, Bremen's travel fair.",
+      "description": "Reiselust Website relaunch for Reiselust, Bremen's travel fair.",
       "url": "https://www.reiselust-bremen.de",
       "highlights": [
         "Planning",
@@ -1572,7 +1571,7 @@
       "description": "Complex website and shop for verias24 insurance products, encompassing database modeling, layouts, insurance calculations, and ERP system integration.",
       "url": "https://www.verias24.de",
       "highlights": [
-        "Web Development",
+        "Web",
         "E-Commerce",
         "System Integration",
         "WordPress",
@@ -1591,7 +1590,7 @@
       "description": "Development and maintenance of the Messe Bremen website based on WordPress Multisite, including custom theme and plugins for trade fair-specific functions.",
       "url": "https://www.messe-bremen.de",
       "highlights": [
-        "Web Development",
+        "Web",
         "CMS",
         "Theme Development",
         "WordPress",
@@ -1608,7 +1607,7 @@
       "visibility": "on-request",
       "description": "WordPress theme for trade fair and exhibition projects at PlanetMutlu, developed in two versions (2014 and 2016) and deployed on over 10 exhibition websites.",
       "highlights": [
-        "Web Development",
+        "Web",
         "Theme Development",
         "CMS",
         "WordPress",
@@ -1625,7 +1624,7 @@
       "description": "Responsive WordPress site for student apartments, realized by image advertising for the Humburg Media Group in 2014.",
       "url": "http://lr28-bremen.de/de/",
       "highlights": [
-        "Web Development",
+        "Web",
         "Design",
         "CMS",
         "WordPress",
@@ -1641,7 +1640,7 @@
       "entity": "Image Advertising H. G. GmbH & Co. KG",
       "description": "A unique Web2Print tool for ASP Automotive GmbH that generates print-ready templates from a web interface.",
       "highlights": [
-        "Web Development",
+        "Web",
         "Web2Print",
         "Concept",
         "CakePHP",
@@ -1657,7 +1656,7 @@
       "entity": "Tufekci Software Development & Consulting",
       "description": "A web-based CakePHP platform for managing Bitcoin trading activities with order management and dashboard features.",
       "highlights": [
-        "Web Development",
+        "Web",
         "Data Visualization",
         "Concept",
         "CakePHP",
@@ -1691,7 +1690,7 @@
       "entity": "Image Advertising H. G. GmbH & Co. KG",
       "description": "A CakePHP-based web-to-print label system enabling creation and ordering of product labels for Ludwig von Kapff.",
       "highlights": [
-        "Web Development",
+        "Web",
         "Web2Print",
         "E-Commerce",
         "CakePHP",
@@ -1707,7 +1706,7 @@
       "description": "The new website for Germany's first printing and media cooperative, developed by image advertising.",
       "url": "https://www.medienprintpartner.de",
       "highlights": [
-        "Web Development",
+        "Web",
         "Design",
         "Concept",
         "CMS",
@@ -1742,15 +1741,15 @@
         "Technology: HTML5",
         "Technology: CSS3"
       ],
-      "startDate": "2013",
-      "endDate": "2013"
+      "startDate": "2009",
+      "endDate": "2010"
     },
     {
       "name": "Wolfgang-Borchert-Schule – Website Relaunch",
       "entity": "Image Advertising H. G. GmbH & Co. KG",
       "description": "Relaunch and modernization of the Wolfgang-Borchert-Schule website, adapted to current requirements.",
       "highlights": [
-        "Web Development",
+        "Web",
         "Relaunch",
         "SEO",
         "CMS",
@@ -1831,7 +1830,7 @@
       "description": "Website and e-commerce shop developed for Flexguard AG using Joomla.",
       "url": "https://www.flexguard.de",
       "highlights": [
-        "Web Development",
+        "Web",
         "E-Commerce",
         "Design",
         "Joomla",
@@ -1891,7 +1890,7 @@
       "entity": "Tufekci Software Development & Consulting",
       "description": "A responsive weather web app built with Bootstrap featuring a custom PSD background image layout.",
       "highlights": [
-        "Web Development",
+        "Web",
         "Design",
         "Concept",
         "Bootstrap",
@@ -1910,7 +1909,7 @@
       "url": "https://www.werdersports.de",
       "highlights": [
         "Corporate Design",
-        "Web Development",
+        "Web",
         "Concept",
         "CMS",
         "PHP",
@@ -1959,7 +1958,7 @@
       "entity": "Image Advertising H. G. GmbH & Co. KG",
       "description": "An internet-based facility management solution for managing properties, tenants, and service providers, developed as lead agency for Blue FM.",
       "highlights": [
-        "Web Development",
+        "Web",
         "Database",
         "Concept",
         "PHP",
@@ -1977,7 +1976,7 @@
       "description": "Concept, design, and development of the website for Druckhaus Humburg.",
       "url": "https://www.humburg.de",
       "highlights": [
-        "Web Development",
+        "Web",
         "Design",
         "Concept",
         "CMS",
@@ -1994,7 +1993,7 @@
       "description": "A modern web portal with Joomla-based VirtueMart webshop featuring custom payment plugins, developed as part of HCH's visual repositioning.",
       "url": "https://www.hch.de",
       "highlights": [
-        "Web Development",
+        "Web",
         "E-Commerce",
         "Concept",
         "Joomla",
@@ -2012,7 +2011,7 @@
       "description": "Website for heating contractor HWT Hansen with a custom CMS-driven online presence.",
       "url": "https://heizungsfirma.de",
       "highlights": [
-        "Web Development",
+        "Web",
         "Design",
         "CMS",
         "PHP",
@@ -2028,7 +2027,7 @@
       "description": "Product catalogs, webshop, and media-neutral database development for MP Multipack AG as lead agency.",
       "url": "https://www.multipack.ch",
       "highlights": [
-        "Web Development",
+        "Web",
         "E-Commerce",
         "Database",
         "PHP",
@@ -2073,7 +2072,7 @@
       "entity": "Image Advertising H. G. GmbH & Co. KG",
       "description": "A photographer's website with custom CMS featuring image gallery management and responsive display.",
       "highlights": [
-        "Web Development",
+        "Web",
         "Design",
         "CMS",
         "PHP",
@@ -2089,7 +2088,7 @@
       "entity": "Tufekci Software Development & Consulting",
       "description": "Early version of a personal portfolio website built with the Limonade PHP microframework, serving as a first digital business card.",
       "highlights": [
-        "Web Development",
+        "Web",
         "Design",
         "Concept",
         "PHP",
@@ -2104,9 +2103,8 @@
       "name": "Tuefekci.eu – Animierte Portfolio-Website",
       "entity": "Tufekci Software Development & Consulting",
       "description": "Creative portfolio website with jQuery Spritely animations featuring an animated 2D landscape with interactive elements.",
-      "url": "http://www.tuefekci.eu",
       "highlights": [
-        "Web Development",
+        "Web",
         "Animation",
         "Design",
         "jQuery",
@@ -2123,7 +2121,7 @@
       "description": "Development and long-term maintenance of the publishing website for an Bord, which produces on-board magazines for ferries and cruise ships.",
       "url": "https://www.anbord.de",
       "highlights": [
-        "Web Development",
+        "Web",
         "CMS",
         "Maintenance",
         "PHP",
@@ -2172,7 +2170,7 @@
       "description": "Corporate website for Exori with a custom content management system.",
       "url": "https://exori.de",
       "highlights": [
-        "Web Development",
+        "Web",
         "Design",
         "CMS",
         "PHP",
@@ -2382,7 +2380,7 @@
       "description": "Development of various Flash games and interactive Flash websites with ActionScript 2.0 programming and PHP backend integration.",
       "highlights": [
         "Game Development",
-        "Web Development",
+        "Web",
         "Concept",
         "Flash",
         "ActionScript 2.0",
@@ -2397,7 +2395,7 @@
       "entity": "Tufekci Software Development & Consulting",
       "description": "Gaming clan websites with phpBB forum integration, designed with Fireworks MX and implemented as HTML table layouts.",
       "highlights": [
-        "Web Development",
+        "Web",
         "Design",
         "Community",
         "Fireworks MX",
@@ -2408,6 +2406,428 @@
       ],
       "startDate": "2005",
       "endDate": "2005"
+    },
+    {
+      "name": "AI Artwork Crawler",
+      "entity": "Tufekci Software Development & Consulting",
+      "description": "Midjourney AI artwork crawler and filtering system built with PHP. Crawls Discord channels to extract AI-generated images, exports chat data using DiscordChatExporter, and provides a web interface for filtering and curating artwork by keywords.",
+      "highlights": [
+        "Technology: PHP 8+",
+        "Technology: ReactPHP",
+        "Technology: SleekDB",
+        "Technology: Discord API",
+        "Technology: League\\Plates"
+      ],
+      "startDate": "2023",
+      "endDate": "2023"
+    },
+    {
+      "name": "Image Generation API",
+      "entity": "Tufekci Software Development & Consulting",
+      "description": "Node.js automation tool for interfacing with Microsoft's Bing Image Creator (DALL-E 3) to generate, download, and manage AI-generated images at scale using authenticated accounts.",
+      "highlights": [
+        "Technology: Node.js",
+        "Technology: Puppeteer",
+        "Technology: DALL-E 3",
+        "Technology: Browser Automation"
+      ],
+      "startDate": "2023",
+      "endDate": "2023"
+    },
+    {
+      "name": "Cooking Content Automation",
+      "entity": "Tufekci Software Development & Consulting",
+      "description": "Cooking content automation system providing pre-recorded voiceover assets for channel branding, introductions, and top-countdown formats with structured recipe data storage.",
+      "highlights": [
+        "Technology: Audio Production",
+        "Technology: Text-to-Speech"
+      ],
+      "startDate": "2022",
+      "endDate": "2022"
+    },
+    {
+      "name": "Ambient Content Channel",
+      "entity": "Tufekci Software Development & Consulting",
+      "description": "Ambient content channel automation project featuring AI-generated visuals with relaxation content. Uses FFmpeg for video processing and AI image generation for artwork.",
+      "highlights": [
+        "Technology: FFmpeg",
+        "Technology: AI Image Generation",
+        "Technology: Remotion"
+      ],
+      "startDate": "2022",
+      "endDate": "2022"
+    },
+    {
+      "name": "Content Analytics Platform",
+      "entity": "Tufekci Software Development & Consulting",
+      "description": "Content analytics and revenue calculation platform providing automated view count tracking and revenue estimation based on views and CPM.",
+      "highlights": [
+        "Technology: Analytics",
+        "Technology: Revenue Calculation"
+      ],
+      "startDate": "2022",
+      "endDate": "2022"
+    },
+    {
+      "name": "URL Shortener",
+      "entity": "Tufekci Software Development & Consulting",
+      "description": "URL shortener service built with Express.js and deployed on Deta platform for managing and redirecting URLs.",
+      "highlights": [
+        "Technology: Node.js",
+        "Technology: Express.js",
+        "Technology: Deta"
+      ],
+      "startDate": "2022",
+      "endDate": "2022"
+    },
+    {
+      "name": "Piano Tutorial Generator",
+      "entity": "Tufekci Software Development & Consulting",
+      "description": "Remotion-based piano tutorial video generator that converts MIDI files into animated tutorial videos with note visualization and thumbnail generation.",
+      "highlights": [
+        "Technology: React",
+        "Technology: Remotion",
+        "Technology: TypeScript",
+        "Technology: MIDI Processing",
+        "Technology: GitHub Actions"
+      ],
+      "startDate": "2022"
+    },
+    {
+      "name": "Video Processing Pipeline",
+      "entity": "Tufekci Software Development & Consulting",
+      "description": "Processed video output directory for completed piano tutorial videos with rendered videos ready for platform upload.",
+      "highlights": [
+        "Technology: FFmpeg",
+        "Technology: MIDI",
+        "Technology: Video Rendering"
+      ],
+      "startDate": "2022"
+    },
+    {
+      "name": "YouTube Automation Toolkit",
+      "entity": "Tufekci Software Development & Consulting",
+      "description": "Comprehensive YouTube automation and MIDI processing pipeline combining MIDI manipulation, web crawling, and video upload automation with ML predictions.",
+      "highlights": [
+        "Technology: Node.js",
+        "Technology: PHP",
+        "Technology: Python",
+        "Technology: Puppeteer",
+        "Technology: Selenium",
+        "Technology: FFmpeg",
+        "Technology: ML"
+      ],
+      "startDate": "2022"
+    },
+    {
+      "name": "Subscriber Analytics",
+      "entity": "Tufekci Software Development & Consulting",
+      "description": "Machine learning subscription trend prediction tool using Rubix ML's Ridge regressor providing analytics for content creator subscriber growth.",
+      "highlights": [
+        "Technology: PHP",
+        "Technology: Rubix ML",
+        "Technology: Regression Analysis",
+        "Technology: ML"
+      ],
+      "startDate": "2022",
+      "endDate": "2022"
+    },
+    {
+      "name": "Video Auto-Uploader",
+      "entity": "Tufekci Software Development & Consulting",
+      "description": "Video automation tool that uploads videos to social platforms using Selenium with undetected-chromedriver for bot detection bypass.",
+      "highlights": [
+        "Technology: Python",
+        "Technology: Selenium",
+        "Technology: Browser Automation"
+      ],
+      "startDate": "2022",
+      "endDate": "2022"
+    },
+    {
+      "name": "Download Manager (PHP)",
+      "entity": "Tufekci Software Development & Consulting",
+      "description": "Download management tool for cloud downloads enabling automatic downloads of Torrents, Magnets, and Direct Download links. Built with async PHP using Amp with React-based web interface.",
+      "highlights": [
+        "Technology: PHP 7.4+",
+        "Technology: Amp",
+        "Technology: React",
+        "Technology: Docker",
+        "Technology: AllDebrid API"
+      ],
+      "startDate": "2021",
+      "endDate": "2021"
+    },
+    {
+      "name": "Serverless PHP Framework",
+      "entity": "Tufekci Software Development & Consulting",
+      "description": "Async PHP serverless function worker framework built with Amp's HTTP server executing PHP functions inside Docker containers with resource limits and job queue management.",
+      "highlights": [
+        "Technology: PHP 7.4",
+        "Technology: Amp",
+        "Technology: Docker",
+        "Technology: Async"
+      ],
+      "startDate": "2021",
+      "endDate": "2021"
+    },
+    {
+      "name": "Novel API Proxy",
+      "entity": "Tufekci Software Development & Consulting",
+      "description": "CORS-enabled REST API proxy server for web novels providing mobile-friendly API with fuzzy search, caching, and chapter content retrieval.",
+      "highlights": [
+        "Technology: Node.js",
+        "Technology: Express.js",
+        "Technology: Deta",
+        "Technology: Fuse.js"
+      ],
+      "startDate": "2022",
+      "endDate": "2022"
+    },
+    {
+      "name": "OBS Overlay System",
+      "entity": "Tufekci Software Development & Consulting",
+      "description": "Real-time news ticker overlay for OBS streaming built with Deno and React integrating multiple APIs for weather, sports, news, and aurora forecasts.",
+      "highlights": [
+        "Technology: Deno",
+        "Technology: TypeScript",
+        "Technology: React",
+        "Technology: Oak Framework"
+      ],
+      "startDate": "2023",
+      "endDate": "2023"
+    },
+    {
+      "name": "E-commerce Platform",
+      "entity": "Tufekci Software Development & Consulting",
+      "description": "Laravel web application with MoonShine admin panel featuring user authentication, role-based access control, and modern frontend stack.",
+      "highlights": [
+        "Technology: Laravel 11",
+        "Technology: PHP 8.2+",
+        "Technology: MoonShine",
+        "Technology: Tailwind CSS",
+        "Technology: SQLite"
+      ],
+      "startDate": "2023",
+      "endDate": "2023"
+    },
+    {
+      "name": "WAF Bypass Library",
+      "entity": "Tufekci Software Development & Consulting",
+      "description": "Node.js package that bypasses Cloudflare's JavaScript anti-bot/WAF challenges automatically detecting and solving JS challenge pages.",
+      "highlights": [
+        "Technology: Node.js",
+        "Technology: Cloudflare",
+        "Technology: WAF",
+        "Technology: Web Scraping"
+      ],
+      "startDate": "2021",
+      "endDate": "2021"
+    },
+    {
+      "name": "Football Simulation Engine",
+      "entity": "Tufekci Software Development & Consulting",
+      "description": "Real-time football (soccer) match simulator with React frontend and Socket.IO backend featuring custom game engine with physics, offside detection, and score tracking.",
+      "highlights": [
+        "Technology: Node.js",
+        "Technology: React",
+        "Technology: Socket.IO",
+        "Technology: TypeScript"
+      ],
+      "startDate": "2021",
+      "endDate": "2021"
+    },
+    {
+      "name": "Novel Downloader",
+      "entity": "Tufekci Software Development & Consulting",
+      "description": "Light novel downloading system using lightnovel-crawler with custom indexer for browsing downloaded content from 380+ sources.",
+      "highlights": [
+        "Technology: Python",
+        "Technology: TypeScript",
+        "Technology: React",
+        "Technology: Web Scraping"
+      ],
+      "startDate": "2020"
+    },
+    {
+      "name": "Novel Indexer CLI",
+      "entity": "Tufekci Software Development & Consulting",
+      "description": "Terminal-based CLI monitoring dashboard built with React and Ink providing real-time system monitoring with memory usage and event logging.",
+      "highlights": [
+        "Technology: Node.js",
+        "Technology: Ink",
+        "Technology: React",
+        "Technology: TypeScript"
+      ],
+      "startDate": "2022",
+      "endDate": "2022"
+    },
+    {
+      "name": "Music Memory Game",
+      "entity": "Tufekci Software Development & Consulting",
+      "description": "Music-themed memory card matching game built with SvelteKit combining nostalgic music discovery with gameplay using Billboard data and audio previews.",
+      "highlights": [
+        "Technology: SvelteKit",
+        "Technology: Svelte 4",
+        "Technology: Konsta UI",
+        "Technology: Deta Base"
+      ],
+      "startDate": "2022",
+      "endDate": "2022"
+    },
+    {
+      "name": "Novel Aggregation Platform",
+      "entity": "Tufekci Software Development & Consulting",
+      "description": "Comprehensive web novel reading platform aggregating content from 50+ sources with Cordova mobile app, REST APIs, web scrapers, and CDN.",
+      "highlights": [
+        "Technology: Node.js",
+        "Technology: Apache Cordova",
+        "Technology: React",
+        "Technology: Deta",
+        "Technology: PHP",
+        "Technology: Python"
+      ],
+      "startDate": "2020"
+    },
+    {
+      "name": "PHP Router Framework",
+      "entity": "Tufekci Software Development & Consulting",
+      "description": "Minimalist PHP routing framework demonstrating MVC-style request/response separation, middleware patterns, and basic web framework architecture.",
+      "highlights": [
+        "Technology: PHP",
+        "Technology: Router",
+        "Technology: Middleware"
+      ],
+      "startDate": "2020",
+      "endDate": "2020"
+    },
+    {
+      "name": "AI Image Wrapper",
+      "entity": "Tufekci Software Development & Consulting",
+      "description": "Python wrapper for Bing Image Generator using authenticated cookies for AI-generated images from text prompts with async HTTP requests.",
+      "highlights": [
+        "Technology: Python 3",
+        "Technology: aiohttp",
+        "Technology: asyncio",
+        "Technology: Bing API"
+      ],
+      "startDate": "2022",
+      "endDate": "2022"
+    },
+    {
+      "name": "CLI Text Automation",
+      "entity": "Tufekci Software Development & Consulting",
+      "description": "React-based terminal CLI application for AI text task automation built with Ink and Deta Queue for background job processing.",
+      "highlights": [
+        "Technology: Node.js",
+        "Technology: Ink",
+        "Technology: React",
+        "Technology: Deta"
+      ],
+      "startDate": "2023",
+      "endDate": "2023"
+    },
+    {
+      "name": "AI Image Platform",
+      "entity": "Tufekci Software Development & Consulting",
+      "description": "Laravel-based REST API abstracting multiple AI image generation providers (DALL-E, Midjourney, Stable Diffusion) behind a unified interface with queue-based async processing.",
+      "highlights": [
+        "Technology: Laravel",
+        "Technology: PHP 8.1+",
+        "Technology: Docker",
+        "Technology: AI Integration"
+      ],
+      "startDate": "2023",
+      "endDate": "2023"
+    },
+    {
+      "name": "Article Scraper",
+      "entity": "Tufekci Software Development & Consulting",
+      "description": "Python tool that scrapes archived web articles from the Wayback Machine discovering expired domains and extracting full article content for SEO purposes.",
+      "highlights": [
+        "Technology: Python 3.9",
+        "Technology: BeautifulSoup",
+        "Technology: Wayback Machine API",
+        "Technology: Newspaper3k"
+      ],
+      "startDate": "2021",
+      "endDate": "2021"
+    },
+    {
+      "name": "Social Media Automation",
+      "entity": "Tufekci Software Development & Consulting",
+      "description": "Node.js automation toolkit for social media management automating platform logins and video uploads with metadata including titles, descriptions, tags, and playlists.",
+      "highlights": [
+        "Technology: Node.js",
+        "Technology: Puppeteer",
+        "Technology: YouTube API",
+        "Technology: Browser Automation"
+      ],
+      "startDate": "2022",
+      "endDate": "2022"
+    },
+    {
+      "name": "Space Trading Game",
+      "entity": "Tufekci Software Development & Consulting",
+      "description": "Electron-based 2D space trading game with custom Daisy game engine featuring event-driven architecture, FPS tracking, and three-tier update system.",
+      "highlights": [
+        "Technology: Electron",
+        "Technology: React",
+        "Technology: Custom Game Engine"
+      ],
+      "startDate": "2016",
+      "endDate": "2016"
+    },
+    {
+      "name": "Game API Proxy",
+      "entity": "Tufekci Software Development & Consulting",
+      "description": "REST API proxy for game data proxied from official GraphQL API with file-based caching and Deta cloud integration for persistence.",
+      "highlights": [
+        "Technology: Node.js",
+        "Technology: Express",
+        "Technology: GraphQL",
+        "Technology: Deta"
+      ],
+      "startDate": "2022",
+      "endDate": "2022"
+    },
+    {
+      "name": "Twitch Bot",
+      "entity": "Tufekci Software Development & Consulting",
+      "description": "Node.js chat bot and API integration using the official Twurple library featuring chat commands, subscription notifications, and game/stream info lookup.",
+      "highlights": [
+        "Technology: Node.js",
+        "Technology: Twurple",
+        "Technology: Twitch API",
+        "Technology: Chat Bot"
+      ],
+      "startDate": "2021",
+      "endDate": "2021"
+    },
+    {
+      "name": "Personal Portfolio",
+      "entity": "Tufekci Software Development & Consulting",
+      "description": "Personal portfolio website with custom WebGL glitch shader effects using Three.js Effect Composer for real-time post-processing and page transitions.",
+      "highlights": [
+        "Technology: WordPress",
+        "Technology: Three.js",
+        "Technology: WebGL",
+        "Technology: GLSL"
+      ],
+      "startDate": "2018",
+      "endDate": "2018"
+    },
+    {
+      "name": "Video Pipeline",
+      "entity": "Tufekci Software Development & Consulting",
+      "description": "Full-stack YouTube content automation system for creating and uploading short-form video content with intelligent clip selection, watermarking, and SEO-optimized metadata.",
+      "highlights": [
+        "Technology: Node.js",
+        "Technology: PHP",
+        "Technology: FFmpeg",
+        "Technology: YouTube API"
+      ],
+      "startDate": "2022"
     }
   ],
   "recognition": [
@@ -2427,6 +2847,6 @@
   "meta": {
     "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
     "version": "v1.0.0",
-    "lastModified": "2017-12-24T15:53:00"
+    "lastModified": "2026-07-02T00:00:00"
   }
 }
