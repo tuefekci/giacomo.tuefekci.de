@@ -2112,11 +2112,11 @@
     }
   ],
   "meta": {
-    "cv_uuid": "a6fd354a-989e-4575-9427-b7d7ed93b831",
+    "cv_uuid": "02a7c9cf-6f86-4d91-b2cb-34ea574f2e67",
     "cv_title": "Giacomo Tüfekçi - Full-Stack Developer",
     "ats_processed": true,
     "processor_engine": "giacomo.tuefekci/export-barbacv",
-    "parsed_at": "2026-07-02T16:01:51.030Z",
+    "parsed_at": "2026-07-02T16:50:43.789Z",
     "source_format": "jsonresume"
   }
 }

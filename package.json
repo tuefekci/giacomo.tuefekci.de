@@ -21,6 +21,7 @@
     "@eslint/js": "^9.39.4",
     "@sveltejs/adapter-static": "^2.0.3",
     "@sveltejs/kit": "^1.25.1",
+    "@tailwindcss/typography": "^0.5.20",
     "autoprefixer": "^10.4.16",
     "cross-env": "^10.1.0",
     "eslint": "^9.39.4",

@@ -162,7 +162,7 @@
   </div>
 
   {#if resume.recognition?.length}
-    <div class="pt-12">
+    <div class="pt-12 pb-6 lg:pb-0">
       <div class="flex">
         <h2 class="text-4xl">Recognition</h2>
         <div class="flex grow h-1 mt-5 ml-3 gradient-background-line"></div>
