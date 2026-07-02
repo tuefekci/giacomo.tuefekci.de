@@ -4,4 +4,5 @@ node_modules
 _bak/
 build/
 private-build/
+docs/
 .opencode
