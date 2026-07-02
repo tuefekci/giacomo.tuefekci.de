@@ -7,7 +7,11 @@
 	export let data
     const resume = data.props.resume;
 
-    $: activeTag = $page.url.searchParams.get('tag') || null;
+    $: activeTag = (() => {
+        const hash = $page.url.hash;
+        const match = hash.match(/#tag=(.*)/);
+        return match ? decodeURIComponent(match[1]) : null;
+    })();
 
     $: filteredPosts = activeTag
         ? data.posts.filter(p => p.categories && p.categories.includes(activeTag))
@@ -42,7 +46,7 @@
         if (activeTag === tag) {
             goto('/blog');
         } else {
-            goto(`/blog?tag=${encodeURIComponent(tag)}`);
+            goto(`/blog#tag=${encodeURIComponent(tag)}`);
         }
     }
 </script>

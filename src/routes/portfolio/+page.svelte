@@ -3,8 +3,9 @@
     export let data;
     const resume = data.props.resume;
 
-    import { activeFilter } from '$lib/stores/portfolioFilter';
-import PortfolioItem from '$lib/components/portfolioItem.svelte';
+    import { goto } from '$app/navigation';
+    import { page } from '$app/stores';
+    import PortfolioItem from '$lib/components/portfolioItem.svelte';
 
     const visibleProjects = data.fullDetails
         ? resume.projects
@@ -19,11 +20,17 @@ import PortfolioItem from '$lib/components/portfolioItem.svelte';
     }, {});
     $: featuredCount = visibleProjects.filter(p => p.featured).length;
 
-    $: filtered = $activeFilter === "__featured__"
+    $: activeCategory = (() => {
+        const hash = $page.url.hash;
+        const match = hash.match(/#category=(.*)/);
+        return match ? decodeURIComponent(match[1]) : '__featured__';
+    })();
+
+    $: filtered = activeCategory === '__featured__'
         ? visibleProjects.filter(p => p.featured)
-        : $activeFilter === "__all__"
+        : activeCategory === '__all__'
             ? visibleProjects
-            : visibleProjects.filter(p => p.category === $activeFilter);
+            : visibleProjects.filter(p => p.category === activeCategory);
     $: sorted = [...filtered].sort((a, b) => (b.startDate || 0) - (a.startDate || 0));
 
     $: grouped = sorted.reduce((acc, p) => {
@@ -42,6 +49,14 @@ import PortfolioItem from '$lib/components/portfolioItem.svelte';
         return acc;
     }, {});
     $: years = Object.keys(grouped).sort((a, b) => Number(b) - Number(a));
+
+    function setCategory(cat) {
+        if (activeCategory === cat) {
+            goto('/portfolio');
+        } else {
+            goto(`/portfolio#category=${encodeURIComponent(cat)}`);
+        }
+    }
 </script>
 
 <svelte:head>
@@ -66,14 +81,14 @@ import PortfolioItem from '$lib/components/portfolioItem.svelte';
             <div class="print:hidden">
                 <div class="flex gap-2 pb-1.5">
                     <button
-                        class="text-[13px] px-5 py-2.5 rounded-lg font-semibold transition-all duration-200 {$activeFilter === '__featured__' ? 'bg-[#FA5252] text-white shadow-sm' : 'bg-[#F3F6F6] dark:bg-[#1D1D1D] text-[#44566C] dark:text-[#A6A6A6] hover:text-[#FA5252] dark:hover:text-white'}"
-                        on:click={() => $activeFilter = "__featured__"}
+                        class="text-[13px] px-5 py-2.5 rounded-lg font-semibold transition-all duration-200 {activeCategory === '__featured__' ? 'bg-[#FA5252] text-white shadow-sm' : 'bg-[#F3F6F6] dark:bg-[#1D1D1D] text-[#44566C] dark:text-[#A6A6A6] hover:text-[#FA5252] dark:hover:text-white'}"
+                        on:click={() => setCategory('__featured__')}
                     >
                         &#9733; Featured ({featuredCount})
                     </button>
                     <button
-                        class="text-[13px] px-5 py-2.5 rounded-lg font-semibold transition-all duration-200 {$activeFilter === '__all__' ? 'bg-[#FA5252] text-white shadow-sm' : 'bg-[#F3F6F6] dark:bg-[#1D1D1D] text-[#44566C] dark:text-[#A6A6A6] hover:text-[#FA5252] dark:hover:text-white'}"
-                        on:click={() => $activeFilter = "__all__"}
+                        class="text-[13px] px-5 py-2.5 rounded-lg font-semibold transition-all duration-200 {activeCategory === '__all__' ? 'bg-[#FA5252] text-white shadow-sm' : 'bg-[#F3F6F6] dark:bg-[#1D1D1D] text-[#44566C] dark:text-[#A6A6A6] hover:text-[#FA5252] dark:hover:text-white'}"
+                        on:click={() => setCategory('__all__')}
                     >
                         All ({visibleProjects.length})
                     </button>
@@ -81,13 +96,28 @@ import PortfolioItem from '$lib/components/portfolioItem.svelte';
                 <div class="flex gap-1.5 flex-wrap">
                     {#each categories as cat}
                         <button
-                            class="text-[11px] px-3 py-1.5 rounded transition-all duration-200 {$activeFilter === cat ? 'bg-[#FA5252] text-white' : 'bg-[#F3F6F6] dark:bg-[#1D1D1D] text-[#44566C] dark:text-[#A6A6A6] hover:text-[#FA5252] dark:hover:text-white'}"
-                            on:click={() => $activeFilter = cat}
+                            class="text-[11px] px-3 py-1.5 rounded transition-all duration-200 {activeCategory === cat ? 'bg-[#FA5252] text-white' : 'bg-[#F3F6F6] dark:bg-[#1D1D1D] text-[#44566C] dark:text-[#A6A6A6] hover:text-[#FA5252] dark:hover:text-white'}"
+                            on:click={() => setCategory(cat)}
                         >
                             {cat} ({categoryCounts[cat] || 0})
                         </button>
                     {/each}
                 </div>
+
+                {#if activeCategory && activeCategory !== '__featured__' && activeCategory !== '__all__'}
+                    <div class="flex items-center gap-2 pt-2">
+                        <span class="text-sm text-[#7B7B7B] dark:text-[#A6A6A6]">Showing</span>
+                        <button
+                            on:click={() => setCategory(activeCategory)}
+                            class="text-sm px-3 py-1 rounded-full bg-[#FA5252] text-white hover:bg-[#e03e3e] transition-colors"
+                        >
+                            #{activeCategory} ✕
+                        </button>
+                        <a href="/portfolio" class="text-sm text-[#7B7B7B] dark:text-[#A6A6A6] hover:text-[#FA5252] dark:hover:text-[#FA5252] transition-colors">
+                            Clear
+                        </a>
+                    </div>
+                {/if}
             </div>
 
             <p class="text-[10px] text-[#A6A6A6] dark:text-[#A6A6A6]/60 pb-2 print:hidden">

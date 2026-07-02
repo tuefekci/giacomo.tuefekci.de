@@ -32,7 +32,7 @@
                     <div class="flex gap-2 flex-wrap">
                         {#each data.meta.categories as category}
                             <a
-                                href="/blog?tag={category}"
+                                href="/blog#tag={category}"
                                 class="text-[11px] px-3 py-1.5 rounded-full bg-[#F3F6F6] dark:bg-[#1D1D1D] text-[#44566C] dark:text-[#A6A6A6] hover:text-[#FA5252] dark:hover:text-[#FA5252] transition-colors"
                             >
                                 #{category}

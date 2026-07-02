@@ -11,6 +11,14 @@
 <div class="pl-4 border-l-2 border-[#E3E3E3] dark:border-[#3D3A3A]">
     <div class="flex justify-between items-start gap-2">
         <h4 class="text-lg font-semibold dark:text-white">{project.name}</h4>
+        {#if project.category}
+            <a
+                href="/portfolio#category={project.category}"
+                class="text-[11px] px-3 py-1 rounded-full bg-[#F3F6F6] dark:bg-[#1D1D1D] text-[#44566C] dark:text-[#A6A6A6] hover:text-[#FA5252] dark:hover:text-[#FA5252] transition-colors"
+            >
+                #{project.category}
+            </a>
+        {/if}
     </div>
 
     {#if project.entity}
