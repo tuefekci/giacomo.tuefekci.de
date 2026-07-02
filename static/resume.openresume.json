@@ -49,7 +49,7 @@
         "degree_level": "other",
         "degree_title": "journeyman's certificate, early dropout due to allergic reactions.",
         "completed": true,
-        "institution": "SZ Rübekamp",
+        "institution": "SZ Rübkamp",
         "institution_city": "",
         "institution_state": "",
         "major": "Apprenticeship Cook",
@@ -123,8 +123,8 @@
       },
       {
         "title": "Cloud Development / Software Developer",
-        "employer": "Cloud Development / Software Developer",
-        "employer_city": "",
+        "employer": "Freelance",
+        "employer_city": "Remote",
         "employer_state": "",
         "employer_country": null,
         "description": [

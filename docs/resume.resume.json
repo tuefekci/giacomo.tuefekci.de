@@ -78,7 +78,7 @@
       ],
       "employer": {
         "@type": "Organization",
-        "name": "Cloud Development / Software Developer",
+        "name": "Freelance",
         "url": ""
       }
     },
@@ -119,7 +119,7 @@
       "@type": "OrganizationRole",
       "roleName": "Freelance Full Stack Web Developer",
       "startDate": "2014-06-01",
-      "endDate": "2015-06-31",
+      "endDate": "2015-06-30",
       "resumejson:responsibilities": "",
       "resumejson:achievements": [],
       "employer": {
@@ -173,7 +173,7 @@
       "@type": "OrganizationRole",
       "roleName": "Apprenticeship Cook",
       "startDate": "2009",
-      "endDate": "2010-06-31",
+      "endDate": "2010-06-30",
       "resumejson:responsibilities": "The profession demanded creativity and I quite liked it, but unfortunately, I had to quit due to allergic reactions.",
       "resumejson:achievements": [],
       "employer": {
@@ -186,7 +186,7 @@
       "@type": "OrganizationRole",
       "roleName": "Parttime Line Cook / Service Staff",
       "startDate": "2008",
-      "endDate": "2009-09-31",
+      "endDate": "2009-09-30",
       "resumejson:responsibilities": "",
       "resumejson:achievements": [],
       "employer": {
@@ -257,7 +257,7 @@
       "dateModified": "2010",
       "recognizedBy": {
         "@type": "Organization",
-        "name": "SZ Rübekamp"
+        "name": "SZ Rübkamp"
       }
     },
     {

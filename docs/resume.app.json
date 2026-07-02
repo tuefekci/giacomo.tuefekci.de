@@ -61,13 +61,14 @@
     {
       "role": "Cloud Development / Software Developer",
       "organization": {
-        "name": "Cloud Development / Software Developer"
+        "name": "Freelance"
       },
       "start": "2018-03",
       "end": "2019-10",
       "current": false,
       "location": {
-        "country": "DE"
+        "country": "DE",
+        "city": "Remote"
       },
       "employmentType": "Full-time",
       "highlights": [
@@ -250,15 +251,17 @@
       "degree": "journeyman's certificate, specialized in Design and Technology",
       "start": "2010",
       "end": "2013",
-      "completed": true
+      "completed": true,
+      "grade": "Completed"
     },
     {
-      "institution": "SZ Rübekamp",
+      "institution": "SZ Rübkamp",
       "area": "Apprenticeship Cook",
       "degree": "journeyman's certificate, early dropout due to allergic reactions.",
       "start": "2009",
       "end": "2010",
-      "completed": true
+      "completed": true,
+      "grade": "Pass"
     },
     {
       "institution": "FOS Delmestrasse",
@@ -266,7 +269,8 @@
       "degree": "vocational baccalaureate (completed practical part)",
       "start": "2008",
       "end": "2009",
-      "completed": true
+      "completed": true,
+      "grade": "Completed (Practical)"
     },
     {
       "institution": "SZ Drebberstraße",
@@ -274,7 +278,8 @@
       "degree": "secondary school (certificate Real school)",
       "start": "2002",
       "end": "2008",
-      "completed": true
+      "completed": true,
+      "grade": "Completed"
     }
   ],
   "skills": [
@@ -1674,8 +1679,8 @@
     "relocation": false
   },
   "metadata": {
-    "created": "2026-07-02T13:52:15.716Z",
-    "updated": "2026-07-02T13:52:15.716Z",
+    "created": "2026-07-02T16:01:51.127Z",
+    "updated": "2026-07-02T16:01:51.127Z",
     "source": "Generated"
   }
 }

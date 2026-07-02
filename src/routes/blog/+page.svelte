@@ -31,7 +31,7 @@
                     <div class="p-5 rounded-lg mb-2 h-full dark:border-[#212425] dark:border-2">
                         <a class="dark:text-white duration-300 transition cursor-pointer hover:text-[#FA5252] dark:hover:text-[#FA5252]" href="/blog/posts/{post.slug}">
                             <div class="overflow-hidden rounded-lg">
-                                <img alt="{post.title}" src="{post.image ? post.image : "/images/placeholder.jpg"}" width="310" height="310" decoding="async" data-nimg="1" class="rounded-lg w-full cursor-pointer transition duration-200 ease-in-out transform hover:scale-110" loading="lazy" style="color: transparent;">
+                                <img alt="{post.title}" src="{post.image ? post.image : "/images/placeholder.jpg"}" width="310" height="310" decoding="async" class="rounded-lg w-full cursor-pointer transition duration-200 ease-in-out transform hover:scale-110" loading="lazy">
                             </div>
 
 

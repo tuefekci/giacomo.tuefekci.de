@@ -25,8 +25,6 @@ async function getPosts() {
 /** @type {import('./$types').EntryGenerator} */
 export async function entries() {
 	const posts = await getPosts();
-
-	console.log(posts);
 	const slugs = [];
 
 	for (const post of posts) {
@@ -36,4 +34,5 @@ export async function entries() {
 	return slugs;
 }
 
-export const prerender = true;
+const posts = await getPosts();
+export const prerender = posts.length > 0;

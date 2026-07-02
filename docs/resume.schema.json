@@ -52,7 +52,11 @@
       "endDate": "2019-10-31",
       "employer": {
         "@type": "Organization",
-        "name": ""
+        "name": "Freelance",
+        "location": {
+          "@type": "Place",
+          "address": "Remote"
+        }
       }
     },
     {
@@ -89,7 +93,7 @@
       "@type": "Occupation",
       "name": "Freelance Full Stack Web Developer",
       "startDate": "2014-06-01",
-      "endDate": "2015-06-31",
+      "endDate": "2015-06-30",
       "employer": {
         "@type": "Organization",
         "name": "Tüfekci Software Development & Consulting",
@@ -149,7 +153,7 @@
       "name": "Apprenticeship Cook",
       "description": "The profession demanded creativity and I quite liked it, but unfortunately, I had to quit due to allergic reactions.",
       "startDate": "2009",
-      "endDate": "2010-06-31",
+      "endDate": "2010-06-30",
       "employer": {
         "@type": "Organization",
         "name": "Maritim Hotel Bremen",
@@ -164,7 +168,7 @@
       "name": "Parttime Line Cook / Service Staff",
       "description": "",
       "startDate": "2008",
-      "endDate": "2009-09-31",
+      "endDate": "2009-09-30",
       "employer": {
         "@type": "Organization",
         "name": "Maritim Hotel Bremen",
@@ -227,7 +231,7 @@
     },
     {
       "@type": "EducationalOrganization",
-      "name": "SZ Rübekamp",
+      "name": "SZ Rübkamp",
       "description": "journeyman's certificate, early dropout due to allergic reactions. in Apprenticeship Cook"
     },
     {
@@ -461,6 +465,10 @@
     {
       "@type": "Organization",
       "name": "Tüfekci Software Development & Consulting"
+    },
+    {
+      "@type": "Organization",
+      "name": "Freelance"
     },
     {
       "@type": "Organization",

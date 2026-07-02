@@ -30,25 +30,31 @@
 	});
 
 	//<MenuItem path="blog">Blog</MenuItem>
+
+	const personSchema = JSON.stringify({
+		"@context": "https://schema.org",
+		"@type": "Person",
+		"name": resume.basics.name,
+		"jobTitle": resume.basics.label,
+		"email": resume.basics.email,
+		"url": resume.basics.url,
+		"image": resume.basics.image,
+		"address": { "@type": "PostalAddress", "addressLocality": resume.basics.location.city, "addressCountry": resume.basics.location.countryCode },
+		"birthDate": "1991-01-01",
+		"knowsLanguage": resume.languages.map(l => ({ "@type": "Language", "name": l.language })),
+		"knowsAbout": [...new Set(resume.skills.flatMap(s => s.keywords || []))],
+		"description": resume.basics.summary
+	});
+
+	const ldJsonScript = '<script type="application/ld+json">' + personSchema + '<' + '/script>';
 </script>
 
 <svelte:head>
-	<script type="application/ld+json">
-		{JSON.stringify({
-			"@context": "https://schema.org",
-			"@type": "Person",
-			"name": resume.basics.name,
-			"jobTitle": resume.basics.label,
-			"email": resume.basics.email,
-			"url": resume.basics.url,
-			"image": resume.basics.image,
-			"address": { "@type": "PostalAddress", "addressLocality": resume.basics.location.city, "addressCountry": resume.basics.location.countryCode },
-			"birthDate": "1991-01-01",
-			"knowsLanguage": resume.languages.map(l => ({ "@type": "Language", "name": l.language })),
-			"knowsAbout": [...new Set(resume.skills.flatMap(s => s.keywords || []))],
-			"description": resume.basics.summary
-		})}
-	</script>
+	{@html ldJsonScript}
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:title" content={resume.basics.name + ' - Portfolio'} />
+	<meta name="twitter:description" content={resume.basics.summary} />
+	<meta name="twitter:image" content={resume.basics.image} />
 </svelte:head>
 
 
@@ -120,7 +126,6 @@
 						decoding="async"
 						class="w-[240px] print:w-[360px]  absolute left-[50%] transform -translate-x-[50%] h-[240px] print:h-[360px] drop-shadow-xl mx-auto rounded-[20px] -mt-[140px] print:mt-0 print:relative print:left-0 print:top-0 print:mx-auto print:translate-x-0 print:translate-y-0"
 						loading="lazy"
-						style="color: transparent;"
 					/>
 
 					<div class="pt-[100px] pb-2 print:pt-0">

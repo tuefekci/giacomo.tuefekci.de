@@ -1,8 +1,8 @@
 {
   "schema_version": "0.2.0",
-  "otp_id": "f52df05a-f182-4b8c-819a-74f83b7a5603",
-  "created_at": "2026-07-02T13:52:15.568Z",
-  "updated_at": "2026-07-02T13:52:15.568Z",
+  "otp_id": "ae9d7cfe-0d89-40c6-9b0d-0b20bf3f5707",
+  "created_at": "2026-07-02T16:01:50.981Z",
+  "updated_at": "2026-07-02T16:01:50.981Z",
   "disclosure_tier": "profile",
   "name": {
     "given": "Giacomo",
@@ -894,11 +894,11 @@
       "description": "Development of an Download Manager as a Prototype in PHP and than in Svelte\nDevelopment of an Web Application for the Management of a Cleaning Company\nDevelopment of an Web Application for the Management of an QR Code based Redirection System\nDevelopment of Apps, Plugins, Wrappers and Apis for Deta.space\nDevelopment of an Web Application which enables playing retro games in the Browser based on WASM Compiled Emulators.\nDevelopment of an Android Application to read Web & Light Novels from different Providers in an unified UI.\nDevelopment of an API & Crawler to build an index of Web & Light Novels from different Providers.\nSome Prototype ML/AI Applications which can generate Content, Images, Translate etc. which is used in different Projects."
     },
     {
-      "company": "Cloud Development / Software Developer",
+      "company": "Freelance",
       "title": "Cloud Development / Software Developer",
       "start_date": "2018-03-01",
       "end_date": "2019-10-31",
-      "location": "",
+      "location": "Remote",
       "description": "Development of an Network Bridge between Web/Cloud to VisualBasic Application\nDevelopment of an Application/API to automate Facebook Events\nDevelopment of an APP for the Android and iOS Platform for Room Booking"
     },
     {
@@ -921,7 +921,7 @@
       "company": "Tüfekci Software Development & Consulting",
       "title": "Freelance Full Stack Web Developer",
       "start_date": "2014-06-01",
-      "end_date": "2015-07-01",
+      "end_date": "2015-06-30",
       "location": "Bremen"
     },
     {
@@ -952,7 +952,7 @@
       "company": "Maritim Hotel Bremen",
       "title": "Apprenticeship Cook",
       "start_date": "2009-01-01",
-      "end_date": "2010-07-01",
+      "end_date": "2010-06-30",
       "location": "Bremen",
       "description": "The profession demanded creativity and I quite liked it, but unfortunately, I had to quit due to allergic reactions."
     },
@@ -960,7 +960,7 @@
       "company": "Maritim Hotel Bremen",
       "title": "Parttime Line Cook / Service Staff",
       "start_date": "2008-01-01",
-      "end_date": "2009-10-01",
+      "end_date": "2009-09-30",
       "location": "Bremen"
     },
     {
@@ -994,7 +994,7 @@
       "graduation_date": "2013-06"
     },
     {
-      "institution": "SZ Rübekamp",
+      "institution": "SZ Rübkamp",
       "degree": "journeyman's certificate, early dropout due to allergic reactions.",
       "field": "Apprenticeship Cook",
       "status": "completed",

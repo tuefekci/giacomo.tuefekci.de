@@ -46,8 +46,8 @@
       ]
     },
     {
-      "name": "",
-      "location": "",
+      "name": "Freelance",
+      "location": "Remote",
       "position": "Cloud Development / Software Developer",
       "startDate": "2018-03-01",
       "endDate": "2019-10-31",
@@ -87,7 +87,7 @@
       "location": "Bremen",
       "position": "Freelance Full Stack Web Developer",
       "startDate": "2014-06-01",
-      "endDate": "2015-06-31"
+      "endDate": "2015-06-30"
     },
     {
       "name": "Humburg Media Group (Druckhaus Humburg)",
@@ -123,7 +123,7 @@
       "summary": "The profession demanded creativity and I quite liked it, but unfortunately, I had to quit due to allergic reactions.",
       "position": "Apprenticeship Cook",
       "startDate": "2009",
-      "endDate": "2010-06-31"
+      "endDate": "2010-06-30"
     },
     {
       "name": "Maritim Hotel Bremen",
@@ -131,7 +131,7 @@
       "summary": "",
       "position": "Parttime Line Cook / Service Staff",
       "startDate": "2008",
-      "endDate": "2009-09-31"
+      "endDate": "2009-09-30"
     },
     {
       "name": "Tüfekci Software Development & Consulting",
@@ -164,16 +164,16 @@
       "studyType": "journeyman's certificate, specialized in Design and Technology",
       "startDate": "2010-10-01",
       "endDate": "2013-06-01",
-      "score": "",
+      "score": "Completed",
       "courses": []
     },
     {
-      "institution": "SZ Rübekamp",
+      "institution": "SZ Rübkamp",
       "area": "Apprenticeship Cook",
       "studyType": "journeyman's certificate, early dropout due to allergic reactions.",
       "startDate": "2009",
       "endDate": "2010",
-      "score": "",
+      "score": "Pass",
       "courses": []
     },
     {
@@ -182,7 +182,7 @@
       "studyType": "vocational baccalaureate (completed practical part)",
       "startDate": "2008",
       "endDate": "2009",
-      "score": "",
+      "score": "Completed (Practical)",
       "courses": []
     },
     {
@@ -191,7 +191,7 @@
       "studyType": "secondary school (certificate Real school)",
       "startDate": "2002",
       "endDate": "2008",
-      "score": "",
+      "score": "Completed",
       "courses": []
     }
   ],

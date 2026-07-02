@@ -24,6 +24,7 @@ export default [
             'no-console': 'off',
             'prefer-const': 'error',
             'no-var': 'error',
+            'svelte/no-at-html-tags': 'warn',
         },
     },
     {

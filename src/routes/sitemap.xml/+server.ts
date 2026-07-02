@@ -10,7 +10,7 @@ export async function GET({ fetch }) {
 
     const pages = [
         { loc: config.url, priority: '1.0', changefreq: 'monthly' },
-        { loc: `${config.url}cv`, priority: '0.9', changefreq: 'monthly' },
+        { loc: `${config.url}resume`, priority: '0.9', changefreq: 'monthly' },
         { loc: `${config.url}portfolio`, priority: '0.9', changefreq: 'monthly' },
         { loc: `${config.url}blog`, priority: '0.8', changefreq: 'weekly' },
         { loc: `${config.url}exports`, priority: '0.6', changefreq: 'monthly' },

@@ -41,7 +41,7 @@
         </PositionHistory>
       </EmployerOrg>
       <EmployerOrg>
-        <EmployerOrgName>Cloud Development / Software Developer</EmployerOrgName>
+        <EmployerOrgName>Freelance</EmployerOrgName>
         <PositionHistory>
           <Title>Cloud Development / Software Developer</Title>
           
@@ -176,7 +176,7 @@
         </Degree>
       </SchoolOrInstitution>
       <SchoolOrInstitution schoolType="University">
-        <SchoolName>SZ Rübekamp</SchoolName>
+        <SchoolName>SZ Rübkamp</SchoolName>
         <Degree degreeType="journeyman's-certificate, early dropout due to allergic reactions.">
           <DegreeName>journeyman's certificate, early dropout due to allergic reactions. in Apprenticeship Cook</DegreeName>
           <DegreeDate><Year>2010</Year></DegreeDate>

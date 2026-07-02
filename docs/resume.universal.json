@@ -60,7 +60,7 @@
     {
       "type": "internal",
       "organization": {
-        "name": "Cloud Development / Software Developer"
+        "name": "Freelance"
       },
       "position": "Cloud Development / Software Developer",
       "startDate": "2018-03-01",
@@ -69,7 +69,10 @@
         "Development of an Network Bridge between Web/Cloud to VisualBasic Application",
         "Development of an Application/API to automate Facebook Events",
         "Development of an APP for the Android and iOS Platform for Room Booking"
-      ]
+      ],
+      "location": {
+        "city": "Remote"
+      }
     },
     {
       "type": "internal",
@@ -113,7 +116,7 @@
       },
       "position": "Freelance Full Stack Web Developer",
       "startDate": "2014-06-01",
-      "endDate": "2015-06-31",
+      "endDate": "2015-06-30",
       "location": {
         "city": "Bremen"
       }
@@ -167,7 +170,7 @@
       },
       "position": "Apprenticeship Cook",
       "startDate": "2009",
-      "endDate": "2010-06-31",
+      "endDate": "2010-06-30",
       "summary": "The profession demanded creativity and I quite liked it, but unfortunately, I had to quit due to allergic reactions.",
       "location": {
         "city": "Bremen"
@@ -180,7 +183,7 @@
       },
       "position": "Parttime Line Cook / Service Staff",
       "startDate": "2008",
-      "endDate": "2009-09-31",
+      "endDate": "2009-09-30",
       "location": {
         "city": "Bremen"
       }
@@ -231,6 +234,7 @@
       "type": "journeyman's certificate, specialized in Design and Technology",
       "startDate": "2010-10-01",
       "endDate": "2013-06-01",
+      "score": "Completed",
       "location": {
         "city": "Bremen"
       }
@@ -238,11 +242,12 @@
     {
       "area": "Apprenticeship Cook",
       "organization": {
-        "name": "SZ Rübekamp"
+        "name": "SZ Rübkamp"
       },
       "type": "journeyman's certificate, early dropout due to allergic reactions.",
       "startDate": "2009",
       "endDate": "2010",
+      "score": "Pass",
       "location": {
         "city": "Bremen"
       }
@@ -255,6 +260,7 @@
       "type": "vocational baccalaureate (completed practical part)",
       "startDate": "2008",
       "endDate": "2009",
+      "score": "Completed (Practical)",
       "location": {
         "city": "Bremen"
       }
@@ -267,6 +273,7 @@
       "type": "secondary school (certificate Real school)",
       "startDate": "2002",
       "endDate": "2008",
+      "score": "Completed",
       "location": {
         "city": "Bremen"
       }

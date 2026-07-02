@@ -56,7 +56,7 @@
       }
     },
     {
-      "name": "Cloud Development / Software Developer",
+      "name": "Freelance",
       "position": "Cloud Development / Software Developer",
       "url": "",
       "startDate": "2018-03-01",
@@ -66,7 +66,10 @@
         "Development of an Network Bridge between Web/Cloud to VisualBasic Application",
         "Development of an Application/API to automate Facebook Events",
         "Development of an APP for the Android and iOS Platform for Room Booking"
-      ]
+      ],
+      "location": {
+        "city": "Remote"
+      }
     },
     {
       "name": "RR Software GmbH",
@@ -104,7 +107,7 @@
       "position": "Freelance Full Stack Web Developer",
       "url": "",
       "startDate": "2014-06-01",
-      "endDate": "2015-06-31",
+      "endDate": "2015-06-30",
       "summary": "",
       "highlights": [],
       "location": {
@@ -154,7 +157,7 @@
       "position": "Apprenticeship Cook",
       "url": "",
       "startDate": "2009",
-      "endDate": "2010-06-31",
+      "endDate": "2010-06-30",
       "summary": "The profession demanded creativity and I quite liked it, but unfortunately, I had to quit due to allergic reactions.",
       "highlights": [],
       "location": {
@@ -166,7 +169,7 @@
       "position": "Parttime Line Cook / Service Staff",
       "url": "",
       "startDate": "2008",
-      "endDate": "2009-09-31",
+      "endDate": "2009-09-30",
       "summary": "",
       "highlights": [],
       "location": {
@@ -217,16 +220,16 @@
       "studyType": "journeyman's certificate, specialized in Design and Technology",
       "startDate": "2010-10-01",
       "endDate": "2013-06-01",
-      "score": "",
+      "score": "Completed",
       "courses": []
     },
     {
-      "institution": "SZ Rübekamp",
+      "institution": "SZ Rübkamp",
       "area": "Apprenticeship Cook",
       "studyType": "journeyman's certificate, early dropout due to allergic reactions.",
       "startDate": "2009",
       "endDate": "2010",
-      "score": "",
+      "score": "Pass",
       "courses": []
     },
     {
@@ -235,7 +238,7 @@
       "studyType": "vocational baccalaureate (completed practical part)",
       "startDate": "2008",
       "endDate": "2009",
-      "score": "",
+      "score": "Completed (Practical)",
       "courses": []
     },
     {
@@ -244,7 +247,7 @@
       "studyType": "secondary school (certificate Real school)",
       "startDate": "2002",
       "endDate": "2008",
-      "score": "",
+      "score": "Completed",
       "courses": []
     }
   ],
