@@ -14,7 +14,7 @@
       "countryCode": "Germany"
     },
     "location": {
-      "address": "Sedanstr. 26",
+      "address": "Sedanstr.",
       "city": "Ludwigshafen am Rhein",
       "region": "Rheinland-Pfalz",
       "postalCode": "67063",
@@ -324,7 +324,6 @@
         "Dart",
         "Design Patterns",
         "Electron",
-        "Flask",
         "GO",
         "Haxe",
         "Headless Browser",
@@ -476,16 +475,13 @@
         "Game Server",
         "Hosting",
         "Hosting-Management",
-        "IA System",
         "Limonade Framework",
-        "MarsEDV",
         "Mobile App",
         "Objekt-Meta-Datenbank",
         "PDA-Schnittstelle",
         "PDF",
         "PDF-Generierung",
         "PHPImageWorkshop",
-        "PMKino API",
         "POS",
         "Plugins",
         "Product Designer",
@@ -498,17 +494,11 @@
         "WebNovel",
         "WebView",
         "Webshop",
-        "alldebrid",
-        "blackhole",
-        "ddl",
-        "deta",
         "deta-base",
         "deta-drive",
         "deta-micros",
         "deta-space",
-        "magnet",
-        "phpFastCache",
-        "torrent"
+        "phpFastCache"
       ]
     }
   ],
