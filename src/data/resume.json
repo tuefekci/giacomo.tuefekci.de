@@ -34,7 +34,7 @@
     ],
     "salary_band": {
       "min": 30000,
-      "max": 60000,
+      "max": 120000,
       "currency": "EUR",
       "period": "annual"
     },
